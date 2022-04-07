@@ -1,0 +1,33 @@
+ls
+cat init.vim
+\:q
+clear
+cd
+git add .
+git commit
+git push
+cd
+ls
+vim init.vim
+ls
+git add .
+git commit -m "a bit"
+git push origin main 
+~
+ls -a
+cd pack
+ls
+git add .
+git commit -m "commit"
+git push origin main
+cd
+ls
+cd
+ls
+cp nvim ~/dotfiles/packages/neovim/
+cp -r nvim ~/dotfiles/packages/neovim/
+cp -d nvim ~/dotfiles/packages/neovim/
+man cp
+ls
+cp * ~/dotfiles/packages/neovim/.config/nvim
+ls

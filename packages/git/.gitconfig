@@ -1,0 +1,10 @@
+[user]
+	name = yuki-akiba-jp
+	email = rabuafe@gmail.com
+[core]
+	editor = vim -c \"set fenc=utf-8\"
+	pager = less -F -X
+[color]
+	diff = auto
+	status = auto
+	branch = auto
