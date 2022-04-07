@@ -1,0 +1,35 @@
+add_newline = true
+format ="""
+    $username\
+    $hostname\
+    $kubernetes\
+    $directory\
+    $git_branch\
+    $git_commit\
+    $git_state\
+    $git_status\
+    $hg_branch\
+    $package\
+    $dotnet\
+    $golang\
+    $haskell\
+    $java\
+    $nodejs\
+    $php\
+    $python\
+    $ruby\
+    $rust\
+    $terraform\
+    $nix_shell\
+    $conda\
+    $memory_usage\
+    $aws\
+    $env_var\
+    $crystal\
+    $cmd_duration\
+    $jobs\
+    $battery\
+    $time\
+    $line_break\
+    $character\
+"""
