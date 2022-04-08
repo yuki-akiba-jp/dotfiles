@@ -1,4 +1,6 @@
 autoload -Uz zmv
+autoload -Uz compinit  && compinit
+zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
 
 alias vi="nvim"
 alias vim="nvim"
@@ -46,5 +48,3 @@ export PATH="$LIBICONV_ROOT/bin:$PATH"
 export LDFLAGS="-L$LIBICONV_ROOT/lib $LDFLAGS"
 export CPPFLAGS="-I$LIBICONV_ROOT/include $CPPFLAGS"
 [[ -s `brew --prefix`/etc/autojump.sh ]] && . `brew --prefix`/etc/autojump.sh
-zstyle ':completion:*' matcher-list '' '+m:{a-zA-Z}={A-Za-z}' '+r:|[._-]=* r:|=*' '+l:|=* r:|=*'
-autoload -U compinit  && compinit
