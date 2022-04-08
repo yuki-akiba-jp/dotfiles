@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "arch -arm64{cursor}",
+    "uid" : "68C4D8F2-238E-42AD-9227-647F75B7A4DB",
+    "name" : "arch -arm64",
+    "keyword" : "arch"
+  }
+}

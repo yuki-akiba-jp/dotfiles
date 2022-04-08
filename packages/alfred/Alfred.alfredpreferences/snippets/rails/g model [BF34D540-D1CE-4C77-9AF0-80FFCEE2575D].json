@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "arch -arm64 rails g model ",
+    "uid" : "BF34D540-D1CE-4C77-9AF0-80FFCEE2575D",
+    "name" : "g model",
+    "keyword" : "model"
+  }
+}

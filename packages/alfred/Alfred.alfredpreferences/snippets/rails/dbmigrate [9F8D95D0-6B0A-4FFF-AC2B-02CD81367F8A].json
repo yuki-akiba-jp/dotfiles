@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "arch -arm64 rails db:migrate",
+    "uid" : "9F8D95D0-6B0A-4FFF-AC2B-02CD81367F8A",
+    "name" : "db:migrate",
+    "keyword" : "db"
+  }
+}

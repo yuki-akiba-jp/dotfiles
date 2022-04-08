@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "arch -arm64 rails g controller {cursor}",
+    "uid" : "F69521E3-72DC-4E60-96CB-160E2D80DD22",
+    "name" : "g controller",
+    "keyword" : "generate"
+  }
+}

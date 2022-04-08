@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "brew services restart postgresql",
+    "uid" : "7CB67150-3141-4792-8795-BF70410CB5E2",
+    "name" : "restart server",
+    "keyword" : ""
+  }
+}

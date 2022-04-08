@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "git remote add origin https:\/\/github.com\/yuki-akiba-jp\/{cursor}",
+    "uid" : "9C473DF4-3188-46BE-AB6F-0E659120A99D",
+    "name" : "git remote add origin",
+    "keyword" : ""
+  }
+}
