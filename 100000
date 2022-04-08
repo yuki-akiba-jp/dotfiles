@@ -1,2 +1,14 @@
-: 1649344075:0;ls
-: 1649344080:0;git add .
+ls
+git add .
+git commit -m 
+git commit -m "change starship.toml"
+git push origin main
+j dot
+cd
+sls
+ls
+ls 
+vim brewfile
+brew install autojump
+arch -arm64 brew install autojump
+: 1649383837:0;cd

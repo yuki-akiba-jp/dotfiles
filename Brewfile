@@ -90,6 +90,7 @@ brew "yarn"
 brew "zlib"
 brew "zstd"
 brew "basictex"
+brew "autojump"
 
 cask "alfred"
 cask "dictionaries"

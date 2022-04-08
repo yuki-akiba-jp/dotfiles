@@ -14,7 +14,7 @@ setopt hist_ignore_dups
 setopt share_history
 setopt inc_append_history
 export HISTFILE=~/.zsh_history
-export HISTFILE=100000
+export HISTSIZE=100000
 export SAVEHIST=100000
 alias ctags="`brew --prefix`/bin/ctags"
 
@@ -45,3 +45,4 @@ export LIBICONV_ROOT=$(brew --prefix libiconv)
 export PATH="$LIBICONV_ROOT/bin:$PATH"
 export LDFLAGS="-L$LIBICONV_ROOT/lib $LDFLAGS"
 export CPPFLAGS="-I$LIBICONV_ROOT/include $CPPFLAGS"
+[[ -s `brew --prefix`/etc/autojump.sh ]] && . `brew --prefix`/etc/autojump.sh
