@@ -46,3 +46,4 @@ export PATH="$LIBICONV_ROOT/bin:$PATH"
 export LDFLAGS="-L$LIBICONV_ROOT/lib $LDFLAGS"
 export CPPFLAGS="-I$LIBICONV_ROOT/include $CPPFLAGS"
 [[ -s `brew --prefix`/etc/autojump.sh ]] && . `brew --prefix`/etc/autojump.sh
+zstyle ':completion:*'  matcher-list 'm:{a-z}={A-Z}'
