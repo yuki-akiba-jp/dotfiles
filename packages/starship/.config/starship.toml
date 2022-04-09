@@ -1,12 +1,6 @@
 add_newline = false
 scan_timeout = 10
 
-[line_break]
-disabled = true
-[time]
-disabled = true
-
-
 format ="""
     $username\
     $hostname\
@@ -41,3 +35,12 @@ format ="""
     $line_break\
     $character\
 """
+[line_break]
+disabled = true
+
+[time]
+disabled = true
+
+[cmd_duration]
+disabled = true
+
