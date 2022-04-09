@@ -1,0 +1,6 @@
+alias a='git add .'
+alias pl='git pull'
+alias cm='git commit'
+alias cmm='git commit -m'
+alias ps='git push origin main'
+alias st='git status'
