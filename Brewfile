@@ -102,3 +102,6 @@ cask "iterm2"
 cask "flux"
 cask "bettertouchtool"
 cask "font-fira-code"
+cask "font-hack-nerd-font"
+cask "font-hack"
+

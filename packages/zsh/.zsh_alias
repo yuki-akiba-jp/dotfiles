@@ -4,4 +4,18 @@ alias cm='git commit'
 alias cmm='git commit -m'
 alias ps='git push origin main'
 alias st='git status'
+
 alias tm='tmux'
+
+alias vi="nvim"
+alias vim="nvim"
+alias view="nvim -R"
+
+alias ctags="`brew --prefix`/bin/ctags"
+alias nvimconf="vim ~/.config/nvim/init.vim"
+alias zshconf="vim ~/.zshrc"
+alias aliasconf="vim ~/.zsh_alias"
+alias gitconf="vim ~/.gitconfig"
+alias brewfileconf="vim ~/dotfiles/Brewfile"
+alias starshipconf="vim ~/.config/starship.toml"
+alias tmuxconf="vim ~/.tmux.conf"

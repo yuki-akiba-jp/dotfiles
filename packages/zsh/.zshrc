@@ -1,11 +1,6 @@
 autoload -Uz zmv
 autoload -Uz compinit  && compinit
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
-alias vi="nvim"
-alias vim="nvim"
-alias view="nvim -R"
-alias nvimconf="vim ~/.config/nvim/init.vim"
-alias zshconf="vim ~/.zshrc"
 eval "$(starship init zsh)"
 export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/shims:$PATH"
@@ -17,7 +12,6 @@ setopt inc_append_history
 export HISTFILE=~/.zsh_history
 export HISTSIZE=100000
 export SAVEHIST=100000
-alias ctags="`brew --prefix`/bin/ctags"
 
 export RBENV_ROOT=$(brew --prefix rbenv) 
 export PATH=$RBENV_ROOT/bin:$PATH
