@@ -1,7 +1,6 @@
 autoload -Uz zmv
 autoload -Uz compinit  && compinit
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
-
 alias vi="nvim"
 alias vim="nvim"
 alias view="nvim -R"
@@ -49,5 +48,5 @@ export LDFLAGS="-L$LIBICONV_ROOT/lib $LDFLAGS"
 export CPPFLAGS="-I$LIBICONV_ROOT/include $CPPFLAGS"
 [[ -s `brew --prefix`/etc/autojump.sh ]] && . `brew --prefix`/etc/autojump.sh
 
-chmod +x ~/dotfiles/packages/zsh/.zsh_alias
-source ~/dotfiles/packages/zsh/.zsh_alias
+chmod +x ~/.zsh_alias
+source ~/.zsh_alias
