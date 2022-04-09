@@ -1,4 +1,4 @@
-alias ga='git add .'
+alias ga='git add'
 alias gpl='git pull'
 alias gcm='git commit'
 alias gcmm='git commit -m'
