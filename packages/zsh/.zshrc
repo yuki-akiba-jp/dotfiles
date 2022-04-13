@@ -41,7 +41,9 @@ export LIBICONV_ROOT=$(brew --prefix libiconv)
 export PATH="$LIBICONV_ROOT/bin:$PATH"
 export LDFLAGS="-L$LIBICONV_ROOT/lib $LDFLAGS"
 export CPPFLAGS="-I$LIBICONV_ROOT/include $CPPFLAGS"
-[[ -s `brew --prefix`/etc/autojump.sh ]] && . `brew --prefix`/etc/autojump.sh
 
+[ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
+export PATH="/opt/homebrew/bin:$PATH"
+export PATH="/usr/local/bin:$PATH"
 chmod +x ~/.zsh_alias
 source ~/.zsh_alias
