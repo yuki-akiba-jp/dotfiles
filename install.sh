@@ -18,6 +18,10 @@ brew bundle -v --file=~/dotfiles/Brewfile
 
 if [ ! -d ~/.config ]; then
     mkdir ~/.config
-if
+fi
+
+# vimplug installation
+sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
+       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 
 stow -v -d ~/dotfiles/packages -t ~ alfred git iterm2 neovim starship tmux zsh

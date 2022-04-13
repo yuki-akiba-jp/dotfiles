@@ -16,6 +16,8 @@ set ignorecase
 set smartcase
 set buftype=
 syntax on
+
+
 call plug#begin()
 Plug 'preservim/nerdtree'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
@@ -23,10 +25,12 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'morhetz/gruvbox'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-commentary'
-Plug 'nelstrom/vim-visual-star-search'
 Plug 'tpope/vim-abolish'
+Plug 'nelstrom/vim-visual-star-search'
+Plug 'honza/vim-snippets'
 call plug#end()
 
+let g:snipMate = { 'snippet_version' : 1 }
 set termguicolors
 colorscheme gruvbox
 hi Visual  guifg=reverse guibg=Grey gui=none
@@ -40,7 +44,7 @@ inoremap <silent><expr> <Tab>
       \ pumvisible() ? "\<C-n>" :
       \ <SID>check_back_space() ? "\<Tab>" :
       \ coc#refresh()
-
+nnoremap <ESC><ESC> :nohl<CR>
 inoremap <expr><S-TAB> pumvisible() ? "\<C-p>" : "\<C-h>"
 inoremap <silent><expr> <cr> pumvisible() ? coc#_select_confirm() : "\<C-g>u\<CR>\<c-r>=coc#on_enter()\<CR>\<tab><backspace>"
 function! s:check_back_space() abort
@@ -84,3 +88,4 @@ augroup setAutoCompile
     autocmd BufWritePost *.py :!python3 %:p
 augroup END
 
+source ~/dotfiles/packages/neovim/.config/nvim/macmini.vim
