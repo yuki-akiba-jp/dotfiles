@@ -91,7 +91,7 @@ nnoremap Y y$
 filetype plugin on
 augroup setAutoCompile
     autocmd!
-"     autocmd BufWritePost *.c :!gcc %:p 
+    autocmd BufWritePost *.c :make | make exe
 "     autocmd BufWritePost *.cpp :!g++ -std=c++14 %:p 
     autocmd BufWritePost *.py :!python3 %:p
 augroup END
