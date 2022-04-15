@@ -82,7 +82,8 @@ augroup mygroup
 augroup end
 
 inoremap <silent> jj <ESC>
-nnoremap gj :w<CR>
+nnoremap <C-k> :w<CR>
+nnoremap ff :!./%:r<CR>
 nnoremap & :&&<CR>
 xnoremap & :&&<CR>
 nnoremap Y y$
@@ -91,7 +92,7 @@ nnoremap Y y$
 filetype plugin on
 augroup setAutoCompile
     autocmd!
-    autocmd BufWritePost *.c :make | make exe
+    autocmd BufWritePost *.c :make
 "     autocmd BufWritePost *.cpp :!g++ -std=c++14 %:p 
     autocmd BufWritePost *.py :!python3 %:p
 augroup END
