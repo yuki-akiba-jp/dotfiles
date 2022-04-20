@@ -19,4 +19,6 @@ sh = stash
 br = branch
 co = checkout
 cob = checkout -b
+ps = push
+
 

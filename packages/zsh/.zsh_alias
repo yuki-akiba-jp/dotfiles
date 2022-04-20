@@ -1,13 +1,4 @@
 alias g='git'
-alias a='add'
-alias cm='commit'
-alias cmm='commit -m'
-alias ss='status'
-alias sh='stash'
-alias br='branch'
-alias co='checkout'
-alias cob='checkout -b'
-
 alias tm='tmux'
 alias ls='ls -G'
 
