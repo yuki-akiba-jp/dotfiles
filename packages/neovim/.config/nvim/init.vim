@@ -83,7 +83,7 @@ augroup end
 
 inoremap <silent> jj <ESC>
 nnoremap <C-k> :w<CR>
-nnoremap ff :!./%:r<CR>
+nnoremap ee :!./%:r<CR>
 nnoremap & :&&<CR>
 xnoremap & :&&<CR>
 nnoremap Y y$

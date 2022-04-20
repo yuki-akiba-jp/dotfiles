@@ -1,4 +1,4 @@
-alias g = git
+alias g='git'
 alias a='add'
 alias cm='commit'
 alias cmm='commit -m'

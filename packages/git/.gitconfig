@@ -8,3 +8,15 @@
 	diff = auto
 	status = auto
 	branch = auto
+
+
+[alias]
+a  =  add
+cm = commit
+cmm = commit -m
+ss = status
+sh = stash
+br = branch
+co = checkout
+cob = checkout -b
+
