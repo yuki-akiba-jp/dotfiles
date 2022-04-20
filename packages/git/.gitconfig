@@ -14,8 +14,7 @@
 a  =  add
 cm = commit
 cmm = commit -m
-ss = status
-sh = stash
+st = status
 br = branch
 co = checkout
 cob = checkout -b
