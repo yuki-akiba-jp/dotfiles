@@ -27,7 +27,7 @@ Plug 'tpope/vim-surround'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-abolish'
 Plug 'nelstrom/vim-visual-star-search'
-Plug 'honza/vim-snippets'
+" Plug 'honza/vim-snippets'
 call plug#end()
 
 let g:snipMate = { 'snippet_version' : 1 }
@@ -83,7 +83,7 @@ augroup end
 
 inoremap <silent> jj <ESC>
 nnoremap <C-k> :w<CR>
-nnoremap ee :!./%:r<CR>
+nnoremap ff :!./%:r<CR>
 nnoremap & :&&<CR>
 xnoremap & :&&<CR>
 nnoremap Y y$
