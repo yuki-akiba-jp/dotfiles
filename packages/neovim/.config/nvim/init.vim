@@ -27,6 +27,8 @@ Plug 'tpope/vim-surround'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-abolish'
 Plug 'nelstrom/vim-visual-star-search'
+Plug 'nvim-lua/plenary.nvim'
+Plug 'nvim-telescope/telescope.nvim'
 " Plug 'honza/vim-snippets'
 call plug#end()
 
