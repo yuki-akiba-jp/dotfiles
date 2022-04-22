@@ -88,6 +88,7 @@ nnoremap <C-k> :w<CR>
 nnoremap ff :!./%:r<CR>
 nnoremap & :&&<CR>
 xnoremap & :&&<CR>
+nnoremap fj :Telescope find_files<CR>
 nnoremap Y y$
 
 " autocmd BufWritePost * call system("ctags -R")
