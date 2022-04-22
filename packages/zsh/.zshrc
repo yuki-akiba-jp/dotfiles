@@ -47,3 +47,4 @@ export PATH="/opt/homebrew/bin:$PATH"
 export PATH="/usr/local/bin:$PATH"
 chmod +x ~/.zsh_alias
 source ~/.zsh_alias
+export PATH="~/prog_class/bin:$PATH"
