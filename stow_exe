@@ -1,0 +1,1 @@
+ stow -v -d ~/dotfiles/packages -t ~ alfred git iterm2 neovim starship tmux zsh miniforge

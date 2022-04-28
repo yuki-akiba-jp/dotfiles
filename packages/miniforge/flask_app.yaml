@@ -1,0 +1,18 @@
+name: flask_app
+dependencies:
+  - python=3.9
+  - pynvim
+  # - numpy
+  # - pandas
+  # - scipy
+  # - scikit-learn
+  # - lightgbm
+  # - xgboost
+  # - jupyter
+  # - matplotlib
+  # - seaborn
+  # - geopandas
+  # - opencv
+  # - pip:
+    # - optuna
+    # - seaborn-analyzer

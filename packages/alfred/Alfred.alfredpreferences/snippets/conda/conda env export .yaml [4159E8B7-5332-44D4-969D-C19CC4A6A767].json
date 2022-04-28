@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "conda env export > {cursor}.yaml",
+    "uid" : "4159E8B7-5332-44D4-969D-C19CC4A6A767",
+    "name" : "conda env export > .yaml",
+    "keyword" : ""
+  }
+}
