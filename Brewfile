@@ -6,6 +6,7 @@ tap "homebrew/services"
 tap "universal-ctags/universal-ctags"
 
 brew "stow"
+brew "direnv"
 brew "starship"
 brew "autoconf"
 brew "bdw-gc"
