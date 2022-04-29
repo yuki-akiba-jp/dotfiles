@@ -1,0 +1,76 @@
+snippet include "#include<lib_name>"
+#include<${1:lib_name}>
+endsnippet
+
+snippet define "#define variable value"
+#define ${1:variable} ${2:value}
+endsnippet
+
+snippet for "for(index=0; index<num; index++)"
+for (int ${1:index} = 0; ${1} < ${2:num}; ${1}++) {
+	${3:pass}
+endsnippet
+
+snippet if "if(statement)"
+if(${1:statement}){
+    ${2:pass}
+}
+endsnippet
+
+snippet elif "else if statement:"
+else if(${1:statement}){
+    ${2:pass}
+}
+endsnippet
+
+snippet else "else:"
+else{
+    ${2:pass}
+}
+endsnippet
+
+snippet while "while"
+while(${1:statement}){
+    ${2:pass}
+}
+endsnippet
+
+
+snippet main "int main()"
+int main(){
+    ${1}
+}
+endsnippet
+
+snippet class "class class_name"
+class ${1:class_name}{
+private:
+
+public:
+    ${1}(){}
+}
+endsnippet
+
+snippet using "using namespace"
+using namespace ${1:std};
+endsnippet
+
+snippet string "string variable_name"
+string ${1:variable_name}${2};
+endsnippet
+
+snippet char "char variable_name"
+char ${1:variable_name}${2};
+endsnippet
+
+snippet int "int variable_name"
+int ${1:variable_name}${2};
+endsnippet
+
+snippet double "double variable_name"
+double ${1:variable_name}${2};
+endsnippet
+
+snippet float "float variable_name"
+float ${1:variable_name}${2};
+endsnippet
