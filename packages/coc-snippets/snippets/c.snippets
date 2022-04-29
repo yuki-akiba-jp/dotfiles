@@ -13,25 +13,25 @@ endsnippet
 
 snippet if "if(statement)"
 if(${1:statement}){
-    ${2:pass}
+	${2:pass}
 }
 endsnippet
 
 snippet elif "else if statement:"
 else if(${1:statement}){
-    ${2:pass}
+	${2:pass}
 }
 endsnippet
 
 snippet else "else:"
 else{
-    ${2:pass}
+	${2:pass}
 }
 endsnippet
 
 snippet while "while"
 while(${1:statement}){
-    ${2:pass}
+	${2:pass}
 }
 endsnippet
 
@@ -47,14 +47,14 @@ char *file_name = "file_name";
 
 fp = fopen(file_name,"r");
 if(fp == NULL) {
-    printf("error\n");
-    return 0;
+	printf("error\n");
+	return 0;
 }
 
 char line[256];
 
 while (fgets(line, sizeof(line), fp)) {
-    ${1}
+	${1}
 }
 fclose(fp);
 endsnippet

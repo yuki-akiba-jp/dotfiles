@@ -27,7 +27,6 @@ Plug 'tpope/vim-abolish'
 Plug 'nelstrom/vim-visual-star-search'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
-Plug 'mattn/emmet-vim'
 " Plug 'honza/vim-snippets'
 call plug#end()
 
@@ -95,26 +94,6 @@ augroup setAutoCompile
     autocmd BufWritePost *.py :!python3 %:p
 augroup END
 
-let g:user_emmet_settings = {
-\  'variables': {'lang': 'en'},
-\  'html': {
-\    'default_attributes': {
-\      'option': {'value': v:null},
-\      'textarea': {'id': v:null, 'name': v:null, 'cols': 10, 'rows': 10},
-\    },
-\    'snippets': {
-\      '!': "<!DOCTYPE html>\n"
-\              ."<html lang=\"${lang}\">\n"
-\              ."<head>\n"
-\              ."\t<meta charset=\"${charset}\">\n"
-\              ."\t<title></title>\n"
-\              ."\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n"
-\              ."</head>\n"
-\              ."<body>\n\t${child}|\n</body>\n"
-\              ."</html>",
-\    },
-\  },
-\}
 " Use <C-k> for jump to next placeholder, it's default of coc.nvim
 let g:coc_snippet_next = '<c-k>'
 " Use <C-h> for jump to previous placeholder, it's default of coc.nvim
