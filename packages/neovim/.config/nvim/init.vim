@@ -84,7 +84,7 @@ nnoremap & :&&<CR>
 xnoremap & :&&<CR>
 nnoremap fj :Telescope find_files<CR>
 nnoremap Y y$
-
+noremap fo o<ESC>
 " autocmd BufWritePost * call system("ctags -R")
 filetype plugin on
 augroup setAutoCompile
