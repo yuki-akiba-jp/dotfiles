@@ -9,5 +9,7 @@
     },
     "snippets.priority": 99999,
     "suggest.languageSourcePriority": 199,
-    "snippets.userSnippetsDirectory": "~/dotfiles/packages/coc-snippets/snippets"
+    "snippets.userSnippetsDirectory": "~/dotfiles/packages/coc-snippets/snippets",
+    "snippets.ultisnips.directories":["UltiSnips","~/dotfiles/packages/coc-snippets/snippets"]
+
 }
