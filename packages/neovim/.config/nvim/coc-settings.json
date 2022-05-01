@@ -1,5 +1,13 @@
 {
     "coc.preferences.formatOnSaveFiletypes": ["css","markdown","python"],
     "coc.preferences.formatOnType": true,
-    "snippets.ultisnips.directories":["UltiSnips","~/dotfiles/packages/coc-snippets/snippets"]
+    "snippets.extends": 
+    {
+      "cpp": ["c"],
+      "typescript": ["javascript"],
+      "html": ["jinja"]
+    },
+    "snippets.priority": 99999,
+    "suggest.languageSourcePriority": 199,
+    "snippets.userSnippetsDirectory": "~/dotfiles/packages/coc-snippets/snippets"
 }

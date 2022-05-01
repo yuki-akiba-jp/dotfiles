@@ -1,19 +1,41 @@
 name: flask_app
+channels:
+  - conda-forge
 dependencies:
-  - python=3.9
-  - pynvim
-  - flask
-  # - numpy
-  # - pandas
-  # - scipy
-  # - scikit-learn
-  # - lightgbm
-  # - xgboost
-  # - jupyter
-  # - matplotlib
-  # - seaborn
-  # - geopandas
-  # - opencv
-  # - pip:
-    # - optuna
-    # - seaborn-analyzer
+  - bzip2=1.0.8=h3422bc3_4
+  - ca-certificates=2021.10.8=h4653dfc_0
+  - click=8.1.2=py39h2804cbe_0
+  - dominate=2.6.0=pyhd8ed1ab_0
+  - flask=2.1.1=pyhd8ed1ab_0
+  - flask-bootstrap=3.3.7.1=py_0
+  - flask-login=0.6.0=pyhd8ed1ab_0
+  - flask-sqlalchemy=2.5.1=pyhd8ed1ab_0
+  - greenlet=1.1.2=py39h0ef5a74_2
+  - importlib-metadata=4.11.3=py39h2804cbe_1
+  - itsdangerous=2.1.2=pyhd8ed1ab_0
+  - jinja2=3.1.1=pyhd8ed1ab_0
+  - libcxx=13.0.1=h6a5c8ee_0
+  - libffi=3.4.2=h3422bc3_5
+  - libzlib=1.2.11=h90dfc92_1014
+  - markupsafe=2.1.1=py39hb18efdd_1
+  - msgpack-python=1.0.3=py39h2c803a9_1
+  - ncurses=6.3=h07bb92c_1
+  - openssl=3.0.2=h90dfc92_1
+  - pip=22.0.4=pyhd8ed1ab_0
+  - pynvim=0.4.3=py39h2804cbe_0
+  - python=3.9.12=h14b404e_1_cpython
+  - python_abi=3.9=2_cp39
+  - pytz=2022.1=pyhd8ed1ab_0
+  - readline=8.1=hedafd6a_0
+  - setuptools=62.1.0=py39h2804cbe_0
+  - sqlalchemy=1.4.36=py39h9eb174b_0
+  - sqlite=3.38.3=h40dfcc0_0
+  - tk=8.6.12=he1e0b03_0
+  - tzdata=2022a=h191b570_0
+  - visitor=0.1.3=pyh9f0ad1d_1
+  - werkzeug=2.1.2=pyhd8ed1ab_0
+  - wheel=0.37.1=pyhd8ed1ab_0
+  - xz=5.2.5=h642e427_1
+  - zipp=3.8.0=pyhd8ed1ab_0
+  - zlib=1.2.11=h90dfc92_1014
+prefix: /Users/yukiakiba/miniforge3/envs/flask_app
