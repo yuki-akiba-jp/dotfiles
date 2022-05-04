@@ -44,3 +44,49 @@ snippet comment "comment"
 {% endcomment %}
 
 endsnippet
+snippet % "{% %}"
+{% ${1} %}
+endsnippet
+
+snippet { "{{  }}"
+{{ ${1} }}
+endsnippet
+
+snippet extends "{% extends "${1:base.html}" %}"
+{% extends "${1:base.html}" %}
+endsnippet
+
+snippet for "{% for value in list %}"
+{% for ${1} in ${2} %}
+	${3}
+{% endfor %}
+endsnippet
+
+snippet if "if statement:"
+{% if ${1:statement} %}
+	${2:pass}
+{% endif %}
+endsnippet
+
+snippet elif "elif statement:"
+{% elif ${1:statement} %}
+	${2:pass}
+endsnippet
+
+snippet else "else:"
+{% else %}
+	${1:pass}
+endsnippet
+
+snippet block ""
+{% block ${1} %}
+	${2}
+{% endblock %}
+endsnippet
+
+snippet comment "comment"
+{% comment %}
+	${1}
+{% endcomment %}
+
+endsnippet

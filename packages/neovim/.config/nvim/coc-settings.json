@@ -3,9 +3,9 @@
     "coc.preferences.formatOnType": true,
     "snippets.extends": 
     {
-      "cpp": ["c"],
-      "typescript": ["javascript"],
-      "html": ["jinja"]
+        "cpp": ["c"],
+        "typescript": ["javascript"],
+
     },
     "snippets.priority": 99999,
     "suggest.languageSourcePriority": 199,

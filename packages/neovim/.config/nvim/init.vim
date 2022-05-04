@@ -16,6 +16,7 @@ set ignorecase
 set smartcase
 set buftype=
 syntax on
+filetype on
 
 
 call plug#begin()
@@ -27,6 +28,7 @@ Plug 'tpope/vim-abolish'
 Plug 'nelstrom/vim-visual-star-search'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
+Plug 'fisadev/vim-isort'
 " Plug 'honza/vim-snippets'
 call plug#end()
 
@@ -87,12 +89,19 @@ nnoremap fj :Telescope find_files<CR>
 nnoremap Y y$
 noremap fo o<ESC>
 
+
 filetype plugin on
 augroup setAutoCompile
     autocmd!
-    autocmd BufWritePost *.c :make
-"     autocmd BufWritePost *.cpp :!g++ -std=c++14 %:p 
-    autocmd BufWritePost *.py :!python3 %:p
+autocmd BufNewFile,BufRead *.html setfiletype html
+    autocmd BufWritePost *.c :make -f ~/dotfiles/packages/Makefile/cMakefile
+    autocmd BufWritePost *.cpp :make -f ~/dotfiles/packages/Makefile/cppMakefile
+    autocmd BufWritePost *.html :Prettier
+    " autocmd BufWritePost *.py :!python3 %:p
+    autocmd BufWritePost *.py :Isort
+    autocmd BufWritePost *.py call CocAction('format')
+    autocmd BufWritePost *.cpp call CocAction('format')
+    autocmd BufWritePost *.c call CocAction('format')
 augroup END
 
 " Use <C-k> for jump to next placeholder, it's default of coc.nvim

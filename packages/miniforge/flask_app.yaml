@@ -2,6 +2,7 @@ name: flask_app
 channels:
   - conda-forge
 dependencies:
+  - autopep8=1.6.0=pyhd8ed1ab_1
   - bzip2=1.0.8=h3422bc3_4
   - ca-certificates=2021.10.8=h4653dfc_0
   - click=8.1.2=py39h2804cbe_0
@@ -12,6 +13,7 @@ dependencies:
   - flask-sqlalchemy=2.5.1=pyhd8ed1ab_0
   - greenlet=1.1.2=py39h0ef5a74_2
   - importlib-metadata=4.11.3=py39h2804cbe_1
+  - isort=5.10.1=pyhd8ed1ab_0
   - itsdangerous=2.1.2=pyhd8ed1ab_0
   - jinja2=3.1.1=pyhd8ed1ab_0
   - libcxx=13.0.1=h6a5c8ee_0
@@ -20,8 +22,9 @@ dependencies:
   - markupsafe=2.1.1=py39hb18efdd_1
   - msgpack-python=1.0.3=py39h2c803a9_1
   - ncurses=6.3=h07bb92c_1
-  - openssl=3.0.2=h90dfc92_1
+  - openssl=3.0.3=ha287fd2_0
   - pip=22.0.4=pyhd8ed1ab_0
+  - pycodestyle=2.8.0=pyhd8ed1ab_0
   - pynvim=0.4.3=py39h2804cbe_0
   - python=3.9.12=h14b404e_1_cpython
   - python_abi=3.9=2_cp39
@@ -31,6 +34,7 @@ dependencies:
   - sqlalchemy=1.4.36=py39h9eb174b_0
   - sqlite=3.38.3=h40dfcc0_0
   - tk=8.6.12=he1e0b03_0
+  - toml=0.10.2=pyhd8ed1ab_0
   - tzdata=2022a=h191b570_0
   - visitor=0.1.3=pyh9f0ad1d_1
   - werkzeug=2.1.2=pyhd8ed1ab_0
