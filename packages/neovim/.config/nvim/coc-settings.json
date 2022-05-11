@@ -1,10 +1,10 @@
 {
-    "coc.preferences.formatOnSaveFiletypes": ["css","markdown","python"],
+    "coc.preferences.formatOnSaveFiletypes": ["css","markdown","javascript","typescript","json","scss","yaml"],
     "coc.preferences.formatOnType": true,
     "snippets.extends": 
     {
         "cpp": ["c"],
-        "typescript": ["javascript"],
+        "typescript": ["javascript"]
 
     },
     "snippets.priority": 99999,

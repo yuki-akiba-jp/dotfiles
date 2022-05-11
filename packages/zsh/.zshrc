@@ -13,7 +13,6 @@ export HISTFILE=~/.zsh_history
 export HISTSIZE=100000
 export SAVEHIST=100000
 export LSCOLORS=Cxfxcxdxbxegedabagacad
-
 export RBENV_ROOT=$(brew --prefix rbenv) 
 export PATH=$RBENV_ROOT/bin:$PATH
 eval "$(rbenv init -)"

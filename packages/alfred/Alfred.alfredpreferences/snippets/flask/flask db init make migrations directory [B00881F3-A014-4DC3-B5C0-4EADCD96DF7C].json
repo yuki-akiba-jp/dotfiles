@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "flask db init",
+    "uid" : "B00881F3-A014-4DC3-B5C0-4EADCD96DF7C",
+    "name" : "flask db init  #make migrations directory",
+    "keyword" : ""
+  }
+}
