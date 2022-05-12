@@ -60,6 +60,38 @@ while (fgets(line, sizeof(line), fp)) {
 fclose(fp);
 endsnippet
 
+snippet charfunc "char function"
+char ${1:variable_name}(${2}){
+	${3}
+}
+endsnippet
+
+
+snippet intfunc "int function"
+int ${1:variable_name}(${2}){
+	${3}
+}
+endsnippet
+
+snippet voidfunc "void function"
+void ${1:variable_name}(${2}){
+	${3}
+}
+endsnippet
+
+snippet doublefunc "double function"
+double ${1:variable_name}(${2}){
+	${3}
+}
+endsnippet
+
+snippet floatfunc "float function"
+float ${1:variable_name}(${2}){
+	${3}
+}
+endsnippet
+
+
 snippet char "char variable_name"
 char ${1:variable_name}${2};
 endsnippet
@@ -74,6 +106,10 @@ endsnippet
 
 snippet float "float variable_name"
 float ${1:variable_name}${2};
+endsnippet
+
+snippet void "void variable_name"
+void ${1:variable_name}${2};
 endsnippet
 
 snippet main "int main{}"
