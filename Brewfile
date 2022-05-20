@@ -106,4 +106,3 @@ cask "font-fira-code"
 cask "font-hack-nerd-font"
 cask "font-hack"
 cask "miniforge"
-

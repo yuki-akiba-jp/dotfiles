@@ -29,14 +29,12 @@ Plug 'nelstrom/vim-visual-star-search'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
 Plug 'fisadev/vim-isort'
-" Plug 'honza/vim-snippets'
 call plug#end()
 
 set termguicolors
 colorscheme gruvbox
 hi Visual  guifg=reverse guibg=Grey gui=none
 hi Comment guifg=#ACCCCC
-"
 
 inoremap <silent><expr> <Tab>
       \ pumvisible() ? "\<C-n>" :
@@ -105,9 +103,8 @@ autocmd BufNewFile,BufRead *.html setfiletype html
 augroup END
 
 " Use <C-k> for jump to next placeholder, it's default of coc.nvim
-let g:coc_snippet_next = '<c-k>'
-" Use <C-h> for jump to previous placeholder, it's default of coc.nvim
-let g:coc_snippet_prev = '<c-h>'
+let g:coc_snippet_next = '<C-k>'
+let g:coc_snippet_prev = '<C-h>'
 
 source ~/dotfiles/packages/neovim/.config/nvim/macmini.vim
 

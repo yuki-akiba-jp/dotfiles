@@ -21,3 +21,5 @@ cob = checkout -b
 ps = push
 
 
+[init]
+	defaultBranch = main

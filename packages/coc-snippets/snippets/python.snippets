@@ -3,6 +3,10 @@ for ${1:value} in ${2:list}:
 	${3:pass}
 endsnippet
 
+snippet lambda "lambda statement_like_argument: statement_to_be_returned"
+lambda ${1:statement}: ${2:statement_to_be_returned}
+endsnippet
+
 snippet if "if statement:"
 if ${1:statement}:
 	${2:pass}
@@ -58,4 +62,8 @@ endsnippet
 
 snippet super "super().__init__()"
 super().__init__()
+endsnippet
+
+snippet return "return statement"
+return ${1:statement}
 endsnippet
