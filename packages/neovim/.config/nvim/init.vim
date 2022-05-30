@@ -86,7 +86,7 @@ xnoremap & :&&<CR>
 nnoremap fj :Telescope find_files<CR>
 nnoremap Y y$
 noremap fo o<ESC>
-
+noremap s `
 
 filetype plugin on
 augroup setAutoCompile
@@ -95,9 +95,9 @@ autocmd BufNewFile,BufRead *.html setfiletype html
     autocmd BufWritePost *.c :make -f ~/dotfiles/packages/Makefile/cMakefile
     autocmd BufWritePost *.cpp :make -f ~/dotfiles/packages/Makefile/cppMakefile
     autocmd BufWritePost *.html :Prettier
-    " autocmd BufWritePost *.py :!python3 %:p
     autocmd BufWritePost *.py :Isort
     autocmd BufWritePost *.py call CocAction('format')
+    " autocmd BufWritePost *.py :!python3 %:p
     autocmd BufWritePost *.cpp call CocAction('format')
     autocmd BufWritePost *.c call CocAction('format')
 augroup END

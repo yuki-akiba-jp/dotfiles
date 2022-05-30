@@ -5,11 +5,25 @@ dependencies:
   - alembic=1.7.7=pyhd8ed1ab_0
   - autopep8=1.6.0=pyhd8ed1ab_1
   - bcrypt=3.2.2=py39h9eb174b_0
+  - beautifulsoup4=4.11.1=pyha770c72_0
+  - brotlipy=0.7.0=py39hb18efdd_1004
   - bzip2=1.0.8=h3422bc3_4
-  - ca-certificates=2021.10.8=h4653dfc_0
+  - ca-certificates=2022.5.18.1=h4653dfc_0
+  - certifi=2022.5.18.1=py39h2804cbe_0
   - cffi=1.15.0=py39h52b1de0_0
-  - click=8.1.2=py39h2804cbe_0
+  - chardet=4.0.0=py39h2804cbe_3
+  - charset-normalizer=2.0.12=pyhd8ed1ab_0
+  - click=8.1.3=py39h2804cbe_0
+  - colorama=0.4.4=pyh9f0ad1d_0
+  - conda=4.12.0=py39h2804cbe_0
+  - conda-build=3.21.8=py39h2804cbe_0
+  - conda-package-handling=1.8.1=py39hb18efdd_1
+  - cryptography=37.0.2=py39h4cb6239_0
+  - dataclasses=0.8=pyhc8e2a94_3
+  - dnspython=2.2.1=pyhd8ed1ab_0
   - dominate=2.6.0=pyhd8ed1ab_0
+  - email-validator=1.2.1=pyhd8ed1ab_0
+  - filelock=3.7.0=pyhd8ed1ab_0
   - flask=2.1.1=pyhd8ed1ab_0
   - flask-bcrypt=0.7.1=py_1
   - flask-bootstrap=3.3.7.1=py_0
@@ -17,40 +31,67 @@ dependencies:
   - flask-migrate=3.1.0=pyhd8ed1ab_0
   - flask-sqlalchemy=2.5.1=pyhd8ed1ab_0
   - flask-wtf=1.0.1=pyhd8ed1ab_0
+  - glob2=0.7=py_0
   - greenlet=1.1.2=py39h0ef5a74_2
-  - importlib-metadata=4.11.3=py39h2804cbe_1
-  - importlib_resources=5.7.1=pyhd8ed1ab_0
+  - icu=70.1=h6b3803e_0
+  - idna=3.3=pyhd8ed1ab_0
+  - importlib-metadata=4.11.4=py39h2804cbe_0
+  - importlib_resources=5.7.1=pyhd8ed1ab_1
   - isort=5.10.1=pyhd8ed1ab_0
   - itsdangerous=2.1.2=pyhd8ed1ab_0
-  - jinja2=3.1.1=pyhd8ed1ab_0
-  - libcxx=13.0.1=h6a5c8ee_0
+  - jinja2=3.1.2=pyhd8ed1ab_0
+  - libarchive=3.5.2=h69ec738_2
+  - libcxx=14.0.4=h6a5c8ee_0
   - libffi=3.4.2=h3422bc3_5
-  - libzlib=1.2.11=h90dfc92_1014
+  - libiconv=1.16=h642e427_0
+  - liblief=0.11.5=hbdafb3b_1
+  - libxml2=2.9.14=h035c1df_0
+  - libzlib=1.2.12=h90dfc92_0
+  - lz4-c=1.9.3=hbdafb3b_1
+  - lzo=2.10=h642e427_1000
   - mako=1.2.0=pyhd8ed1ab_1
   - markupsafe=2.1.1=py39hb18efdd_1
   - msgpack-python=1.0.3=py39h2c803a9_1
   - ncurses=6.3=h07bb92c_1
-  - openssl=3.0.3=ha287fd2_0
-  - pip=22.0.4=pyhd8ed1ab_0
+  - openssl=1.1.1o=ha287fd2_0
+  - pip=22.1.1=pyhd8ed1ab_0
+  - pkginfo=1.8.2=pyhd8ed1ab_0
+  - psutil=5.9.1=py39h9eb174b_0
+  - py-lief=0.11.5=py39hfb83b0d_1
   - pycodestyle=2.8.0=pyhd8ed1ab_0
+  - pycosat=0.6.3=py39hb18efdd_1010
   - pycparser=2.21=pyhd8ed1ab_0
   - pynvim=0.4.3=py39h2804cbe_0
-  - python=3.9.12=h14b404e_1_cpython
+  - pyopenssl=22.0.0=pyhd8ed1ab_0
+  - pysocks=1.7.1=py39h2804cbe_5
+  - python=3.9.12=hfc7342c_1_cpython
+  - python-libarchive-c=4.0=py39h2804cbe_1
   - python_abi=3.9=2_cp39
   - pytz=2022.1=pyhd8ed1ab_0
+  - pyyaml=6.0=py39hb18efdd_4
   - readline=8.1=hedafd6a_0
-  - setuptools=62.1.0=py39h2804cbe_0
+  - requests=2.27.1=pyhd8ed1ab_0
+  - ripgrep=13.0.0=h65448a5_2
+  - ruamel_yaml=0.15.80=py39h9eb174b_1007
+  - setuptools=62.3.2=py39h2804cbe_0
   - six=1.16.0=pyh6c4a22f_0
+  - soupsieve=2.3.1=pyhd8ed1ab_0
   - sqlalchemy=1.4.36=py39h9eb174b_0
   - sqlite=3.38.3=h40dfcc0_0
   - tk=8.6.12=he1e0b03_0
   - toml=0.10.2=pyhd8ed1ab_0
+  - tqdm=4.64.0=pyhd8ed1ab_0
   - tzdata=2022a=h191b570_0
+  - urllib3=1.26.9=pyhd8ed1ab_0
   - visitor=0.1.3=pyh9f0ad1d_1
-  - werkzeug=2.1.2=pyhd8ed1ab_1
+  - werkzeug=2.0.0=pyhd8ed1ab_0
   - wheel=0.37.1=pyhd8ed1ab_0
   - wtforms=3.0.1=pyhd8ed1ab_0
   - xz=5.2.5=h642e427_1
+  - yaml=0.2.5=h3422bc3_2
   - zipp=3.8.0=pyhd8ed1ab_0
-  - zlib=1.2.11=h90dfc92_1014
+  - zlib=1.2.12=h90dfc92_0
+  - zstd=1.5.2=hd705a24_1
+  - pip:
+    - neovim==0.3.1
 prefix: /Users/yukiakiba/miniforge3/envs/flask_app
