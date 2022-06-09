@@ -6,6 +6,7 @@ tap "homebrew/services"
 tap "universal-ctags/universal-ctags"
 
 brew "stow"
+brew "zsh-vi-mode"
 brew "direnv"
 brew "starship"
 brew "autoconf"

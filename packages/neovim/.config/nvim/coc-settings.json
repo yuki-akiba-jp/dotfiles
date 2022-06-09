@@ -1,15 +1,24 @@
 {
-    "coc.preferences.formatOnSaveFiletypes": ["css","markdown","javascript","typescript","json","scss","yaml"],
-    "coc.preferences.formatOnType": true,
-    "snippets.extends": 
-    {
-        "cpp": ["c"],
-        "typescript": ["javascript"]
-
-    },
-    "snippets.priority": 99999,
-    "suggest.languageSourcePriority": 199,
-    "snippets.userSnippetsDirectory": "~/dotfiles/packages/coc-snippets/snippets",
-    "snippets.ultisnips.directories":["UltiSnips","~/dotfiles/packages/coc-snippets/snippets"]
-
+  "coc.preferences.formatOnSaveFiletypes": [
+    "css",
+    "markdown",
+    "javascript",
+    "typescript",
+    "json",
+    "scss",
+    "yaml"
+  ],
+  "coc.preferences.formatOnType": true,
+  "snippets.extends": {
+    "cpp": ["c"],
+    "html": ["jinja"],
+    "typescript": ["javascript"]
+  },
+  "snippets.priority": 99999,
+  "suggest.languageSourcePriority": 199,
+  "snippets.userSnippetsDirectory": "~/dotfiles/packages/coc-snippets/snippets",
+  "snippets.ultisnips.directories": [
+    "UltiSnips",
+    "~/dotfiles/packages/coc-snippets/snippets"
+  ]
 }

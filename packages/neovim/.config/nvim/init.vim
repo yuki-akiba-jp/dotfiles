@@ -65,6 +65,7 @@ let g:coc_global_extensions = [
             \ 'coc-tsserver',
             \ 'coc-html',
             \ 'coc-clangd',
+            \ 'coc-htmldjango',
             \ ]
 
 command! -nargs=0 Prettier :CocCommand prettier.formatFile
@@ -91,13 +92,13 @@ noremap s `
 filetype plugin on
 augroup setAutoCompile
     autocmd!
-autocmd BufNewFile,BufRead *.html setfiletype html
+    " autocmd BufNewFile,BufRead *.html setfiletype html
     autocmd BufWritePost *.c :make -f ~/dotfiles/packages/Makefile/cMakefile
     autocmd BufWritePost *.cpp :make -f ~/dotfiles/packages/Makefile/cppMakefile
     autocmd BufWritePost *.html :Prettier
     autocmd BufWritePost *.py :Isort
     autocmd BufWritePost *.py call CocAction('format')
-    " autocmd BufWritePost *.py :!python3 %:p
+    autocmd BufWritePost *.py :!python3 %:p
     autocmd BufWritePost *.cpp call CocAction('format')
     autocmd BufWritePost *.c call CocAction('format')
 augroup END

@@ -63,3 +63,6 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 conda activate flask_app
+
+# heroku autocomplete setup
+HEROKU_AC_ZSH_SETUP_PATH=/Users/yukiakiba/Library/Caches/heroku/autocomplete/zsh_setup && test -f $HEROKU_AC_ZSH_SETUP_PATH && source $HEROKU_AC_ZSH_SETUP_PATH;
