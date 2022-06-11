@@ -11,7 +11,7 @@ fi
 
 if [ ! -d ~/dotfiles ]; then
 cd ~
-git clone git@github.com:yuki-akiba-jp/dotfiles.git
+git clone https://github.com/yuki-akiba-jp/dotfiles.git
 fi
 
 brew bundle -v --file=~/dotfiles/Brewfile
