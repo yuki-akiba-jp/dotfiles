@@ -5,9 +5,9 @@ fi
 
 set -e 
 
-# if [ "$(dscl . -read ~/ UserShell)" = "UserShell: /bin/bash" ]; then
-chsh -s $(which zsh)
-# fi
+if [ "$(dscl . -read ~/ UserShell)" = "UserShell: /bin/bash" ]; then
+    chsh -s $(which zsh)
+fi
 
 if [ ! -d ~/dotfiles ]; then
 cd ~
