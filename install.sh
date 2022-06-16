@@ -3,7 +3,7 @@ if [ ! -f /opt/homebrew/bin/brew ]; then
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 fi
 
-set -e 
+# set -e 
 
 if [ "$(dscl . -read ~/ UserShell)" = "UserShell: /bin/bash" ]; then
     chsh -s $(which zsh)

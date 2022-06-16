@@ -64,6 +64,7 @@ let g:coc_global_extensions = [
             \ 'coc-pyright',
             \ 'coc-tsserver',
             \ 'coc-html',
+            \ 'coc-css',
             \ 'coc-clangd',
             \ 'coc-htmldjango',
             \ ]
@@ -98,7 +99,7 @@ augroup setAutoCompile
     autocmd BufWritePost *.html :Prettier
     autocmd BufWritePost *.py :Isort
     autocmd BufWritePost *.py call CocAction('format')
-    autocmd BufWritePost *.py :!python3 %:p
+    " autocmd BufWritePost *.py :!python3 %:p
     autocmd BufWritePost *.cpp call CocAction('format')
     autocmd BufWritePost *.c call CocAction('format')
 augroup END

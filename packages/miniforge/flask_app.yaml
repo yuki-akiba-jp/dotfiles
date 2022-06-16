@@ -9,7 +9,7 @@ dependencies:
   - brotlipy=0.7.0=py39hb18efdd_1004
   - bzip2=1.0.8=h3422bc3_4
   - ca-certificates=2022.5.18.1=h4653dfc_0
-  - certifi=2022.5.18.1=py39h2804cbe_0
+  - certifi=2022.6.15=py39h2804cbe_0
   - cffi=1.15.0=py39h52b1de0_0
   - chardet=4.0.0=py39h2804cbe_3
   - charset-normalizer=2.0.12=pyhd8ed1ab_0
@@ -40,11 +40,14 @@ dependencies:
   - isort=5.10.1=pyhd8ed1ab_0
   - itsdangerous=2.1.2=pyhd8ed1ab_0
   - jinja2=3.1.2=pyhd8ed1ab_0
+  - krb5=1.19.3=hf9b2bbe_0
   - libarchive=3.5.2=h69ec738_2
   - libcxx=14.0.4=h6a5c8ee_0
+  - libedit=3.1.20191231=hc8eb9b7_2
   - libffi=3.4.2=h3422bc3_5
   - libiconv=1.16=h642e427_0
   - liblief=0.11.5=hbdafb3b_1
+  - libpq=14.3=h8ab49ba_0
   - libxml2=2.9.14=h035c1df_0
   - libzlib=1.2.12=h90dfc92_0
   - lz4-c=1.9.3=hbdafb3b_1
@@ -56,7 +59,9 @@ dependencies:
   - openssl=1.1.1o=ha287fd2_0
   - pip=22.1.1=pyhd8ed1ab_0
   - pkginfo=1.8.2=pyhd8ed1ab_0
+  - postgresql=14.3=heaa1073_0
   - psutil=5.9.1=py39h9eb174b_0
+  - psycopg2=2.9.3=py39h082f845_0
   - py-lief=0.11.5=py39hfb83b0d_1
   - pycodestyle=2.8.0=pyhd8ed1ab_0
   - pycosat=0.6.3=py39hb18efdd_1010
@@ -81,6 +86,7 @@ dependencies:
   - tk=8.6.12=he1e0b03_0
   - toml=0.10.2=pyhd8ed1ab_0
   - tqdm=4.64.0=pyhd8ed1ab_0
+  - tzcode=2022a=h1c322ee_0
   - tzdata=2022a=h191b570_0
   - urllib3=1.26.9=pyhd8ed1ab_0
   - visitor=0.1.3=pyh9f0ad1d_1
@@ -93,5 +99,5 @@ dependencies:
   - zlib=1.2.12=h90dfc92_0
   - zstd=1.5.2=hd705a24_1
   - pip:
-    - neovim==0.3.1
+      - neovim==0.3.1
 prefix: /Users/yukiakiba/miniforge3/envs/flask_app
