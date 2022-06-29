@@ -108,5 +108,5 @@ augroup END
 let g:coc_snippet_next = '<C-k>'
 let g:coc_snippet_prev = '<C-h>'
 
-source ~/dotfiles/packages/neovim/.config/nvim/macmini.vim
+" source ~/dotfiles/packages/neovim/.config/nvim/macmini.vim
 
