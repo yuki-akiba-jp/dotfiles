@@ -88,7 +88,7 @@ xnoremap & :&&<CR>
 nnoremap fj :Telescope find_files<CR>
 nnoremap Y y$
 noremap fo o<ESC>
-noremap s `
+" noremap s `
 
 filetype plugin on
 augroup setAutoCompile
@@ -99,7 +99,7 @@ augroup setAutoCompile
     autocmd BufWritePost *.html :Prettier
     autocmd BufWritePost *.py :Isort
     autocmd BufWritePost *.py call CocAction('format')
-    " autocmd BufWritePost *.py :!python3 %:p
+    autocmd BufWritePost *.py :!python3 %:p
     autocmd BufWritePost *.cpp call CocAction('format')
     autocmd BufWritePost *.c call CocAction('format')
 augroup END
@@ -107,6 +107,5 @@ augroup END
 " Use <C-k> for jump to next placeholder, it's default of coc.nvim
 let g:coc_snippet_next = '<C-k>'
 let g:coc_snippet_prev = '<C-h>'
-
 " source ~/dotfiles/packages/neovim/.config/nvim/macmini.vim
 
