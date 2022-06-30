@@ -62,6 +62,7 @@ else
 fi
 unset __conda_setup
 # <<< conda initialize <<<
+source ~/miniforge3/bin/activate
 conda activate flask_app
 
 # heroku autocomplete setup

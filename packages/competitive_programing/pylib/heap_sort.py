@@ -2,19 +2,20 @@ import sys
 from typing import Optional
 
 
-class Heap(object):
-    def __init__(self):
-        self.heap = [-1*sys.maxsize]
+class MiniHeap(object):
+
+    def __init__(self) -> None:
+        self.heap = [-1 * sys.maxsize]
         self.current_size = 0
 
     def parent_index(self, index: int) -> int:
-        return index//2
+        return index // 2
 
     def left_child_index(self, index: int) -> int:
-        return 2*index
+        return 2 * index
 
     def right_child_index(self, index: int) -> int:
-        return (2*index)+1
+        return (2 * index) + 1
 
     def swap(self, index1: int, index2: int) -> None:
         self.heap[index1], self.heap[index2] = self.heap[index2], self.heap[index1]
@@ -34,7 +35,8 @@ class Heap(object):
         if self.right_child_index(index) > self.current_size:
             return self.left_child_index(index)
         else:
-            if (self.heap[self.left_child_index(index)] < self.heap[self.right_child_index(index)]):
+            if (self.heap[self.left_child_index(index)] <
+                    self.heap[self.right_child_index(index)]):
                 return self.left_child_index(index)
             else:
                 return self.right_child_index(index)
@@ -54,6 +56,8 @@ class Heap(object):
         data = self.heap.pop()
         if len(self.heap) == 1:
             return root
+
+        # [-x, 5, 6, 2, 9, 13, 11]
         self.heap[1] = data
         self.current_size -= 1
         self.heapify_down(1)
@@ -61,11 +65,14 @@ class Heap(object):
 
 
 if __name__ == '__main__':
-    heap = Heap()
-    heap.push(5)
-    heap.pop()
-    heap.push(6)
-    heap.push(8)
-    heap.push(3)
-    heap.push(2)
-    print(heap.heap)
+    min_heap = MiniHeap()
+    min_heap.push(5)
+    min_heap.push(6)
+    min_heap.push(2)
+    min_heap.push(9)
+    min_heap.push(13)
+    min_heap.push(11)
+    min_heap.push(1)
+    print(min_heap.heap)
+    print(min_heap.pop())
+    print(min_heap.heap)
