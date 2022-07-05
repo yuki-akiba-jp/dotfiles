@@ -14,6 +14,9 @@
     "html": ["jinja"],
     "typescript": ["javascript"]
   },
+  "eslint.format.enable": true,
+  "eslint.autoFixOnSave": true,
+
   "snippets.priority": 99999,
   "suggest.languageSourcePriority": 199,
   "snippets.userSnippetsDirectory": "~/dotfiles/packages/coc-snippets/snippets",

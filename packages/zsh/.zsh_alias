@@ -7,7 +7,7 @@ alias vim="nvim"
 alias view="nvim -R"
 
 alias pip=pip3
-alias ctags="`brew --prefix`/bin/ctags"
+alias live="live-server"
 
 alias nvimconf="vim ~/.config/nvim/init.vim"
 alias zshconf="vim ~/.zshrc"

@@ -70,27 +70,25 @@ let g:coc_global_extensions = [
             \ ]
 
 command! -nargs=0 Prettier :CocCommand prettier.formatFile
-
+filetype plugin on
 augroup mygroup
   autocmd!
   " Setup formatexpr specified filetype(s).
   autocmd FileType typescript,json setl formatexpr=CocAction('formatSelected')
-   autocmd FileType python,cpp,c,typescript,javascript let b:coc_pairs_disabled = ['<']
+   autocmd FileType python,cpp,c,typescript,javascript,php let b:coc_pairs_disabled = ['<']
   " Update signature help on jump placeholder
   autocmd User CocJumpPlaceholder call CocActionAsync('showSignatureHelp')
 augroup end
 
 inoremap <silent> jj <ESC>
 nnoremap <C-k> :w<CR>
-nnoremap ff :!./%:r<CR>
+
 nnoremap & :&&<CR>
 xnoremap & :&&<CR>
 nnoremap fj :Telescope find_files<CR>
 nnoremap Y y$
 noremap fo o<ESC>
-" noremap s `
 
-filetype plugin on
 augroup setAutoCompile
     autocmd!
     " autocmd BufNewFile,BufRead *.html setfiletype html
