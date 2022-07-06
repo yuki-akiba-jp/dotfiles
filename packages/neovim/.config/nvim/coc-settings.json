@@ -1,5 +1,26 @@
 {
+  "snippets.extends": {
+    "cpp": ["c"],
+    "html": ["jinja"],
+    "typescript": ["javascript"]
+  },
+
+  "snippets.priority": 99999,
+  "suggest.languageSourcePriority": 199,
+  "snippets.userSnippetsDirectory": "~/dotfiles/packages/coc-snippets/snippets",
+  "snippets.ultisnips.directories": [
+    "UltiSnips",
+    "~/dotfiles/packages/coc-snippets/snippets"
+  ],
+  "suggest.triggerAfterInsertEnter": true,
+  "suggest.noselect": false,
+  "suggest.minTriggerInputLength": 2,
+  "suggest.acceptSuggestionOnCommitCharacter": true,
+  "suggest.snippetIndicator": " ►",
+  "suggest.enablePreview": true,
+  "coc.preferences.formatOnType": true,
   "coc.preferences.formatOnSaveFiletypes": [
+    "typescriptreact",
     "css",
     "markdown",
     "javascript",
@@ -8,20 +29,6 @@
     "scss",
     "yaml"
   ],
-  "coc.preferences.formatOnType": true,
-  "snippets.extends": {
-    "cpp": ["c"],
-    "html": ["jinja"],
-    "typescript": ["javascript"]
-  },
-  "eslint.format.enable": true,
-  "eslint.autoFixOnSave": true,
-
-  "snippets.priority": 99999,
-  "suggest.languageSourcePriority": 199,
-  "snippets.userSnippetsDirectory": "~/dotfiles/packages/coc-snippets/snippets",
-  "snippets.ultisnips.directories": [
-    "UltiSnips",
-    "~/dotfiles/packages/coc-snippets/snippets"
-  ]
+  "tsserver.formatOnType": true,
+  "eslint.autoFixOnSave": true
 }
