@@ -86,6 +86,7 @@ nnoremap <C-k> :w<CR>
 nnoremap & :&&<CR>
 xnoremap & :&&<CR>
 nnoremap fj :Telescope find_files<CR>
+nnoremap ff :Bracey<CR>
 nnoremap Y y$
 noremap fo o<ESC>
 
@@ -106,4 +107,4 @@ augroup END
 let g:coc_snippet_next = '<C-k>'
 let g:coc_snippet_prev = '<C-h>'
 " source ~/dotfiles/packages/neovim/.config/nvim/macmini.vim
-
+let g:bracey_browser_command= "open"
