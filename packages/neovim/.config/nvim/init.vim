@@ -86,7 +86,6 @@ nnoremap <C-k> :w<CR>
 nnoremap & :&&<CR>
 xnoremap & :&&<CR>
 nnoremap fj :Telescope find_files<CR>
-nnoremap ff :Bracey<CR>
 nnoremap Y y$
 noremap fo o<ESC>
 
