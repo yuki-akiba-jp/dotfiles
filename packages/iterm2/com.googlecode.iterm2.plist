@@ -866,11 +866,12 @@
 			<key>HotKey Alternate Shortcuts</key>
 			<array/>
 			<key>HotKey Characters</key>
-			<string>	</string>
+			<string>
+</string>
 			<key>HotKey Characters Ignoring Modifiers</key>
-			<string>i</string>
+			<string>j</string>
 			<key>HotKey Key Code</key>
-			<integer>34</integer>
+			<integer>38</integer>
 			<key>HotKey Modifier Activation</key>
 			<integer>0</integer>
 			<key>HotKey Modifier Flags</key>
