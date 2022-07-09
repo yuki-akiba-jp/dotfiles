@@ -41,7 +41,7 @@ export LSCOLORS=Cxfxcxdxbxegedabagacad
 # export LDFLAGS="-L$LIBICONV_ROOT/lib $LDFLAGS"
 # export CPPFLAGS="-I$LIBICONV_ROOT/include $CPPFLAGS"
 
-# [ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
+[ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
 export PATH="/opt/homebrew/bin:$PATH"
 export PATH="/usr/local/bin:$PATH"
 # chmod +x ~/.zsh_alias
