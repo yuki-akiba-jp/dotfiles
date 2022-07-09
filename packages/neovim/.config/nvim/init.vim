@@ -107,3 +107,28 @@ let g:coc_snippet_next = '<C-k>'
 let g:coc_snippet_prev = '<C-h>'
 " source ~/dotfiles/packages/neovim/.config/nvim/macmini.vim
 let g:bracey_browser_command= "open"
+
+" Open current directory
+nmap <C-t>e :tabedit 
+nmap <S-Tab> :tabprev<Return>
+nmap <Tab> :tabnext<Return>
+
+" Split window
+nmap ss :split<Return><C-w>w
+nmap sv :vsplit<Return><C-w>w
+
+" Move window
+nmap <Space> <C-w>w
+map s<left> <C-w>h
+map s<up> <C-w>k
+map s<down> <C-w>j
+map s<right> <C-w>l
+map sh <C-w>h
+map sk <C-w>k
+map sj <C-w>j
+map sl <C-w>l
+" Resize window
+nmap <C-t>h <C-w><
+nmap <C-t>l <C-w>>
+nmap <C-t>p <C-w>+
+nmap <C-t>n <C-w>-
