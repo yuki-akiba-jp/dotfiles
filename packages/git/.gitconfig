@@ -16,7 +16,7 @@ cmm = commit -m
 st = status
 br = branch
 co = checkout
-cob = checkout -b
+cb = checkout -b
 ps = push
 
 
