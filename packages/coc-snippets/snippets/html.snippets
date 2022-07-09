@@ -13,16 +13,17 @@ snippet emmet "emmet"
 endsnippet
 
 snippet div "div"
-<div>${1}</div>
+<div${1}>${2}</div>
 endsnippet
 
 snippet li "li"
-<li>${1}</li>
+<li${1}>${2}</li>
 endsnippet
 
-snippet h1 "div"
-<h1>${1}</h1>
+snippet hh "h tag"
+<h${1}>${2}</h${1}>
 endsnippet
+
 
 snippet script "script"
 <script src="${1}"></script>
@@ -32,7 +33,11 @@ snippet link "link"
 <link rel="stylesheet" href="${1}">
 endsnippet
 
-# snippet div "div"
-# <div>${1}</div>
-# endsnippet
+snippet label "lebel"
+<label${1}>${2}</label>
+endsnippet
+
+snippet input "input" 
+<input type="${1:text}"${2}>
+endsnippet
 
