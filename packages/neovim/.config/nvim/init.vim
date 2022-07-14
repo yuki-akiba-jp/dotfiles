@@ -109,7 +109,7 @@ let g:coc_snippet_prev = '<C-h>'
 let g:bracey_browser_command= "open"
 
 " Open current directory
-nmap <C-t>e :tabedit 
+nmap jt :tabedit 
 nmap <S-Tab> :tabprev<Return>
 nmap <Tab> :tabnext<Return>
 
@@ -124,7 +124,7 @@ nmap <Space> <C-w>w
 " map sj <C-w>j
 " map sl <C-w>l
 " Resize window
-nmap <C-t>h <C-w><
-nmap <C-t>l <C-w>>
-nmap <C-t>p <C-w>+
-nmap <C-t>n <C-w>-
+" nmap <C-t>h <C-w><
+" nmap <C-t>l <C-w>>
+" nmap <C-t>p <C-w>+
+" nmap <C-t>n <C-w>-

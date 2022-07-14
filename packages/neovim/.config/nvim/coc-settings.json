@@ -6,21 +6,21 @@
   },
 
   "snippets.priority": 99999,
-  "suggest.languageSourcePriority": 199,
+  "suggest.languageSourcePriority": 200,
   "snippets.userSnippetsDirectory": "~/dotfiles/packages/coc-snippets/snippets",
   "snippets.ultisnips.directories": [
     "UltiSnips",
     "~/dotfiles/packages/coc-snippets/snippets"
   ],
-  "suggest.triggerAfterInsertEnter": true,
   "suggest.noselect": false,
-  "suggest.minTriggerInputLength": 2,
-  "suggest.acceptSuggestionOnCommitCharacter": true,
+  "suggest.triggerAfterInsertEnter": true,
   "suggest.snippetIndicator": " ►",
+  "suggest.selection": "recentlyUsedByPrefix",
   "suggest.enablePreview": true,
-  "coc.preferences.formatOnType": true,
+  "suggest.acceptSuggestionOnCommitCharacter": true,
   "coc.preferences.formatOnSaveFiletypes": [
     "typescriptreact",
+    "javascriptreact",
     "css",
     "markdown",
     "javascript",
