@@ -109,13 +109,13 @@ let g:coc_snippet_prev = '<C-h>'
 let g:bracey_browser_command= "open"
 
 " Open current directory
-nmap jt :tabedit 
+nmap ft :tabedit 
 nmap <S-Tab> :tabprev<Return>
 nmap <Tab> :tabnext<Return>
 
 " Split window
-nmap js :split<Return><C-w>w
-nmap jv :vsplit<Return><C-w>w
+nmap fs :split<Return><C-w>w
+nmap fv :vsplit<Return><C-w>w
 
 " Move window
 nmap <Space> <C-w>w
