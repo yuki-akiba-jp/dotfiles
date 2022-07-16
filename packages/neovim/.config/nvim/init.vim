@@ -108,10 +108,10 @@ let g:coc_snippet_prev = '<C-h>'
 " source ~/dotfiles/packages/neovim/.config/nvim/macmini.vim
 let g:bracey_browser_command= "open"
 
-" Open current directory
+nnoremap <c-n> <Tab>
 nmap ft :tabedit 
 nmap <S-Tab> :tabprev<Return>
-nmap <Tab> :tabnext<Return>
+nnoremap <Tab> :tabnext<Return>
 
 " Split window
 nmap fs :split<Return><C-w>w
