@@ -92,7 +92,7 @@ noremap fo o<ESC>
 augroup setAutoCompile
     autocmd!
     " autocmd BufNewFile,BufRead *.html setfiletype html
-    " autocmd BufWritePost *.c :make -f ~/dotfiles/packages/Makefile/cMakefile
+    autocmd BufWritePost *.c :make -f ~/dotfiles/packages/Makefile/cMakefile
     autocmd BufWritePost *.cpp :make -f ~/dotfiles/packages/Makefile/cppMakefile
     autocmd BufWritePost *.html :Prettier
     autocmd BufWritePost *.py :Isort
