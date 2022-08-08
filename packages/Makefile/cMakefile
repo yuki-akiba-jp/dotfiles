@@ -3,28 +3,16 @@ CC = gcc
 SRCS = $(wildcard *.c)
 # executables
 EXES = $(patsubst %.c,%,$(SRCS))
-# test result files
-TESTS = $(patsubst %.c,%.test,$(SRCS))
 
-# perform EXES and TESTS
-all: $(EXES) $(TESTS)
+all: $(EXES) 
 
 # complie all C files (%.c) and generate executables (%)
 # ($< is *.c and $@ is executable)
 %: %.c
 	$(CC) $(CFLAGS) -o $@ $<
 
-# compile all C files and test 
-# ($< is *.c, $@ is *.test, ${@:.test=} is *.test but delete ".test")
-#%.test: %.c
-#   $(CC) $(CFLAGS) -o ${@:.test=} $<
-#   ./${@:.test=} > $@
 
-# run all executables (%) and generate result files (%.test)
-# ($< is executables, $@ is *.test)
-%.test: %
-	./$<  > $@
 
 # delete all executables and result files
 clean: 
-	rm -f $(EXES) $(TESTS)
+	rm -f $(EXES) 
