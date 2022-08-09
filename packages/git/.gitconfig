@@ -22,3 +22,6 @@ ps = push
 
 [init]
 	defaultBranch = main
+[user]
+	name = yuki-akiba-jp
+	email = rabuafe@gmail.com
