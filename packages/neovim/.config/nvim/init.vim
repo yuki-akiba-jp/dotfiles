@@ -83,8 +83,9 @@ augroup end
 inoremap <silent> jj <ESC>
 nnoremap <C-k> :w<CR>
 
-nnoremap & :&&<CR>
 xnoremap & :&&<CR>
+nnoremap & :&&<CR>
+nnoremap ' `
 nnoremap fj :Telescope find_files<CR>
 nnoremap Y y$
 noremap fo o<ESC>
@@ -97,7 +98,7 @@ augroup setAutoCompile
     autocmd BufWritePost *.html :Prettier
     autocmd BufWritePost *.py :Isort
     autocmd BufWritePost *.py call CocAction('format')
-    autocmd BufWritePost *.py :!python3 %:p
+    " autocmd BufWritePost *.py :!python3 %:p
     autocmd BufWritePost *.cpp call CocAction('format')
     autocmd BufWritePost *.c call CocAction('format')
 augroup END

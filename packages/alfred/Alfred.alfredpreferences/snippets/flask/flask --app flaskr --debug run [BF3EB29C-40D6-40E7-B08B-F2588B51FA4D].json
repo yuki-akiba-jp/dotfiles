@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "flask --app flaskr --debug run",
+    "uid" : "BF3EB29C-40D6-40E7-B08B-F2588B51FA4D",
+    "name" : "flask --app flaskr --debug run",
+    "keyword" : ""
+  }
+}
