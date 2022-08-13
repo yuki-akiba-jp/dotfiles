@@ -21,8 +21,8 @@
   "coc.preferences.formatOnSaveFiletypes": [
     "typescriptreact",
     "javascriptreact",
-    "css",
     "markdown",
+    "css",
     "javascript",
     "typescript",
     "json",
@@ -30,5 +30,6 @@
     "yaml"
   ],
   "tsserver.formatOnType": true,
-  "eslint.autoFixOnSave": true
+  "eslint.autoFixOnSave": true,
+  "htmldjango.djlint.lintOnSave": true
 }

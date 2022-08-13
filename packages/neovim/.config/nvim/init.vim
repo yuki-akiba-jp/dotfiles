@@ -15,6 +15,7 @@ set background=dark
 set ignorecase
 set smartcase
 set buftype=
+set encoding=utf-8
 syntax on
 filetype on
 
@@ -95,7 +96,8 @@ augroup setAutoCompile
     " autocmd BufNewFile,BufRead *.html setfiletype html
     autocmd BufWritePost *.c :make -f ~/dotfiles/packages/Makefile/cMakefile
     autocmd BufWritePost *.cpp :make -f ~/dotfiles/packages/Makefile/cppMakefile
-    autocmd BufWritePost *.html :Prettier
+    " autocmd BufWritePost *.html :Prettier
+    autocmd BufWritePost *.html :CocCommand htmldjango.djlint.format
     autocmd BufWritePost *.py :Isort
     autocmd BufWritePost *.py call CocAction('format')
     " autocmd BufWritePost *.py :!python3 %:p
