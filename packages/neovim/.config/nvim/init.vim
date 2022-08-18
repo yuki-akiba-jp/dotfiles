@@ -37,25 +37,25 @@ colorscheme gruvbox
 hi Visual  guifg=reverse guibg=Grey gui=none
 hi Comment guifg=#ACCCCC
 
-inoremap <silent><expr> <Tab>
-      \ pumvisible() ? "\<C-n>" :
-      \ <SID>check_back_space() ? "\<Tab>" :
-      \ coc#refresh()
+
+
 nnoremap <ESC><ESC> :nohl<CR>
-inoremap <expr><S-TAB> pumvisible() ? "\<C-p>" : "\<C-h>"
-inoremap <silent><expr> <cr> pumvisible() ? coc#_select_confirm() : "\<C-g>u\<CR>\<c-r>=coc#on_enter()\<CR>\<tab><backspace>"
-function! s:check_back_space() abort
+
+inoremap <expr> <cr> coc#pum#visible() ? coc#pum#confirm() : "\<CR>"
+inoremap <silent><expr> <cr> coc#pum#visible() ? coc#_select_confirm() : "\<C-g>u\<CR>"
+
+" use <tab> for trigger completion and navigate to the next complete item
+function! CheckBackspace() abort
   let col = col('.') - 1
   return !col || getline('.')[col - 1]  =~# '\s'
 endfunction
 
-inoremap <silent><expr> <TAB>
-      \ pumvisible() ? coc#_select_confirm() :
-      \ coc#expandableOrJumpable() ? "\<C-r>=coc#rpc#request('doKeymap', ['snippets-expand-jump',''])\<CR>" :
-      \ <SID>check_back_space() ? "\<TAB>" :
+inoremap <silent><expr> <Tab>
+      \ coc#pum#visible() ? coc#pum#next(1) :
+      \ CheckBackspace() ? "\<Tab>" :
       \ coc#refresh()
 
-let g:coc_snippet_next = '<tab>'
+let g:coc_snippet_next = '<TAB>'
 let g:coc_global_extensions = [
             \ 'coc-eslint',
             \ 'coc-json',
@@ -111,10 +111,10 @@ let g:coc_snippet_prev = '<C-h>'
 " source ~/dotfiles/packages/neovim/.config/nvim/macmini.vim
 let g:bracey_browser_command= "open"
 
-nnoremap <c-n> <Tab>
+nnoremap <c-n> <TAB>
 nmap ft :tabedit 
-nmap <S-Tab> :tabprev<Return>
-nnoremap <Tab> :tabnext<Return>
+nmap <S-tab> :tabprev<Return>
+nnoremap <TAB> :tabnext<Return>
 
 " Split window
 nmap fs :split<Return><C-w>w
