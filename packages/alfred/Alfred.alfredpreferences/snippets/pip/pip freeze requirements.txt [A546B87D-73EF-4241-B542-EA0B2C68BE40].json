@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "pip freeze > requirements.txt",
+    "uid" : "A546B87D-73EF-4241-B542-EA0B2C68BE40",
+    "name" : "pip freeze > requirements.txt",
+    "keyword" : ""
+  }
+}

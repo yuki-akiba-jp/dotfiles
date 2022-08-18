@@ -44,6 +44,11 @@ def ${1:function_name}(${2}):
 	${3:pass}
 endsnippet
 
+snippet test "test" 
+def test_${1}(${2}):
+	${3:pass}
+endsnippet
+
 snippet main "def main():"
 def main():
 	${1:pass}
@@ -74,4 +79,8 @@ endsnippet
 
 snippet self "self.member"
 self.${1:member} = ${1}
+endsnippet
+
+snippet route "route"
+@${1:app}.route('/${2}',methods = ['${3:GET}'${4}])
 endsnippet

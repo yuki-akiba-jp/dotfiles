@@ -20,13 +20,17 @@ snippet li "li"
 <li${1}>${2}</li>
 endsnippet
 
+snippet ul "ul"
+<ul${1}>${2}</ul>
+endsnippet
+
 snippet hh "h tag"
 <h${1}>${2}</h${1}>
 endsnippet
 
 
 snippet script "script"
-<script src="${1}"></script>
+<script src="${1}">${2}</script>
 endsnippet
 
 snippet link "link"
@@ -46,5 +50,8 @@ snippet form "form"
 endsnippet
 
 snippet header "header"
-<header className="${1}"></header>
+<header className="${1}">${2}</header>
+endsnippet
+snippet button "button"
+	<button type="${1}">${2}</button>
 endsnippet
