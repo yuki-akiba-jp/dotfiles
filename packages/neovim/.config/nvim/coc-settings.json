@@ -31,5 +31,6 @@
   ],
   "tsserver.formatOnType": true,
   "eslint.autoFixOnSave": true,
-  "htmldjango.djlint.lintOnSave": true
+  "htmldjango.djlint.lintOnSave": true,
+  "python.formatting.autopep8Path": "/usr/local/bin/autopep8"
 }
