@@ -6,8 +6,9 @@ alias vi="nvim"
 alias vim="nvim"
 alias view="nvim -R"
 
+alias py=python3
+
 alias pip=pip3
-alias p=pip
 alias pi="pip install"
 alias pl="pip list"
 alias live="live-server"
