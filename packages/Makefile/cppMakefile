@@ -23,8 +23,8 @@ all: $(EXES) $(TESTS)
 
 # run all executables (%) and generate result files (%.test)
 # ($< is executables, $@ is *.test)
-%.test: %
-	./$<  > $@
+# %.test: %
+	# ./$<  > $@
 
 # delete all executables and result files
 clean: 
