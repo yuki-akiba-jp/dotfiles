@@ -28,4 +28,5 @@ all: $(EXES) $(TESTS)
 
 # delete all executables and result files
 clean: 
-	rm -f $(EXES) $(TESTS)
+	# rm -f $(EXES) $(TESTS)
+	rm -f $(EXES)
