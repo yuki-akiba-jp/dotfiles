@@ -1,5 +1,5 @@
 with open('./filename', 'r') as f:
-    input_lines = [line.strip() for line in f.readlines()]
+    input_lines = [line.strip().split(',') for line in f.readlines()]
 
     lines = []
     for line in input_lines:
