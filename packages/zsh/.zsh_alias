@@ -2,6 +2,7 @@ alias g='git'
 alias tm='tmux'
 alias ls='ls -G'
 
+alias v="nvim"
 alias vi="nvim"
 alias vim="nvim"
 alias view="nvim -R"
@@ -12,6 +13,7 @@ alias pip=pip3
 alias pi="pip install"
 alias pl="pip list"
 alias live="live-server"
+alias at="cd ~/dotfiles/packages/competitive_programing/pylib && vim"
 
 alias nvimconf="vim ~/.config/nvim/init.vim"
 alias zshconf="vim ~/.zshrc"

@@ -7,6 +7,10 @@
 
   "snippets.priority": 99999,
   "suggest.languageSourcePriority": 200,
+  "suggest.floatConfig": {
+    "border": true,
+    "rounded": true
+  },
   "snippets.userSnippetsDirectory": "~/dotfiles/packages/coc-snippets/snippets",
   "snippets.ultisnips.directories": [
     "UltiSnips",
@@ -18,6 +22,7 @@
   "suggest.selection": "recentlyUsedByPrefix",
   "suggest.enablePreview": true,
   "suggest.acceptSuggestionOnCommitCharacter": true,
+  "suggest.removeDuplicateItems": true,
   "coc.preferences.formatOnSaveFiletypes": [
     "typescriptreact",
     "javascriptreact",

@@ -30,12 +30,16 @@ Plug 'nelstrom/vim-visual-star-search'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
 Plug 'fisadev/vim-isort'
+Plug 'thinca/vim-quickrun', {'on': 'QuickRun'}
+Plug 'Shougo/vimproc.vim', {'do': 'make'}
 call plug#end()
 
 set termguicolors
 colorscheme gruvbox
 hi Visual  guifg=reverse guibg=Grey gui=none
 hi Comment guifg=#ACCCCC
+hi CocSelectedText guifg=blue guibg=grey
+hi CocPumSearch guifg=lightgreen 
 
 
 
@@ -76,7 +80,8 @@ augroup mygroup
   autocmd!
   " Setup formatexpr specified filetype(s).
   autocmd FileType typescript,json setl formatexpr=CocAction('formatSelected')
-   autocmd FileType python,cpp,c,typescript,javascript,php let b:coc_pairs_disabled = ['<']
+  autocmd FileType python,cpp,c,typescript,javascript,php let b:coc_pairs_disabled = ['<']
+  autocmd FileType html set filetype=htmldjango
   " Update signature help on jump placeholder
   autocmd User CocJumpPlaceholder call CocActionAsync('showSignatureHelp')
 augroup end
@@ -100,7 +105,7 @@ augroup setAutoCompile
     autocmd BufWritePost *.html :CocCommand htmldjango.djlint.format
     autocmd BufWritePost *.py :Isort
     autocmd BufWritePost *.py call CocAction('format')
-    " autocmd BufWritePost *.py :!python3 %:p
+    autocmd BufWritePost *.py :!python3 %:p
     autocmd BufWritePost *.cpp call CocAction('format')
     autocmd BufWritePost *.c call CocAction('format')
 augroup END
@@ -113,21 +118,42 @@ let g:bracey_browser_command= "open"
 
 nnoremap <c-n> <TAB>
 nmap ft :tabedit 
-nmap <S-tab> :tabprev<Return>
-nnoremap <TAB> :tabnext<Return>
+nmap <S-tab> :tabprev<CR>
+nnoremap <TAB> :tabnext<CR>
 
 " Split window
-nmap fs :split<Return><C-w>w
-nmap fv :vsplit<Return><C-w>w
+nmap fs :split<CR><C-w>w
+nmap fv :vsplit<CR><C-w>w
 
 " Move window
 nmap <Space> <C-w>w
-" map sh <C-w>h
-" map sk <C-w>k
-" map sj <C-w>j
-" map sl <C-w>l
 " Resize window
-" nmap <C-t>h <C-w><
-" nmap <C-t>l <C-w>>
-" nmap <C-t>p <C-w>+
-" nmap <C-t>n <C-w>-
+nmap fh <C-w><
+nmap fl <C-w>>
+nmap fp <C-w>+
+nmap fn <C-w>-
+
+nnoremap fr :QuickRun<CR>
+nnoremap fc :<C-u>bw! quickrun://output<CR>
+let g:quickrun_config = {}
+
+let g:quickrun_config._ = {
+    \ 'outputter/error/success': 'buffer',
+    \ 'outputter/error/error': 'quickfix',
+    \ 'outputter/quickfix/open_cmd': 'copen',
+    \ 'runner': 'vimproc',  
+    \ 'runner/vimproc/updatetime': 60,
+    \ 'hook/time/enable': 1  
+    \ }
+
+let g:quickrun_config.python = {
+    \  'command': "python3",
+    \ 'input': 'input',  
+    \ 'cmdopt': '-u'  
+    \ }
+
+let g:quickrun_config.cpp = {
+    \ 'command': 'g++',
+    \ 'input': 'input',  
+    \ 'runner': 'system'  
+    \ }
