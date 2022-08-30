@@ -1,5 +1,5 @@
 set shell=/bin/zsh
-set tags=./tags,tags
+set tags=./tags;
 set shiftwidth=4
 set tabstop=4
 set expandtab
@@ -16,6 +16,8 @@ set ignorecase
 set smartcase
 set buftype=
 set encoding=utf-8
+set isk+=@-@
+set isk+=-
 syntax on
 filetype on
 
@@ -32,6 +34,7 @@ Plug 'nvim-telescope/telescope.nvim'
 Plug 'fisadev/vim-isort'
 Plug 'thinca/vim-quickrun', {'on': 'QuickRun'}
 Plug 'Shougo/vimproc.vim', {'do': 'make'}
+Plug 'soramugi/auto-ctags.vim'
 call plug#end()
 
 set termguicolors
@@ -79,9 +82,9 @@ filetype plugin on
 augroup mygroup
   autocmd!
   " Setup formatexpr specified filetype(s).
-  autocmd FileType typescript,json setl formatexpr=CocAction('formatSelected')
+  autocmd FileType typescript,javascript,json setlocal formatexpr=CocAction('formatSelected') shiftwidth=2 tabstop=2
   autocmd FileType python,cpp,c,typescript,javascript,php let b:coc_pairs_disabled = ['<']
-  autocmd FileType html set filetype=htmldjango
+  autocmd FileType html setlocal shiftwidth=2 tabstop=2 filetype=html
   " Update signature help on jump placeholder
   autocmd User CocJumpPlaceholder call CocActionAsync('showSignatureHelp')
 augroup end
@@ -95,19 +98,17 @@ nnoremap ' `
 nnoremap fj :Telescope find_files<CR>
 nnoremap Y y$
 noremap fo o<ESC>
+nnoremap fg :GrammarousCheck
 
 augroup setAutoCompile
     autocmd!
     " autocmd BufNewFile,BufRead *.html setfiletype html
     autocmd BufWritePost *.c :make -f ~/dotfiles/packages/Makefile/cMakefile
     autocmd BufWritePost *.cpp :make -f ~/dotfiles/packages/Makefile/cppMakefile
-    " autocmd BufWritePost *.html :Prettier
-    autocmd BufWritePost *.html :CocCommand htmldjango.djlint.format
+    autocmd BufWritePost *.html :Prettier
+    " autocmd BufWritePost *.html :CocCommand htmldjango.djlint.format
     autocmd BufWritePost *.py :Isort
-    autocmd BufWritePost *.py call CocAction('format')
     autocmd BufWritePost *.py :!python3 %:p
-    autocmd BufWritePost *.cpp call CocAction('format')
-    autocmd BufWritePost *.c call CocAction('format')
 augroup END
 
 " Use <C-k> for jump to next placeholder, it's default of coc.nvim
@@ -124,6 +125,7 @@ nnoremap <TAB> :tabnext<CR>
 " Split window
 nmap fs :split<CR><C-w>w
 nmap fv :vsplit<CR><C-w>w
+nnoremap gf <C-]>
 
 " Move window
 nmap <Space> <C-w>w
@@ -135,8 +137,8 @@ nmap fn <C-w>-
 
 nnoremap fr :QuickRun<CR>
 nnoremap fc :<C-u>bw! quickrun://output<CR>
-let g:quickrun_config = {}
 
+let g:quickrun_config = {}
 let g:quickrun_config._ = {
     \ 'outputter/error/success': 'buffer',
     \ 'outputter/error/error': 'quickfix',
@@ -152,8 +154,10 @@ let g:quickrun_config.python = {
     \ 'cmdopt': '-u'  
     \ }
 
+
 let g:quickrun_config.cpp = {
     \ 'command': 'g++',
     \ 'input': 'input',  
     \ 'runner': 'system'  
     \ }
+let g:auto_ctags = 1

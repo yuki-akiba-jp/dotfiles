@@ -5,8 +5,9 @@
     "typescript": ["javascript"]
   },
 
-  "snippets.priority": 99999,
-  "suggest.languageSourcePriority": 200,
+  "coc.source.buffer.priority": 20,
+  "snippets.priority": 99,
+  "suggest.languageSourcePriority": 20,
   "suggest.floatConfig": {
     "border": true,
     "rounded": true
@@ -20,6 +21,8 @@
   "suggest.triggerAfterInsertEnter": true,
   "suggest.snippetIndicator": " ►",
   "suggest.selection": "recentlyUsedByPrefix",
+  "suggest.defaultSortMethod": "none",
+  "suggest.localityBonus": true,
   "suggest.enablePreview": true,
   "suggest.acceptSuggestionOnCommitCharacter": true,
   "suggest.removeDuplicateItems": true,
@@ -32,10 +35,14 @@
     "typescript",
     "json",
     "scss",
-    "yaml"
+    "yaml",
+    "python",
+    "cpp",
+    "c"
   ],
   "tsserver.formatOnType": true,
   "eslint.autoFixOnSave": true,
+  "eslint.run": "onSave",
   "htmldjango.djlint.lintOnSave": true,
   "python.formatting.autopep8Path": "/usr/local/bin/autopep8"
 }

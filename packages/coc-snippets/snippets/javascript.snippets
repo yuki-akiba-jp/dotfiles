@@ -26,6 +26,23 @@ snippet this "this"
 this.${1} = ${1}
 endsnippet
 
+snippet for "for iterater" 
+for(${1:let} ${2} of ${3}){
+	${4}
+}
+endsnippet
+
+snippet forin "for in" 
+for(${1:let} ${2:i} in ${3}){
+	${4}
+}
+
+snippet fori "for index" 
+for (let ${1:index} = 0; ${1} < ${2}.length; ${1}++) {
+	${3}
+}
+
+endsnippet
 snippet log "console.log" 
 console.log(${1})
 endsnippet
@@ -70,6 +87,28 @@ endsnippet
 snippet header "header"
 <header className="${1}">${2}</header>
 endsnippet
+
 snippet button "button"
 	<button type="${1}">${2}</button>
+endsnippet
+
+snippet let "let"
+let ${1}
+endsnippet
+
+snippet const "const"
+const ${1}
+endsnippet
+
+
+snippet import "import"
+import {${1}} from "${2}";
+endsnippet
+
+snippet export "export"
+export {${1}}
+endsnippet
+
+snippet return "return"
+return ${1}
 endsnippet
