@@ -1,0 +1,13 @@
+FC = gfortran
+
+SRCS = $(wildcard *.f90)
+
+EXES = $(patsubst %.f90,%,$(SRCS))
+
+all: $(EXES) $(TESTS)
+
+%: %.f90
+	$(FC) -o $@ $<
+
+clean: 
+	rm -f $(EXES)

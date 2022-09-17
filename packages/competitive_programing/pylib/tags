@@ -1,0 +1,412 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/Users/yukiakiba/dotfiles/packages/competitive_programing/pylib/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	/096dc1c1/
+A	dp/bubunwa.py	/^A = list(map(int, input().split()))$/;"	v
+A	dp/bubunwakazoeage.py	/^A = list(map(int, input().split()))$/;"	v
+A	dp/k_koinaibubunwa.py	/^A = list(map(int, input().split()))$/;"	v
+A	dp/kosuuseigentsukibubunwa.py	/^A = [0]*N$/;"	v
+A	dp/saisyoukosuububunwa.py	/^A = list(map(int, input().split()))$/;"	v
+A	graph/bfs.py	/^    A, B = map(int, input().split())$/;"	v
+A	graph/box_in_box.py	/^A = list(map(int, input().split()))$/;"	v
+A	graph/follow.py	/^A = []$/;"	v
+A	graph/friend.py	/^N,A,B = map(int,input().split())$/;"	v
+A	graph/friend_of_popular.py	/^    A, B = map(int, input().split())$/;"	v
+A	graph/friends_friend.py	/^    A, B = map(int, input().split())$/;"	v
+A	main.py	/^        A = A[1:]$/;"	v
+A	main.py	/^    A = str(input())$/;"	v
+A	main.py	/^    A, B = map(int, input())$/;"	v
+A	main.py	/^    A, B = map(int, input().split())$/;"	v
+A	main.py	/^    X, Y, A = map(int, input().split())$/;"	v
+A	main.py	/^A = 'A'+str(input())$/;"	v
+A	main.py	/^A = A[1:]$/;"	v
+A	main.py	/^A = str(input()) + 'A'$/;"	v
+A	main.py	/^A = str(input())$/;"	v
+A	main.py	/^A = str(input()).upper() + 'A'$/;"	v
+B	dp/kosuuseigentsukibubunwa.py	/^B = [0]*N$/;"	v
+B	graph/bfs.py	/^    A, B = map(int, input().split())$/;"	v
+B	graph/follow.py	/^B = []$/;"	v
+B	graph/friend.py	/^N,A,B = map(int,input().split())$/;"	v
+B	graph/friend_of_popular.py	/^    A, B = map(int, input().split())$/;"	v
+B	graph/friends_friend.py	/^    A, B = map(int, input().split())$/;"	v
+B	main.py	/^        B = B[1:]$/;"	v
+B	main.py	/^    A, B = map(int, input())$/;"	v
+B	main.py	/^    A, B = map(int, input().split())$/;"	v
+B	main.py	/^    B = str(input())$/;"	v
+B	main.py	/^B = 'B'+str(input())$/;"	v
+B	main.py	/^B = str(input())$/;"	v
+B	main.py	/^B = str(input())+'B'$/;"	v
+B	main.py	/^B = str(input()).upper()+'B'$/;"	v
+C	dp/saisyoukosutodanseimaching.py	/^C = []$/;"	v
+C	main.py	/^        C = C[1:]$/;"	v
+C	main.py	/^    C, D = map(int, input())$/;"	v
+C	main.py	/^    C, D = map(int, input().split())$/;"	v
+C	main.py	/^C = 'C'+str(input())$/;"	v
+C	main.py	/^C = str(input())$/;"	v
+C	main.py	/^C = str(input())+'C'$/;"	v
+C	main.py	/^C = str(input()).upper()+'C'$/;"	v
+D	main.py	/^    C, D = map(int, input())$/;"	v
+D	main.py	/^    C, D = map(int, input().split())$/;"	v
+G	graph/bfs.py	/^G = [[] for i in range(N)]$/;"	v
+G	graph/dfs.py	/^G = [[] for _ in range(N)]  # グラフを表現する隣接リスト$/;"	v
+G	graph/dijkstra.py	/^G = [[] for _ in range(N)]$/;"	v
+G	graph/friend_of_popular.py	/^G = [[] for i in range(N)]$/;"	v
+G	graph/friends_friend.py	/^G = [[] for _ in range(N)]$/;"	v
+INF	dp/diff_nums.py	/^INF = 1 << 30$/;"	v
+INF	dp/k_koinaibubunwa.py	/^INF = 1 << 20$/;"	v
+INF	dp/kosuuseigentsukibubunwa.py	/^INF = 1 << 20$/;"	v
+INF	dp/saisyoukosutodanseimaching.py	/^INF = 1 << 29$/;"	v
+INF	dp/saisyoukosuububunwa.py	/^INF = 1 << 20$/;"	v
+INF	graph/dijkstra.py	/^INF = 10**9 # 初期化で使う十分大きな数$/;"	v
+INF	graph/keirohukugen.py	/^INF = 10**9 # 初期化で使う十分大きな数$/;"	v
+IndexNum	binary_search.py	/^IndexNum = NewType('IndexNum', int)$/;"	v
+M	dp/bubunwa.py	/^N, M = map(int, input().split())$/;"	v
+M	dp/bubunwakazoeage.py	/^N, M = map(int, input().split())$/;"	v
+M	dp/k_koinaibubunwa.py	/^N, M, k = map(int, input().split())$/;"	v
+M	dp/kosuuseigentsukibubunwa.py	/^N, M = map(int, input().split())$/;"	v
+M	dp/saisyoukosutodanseimaching.py	/^N, M = map(int, input().split())$/;"	v
+M	dp/saisyoukosuububunwa.py	/^N, M = map(int, input().split())$/;"	v
+M	graph/bfs.py	/^N, M = map(int, input().split())$/;"	v
+M	graph/dfs.py	/^N, M = map(int, input().split())$/;"	v
+M	graph/dijkstra.py	/^N, M = map(int, input().split())$/;"	v
+M	graph/follow.py	/^N,M = map(int,input().split())$/;"	v
+M	graph/friend_of_popular.py	/^N, M = map(int, input().split())$/;"	v
+M	graph/friends_friend.py	/^N, M, X = map(int, input().split())$/;"	v
+M	graph/keirohukugen.py	/^N, M = map(int, input().split())$/;"	v
+MiniHeap	sort/heap_sort.py	/^class MiniHeap(object):$/;"	c
+N	dp/bubunwa.py	/^N, M = map(int, input().split())$/;"	v
+N	dp/bubunwakazoeage.py	/^N, M = map(int, input().split())$/;"	v
+N	dp/k_koinaibubunwa.py	/^N, M, k = map(int, input().split())$/;"	v
+N	dp/knapsack.py	/^N, W = map(int, input().split())$/;"	v
+N	dp/kosuuseigentsukibubunwa.py	/^N, M = map(int, input().split())$/;"	v
+N	dp/saisyoukosutodanseimaching.py	/^N, M = map(int, input().split())$/;"	v
+N	dp/saisyoukosuububunwa.py	/^N, M = map(int, input().split())$/;"	v
+N	graph/bfs.py	/^N, M = map(int, input().split())$/;"	v
+N	graph/box_in_box.py	/^N, X = map(int, input().split())$/;"	v
+N	graph/dfs.py	/^N, M = map(int, input().split())$/;"	v
+N	graph/dijkstra.py	/^N, M = map(int, input().split())$/;"	v
+N	graph/follow.py	/^N,M = map(int,input().split())$/;"	v
+N	graph/friend.py	/^N,A,B = map(int,input().split())$/;"	v
+N	graph/friend_of_popular.py	/^N, M = map(int, input().split())$/;"	v
+N	graph/friends_friend.py	/^N, M, X = map(int, input().split())$/;"	v
+N	graph/ikigakejun.py	/^N = int(input())$/;"	v
+N	graph/keirohukugen.py	/^N, M = map(int, input().split())$/;"	v
+N	main.py	/^N, W = map(int, input().split())$/;"	v
+P	graph/ikigakejun.py	/^P = list(map(int, input().split()))$/;"	v
+S	dp/diff_nums.py	/^S = str(input())$/;"	v
+S	dp/saityoukyoutsuububunnretsu.py	/^S = str(input())$/;"	v
+S	graph/friend.py	/^S = []$/;"	v
+T	dp/diff_nums.py	/^T = str(input())$/;"	v
+T	dp/saityoukyoutsuububunnretsu.py	/^T = str(input())$/;"	v
+UnionFind	graph/saisyouzenikigi.py	/^class UnionFind():$/;"	c
+W	dp/knapsack.py	/^N, W = map(int, input().split())$/;"	v
+W	main.py	/^N, W = map(int, input().split())$/;"	v
+X	graph/box_in_box.py	/^    X = A[X]$/;"	v
+X	graph/box_in_box.py	/^N, X = map(int, input().split())$/;"	v
+X	graph/friends_friend.py	/^N, M, X = map(int, input().split())$/;"	v
+X	main.py	/^    X, Y, A = map(int, input().split())$/;"	v
+Y	main.py	/^    X, Y, A = map(int, input().split())$/;"	v
+__init__	graph/dijkstra.py	/^    def __init__(self, end, leng):$/;"	m	class:edge
+__init__	graph/keirohukugen.py	/^    def __init__(self, start, end, leng):$/;"	m	class:edge
+__init__	graph/saisyouzenikigi.py	/^    def __init__(self, n):$/;"	m	class:UnionFind
+__init__	graph/saisyouzenikigi.py	/^    def __init__(self, start, end, leng):$/;"	m	class:edge
+__init__	main.py	/^    def __init__(self, id, name, score):$/;"	m	class:restrant
+__init__	sort/heap_sort.py	/^    def __init__(self) -> None:$/;"	m	class:MiniHeap	typeref:typename:None
+__lt__	graph/saisyouzenikigi.py	/^    def __lt__(self, other):$/;"	m	class:edge
+_binary_search	binary_search.py	/^    def _binary_search(numbers: List[int], value: int,$/;"	f	function:binary_search	typeref:typename:IndexNum	file:
+_quick_sort	sort/quick_sort.py	/^    def _quick_sort(numbers: List[int], low: int, high: int) -> None:$/;"	f	function:quick_sort	typeref:typename:None	file:
+a	dp/kosuuseigentsukibubunwa.py	/^    a, b = map(int, input().split())$/;"	v
+a	dp/saidaiwa.py	/^a = list(map(int, input().split()))$/;"	v
+a	graph/dfs.py	/^    a, b = map(int, input().split())$/;"	v
+a	graph/follow.py	/^    a,b = map(int,input().split())$/;"	v
+a	input/input_list.py	/^a = list(map(int, input().split()))$/;"	v
+a	input/input_multiple_num.py	/^a, n = map(int, input().split())$/;"	v
+a	input_list.py	/^a = list(map(int, input().split()))$/;"	v
+a	input_multiple_num.py	/^a, n = map(int, input().split())$/;"	v
+a	inputs.py	/^a = [input() for _ in range(n)]$/;"	v
+a	inputs.py	/^a = list(map(int, input().split()))$/;"	v
+a	inputs.py	/^a, n = map(int, input().split())$/;"	v
+a	main.py	/^        a = a[1:]$/;"	v
+a	main.py	/^a = []$/;"	v
+a	main.py	/^a = [input() for _ in range(n)]$/;"	v
+a	main.py	/^a = list(map(int, input().split()))$/;"	v
+a	main.py	/^a, b = map(str, input().split())$/;"	v
+a	main.py	/^a, b, c = map(int, input().split())$/;"	v
+a	main.py	/^a, b, k = map(int, input().split())$/;"	v
+a	main.py	/^a, b, x = map(int, input().split())$/;"	v
+a	main.py	/^x, y, a = [0]*n, [0]*n, [0]*n$/;"	v
+a	main.py	/^x, y, a = []$/;"	v
+a	main.py	/^x, y, a = []*n$/;"	v
+a	main.py	/^x, y, a = []*n, []*n, []*n$/;"	v
+acgt	main.py	/^acgt = ['a', 'c', 'g', 't']$/;"	v
+activity	main.py	/^activity = [[] for _ in range(n)]$/;"	v
+ai	main.py	/^    ai, bi, ci = map(int, input().split())$/;"	v
+ans	dp/bubunwa.py	/^    ans = 'Yes'$/;"	v
+ans	main.py	/^ans = 0$/;"	v
+aoki	main.py	/^takahashi, aoki, k = map(int, input().split())$/;"	v
+b	dp/kosuuseigentsukibubunwa.py	/^    a, b = map(int, input().split())$/;"	v
+b	graph/dfs.py	/^    a, b = map(int, input().split())$/;"	v
+b	graph/follow.py	/^    a,b = map(int,input().split())$/;"	v
+b	main.py	/^        b = b[1:]$/;"	v
+b	main.py	/^a, b = map(str, input().split())$/;"	v
+b	main.py	/^a, b, c = map(int, input().split())$/;"	v
+b	main.py	/^a, b, k = map(int, input().split())$/;"	v
+b	main.py	/^a, b, x = map(int, input().split())$/;"	v
+b	main.py	/^b = []$/;"	v
+bi	main.py	/^    ai, bi, ci = map(int, input().split())$/;"	v
+binary_search	binary_search.py	/^def binary_search(numbers: List[int], value: int) -> IndexNum:$/;"	f	typeref:typename:IndexNum
+bit_string_to_integer	bit_string_to_integer.py	/^def bit_string_to_integer(bit_string):$/;"	f
+bubble_sort	sort/bubble_sort.py	/^def bubble_sort(numbers: List[int]) -> List[int]:$/;"	f	typeref:typename:List[int]
+c	dp/saisyoukosutodanseimaching.py	/^    c = list(map(int, input().split()))$/;"	v
+c	main.py	/^        c = c[1:]$/;"	v
+c	main.py	/^a, b, c = map(int, input().split())$/;"	v
+c	main.py	/^c = []$/;"	v
+calc_manhattan	main.py	/^def calc_manhattan(ai, bi, cj, dj):$/;"	f
+calculator	main.py	/^def calculator(op1, op2, operatorChar):$/;"	f
+chs	graph/ikigakejun.py	/^chs = [[] for v in range(N)]$/;"	v
+ci	main.py	/^    ai, bi, ci = map(int, input().split())$/;"	v
+cnt	main.py	/^cnt = 0$/;"	v
+col	main.py	/^col = [False]*h$/;"	v
+col	main.py	/^col = [False]*w$/;"	v
+compare	main.py	/^compare = ''$/;"	v
+compareA	main.py	/^        compareA = a[j:j+m][i:i+m]$/;"	v
+compareA	main.py	/^    compareA = make_compareA(a, i)$/;"	v
+d	graph/dijkstra.py	/^            d = dist[i]$/;"	v
+d	graph/dijkstra.py	/^    v, d = -1, 2*INF    # v：次に見るべき頂点、d：仮の最小値$/;"	v
+d	main.py	/^d = []$/;"	v
+dir_name	make_dirs_and_files.py	/^    dir_name = f'temp{i}'$/;"	v
+dist	graph/bfs.py	/^dist = [-1] * N$/;"	v
+dist	graph/dijkstra.py	/^dist = [INF for _ in range(N)]  # dist[i]：頂点 0 から頂点 i への暫定的な経路長$/;"	v
+dist	graph/keirohukugen.py	/^dist = [INF for _ in range(N)]  # dist[i]：現在の d_i の値 (0 以外は 10^9 で初期化す/;"	v
+distance	main.py	/^        distance = calc_manhattan(a[i], b[i], c[j], d[j])$/;"	v
+done	graph/dijkstra.py	/^done = [False for _ in range(N)]    # done[i]：頂点 i の最短距離が確定しているか$/;"	v
+dp	dp/bubunwa.py	/^dp = [[False]*(M+1) for _ in range(N+1)]$/;"	v
+dp	dp/bubunwakazoeage.py	/^dp = [[0]*(M+1) for _ in range(N+1)]$/;"	v
+dp	dp/diff_nums.py	/^dp = [[INF] * field_len for _ in range(field_len)]$/;"	v
+dp	dp/k_koinaibubunwa.py	/^dp = [[INF]*(M+1) for _ in range(N+1)]$/;"	v
+dp	dp/knapsack.py	/^dp = [[0]*(W+1) for i in range(N+1)]$/;"	v
+dp	dp/kosuuseigentsukibubunwa.py	/^dp = [[INF]*(M+1) for _ in range(N+1)]$/;"	v
+dp	dp/saisyoukosutodanseimaching.py	/^dp = [[INF]*field_size for _ in range(field_size)]$/;"	v
+dp	dp/saisyoukosuububunwa.py	/^dp = [[INF]*(M+1) for _ in range(N+1)]$/;"	v
+dp	dp/saityoukyoutsuububunnretsu.py	/^dp = [[0]*field_size for _ in range(field_size)]$/;"	v
+dp	main.py	/^dp = [0]*n$/;"	v
+dp	main.py	/^dp = [10**10]*n$/;"	v
+dp	main.py	/^dp = [[0]*(W+1) for i in range(N+1)]$/;"	v
+dp	main.py	/^dp = [[0]*3 for _ in range(n)]$/;"	v
+dp	main.py	/^dp = [[0]*3 for _ in range(n+1)]$/;"	v
+edge	graph/dijkstra.py	/^class edge:$/;"	c
+edge	graph/keirohukugen.py	/^class edge:$/;"	c
+edge	graph/saisyouzenikigi.py	/^class edge:$/;"	c
+f	main.py	/^def f(a, b):$/;"	f
+field	main.py	/^field = [[0]*w]*h$/;"	v
+field	main.py	/^field = [[] for _ in range(w)]*h$/;"	v
+field_len	dp/diff_nums.py	/^field_len = max(len(S), len(T))+2$/;"	v
+field_size	dp/saisyoukosutodanseimaching.py	/^field_size = max(N, M)+10$/;"	v
+field_size	dp/saityoukyoutsuububunnretsu.py	/^field_size = max(len(S), len(T))+10$/;"	v
+flg	graph/keirohukugen.py	/^    flg = False  # k 回目のステップで dist の変更があるかを表すフラグ$/;"	v
+friends	graph/friends_friend.py	/^friends = set(G[X])$/;"	v
+graph_edges	graph/keirohukugen.py	/^graph_edges = [[] for _ in range(M)]    # graph_edges[i]：i 番目の辺情報$/;"	v
+h	main.py	/^h = list(map(int, input().split()))$/;"	v
+h	main.py	/^h, w = map(int, input().split())$/;"	v
+h	main.py	/^w, h, n = map(int, input().split())$/;"	v
+heapify_down	sort/heap_sort.py	/^    def heapify_down(self, index: int) -> None:$/;"	m	class:MiniHeap	typeref:typename:None
+heapify_up	sort/heap_sort.py	/^    def heapify_up(self, index: int) -> None:$/;"	m	class:MiniHeap	typeref:typename:None
+height	main.py	/^height = maxY - minY if maxY > minY else 0$/;"	v
+index	main.py	/^index = 1$/;"	v
+input_lines	input_file.py	/^    input_lines = [line.strip().split(',') for line in f.readlines()]$/;"	v
+input_lines	inputs.py	/^    input_lines = [line.strip().split(',') for line in f.readlines()]$/;"	v
+insertion_sort	sort/insertion_sort.py	/^def insertion_sort(numbers: List[int]) -> List[int]:$/;"	f	typeref:typename:List[int]
+integer_to_bit_string	integer_to_bit_string.py	/^def integer_to_bit_string(num):$/;"	f
+is_involved	main.py	/^            is_involved = True$/;"	v
+is_involved	main.py	/^        is_involved = True$/;"	v
+is_involved	main.py	/^is_involved = False$/;"	v
+issame	graph/saisyouzenikigi.py	/^    def issame(self, x, y):$/;"	f	member:UnionFind.root	file:
+k	dp/k_koinaibubunwa.py	/^N, M, k = map(int, input().split())$/;"	v
+k	main.py	/^a, b, k = map(int, input().split())$/;"	v
+k	main.py	/^k = []$/;"	v
+k	main.py	/^k = int(input())$/;"	v
+k	main.py	/^k, s = map(int, input().split())$/;"	v
+k	main.py	/^n, k = map(int, input().split())$/;"	v
+k	main.py	/^takahashi, aoki, k = map(int, input().split())$/;"	v
+left_child_index	sort/heap_sort.py	/^    def left_child_index(self, index: int) -> int:$/;"	m	class:MiniHeap	typeref:typename:int
+linear_search	binary_search.py	/^def linear_search(numbers: List[int], value: int) -> IndexNum:$/;"	f	typeref:typename:IndexNum
+lines	input_file.py	/^    lines = []$/;"	v
+lines	inputs.py	/^    lines = []$/;"	v
+m	main.py	/^n, m = map(int, input().split())$/;"	v
+m	main.py	/^n, m, x, y = map(int, input().split())$/;"	v
+make_compareA	main.py	/^def make_compareA(a: list):$/;"	f
+make_compareA	main.py	/^def make_compareA(a: list, i):$/;"	f
+maxX	main.py	/^        maxX = max(a[i]-1, maxX)$/;"	v
+maxX	main.py	/^        maxX = max(x[i], maxX)$/;"	v
+maxX	main.py	/^maxX = 0$/;"	v
+maxY	main.py	/^        maxY = max(a[i]-1, maxY)$/;"	v
+maxY	main.py	/^        maxY = max(x[i], maxY)$/;"	v
+maxY	main.py	/^maxY = 0$/;"	v
+max_index	graph/friend_of_popular.py	/^        max_index = i$/;"	v
+max_index	graph/friend_of_popular.py	/^max_index = -1$/;"	v
+max_len	graph/friend_of_popular.py	/^        max_len = len(G[i])$/;"	v
+max_len	graph/friend_of_popular.py	/^max_len = -1$/;"	v
+merge_sort	sort/merge_sort.py	/^def merge_sort(numbers: List[int]) -> List[int]:$/;"	f	typeref:typename:List[int]
+minX	main.py	/^        minX = min(a[i]+1, minX)$/;"	v
+minX	main.py	/^        minX = min(x[i], minX)$/;"	v
+minX	main.py	/^minX = 10000$/;"	v
+minX	main.py	/^minX = w$/;"	v
+minY	main.py	/^        minY = min(a[i]+1, minY)$/;"	v
+minY	main.py	/^        minY = min(x[i], minY)$/;"	v
+minY	main.py	/^minY = 10000$/;"	v
+minY	main.py	/^minY = h$/;"	v
+min_child_index	sort/heap_sort.py	/^    def min_child_index(self, index: int) -> int:$/;"	m	class:MiniHeap	typeref:typename:int
+min_distance	main.py	/^            min_distance = distance$/;"	v
+min_distance	main.py	/^    min_distance = 10**19$/;"	v
+min_heap	sort/heap_sort.py	/^    min_heap = MiniHeap()$/;"	v
+n	dp/saidaiwa.py	/^n = int(input())$/;"	v
+n	input/input_multiple_num.py	/^a, n = map(int, input().split())$/;"	v
+n	input/input_num.py	/^n = int(input())$/;"	v
+n	input_multiple_num.py	/^a, n = map(int, input().split())$/;"	v
+n	input_num.py	/^n = int(input())$/;"	v
+n	inputs.py	/^a, n = map(int, input().split())$/;"	v
+n	inputs.py	/^n = int(input())$/;"	v
+n	main.py	/^n = int(input())$/;"	v
+n	main.py	/^n = int(input())j$/;"	v
+n	main.py	/^n = n(input())$/;"	v
+n	main.py	/^n = str(input())$/;"	v
+n	main.py	/^n, k = map(int, input().split())$/;"	v
+n	main.py	/^n, m = map(int, input().split())$/;"	v
+n	main.py	/^n, m, x, y = map(int, input().split())$/;"	v
+n	main.py	/^w, h, n = map(int, input().split())$/;"	v
+nab	main.py	/^nab = int(input())$/;"	v
+nodes	graph/bfs.py	/^nodes = [[] for i in range(N)]$/;"	v
+now	graph/keirohukugen.py	/^    now = prev[now]$/;"	v
+now	graph/keirohukugen.py	/^now = N-1$/;"	v
+nums	binary_search.py	/^    nums = [0, 1, 5, 7, 9, 11, 15, 20, 24]$/;"	v
+nums	sort/bubble_sort.py	/^    nums = [2,3,56,0,2]$/;"	v
+nums	sort/insertion_sort.py	/^    nums = [2, 3, 56, 0, 2, 2, 3, 4, 3, 2, 38, 1]$/;"	v
+nums	sort/merge_sort.py	/^    nums = [1,2,4,1,3,2,5,6,7,45,42,1,0]$/;"	v
+nums	sort/quick_sort.py	/^    nums = [2, 3, 56, 0, 2]$/;"	v
+nums	sort/selection_sort.py	/^    nums = [2, 3, 56, 0, 2,2,3,4,3,2,38,1]$/;"	v
+order	graph/keirohukugen.py	/^order = []  # 頂点 0 から N-1 へ向かう最短経路を保存する配列$/;"	v
+p	graph/ikigakejun.py	/^    p = P[v - 1]$/;"	v
+p	main.py	/^    p = int(p)$/;"	v
+p	main.py	/^    s, p = input().split()$/;"	v
+p	main.py	/^p = list(map(int, input().split()))$/;"	v
+parent_index	sort/heap_sort.py	/^    def parent_index(self, index: int) -> int:$/;"	m	class:MiniHeap	typeref:typename:int
+partition	sort/quick_sort.py	/^def partition(numbers: List[int], low: int, high: int) -> int:$/;"	f	typeref:typename:int
+pi	syousuutenkirisute.py	/^    pi = 3.141592653589793238$/;"	v
+pin	main.py	/^    pin = [str(i % 10), str((i\/\/10) % 10), str((i\/\/100) % 10)]$/;"	v
+pin_index	main.py	/^    pin_index = 0$/;"	v
+play	main.py	/^def play(Player):$/;"	f
+play	main.py	/^def play(Player: str):$/;"	f
+point	main.py	/^point = [0]*n$/;"	v
+pop	sort/heap_sort.py	/^    def pop(self) -> Optional[int]:$/;"	m	class:MiniHeap	typeref:typename:Optional[int]
+prev	graph/keirohukugen.py	/^prev = [-1 for _ in range(N)]   # prev[i]：頂点 0 から i への最短経路において、頂/;"	v
+prev	main.py	/^            prev = 'a'$/;"	v
+prev	main.py	/^            prev = 'b'$/;"	v
+prev	main.py	/^    prev = 'a'$/;"	v
+prev	main.py	/^    prev = 'b'$/;"	v
+prev	main.py	/^    prev = 'c'$/;"	v
+prev	main.py	/^prev = ''$/;"	v
+push	sort/heap_sort.py	/^    def push(self, value: int) -> None:$/;"	m	class:MiniHeap	typeref:typename:None
+quick_sort	sort/quick_sort.py	/^def quick_sort(numbers: List[int]) -> List[int]:$/;"	f	typeref:typename:List[int]
+re	dp/saidaiwa.py	/^re = 0$/;"	v
+re	graph/follow.py	/^re = [[]*N]$/;"	v
+re	main.py	/^            re = min(re, f(i, j))$/;"	v
+re	main.py	/^        re = min(f(i, n\/\/i), re)$/;"	v
+re	main.py	/^re = 0$/;"	v
+re	main.py	/^re = 10000$/;"	v
+re	main.py	/^re = 10000000$/;"	v
+rec	graph/dfs.py	/^def rec(v, G, seen):$/;"	f
+rec	graph/ikigakejun.py	/^def rec(v, chs):$/;"	f
+reportGeneralTypeIssues	pyrightconfig.json	/^  "reportGeneralTypeIssues": "none",$/;"	s
+reportOptionalSubscript	pyrightconfig.json	/^  "reportOptionalSubscript": "none"$/;"	s
+res	graph/box_in_box.py	/^res = 0$/;"	v
+res	main.py	/^            res = 'A'$/;"	v
+res	main.py	/^            res = 'B'$/;"	v
+res	main.py	/^            res = 'C'$/;"	v
+res	main.py	/^res = ''$/;"	v
+restrant	main.py	/^class restrant:$/;"	c
+restrants	main.py	/^restrants = []$/;"	v
+result	graph/friends_friend.py	/^result = set()$/;"	v
+right_child_index	sort/heap_sort.py	/^    def right_child_index(self, index: int) -> int:$/;"	m	class:MiniHeap	typeref:typename:int
+root	graph/saisyouzenikigi.py	/^    def root(self, x):$/;"	m	class:UnionFind
+rootb	main.py	/^rootb = math.sqrt(b)$/;"	v
+row	main.py	/^row = [False]*h$/;"	v
+row	main.py	/^row = [False]*w$/;"	v
+s	graph/friend.py	/^    s = input()$/;"	v
+s	input/input_string.py	/^s = str(input())$/;"	v
+s	input_string.py	/^s = str(input())$/;"	v
+s	inputs.py	/^s = str(input())$/;"	v
+s	main.py	/^    s = str(input())$/;"	v
+s	main.py	/^    s, p = input().split()$/;"	v
+s	main.py	/^k, s = map(int, input().split())$/;"	v
+s	main.py	/^s = []$/;"	v
+s	main.py	/^s = str(input())$/;"	v
+seen	graph/dfs.py	/^seen = [False for _ in range(N)]    # seen[v]：頂点 v が黒く塗られいているなら tr/;"	v
+seen	graph/dfs.py	/^seen = [False for _ in range(N)]$/;"	v
+selection_sort	sort/selection_sort.py	/^def selection_sort(numbers: List[int]) -> List[int]:$/;"	f	typeref:typename:List[int]
+size	graph/saisyouzenikigi.py	/^    def size(self, x):$/;"	f	function:UnionFind.root.issame.unite	file:
+sumnum	main.py	/^sumnum = 0$/;"	v
+swap	sort/heap_sort.py	/^    def swap(self, index1: int, index2: int) -> None:$/;"	m	class:MiniHeap	typeref:typename:None
+t	main.py	/^        t = a[0]$/;"	v
+t	main.py	/^        t = b[0]$/;"	v
+t	main.py	/^        t = c[0]$/;"	v
+takahashi	main.py	/^takahashi, aoki, k = map(int, input().split())$/;"	v
+to_decimal	main.py	/^def to_decimal(string):$/;"	f
+turn	main.py	/^turn = A[0]$/;"	v
+u	graph/dijkstra.py	/^    u, v, w = map(int, input().split())$/;"	v
+u	graph/keirohukugen.py	/^        u, v, w = graph_edges[i]$/;"	v
+u	graph/keirohukugen.py	/^    u, v, w = map(int, input().split())$/;"	v
+unite	graph/saisyouzenikigi.py	/^    def unite(self, x, y):$/;"	f	function:UnionFind.root.issame	file:
+v	dp/knapsack.py	/^v = [0]*N$/;"	v
+v	graph/dijkstra.py	/^            v = i$/;"	v
+v	graph/dijkstra.py	/^    u, v, w = map(int, input().split())$/;"	v
+v	graph/dijkstra.py	/^    v, d = -1, 2*INF    # v：次に見るべき頂点、d：仮の最小値$/;"	v
+v	graph/keirohukugen.py	/^        u, v, w = graph_edges[i]$/;"	v
+v	graph/keirohukugen.py	/^    u, v, w = map(int, input().split())$/;"	v
+v	main.py	/^v = [0]*N$/;"	v
+v_in	dp/knapsack.py	/^    w_in, v_in = map(int, input().split())$/;"	v
+v_in	main.py	/^    w_in, v_in = map(int, input().split())$/;"	v
+w	dp/knapsack.py	/^w = [0]*N$/;"	v
+w	graph/dijkstra.py	/^    u, v, w = map(int, input().split())$/;"	v
+w	graph/keirohukugen.py	/^        u, v, w = graph_edges[i]$/;"	v
+w	graph/keirohukugen.py	/^    u, v, w = map(int, input().split())$/;"	v
+w	main.py	/^h, w = map(int, input().split())$/;"	v
+w	main.py	/^w = [0]*N$/;"	v
+w	main.py	/^w, h, n = map(int, input().split())$/;"	v
+w_in	dp/knapsack.py	/^    w_in, v_in = map(int, input().split())$/;"	v
+w_in	main.py	/^    w_in, v_in = map(int, input().split())$/;"	v
+width	main.py	/^width = maxX - minX if maxX > minX else 0$/;"	v
+width	main.py	/^width = maxX-minX if maxX > minX else 0$/;"	v
+win	main.py	/^            win = 'A'$/;"	v
+win	main.py	/^            win = 'B'$/;"	v
+win	main.py	/^            win = 'C'$/;"	v
+winner	main.py	/^            winner = 'A'$/;"	v
+winner	main.py	/^            winner = 'B'$/;"	v
+winner	main.py	/^            winner = 'C'$/;"	v
+winner	main.py	/^winner = ''$/;"	v
+x	main.py	/^        x = i$/;"	v
+x	main.py	/^a, b, x = map(int, input().split())$/;"	v
+x	main.py	/^n, m, x, y = map(int, input().split())$/;"	v
+x	main.py	/^x = []$/;"	v
+x	main.py	/^x = [map(int, input()) for _ in range(n)]$/;"	v
+x	main.py	/^x = [map(int, input) for _ in n:]$/;"	v
+x	main.py	/^x = int(input())$/;"	v
+x	main.py	/^x, y, a = [0]*n, [0]*n, [0]*n$/;"	v
+x	main.py	/^x, y, a = []$/;"	v
+x	main.py	/^x, y, a = []*n$/;"	v
+x	main.py	/^x, y, a = []*n, []*n, []*n$/;"	v
+y	main.py	/^        y = j$/;"	v
+y	main.py	/^n, m, x, y = map(int, input().split())$/;"	v
+y	main.py	/^x, y, a = [0]*n, [0]*n, [0]*n$/;"	v
+y	main.py	/^x, y, a = []$/;"	v
+y	main.py	/^x, y, a = []*n$/;"	v
+y	main.py	/^x, y, a = []*n, []*n, []*n$/;"	v
+y	main.py	/^y = []$/;"	v
+y	main.py	/^y = [map(int, input()) for _ in range(m)]$/;"	v
+z	main.py	/^        z = s-x-y$/;"	v

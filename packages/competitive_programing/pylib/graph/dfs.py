@@ -3,14 +3,16 @@ def rec(v, G, seen):
     # 頂点 v を黒く塗る (= seen[v] を true に変える)
     seen[v] = True
     # v を出力する (改行を防ぐため、end 引数を使って命令している)
-    print(v, end = " ")
+    print(v, end=" ")
     # G[v] に含まれる頂点 v2 について、
     for v2 in G[v]:
         # v2 がすでに黒く塗られているならば、スキップする
-        if seen[v2]: continue
+        if seen[v2]:
+            continue
         # v2 始点で深さ優先探索を行う (関数を再帰させる)
         rec(v2, G, seen)
     return
+
 
 # main
 # 入力を受け取る
@@ -23,8 +25,9 @@ for i in range(M):
 
 # 問題文より、各 G[v] は小さい順に並べる
 for v in range(N):
-   G[v].sort()
+    G[v].sort()
 
-seen = [False for _ in range(N)]    # seen[v]：頂点 v が黒く塗られいているなら true, そうでないなら false
+# seen[v]：頂点 v が黒く塗られいているなら true, そうでないなら false
+seen = [False for _ in range(N)]
 # 頂点 0 を始点として深さ優先探索を開始する
 rec(0, G, seen)

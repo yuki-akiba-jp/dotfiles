@@ -1,3 +1,10 @@
+
+n = int(input())
+a = list(map(int, input().split()))
+s = str(input())
+a, n = map(int, input().split())
+a = [input() for _ in range(n)]
+
 with open('./filename', 'r') as f:
     input_lines = [line.strip().split(',') for line in f.readlines()]
 

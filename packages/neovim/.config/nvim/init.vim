@@ -17,7 +17,6 @@ set smartcase
 set buftype=
 set encoding=utf-8
 set isk+=@-@
-set isk+=-
 syntax on
 filetype on
 
@@ -83,6 +82,7 @@ augroup mygroup
   autocmd!
   " Setup formatexpr specified filetype(s).
   autocmd FileType typescript,javascript,json setlocal formatexpr=CocAction('formatSelected') shiftwidth=2 tabstop=2
+  autocmd FileType typescript,javascript,html set isk+=-
   autocmd FileType python,cpp,c,typescript,javascript,php let b:coc_pairs_disabled = ['<']
   autocmd FileType html setlocal shiftwidth=2 tabstop=2 filetype=html
   " Update signature help on jump placeholder
@@ -99,12 +99,14 @@ nnoremap fj :Telescope find_files<CR>
 nnoremap Y y$
 noremap fo o<ESC>
 nnoremap fg :GrammarousCheck
+nnoremap ff :!./%:r<CR>
 
 augroup setAutoCompile
     autocmd!
     " autocmd BufNewFile,BufRead *.html setfiletype html
     autocmd BufWritePost *.c :make -f ~/dotfiles/packages/Makefile/cMakefile
     autocmd BufWritePost *.cpp :make -f ~/dotfiles/packages/Makefile/cppMakefile
+    autocmd BufWritePost *.f90 :make -f ~/dotfiles/packages/Makefile/fortranMakefile
     autocmd BufWritePost *.html :Prettier
     " autocmd BufWritePost *.html :CocCommand htmldjango.djlint.format
     autocmd BufWritePost *.py :Isort
@@ -150,14 +152,14 @@ let g:quickrun_config._ = {
 
 let g:quickrun_config.python = {
     \  'command': "python3",
-    \ 'input': 'input',  
+    \ 'input': 'infile',  
     \ 'cmdopt': '-u'  
     \ }
 
 
 let g:quickrun_config.cpp = {
     \ 'command': 'g++',
-    \ 'input': 'input',  
+    \ 'input': 'infile',  
     \ 'runner': 'system'  
     \ }
 let g:auto_ctags = 1

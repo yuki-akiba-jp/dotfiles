@@ -1,32 +1,15 @@
 CC = g++
-# CPP files
+
 SRCS = $(wildcard *.cpp)
-# executables
+
 EXES = $(patsubst %.cpp,%,$(SRCS))
-# test result files
-TESTS = $(patsubst %.cpp,%.test,$(SRCS))
+
 CFLAGS = -std=c++14 
 
-# perform EXES and TESTS
-all: $(EXES) $(TESTS)
+all: $(EXES)
 
-# complie all CPP files (%.cpp) and generate executables (%)
-# ($< is *.cpp and $@ is executable)
 %: %.cpp
 	$(CC) $(CFLAGS) -o $@ $<
 
-# compile all CPP files and test 
-# ($< is *.cpp, $@ is *.test, ${@:.test=} is *.test but delete ".test")
-#%.test: %.cpp
-#   $(CC) $(CFLAGS) -o ${@:.test=} $<
-#   ./${@:.test=} > $@
-
-# run all executables (%) and generate result files (%.test)
-# ($< is executables, $@ is *.test)
-# %.test: %
-	# ./$<  > $@
-
-# delete all executables and result files
 clean: 
-	# rm -f $(EXES) $(TESTS)
 	rm -f $(EXES)
