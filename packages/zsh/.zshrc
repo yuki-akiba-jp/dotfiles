@@ -17,3 +17,7 @@ export PATH="/usr/local/bin:$PATH"
 # chmod +x ~/.zsh_alias
 source ~/.zsh_alias
 export PATH=~/.npm-global/bin:$PATH
+
+function gp() {
+ command git fetch origin pull/$1/head:PR-$1
+}

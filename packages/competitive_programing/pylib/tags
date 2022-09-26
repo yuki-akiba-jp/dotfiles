@@ -98,11 +98,14 @@ N	graph/friend_of_popular.py	/^N, M = map(int, input().split())$/;"	v
 N	graph/friends_friend.py	/^N, M, X = map(int, input().split())$/;"	v
 N	graph/ikigakejun.py	/^N = int(input())$/;"	v
 N	graph/keirohukugen.py	/^N, M = map(int, input().split())$/;"	v
+N	main.py	/^N = int(input())$/;"	v
 N	main.py	/^N, W = map(int, input().split())$/;"	v
+N_bit_string	main.py	/^N_bit_string = integer_to_bit_string(N)$/;"	v
 P	graph/ikigakejun.py	/^P = list(map(int, input().split()))$/;"	v
 S	dp/diff_nums.py	/^S = str(input())$/;"	v
 S	dp/saityoukyoutsuububunnretsu.py	/^S = str(input())$/;"	v
 S	graph/friend.py	/^S = []$/;"	v
+S	main.py	/^S = []$/;"	v
 T	dp/diff_nums.py	/^T = str(input())$/;"	v
 T	dp/saityoukyoutsuububunnretsu.py	/^T = str(input())$/;"	v
 UnionFind	graph/saisyouzenikigi.py	/^class UnionFind():$/;"	c
@@ -133,12 +136,16 @@ a	input_multiple_num.py	/^a, n = map(int, input().split())$/;"	v
 a	inputs.py	/^a = [input() for _ in range(n)]$/;"	v
 a	inputs.py	/^a = list(map(int, input().split()))$/;"	v
 a	inputs.py	/^a, n = map(int, input().split())$/;"	v
+a	main.py	/^            a = i+1$/;"	v
 a	main.py	/^        a = a[1:]$/;"	v
+a	main.py	/^a = 0$/;"	v
 a	main.py	/^a = []$/;"	v
 a	main.py	/^a = [input() for _ in range(n)]$/;"	v
 a	main.py	/^a = list(map(int, input().split()))$/;"	v
 a	main.py	/^a, b = map(str, input().split())$/;"	v
 a	main.py	/^a, b, c = map(int, input().split())$/;"	v
+a	main.py	/^a, b, c, d = map(int, input().split())$/;"	v
+a	main.py	/^a, b, c, d, e = map(int, input().split())$/;"	v
 a	main.py	/^a, b, k = map(int, input().split())$/;"	v
 a	main.py	/^a, b, x = map(int, input().split())$/;"	v
 a	main.py	/^x, y, a = [0]*n, [0]*n, [0]*n$/;"	v
@@ -154,19 +161,28 @@ aoki	main.py	/^takahashi, aoki, k = map(int, input().split())$/;"	v
 b	dp/kosuuseigentsukibubunwa.py	/^    a, b = map(int, input().split())$/;"	v
 b	graph/dfs.py	/^    a, b = map(int, input().split())$/;"	v
 b	graph/follow.py	/^    a,b = map(int,input().split())$/;"	v
+b	main.py	/^            b = i$/;"	v
 b	main.py	/^        b = b[1:]$/;"	v
 b	main.py	/^a, b = map(str, input().split())$/;"	v
 b	main.py	/^a, b, c = map(int, input().split())$/;"	v
+b	main.py	/^a, b, c, d = map(int, input().split())$/;"	v
+b	main.py	/^a, b, c, d, e = map(int, input().split())$/;"	v
 b	main.py	/^a, b, k = map(int, input().split())$/;"	v
 b	main.py	/^a, b, x = map(int, input().split())$/;"	v
+b	main.py	/^b = 0$/;"	v
 b	main.py	/^b = []$/;"	v
 bi	main.py	/^    ai, bi, ci = map(int, input().split())$/;"	v
 binary_search	binary_search.py	/^def binary_search(numbers: List[int], value: int) -> IndexNum:$/;"	f	typeref:typename:IndexNum
 bit_string_to_integer	bit_string_to_integer.py	/^def bit_string_to_integer(bit_string):$/;"	f
+bit_string_to_integer	main.py	/^def bit_string_to_integer(bit_string):$/;"	f
 bubble_sort	sort/bubble_sort.py	/^def bubble_sort(numbers: List[int]) -> List[int]:$/;"	f	typeref:typename:List[int]
 c	dp/saisyoukosutodanseimaching.py	/^    c = list(map(int, input().split()))$/;"	v
+c	main.py	/^            c = j+1$/;"	v
 c	main.py	/^        c = c[1:]$/;"	v
 c	main.py	/^a, b, c = map(int, input().split())$/;"	v
+c	main.py	/^a, b, c, d = map(int, input().split())$/;"	v
+c	main.py	/^a, b, c, d, e = map(int, input().split())$/;"	v
+c	main.py	/^c = 0$/;"	v
 c	main.py	/^c = []$/;"	v
 calc_manhattan	main.py	/^def calc_manhattan(ai, bi, cj, dj):$/;"	f
 calculator	main.py	/^def calculator(op1, op2, operatorChar):$/;"	f
@@ -180,6 +196,10 @@ compareA	main.py	/^        compareA = a[j:j+m][i:i+m]$/;"	v
 compareA	main.py	/^    compareA = make_compareA(a, i)$/;"	v
 d	graph/dijkstra.py	/^            d = dist[i]$/;"	v
 d	graph/dijkstra.py	/^    v, d = -1, 2*INF    # v：次に見るべき頂点、d：仮の最小値$/;"	v
+d	main.py	/^            d = i$/;"	v
+d	main.py	/^a, b, c, d = map(int, input().split())$/;"	v
+d	main.py	/^a, b, c, d, e = map(int, input().split())$/;"	v
+d	main.py	/^d = 0$/;"	v
 d	main.py	/^d = []$/;"	v
 dir_name	make_dirs_and_files.py	/^    dir_name = f'temp{i}'$/;"	v
 dist	graph/bfs.py	/^dist = [-1] * N$/;"	v
@@ -201,6 +221,7 @@ dp	main.py	/^dp = [10**10]*n$/;"	v
 dp	main.py	/^dp = [[0]*(W+1) for i in range(N+1)]$/;"	v
 dp	main.py	/^dp = [[0]*3 for _ in range(n)]$/;"	v
 dp	main.py	/^dp = [[0]*3 for _ in range(n+1)]$/;"	v
+e	main.py	/^a, b, c, d, e = map(int, input().split())$/;"	v
 edge	graph/dijkstra.py	/^class edge:$/;"	c
 edge	graph/keirohukugen.py	/^class edge:$/;"	c
 edge	graph/saisyouzenikigi.py	/^class edge:$/;"	c
@@ -212,6 +233,7 @@ field_size	dp/saisyoukosutodanseimaching.py	/^field_size = max(N, M)+10$/;"	v
 field_size	dp/saityoukyoutsuububunnretsu.py	/^field_size = max(len(S), len(T))+10$/;"	v
 flg	graph/keirohukugen.py	/^    flg = False  # k 回目のステップで dist の変更があるかを表すフラグ$/;"	v
 friends	graph/friends_friend.py	/^friends = set(G[X])$/;"	v
+func	main.py	/^def func(n_bit_string):$/;"	f
 graph_edges	graph/keirohukugen.py	/^graph_edges = [[] for _ in range(M)]    # graph_edges[i]：i 番目の辺情報$/;"	v
 h	main.py	/^h = list(map(int, input().split()))$/;"	v
 h	main.py	/^h, w = map(int, input().split())$/;"	v
@@ -224,6 +246,8 @@ input_lines	input_file.py	/^    input_lines = [line.strip().split(',') for line 
 input_lines	inputs.py	/^    input_lines = [line.strip().split(',') for line in f.readlines()]$/;"	v
 insertion_sort	sort/insertion_sort.py	/^def insertion_sort(numbers: List[int]) -> List[int]:$/;"	f	typeref:typename:List[int]
 integer_to_bit_string	integer_to_bit_string.py	/^def integer_to_bit_string(num):$/;"	f
+integer_to_bit_string	main.py	/^def integer_to_bit_string(num):$/;"	f
+is_group	main.py	/^def is_group(x, n_bit_string):$/;"	f
 is_involved	main.py	/^            is_involved = True$/;"	v
 is_involved	main.py	/^        is_involved = True$/;"	v
 is_involved	main.py	/^is_involved = False$/;"	v
@@ -235,6 +259,9 @@ k	main.py	/^k = int(input())$/;"	v
 k	main.py	/^k, s = map(int, input().split())$/;"	v
 k	main.py	/^n, k = map(int, input().split())$/;"	v
 k	main.py	/^takahashi, aoki, k = map(int, input().split())$/;"	v
+l	main.py	/^l = [a, b, c, d, e]$/;"	v
+l	main.py	/^l = list(a, b, c, d, e)$/;"	v
+l	main.py	/^l = set(l)$/;"	v
 left_child_index	sort/heap_sort.py	/^    def left_child_index(self, index: int) -> int:$/;"	m	class:MiniHeap	typeref:typename:int
 linear_search	binary_search.py	/^def linear_search(numbers: List[int], value: int) -> IndexNum:$/;"	f	typeref:typename:IndexNum
 lines	input_file.py	/^    lines = []$/;"	v
@@ -281,6 +308,7 @@ n	main.py	/^n, k = map(int, input().split())$/;"	v
 n	main.py	/^n, m = map(int, input().split())$/;"	v
 n	main.py	/^n, m, x, y = map(int, input().split())$/;"	v
 n	main.py	/^w, h, n = map(int, input().split())$/;"	v
+n_bit_string	main.py	/^n_bit_string = integer_to_bit_string(N)$/;"	v
 nab	main.py	/^nab = int(input())$/;"	v
 nodes	graph/bfs.py	/^nodes = [[] for i in range(N)]$/;"	v
 now	graph/keirohukugen.py	/^    now = prev[now]$/;"	v
@@ -410,3 +438,16 @@ y	main.py	/^x, y, a = []*n, []*n, []*n$/;"	v
 y	main.py	/^y = []$/;"	v
 y	main.py	/^y = [map(int, input()) for _ in range(m)]$/;"	v
 z	main.py	/^        z = s-x-y$/;"	v
+IndexNum	binary_search.py	/^IndexNum = NewType('IndexNum', int)$/;"	v
+linear_search	binary_search.py	/^def linear_search(numbers: List[int], value: int) -> IndexNum:$/;"	f	typeref:typename:IndexNum
+binary_search	binary_search.py	/^def binary_search(numbers: List[int], value: int) -> IndexNum:$/;"	f	typeref:typename:IndexNum
+binary_search	binary_search.py	/^def binary_search(numbers: List[int], value: int) -> IndexNum:$/;"	f	typeref:typename:IndexNum
+_binary_search	binary_search.py	/^    def _binary_search(numbers: List[int], value: int,$/;"	f	function:binary_search	typeref:typename:IndexNum	file:
+nums	binary_search.py	/^    nums = [0, 1, 5, 7, 9, 11, 15, 20, 24]$/;"	v
+reportGeneralTypeIssues	pyrightconfig.json	/^  "reportGeneralTypeIssues": "none",$/;"	s
+reportOptionalSubscript	pyrightconfig.json	/^  "reportOptionalSubscript": "none"$/;"	s
+integer_to_bit_string	integer_to_bit_string.py	/^def integer_to_bit_string(num):$/;"	f
+partition	sort/quick_sort.py	/^def partition(numbers: List[int], low: int, high: int) -> int:$/;"	f	typeref:typename:int
+quick_sort	sort/quick_sort.py	/^def quick_sort(numbers: List[int]) -> List[int]:$/;"	f	typeref:typename:List[int]
+_quick_sort	sort/quick_sort.py	/^    def _quick_sort(numbers: List[int], low: int, high: int) -> None:$/;"	f	function:quick_sort	typeref:typename:None	file:
+nums	sort/quick_sort.py	/^    nums = [2, 3, 56, 0, 2]$/;"	v
