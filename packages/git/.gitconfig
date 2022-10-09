@@ -29,3 +29,5 @@ lga = log --graph --all --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s 
 
 [init]
 	defaultBranch = main
+[pull]
+	rebase = false
