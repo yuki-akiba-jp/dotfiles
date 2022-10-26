@@ -99,7 +99,8 @@ nnoremap fj :Telescope find_files<CR>
 nnoremap Y y$
 noremap fo o<ESC>
 nnoremap fg :GrammarousCheck
-nnoremap ff :!./%:r<CR>
+nnoremap fr :!./%:r<CR>
+nnoremap ff :wq<CR>
 
 augroup setAutoCompile
     autocmd!

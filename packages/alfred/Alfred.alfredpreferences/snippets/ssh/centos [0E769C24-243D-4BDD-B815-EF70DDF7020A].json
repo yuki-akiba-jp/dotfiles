@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "ssh -p 2222 centos@localhost",
+    "uid" : "0E769C24-243D-4BDD-B815-EF70DDF7020A",
+    "name" : "centos",
+    "keyword" : ""
+  }
+}

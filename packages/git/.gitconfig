@@ -2,7 +2,6 @@
     path = ~/dotfiles/packages/git/.gituserinfo.config
 [core]
 	editor = vim -c \"set fenc=utf-8\"
-	pager = less -F -X
 [color]
 	diff = auto
 	status = auto
