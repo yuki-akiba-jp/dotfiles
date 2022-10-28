@@ -1,0 +1,190 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+&	neovim/.config/nvim/init.vim	/^nnoremap & :&&<CR>$/;"	m
+'	neovim/.config/nvim/init.vim	/^nnoremap ' `$/;"	m
+<C-k>	neovim/.config/nvim/init.vim	/^nnoremap <C-k> :w<CR>$/;"	m
+<ESC><ESC>	neovim/.config/nvim/init.vim	/^nnoremap <ESC><ESC> :nohl<CR>$/;"	m
+<S-tab>	neovim/.config/nvim/init.vim	/^nmap <S-tab> :tabprev<CR>$/;"	m
+<Space>	neovim/.config/nvim/init.vim	/^nmap <Space> <C-w>w$/;"	m
+<TAB>	neovim/.config/nvim/init.vim	/^nnoremap <TAB> :tabnext<CR>$/;"	m
+<Tab>	neovim/.config/nvim/init.vim	/^inoremap <silent><expr> <Tab>$/;"	m
+<c-n>	neovim/.config/nvim/init.vim	/^nnoremap <c-n> <TAB>$/;"	m
+<cr>	neovim/.config/nvim/init.vim	/^inoremap <expr> <cr> coc#pum#visible() ? coc#pum#confirm() : "\\<CR>"$/;"	m
+<cr>	neovim/.config/nvim/init.vim	/^inoremap <silent><expr> <cr> coc#pum#visible() ? coc#_select_confirm() : "\\<C-g>u\\<CR>"$/;"	m
+A	competitive_programing/pylib/dp/bubunwa.py	/^A = list(map(int, input().split()))$/;"	v
+A	competitive_programing/pylib/dp/bubunwakazoeage.py	/^A = list(map(int, input().split()))$/;"	v
+A	competitive_programing/pylib/dp/k_koinaibubunwa.py	/^A = list(map(int, input().split()))$/;"	v
+A	competitive_programing/pylib/dp/kosuuseigentsukibubunwa.py	/^A = [0]*N$/;"	v
+A	competitive_programing/pylib/dp/saisyoukosuububunwa.py	/^A = list(map(int, input().split()))$/;"	v
+A	competitive_programing/pylib/graph/box_in_box.py	/^A = list(map(int, input().split()))$/;"	v
+A	competitive_programing/pylib/graph/follow.py	/^A = []$/;"	v
+B	competitive_programing/pylib/dp/kosuuseigentsukibubunwa.py	/^B = [0]*N$/;"	v
+B	competitive_programing/pylib/graph/follow.py	/^B = []$/;"	v
+C	competitive_programing/pylib/dp/saisyoukosutodanseimaching.py	/^C = []$/;"	v
+CheckBackspace	neovim/.config/nvim/init.vim	/^function! CheckBackspace() abort$/;"	f
+G	competitive_programing/pylib/graph/bfs.py	/^G = [[] for i in range(N)]$/;"	v
+G	competitive_programing/pylib/graph/dfs.py	/^G = [[] for _ in range(N)]  # グラフを表現する隣接リスト$/;"	v
+G	competitive_programing/pylib/graph/dijkstra.py	/^G = [[] for _ in range(N)]$/;"	v
+G	competitive_programing/pylib/graph/friend_of_popular.py	/^G = [[] for i in range(N)]$/;"	v
+G	competitive_programing/pylib/graph/friends_friend.py	/^G = [[] for _ in range(N)]$/;"	v
+INF	competitive_programing/pylib/dp/diff_nums.py	/^INF = 1 << 30$/;"	v
+INF	competitive_programing/pylib/dp/k_koinaibubunwa.py	/^INF = 1 << 20$/;"	v
+INF	competitive_programing/pylib/dp/kosuuseigentsukibubunwa.py	/^INF = 1 << 20$/;"	v
+INF	competitive_programing/pylib/dp/saisyoukosutodanseimaching.py	/^INF = 1 << 29$/;"	v
+INF	competitive_programing/pylib/dp/saisyoukosuububunwa.py	/^INF = 1 << 20$/;"	v
+INF	competitive_programing/pylib/graph/dijkstra.py	/^INF = 10**9 # 初期化で使う十分大きな数$/;"	v
+INF	competitive_programing/pylib/graph/keirohukugen.py	/^INF = 10**9 # 初期化で使う十分大きな数$/;"	v
+IndexNum	competitive_programing/pylib/binary_search.py	/^IndexNum = NewType('IndexNum', int)$/;"	v
+List	competitive_programing/pylib/binary_search.py	/^from typing import List, NewType$/;"	i
+List	competitive_programing/pylib/sort/bubble_sort.py	/^from typing import List$/;"	i
+List	competitive_programing/pylib/sort/insertion_sort.py	/^from typing import List$/;"	i
+List	competitive_programing/pylib/sort/merge_sort.py	/^from typing import List$/;"	i
+List	competitive_programing/pylib/sort/quick_sort.py	/^from typing import List$/;"	i
+List	competitive_programing/pylib/sort/selection_sort.py	/^from typing import List$/;"	i
+MiniHeap	competitive_programing/pylib/sort/heap_sort.py	/^class MiniHeap(object):$/;"	c
+N	competitive_programing/pylib/graph/ikigakejun.py	/^N = int(input())$/;"	v
+NewType	competitive_programing/pylib/binary_search.py	/^from typing import List, NewType$/;"	i
+Optional	competitive_programing/pylib/sort/heap_sort.py	/^from typing import Optional$/;"	i
+P	competitive_programing/pylib/graph/ikigakejun.py	/^P = list(map(int, input().split()))$/;"	v
+Path	competitive_programing/pylib/make_dirs_and_files.py	/^from pathlib import Path$/;"	i
+Prettier	neovim/.config/nvim/init.vim	/^command! -nargs=0 Prettier :CocCommand prettier.formatFile$/;"	c
+S	competitive_programing/pylib/dp/diff_nums.py	/^S = str(input())$/;"	v
+S	competitive_programing/pylib/dp/saityoukyoutsuububunnretsu.py	/^S = str(input())$/;"	v
+S	competitive_programing/pylib/graph/friend.py	/^S = []$/;"	v
+T	competitive_programing/pylib/dp/diff_nums.py	/^T = str(input())$/;"	v
+T	competitive_programing/pylib/dp/saityoukyoutsuububunnretsu.py	/^T = str(input())$/;"	v
+UnionFind	competitive_programing/pylib/graph/saisyouzenikigi.py	/^class UnionFind():$/;"	c
+X	competitive_programing/pylib/graph/box_in_box.py	/^    X = A[X]$/;"	v
+Y	neovim/.config/nvim/init.vim	/^nnoremap Y y\$$/;"	m
+__init__	competitive_programing/pylib/graph/dijkstra.py	/^    def __init__(self, end, leng):$/;"	m	class:edge
+__init__	competitive_programing/pylib/graph/keirohukugen.py	/^    def __init__(self, start, end, leng):$/;"	m	class:edge
+__init__	competitive_programing/pylib/graph/saisyouzenikigi.py	/^    def __init__(self, n):$/;"	m	class:UnionFind
+__init__	competitive_programing/pylib/graph/saisyouzenikigi.py	/^    def __init__(self, start, end, leng):$/;"	m	class:edge
+__init__	competitive_programing/pylib/sort/heap_sort.py	/^    def __init__(self) -> None:$/;"	m	class:MiniHeap
+__lt__	competitive_programing/pylib/graph/saisyouzenikigi.py	/^    def __lt__(self, other):$/;"	m	class:edge	file:
+_binary_search	competitive_programing/pylib/binary_search.py	/^    def _binary_search(numbers: List[int], value: int,$/;"	f	function:binary_search
+_quick_sort	competitive_programing/pylib/sort/quick_sort.py	/^    def _quick_sort(numbers: List[int], low: int, high: int) -> None:$/;"	f	function:quick_sort
+a	competitive_programing/pylib/dp/saidaiwa.py	/^a = list(map(int, input().split()))$/;"	v
+a	competitive_programing/pylib/inputs.py	/^a = [input() for _ in range(n)]$/;"	v
+a	competitive_programing/pylib/inputs.py	/^a = list(map(int, input().split()))$/;"	v
+ans	competitive_programing/pylib/dp/bubunwa.py	/^    ans = 'No'$/;"	v
+ans	competitive_programing/pylib/dp/bubunwa.py	/^    ans = 'Yes'$/;"	v
+ans	competitive_programing/pylib/graph/saisyouzenikigi.py	/^ans = 0  # 答えとなる変$/;"	v
+binary_search	competitive_programing/pylib/binary_search.py	/^def binary_search(numbers: List[int], value: int) -> IndexNum:$/;"	f
+bit_string_to_integer	competitive_programing/pylib/bit_string_to_integer.py	/^def bit_string_to_integer(bit_string):$/;"	f
+bubble_sort	competitive_programing/pylib/sort/bubble_sort.py	/^def bubble_sort(numbers: List[int]) -> List[int]:$/;"	f
+c	competitive_programing/pylib/dp/saisyoukosutodanseimaching.py	/^    c = list(map(int, input().split()))$/;"	v
+chs	competitive_programing/pylib/graph/ikigakejun.py	/^chs = [[] for v in range(N)]$/;"	v
+dir_name	competitive_programing/pylib/make_dirs_and_files.py	/^    dir_name = f'temp{i}'$/;"	v
+dist	competitive_programing/pylib/graph/bfs.py	/^dist = [-1] * N$/;"	v
+dist	competitive_programing/pylib/graph/dijkstra.py	/^dist = [INF for _ in range(N)]  # dist[i]：頂点 0 から頂点 i への暫定的な経路長$/;"	v
+dist	competitive_programing/pylib/graph/keirohukugen.py	/^dist = [INF for _ in range(N)]  # dist[i]：現在の d_i の値 (0 以外は 10^9 で初期化する)$/;"	v
+done	competitive_programing/pylib/graph/dijkstra.py	/^done = [False for _ in range(N)]    # done[i]：頂点 i の最短距離が確定しているか$/;"	v
+dp	competitive_programing/pylib/dp/bubunwa.py	/^dp = [[False]*(M+1) for _ in range(N+1)]$/;"	v
+dp	competitive_programing/pylib/dp/bubunwakazoeage.py	/^dp = [[0]*(M+1) for _ in range(N+1)]$/;"	v
+dp	competitive_programing/pylib/dp/diff_nums.py	/^dp = [[INF] * field_len for _ in range(field_len)]$/;"	v
+dp	competitive_programing/pylib/dp/k_koinaibubunwa.py	/^dp = [[INF]*(M+1) for _ in range(N+1)]$/;"	v
+dp	competitive_programing/pylib/dp/knapsack.py	/^dp = [[0]*(W+1) for i in range(N+1)]$/;"	v
+dp	competitive_programing/pylib/dp/kosuuseigentsukibubunwa.py	/^dp = [[INF]*(M+1) for _ in range(N+1)]$/;"	v
+dp	competitive_programing/pylib/dp/saisyoukosutodanseimaching.py	/^dp = [[INF]*field_size for _ in range(field_size)]$/;"	v
+dp	competitive_programing/pylib/dp/saisyoukosuububunwa.py	/^dp = [[INF]*(M+1) for _ in range(N+1)]$/;"	v
+dp	competitive_programing/pylib/dp/saityoukyoutsuububunnretsu.py	/^dp = [[0]*field_size for _ in range(field_size)]$/;"	v
+edge	competitive_programing/pylib/graph/dijkstra.py	/^class edge:$/;"	c
+edge	competitive_programing/pylib/graph/keirohukugen.py	/^class edge:$/;"	c
+edge	competitive_programing/pylib/graph/saisyouzenikigi.py	/^class edge:$/;"	c
+fc	neovim/.config/nvim/init.vim	/^nnoremap fc :<C-u>bw! quickrun:\/\/output<CR>$/;"	m
+ff	neovim/.config/nvim/init.vim	/^nnoremap ff :wq<CR>$/;"	m
+fg	neovim/.config/nvim/init.vim	/^nnoremap fg :GrammarousCheck$/;"	m
+fh	neovim/.config/nvim/init.vim	/^nmap fh <C-w><$/;"	m
+field_len	competitive_programing/pylib/dp/diff_nums.py	/^field_len = max(len(S), len(T))+2$/;"	v
+field_size	competitive_programing/pylib/dp/saisyoukosutodanseimaching.py	/^field_size = max(N, M)+10$/;"	v
+field_size	competitive_programing/pylib/dp/saityoukyoutsuububunnretsu.py	/^field_size = max(len(S), len(T))+10$/;"	v
+fj	neovim/.config/nvim/init.vim	/^nnoremap fj :Telescope find_files<CR>$/;"	m
+fl	neovim/.config/nvim/init.vim	/^nmap fl <C-w>>$/;"	m
+flg	competitive_programing/pylib/graph/keirohukugen.py	/^    flg = False  # k 回目のステップで dist の変更があるかを表すフラグ$/;"	v
+fn	neovim/.config/nvim/init.vim	/^nmap fn <C-w>-$/;"	m
+fo	neovim/.config/nvim/init.vim	/^noremap fo o<ESC>$/;"	m
+fp	neovim/.config/nvim/init.vim	/^nmap fp <C-w>+$/;"	m
+fr	neovim/.config/nvim/init.vim	/^nnoremap fr :!.\/%:r<CR>$/;"	m
+fr	neovim/.config/nvim/init.vim	/^nnoremap fr :QuickRun<CR>$/;"	m
+friends	competitive_programing/pylib/graph/friends_friend.py	/^friends = set(G[X])$/;"	v
+fs	neovim/.config/nvim/init.vim	/^nmap fs :split<CR><C-w>w$/;"	m
+ft	neovim/.config/nvim/init.vim	/^nmap ft :tabedit $/;"	m
+fv	neovim/.config/nvim/init.vim	/^nmap fv :vsplit<CR><C-w>w$/;"	m
+g:auto_ctags	neovim/.config/nvim/init.vim	/^let g:auto_ctags = 1$/;"	v
+g:bracey_browser_command	neovim/.config/nvim/init.vim	/^let g:bracey_browser_command= "open"$/;"	v
+g:coc_global_extensions	neovim/.config/nvim/init.vim	/^let g:coc_global_extensions = [$/;"	v
+g:coc_snippet_next	neovim/.config/nvim/init.vim	/^let g:coc_snippet_next = '<C-k>'$/;"	v
+g:coc_snippet_next	neovim/.config/nvim/init.vim	/^let g:coc_snippet_next = '<TAB>'$/;"	v
+g:coc_snippet_prev	neovim/.config/nvim/init.vim	/^let g:coc_snippet_prev = '<C-h>'$/;"	v
+g:quickrun_config	neovim/.config/nvim/init.vim	/^let g:quickrun_config = {}$/;"	v
+g:quickrun_config	neovim/.config/nvim/init.vim	/^let g:quickrun_config._ = {$/;"	v
+g:quickrun_config	neovim/.config/nvim/init.vim	/^let g:quickrun_config.cpp = {$/;"	v
+g:quickrun_config	neovim/.config/nvim/init.vim	/^let g:quickrun_config.python = {$/;"	v
+gf	neovim/.config/nvim/init.vim	/^nnoremap gf <C-]>$/;"	m
+graph_edges	competitive_programing/pylib/graph/keirohukugen.py	/^graph_edges = [[] for _ in range(M)]    # graph_edges[i]：i 番目の辺情報$/;"	v
+graph_edges	competitive_programing/pylib/graph/saisyouzenikigi.py	/^graph_edges = [[] for _ in range(M)]    # graph_edges[i]：i 番目の辺情報$/;"	v
+heapify_down	competitive_programing/pylib/sort/heap_sort.py	/^    def heapify_down(self, index: int) -> None:$/;"	m	class:MiniHeap
+heapify_up	competitive_programing/pylib/sort/heap_sort.py	/^    def heapify_up(self, index: int) -> None:$/;"	m	class:MiniHeap
+heapq	competitive_programing/pylib/graph/dijkstra.py	/^import heapq$/;"	i
+input_lines	competitive_programing/pylib/inputs.py	/^    input_lines = [line.strip().split(',') for line in f.readlines()]$/;"	v
+insertion_sort	competitive_programing/pylib/sort/insertion_sort.py	/^def insertion_sort(numbers: List[int]) -> List[int]:$/;"	f
+integer_to_bit_string	competitive_programing/pylib/integer_to_bit_string.py	/^def integer_to_bit_string(num):$/;"	f
+issame	competitive_programing/pylib/graph/saisyouzenikigi.py	/^    def issame(self, x, y):$/;"	m	class:UnionFind
+jj	neovim/.config/nvim/init.vim	/^inoremap <silent> jj <ESC>$/;"	m
+joinWords	competitive_programing/pylib/main.py	/^def joinWords(stringArr, delimiter):$/;"	f
+left_child_index	competitive_programing/pylib/sort/heap_sort.py	/^    def left_child_index(self, index: int) -> int:$/;"	m	class:MiniHeap
+linear_search	competitive_programing/pylib/binary_search.py	/^def linear_search(numbers: List[int], value: int) -> IndexNum:$/;"	f
+lines	competitive_programing/pylib/inputs.py	/^    lines = []$/;"	v
+max_index	competitive_programing/pylib/graph/friend_of_popular.py	/^        max_index = i$/;"	v
+max_index	competitive_programing/pylib/graph/friend_of_popular.py	/^max_index = -1$/;"	v
+max_len	competitive_programing/pylib/graph/friend_of_popular.py	/^        max_len = len(G[i])$/;"	v
+max_len	competitive_programing/pylib/graph/friend_of_popular.py	/^max_len = -1$/;"	v
+merge_sort	competitive_programing/pylib/sort/merge_sort.py	/^def merge_sort(numbers: List[int]) -> List[int]:$/;"	f
+min_child_index	competitive_programing/pylib/sort/heap_sort.py	/^    def min_child_index(self, index: int) -> int:$/;"	m	class:MiniHeap
+min_heap	competitive_programing/pylib/sort/heap_sort.py	/^    min_heap = MiniHeap()$/;"	v	class:MiniHeap
+mygroup	neovim/.config/nvim/init.vim	/^augroup mygroup$/;"	a
+n	competitive_programing/pylib/dp/saidaiwa.py	/^n = int(input())$/;"	v
+n	competitive_programing/pylib/inputs.py	/^n = int(input())$/;"	v
+nodes	competitive_programing/pylib/graph/bfs.py	/^nodes = [[] for i in range(N)]$/;"	v
+now	competitive_programing/pylib/graph/keirohukugen.py	/^    now = prev[now]$/;"	v
+now	competitive_programing/pylib/graph/keirohukugen.py	/^now = N-1$/;"	v
+nums	competitive_programing/pylib/sort/bubble_sort.py	/^    nums = [2,3,56,0,2]$/;"	v
+nums	competitive_programing/pylib/sort/insertion_sort.py	/^    nums = [2, 3, 56, 0, 2, 2, 3, 4, 3, 2, 38, 1]$/;"	v
+nums	competitive_programing/pylib/sort/merge_sort.py	/^    nums = [1,2,4,1,3,2,5,6,7,45,42,1,0]$/;"	v
+nums	competitive_programing/pylib/sort/selection_sort.py	/^    nums = [2, 3, 56, 0, 2,2,3,4,3,2,38,1]$/;"	v
+order	competitive_programing/pylib/graph/keirohukugen.py	/^order = []  # 頂点 0 から N-1 へ向かう最短経路を保存する配列$/;"	v
+os	competitive_programing/pylib/make_dirs_and_files.py	/^import os$/;"	i
+parent_index	competitive_programing/pylib/sort/heap_sort.py	/^    def parent_index(self, index: int) -> int:$/;"	m	class:MiniHeap
+partition	competitive_programing/pylib/sort/quick_sort.py	/^def partition(numbers: List[int], low: int, high: int) -> int:$/;"	f
+pi	competitive_programing/pylib/syousuutenkirisute.py	/^    pi = 3.141592653589793238$/;"	v
+pop	competitive_programing/pylib/sort/heap_sort.py	/^    def pop(self) -> Optional[int]:$/;"	m	class:MiniHeap
+prev	competitive_programing/pylib/graph/keirohukugen.py	/^prev = [-1 for _ in range(N)]   # prev[i]：頂点 0 から i への最短経路において、頂点 i の前にどこにいたか$/;"	v
+push	competitive_programing/pylib/sort/heap_sort.py	/^    def push(self, value: int) -> None:$/;"	m	class:MiniHeap
+quick_sort	competitive_programing/pylib/sort/quick_sort.py	/^def quick_sort(numbers: List[int]) -> List[int]:$/;"	f
+re	competitive_programing/pylib/dp/saidaiwa.py	/^re = 0$/;"	v
+re	competitive_programing/pylib/graph/follow.py	/^re = [[]*N]$/;"	v
+rec	competitive_programing/pylib/graph/dfs.py	/^def rec(v, G, seen):$/;"	f
+rec	competitive_programing/pylib/graph/ikigakejun.py	/^def rec(v, chs):$/;"	f
+res	competitive_programing/pylib/graph/box_in_box.py	/^res = 0$/;"	v
+result	competitive_programing/pylib/graph/friends_friend.py	/^result = set()$/;"	v
+right_child_index	competitive_programing/pylib/sort/heap_sort.py	/^    def right_child_index(self, index: int) -> int:$/;"	m	class:MiniHeap
+root	competitive_programing/pylib/graph/saisyouzenikigi.py	/^    def root(self, x):$/;"	m	class:UnionFind
+s	competitive_programing/pylib/graph/friend.py	/^    s = input()$/;"	v
+s	competitive_programing/pylib/inputs.py	/^s = str(input())$/;"	v
+seen	competitive_programing/pylib/graph/dfs.py	/^seen = [False for _ in range(N)]$/;"	v
+selection_sort	competitive_programing/pylib/sort/selection_sort.py	/^def selection_sort(numbers: List[int]) -> List[int]:$/;"	f
+setAutoCompile	neovim/.config/nvim/init.vim	/^augroup setAutoCompile$/;"	a
+size	competitive_programing/pylib/graph/saisyouzenikigi.py	/^    def size(self, x):$/;"	m	class:UnionFind
+swap	competitive_programing/pylib/sort/heap_sort.py	/^    def swap(self, index1: int, index2: int) -> None:$/;"	m	class:MiniHeap
+sys	competitive_programing/pylib/graph/ikigakejun.py	/^import sys$/;"	i
+sys	competitive_programing/pylib/saiki_jougen.py	/^import sys$/;"	i
+sys	competitive_programing/pylib/sort/heap_sort.py	/^import sys$/;"	i
+uf	competitive_programing/pylib/graph/saisyouzenikigi.py	/^uf = UnionFind(N)$/;"	v
+unite	competitive_programing/pylib/graph/saisyouzenikigi.py	/^    def unite(self, x, y):$/;"	m	class:UnionFind
+v	competitive_programing/pylib/dp/knapsack.py	/^v = [0]*N$/;"	v
+w	competitive_programing/pylib/dp/knapsack.py	/^w = [0]*N$/;"	v
