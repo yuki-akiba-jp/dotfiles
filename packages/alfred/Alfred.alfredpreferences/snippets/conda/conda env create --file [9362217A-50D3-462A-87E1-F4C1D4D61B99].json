@@ -1,8 +1,0 @@
-{
-  "alfredsnippet" : {
-    "snippet" : "conda env create --file ~\/{cursor}.yaml",
-    "uid" : "9362217A-50D3-462A-87E1-F4C1D4D61B99",
-    "name" : "conda env create --file",
-    "keyword" : ""
-  }
-}

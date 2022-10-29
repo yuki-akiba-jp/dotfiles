@@ -104,7 +104,6 @@ nnoremap ff :wq<CR>
 
 augroup setAutoCompile
     autocmd!
-    " autocmd BufNewFile,BufRead *.html setfiletype html
     autocmd BufWritePost *.c :make -f ~/dotfiles/packages/Makefile/cMakefile
     autocmd BufWritePost *.cpp :make -f ~/dotfiles/packages/Makefile/cppMakefile
     autocmd BufWritePost *.f90 :make -f ~/dotfiles/packages/Makefile/fortranMakefile

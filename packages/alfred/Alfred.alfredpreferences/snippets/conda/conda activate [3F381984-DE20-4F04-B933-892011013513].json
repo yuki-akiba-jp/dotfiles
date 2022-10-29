@@ -1,8 +1,0 @@
-{
-  "alfredsnippet" : {
-    "snippet" : "conda activate {cursor}",
-    "uid" : "3F381984-DE20-4F04-B933-892011013513",
-    "name" : "conda activate",
-    "keyword" : ""
-  }
-}

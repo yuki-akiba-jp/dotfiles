@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "docker exec -it {cursor}",
+    "uid" : "221AC981-81E0-4373-BA07-DC89E8533459",
+    "name" : "docker exec -it <container> <command>",
+    "keyword" : ""
+  }
+}

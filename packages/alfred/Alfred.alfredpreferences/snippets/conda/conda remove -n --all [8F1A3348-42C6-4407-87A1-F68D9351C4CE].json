@@ -1,8 +1,0 @@
-{
-  "alfredsnippet" : {
-    "snippet" : "conda remove -n {cursor} --all",
-    "uid" : "8F1A3348-42C6-4407-87A1-F68D9351C4CE",
-    "name" : "conda remove -n --all",
-    "keyword" : ""
-  }
-}

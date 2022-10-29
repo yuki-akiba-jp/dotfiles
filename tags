@@ -1,0 +1,187 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	/096dc1c1/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/Users/yukiakiba/dotfiles/	//
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+version	Brewfile.lock.json	/^        "version": "2.3.1",$/;"	s	object:entries.brew.stow
+rebuild	Brewfile.lock.json	/^          "rebuild": 0,$/;"	n	object:entries.brew.stow.bottle
+root_url	Brewfile.lock.json	/^          "root_url": "https:\/\/ghcr.io\/v2\/homebrew\/core",$/;"	s	object:entries.brew.stow.bottle
+cellar	Brewfile.lock.json	/^              "cellar": ":any_skip_relocation",$/;"	s	object:entries.brew.stow.bottle.files.arm64_monterey
+url	Brewfile.lock.json	/^              "url": "https:\/\/ghcr.io\/v2\/homebrew\/core\/stow\/blobs\/sha256:39057770aa013db/;"	s	object:entries.brew.stow.bottle.files.arm64_monterey
+sha256	Brewfile.lock.json	/^              "sha256": "39057770aa013dbeb401c9fe470b7fddc414d0b700972f56a7308265df3458e6"$/;"	s	object:entries.brew.stow.bottle.files.arm64_monterey
+arm64_monterey	Brewfile.lock.json	/^            "arm64_monterey": {$/;"	o	object:entries.brew.stow.bottle.files
+cellar	Brewfile.lock.json	/^              "cellar": ":any_skip_relocation",$/;"	s	object:entries.brew.stow.bottle.files.arm64_big_sur
+url	Brewfile.lock.json	/^              "url": "https:\/\/ghcr.io\/v2\/homebrew\/core\/stow\/blobs\/sha256:f6dc9f73ac8ef55/;"	s	object:entries.brew.stow.bottle.files.arm64_big_sur
+sha256	Brewfile.lock.json	/^              "sha256": "f6dc9f73ac8ef55caa0f8204c893bf41dcdffbae22b39d95a85eee5c99507b55"$/;"	s	object:entries.brew.stow.bottle.files.arm64_big_sur
+arm64_big_sur	Brewfile.lock.json	/^            "arm64_big_sur": {$/;"	o	object:entries.brew.stow.bottle.files
+cellar	Brewfile.lock.json	/^              "cellar": ":any_skip_relocation",$/;"	s	object:entries.brew.stow.bottle.files.monterey
+url	Brewfile.lock.json	/^              "url": "https:\/\/ghcr.io\/v2\/homebrew\/core\/stow\/blobs\/sha256:47c9ce7f30bb77f/;"	s	object:entries.brew.stow.bottle.files.monterey
+sha256	Brewfile.lock.json	/^              "sha256": "47c9ce7f30bb77f9458efd411f6f3c616196de21461a65c3c57068705f3b9555"$/;"	s	object:entries.brew.stow.bottle.files.monterey
+monterey	Brewfile.lock.json	/^            "monterey": {$/;"	o	object:entries.brew.stow.bottle.files
+cellar	Brewfile.lock.json	/^              "cellar": ":any_skip_relocation",$/;"	s	object:entries.brew.stow.bottle.files.big_sur
+url	Brewfile.lock.json	/^              "url": "https:\/\/ghcr.io\/v2\/homebrew\/core\/stow\/blobs\/sha256:e2a4d5cae000bcb/;"	s	object:entries.brew.stow.bottle.files.big_sur
+sha256	Brewfile.lock.json	/^              "sha256": "e2a4d5cae000bcb2a5464f618b0c1fb174f4c90f66793411ff3c3bdda0438083"$/;"	s	object:entries.brew.stow.bottle.files.big_sur
+big_sur	Brewfile.lock.json	/^            "big_sur": {$/;"	o	object:entries.brew.stow.bottle.files
+cellar	Brewfile.lock.json	/^              "cellar": ":any_skip_relocation",$/;"	s	object:entries.brew.stow.bottle.files.catalina
+url	Brewfile.lock.json	/^              "url": "https:\/\/ghcr.io\/v2\/homebrew\/core\/stow\/blobs\/sha256:c99a90dc5e3db8e/;"	s	object:entries.brew.stow.bottle.files.catalina
+sha256	Brewfile.lock.json	/^              "sha256": "c99a90dc5e3db8ebcb017df044723fb4e6cce7fb94aa24cf46c8d2c0665bf9a0"$/;"	s	object:entries.brew.stow.bottle.files.catalina
+catalina	Brewfile.lock.json	/^            "catalina": {$/;"	o	object:entries.brew.stow.bottle.files
+cellar	Brewfile.lock.json	/^              "cellar": ":any_skip_relocation",$/;"	s	object:entries.brew.stow.bottle.files.mojave
+url	Brewfile.lock.json	/^              "url": "https:\/\/ghcr.io\/v2\/homebrew\/core\/stow\/blobs\/sha256:409987564f7779d/;"	s	object:entries.brew.stow.bottle.files.mojave
+sha256	Brewfile.lock.json	/^              "sha256": "409987564f7779d6a1db75f64e54c4713ecd9b9e006abac931f8e8d645bdac92"$/;"	s	object:entries.brew.stow.bottle.files.mojave
+mojave	Brewfile.lock.json	/^            "mojave": {$/;"	o	object:entries.brew.stow.bottle.files
+cellar	Brewfile.lock.json	/^              "cellar": ":any_skip_relocation",$/;"	s	object:entries.brew.stow.bottle.files.high_sierra
+url	Brewfile.lock.json	/^              "url": "https:\/\/ghcr.io\/v2\/homebrew\/core\/stow\/blobs\/sha256:409987564f7779d/;"	s	object:entries.brew.stow.bottle.files.high_sierra
+sha256	Brewfile.lock.json	/^              "sha256": "409987564f7779d6a1db75f64e54c4713ecd9b9e006abac931f8e8d645bdac92"$/;"	s	object:entries.brew.stow.bottle.files.high_sierra
+high_sierra	Brewfile.lock.json	/^            "high_sierra": {$/;"	o	object:entries.brew.stow.bottle.files
+cellar	Brewfile.lock.json	/^              "cellar": ":any_skip_relocation",$/;"	s	object:entries.brew.stow.bottle.files.sierra
+url	Brewfile.lock.json	/^              "url": "https:\/\/ghcr.io\/v2\/homebrew\/core\/stow\/blobs\/sha256:cbc7a61940a343a/;"	s	object:entries.brew.stow.bottle.files.sierra
+sha256	Brewfile.lock.json	/^              "sha256": "cbc7a61940a343aff46fdb6190dc26a359d26c9c468c05b1dbde2484a066ceb6"$/;"	s	object:entries.brew.stow.bottle.files.sierra
+sierra	Brewfile.lock.json	/^            "sierra": {$/;"	o	object:entries.brew.stow.bottle.files
+cellar	Brewfile.lock.json	/^              "cellar": ":any_skip_relocation",$/;"	s	object:entries.brew.stow.bottle.files.x86_64_linux
+url	Brewfile.lock.json	/^              "url": "https:\/\/ghcr.io\/v2\/homebrew\/core\/stow\/blobs\/sha256:a754fc537de7747/;"	s	object:entries.brew.stow.bottle.files.x86_64_linux
+sha256	Brewfile.lock.json	/^              "sha256": "a754fc537de774792df15850b4f8252d8c88e76280ab3dfd49067588e426d061"$/;"	s	object:entries.brew.stow.bottle.files.x86_64_linux
+x86_64_linux	Brewfile.lock.json	/^            "x86_64_linux": {$/;"	o	object:entries.brew.stow.bottle.files
+files	Brewfile.lock.json	/^          "files": {$/;"	o	object:entries.brew.stow.bottle
+bottle	Brewfile.lock.json	/^        "bottle": {$/;"	o	object:entries.brew.stow
+stow	Brewfile.lock.json	/^      "stow": {$/;"	o	object:entries.brew
+version	Brewfile.lock.json	/^        "version": "1.5.4",$/;"	s	object:entries.brew.starship
+rebuild	Brewfile.lock.json	/^          "rebuild": 0,$/;"	n	object:entries.brew.starship.bottle
+root_url	Brewfile.lock.json	/^          "root_url": "https:\/\/ghcr.io\/v2\/homebrew\/core",$/;"	s	object:entries.brew.starship.bottle
+cellar	Brewfile.lock.json	/^              "cellar": ":any_skip_relocation",$/;"	s	object:entries.brew.starship.bottle.files.arm64_monterey
+url	Brewfile.lock.json	/^              "url": "https:\/\/ghcr.io\/v2\/homebrew\/core\/starship\/blobs\/sha256:c664c2de571/;"	s	object:entries.brew.starship.bottle.files.arm64_monterey
+sha256	Brewfile.lock.json	/^              "sha256": "c664c2de571200364a9b03159be0df8827001bf04b047dd8db6369c9af4b852f"$/;"	s	object:entries.brew.starship.bottle.files.arm64_monterey
+arm64_monterey	Brewfile.lock.json	/^            "arm64_monterey": {$/;"	o	object:entries.brew.starship.bottle.files
+cellar	Brewfile.lock.json	/^              "cellar": ":any_skip_relocation",$/;"	s	object:entries.brew.starship.bottle.files.arm64_big_sur
+url	Brewfile.lock.json	/^              "url": "https:\/\/ghcr.io\/v2\/homebrew\/core\/starship\/blobs\/sha256:bea112584d2/;"	s	object:entries.brew.starship.bottle.files.arm64_big_sur
+sha256	Brewfile.lock.json	/^              "sha256": "bea112584d24f406d8ad63414ba497888192e36539a6dca766bd4f3278b22d8b"$/;"	s	object:entries.brew.starship.bottle.files.arm64_big_sur
+arm64_big_sur	Brewfile.lock.json	/^            "arm64_big_sur": {$/;"	o	object:entries.brew.starship.bottle.files
+cellar	Brewfile.lock.json	/^              "cellar": ":any_skip_relocation",$/;"	s	object:entries.brew.starship.bottle.files.monterey
+url	Brewfile.lock.json	/^              "url": "https:\/\/ghcr.io\/v2\/homebrew\/core\/starship\/blobs\/sha256:37276e7e830/;"	s	object:entries.brew.starship.bottle.files.monterey
+sha256	Brewfile.lock.json	/^              "sha256": "37276e7e830a8977bada2e2999207eef9cb3a6e80dce75395f8df68f21551c8f"$/;"	s	object:entries.brew.starship.bottle.files.monterey
+monterey	Brewfile.lock.json	/^            "monterey": {$/;"	o	object:entries.brew.starship.bottle.files
+cellar	Brewfile.lock.json	/^              "cellar": ":any_skip_relocation",$/;"	s	object:entries.brew.starship.bottle.files.big_sur
+url	Brewfile.lock.json	/^              "url": "https:\/\/ghcr.io\/v2\/homebrew\/core\/starship\/blobs\/sha256:b63ebf06b35/;"	s	object:entries.brew.starship.bottle.files.big_sur
+sha256	Brewfile.lock.json	/^              "sha256": "b63ebf06b3587f8dc118f88251f0d5530595f82ab159393a30928bd052c15144"$/;"	s	object:entries.brew.starship.bottle.files.big_sur
+big_sur	Brewfile.lock.json	/^            "big_sur": {$/;"	o	object:entries.brew.starship.bottle.files
+cellar	Brewfile.lock.json	/^              "cellar": ":any_skip_relocation",$/;"	s	object:entries.brew.starship.bottle.files.catalina
+url	Brewfile.lock.json	/^              "url": "https:\/\/ghcr.io\/v2\/homebrew\/core\/starship\/blobs\/sha256:b8d4fb545d1/;"	s	object:entries.brew.starship.bottle.files.catalina
+sha256	Brewfile.lock.json	/^              "sha256": "b8d4fb545d1788347c83b007590af79ed4983821cfa3f93a373278995864c301"$/;"	s	object:entries.brew.starship.bottle.files.catalina
+catalina	Brewfile.lock.json	/^            "catalina": {$/;"	o	object:entries.brew.starship.bottle.files
+cellar	Brewfile.lock.json	/^              "cellar": ":any_skip_relocation",$/;"	s	object:entries.brew.starship.bottle.files.x86_64_linux
+url	Brewfile.lock.json	/^              "url": "https:\/\/ghcr.io\/v2\/homebrew\/core\/starship\/blobs\/sha256:d93710523ef/;"	s	object:entries.brew.starship.bottle.files.x86_64_linux
+sha256	Brewfile.lock.json	/^              "sha256": "d93710523efcefd934c204bd527b30412ec4a37c0ba2d8199adef694967abce8"$/;"	s	object:entries.brew.starship.bottle.files.x86_64_linux
+x86_64_linux	Brewfile.lock.json	/^            "x86_64_linux": {$/;"	o	object:entries.brew.starship.bottle.files
+files	Brewfile.lock.json	/^          "files": {$/;"	o	object:entries.brew.starship.bottle
+bottle	Brewfile.lock.json	/^        "bottle": {$/;"	o	object:entries.brew.starship
+starship	Brewfile.lock.json	/^      "starship": {$/;"	o	object:entries.brew
+brew	Brewfile.lock.json	/^    "brew": {$/;"	o	object:entries
+entries	Brewfile.lock.json	/^  "entries": {$/;"	o
+HOMEBREW_VERSION	Brewfile.lock.json	/^        "HOMEBREW_VERSION": "3.4.5",$/;"	s	object:system.macos.monterey
+HOMEBREW_PREFIX	Brewfile.lock.json	/^        "HOMEBREW_PREFIX": "\/opt\/homebrew",$/;"	s	object:system.macos.monterey
+Homebrew/homebrew-core	Brewfile.lock.json	/^        "Homebrew\/homebrew-core": "4fd1b5f6b7cd752191f3e59aefdb569a056fd2e8",$/;"	s	object:system.macos.monterey
+CLT	Brewfile.lock.json	/^        "CLT": "13.3.0.0.1.1645755326",$/;"	s	object:system.macos.monterey
+Xcode	Brewfile.lock.json	/^        "Xcode": "13.3",$/;"	s	object:system.macos.monterey
+macOS	Brewfile.lock.json	/^        "macOS": "12.3.1"$/;"	s	object:system.macos.monterey
+monterey	Brewfile.lock.json	/^      "monterey": {$/;"	o	object:system.macos
+macos	Brewfile.lock.json	/^    "macos": {$/;"	o	object:system
+system	Brewfile.lock.json	/^  "system": {$/;"	o
+version	Brewfile.lock.json	/^        "version": "2.3.1",$/;"	s	object:entries.brew.stow
+rebuild	Brewfile.lock.json	/^          "rebuild": 0,$/;"	n	object:entries.brew.stow.bottle
+root_url	Brewfile.lock.json	/^          "root_url": "https:\/\/ghcr.io\/v2\/homebrew\/core",$/;"	s	object:entries.brew.stow.bottle
+cellar	Brewfile.lock.json	/^              "cellar": ":any_skip_relocation",$/;"	s	object:entries.brew.stow.bottle.files.arm64_monterey
+url	Brewfile.lock.json	/^              "url": "https:\/\/ghcr.io\/v2\/homebrew\/core\/stow\/blobs\/sha256:39057770aa013db/;"	s	object:entries.brew.stow.bottle.files.arm64_monterey
+sha256	Brewfile.lock.json	/^              "sha256": "39057770aa013dbeb401c9fe470b7fddc414d0b700972f56a7308265df3458e6"$/;"	s	object:entries.brew.stow.bottle.files.arm64_monterey
+arm64_monterey	Brewfile.lock.json	/^            "arm64_monterey": {$/;"	o	object:entries.brew.stow.bottle.files
+cellar	Brewfile.lock.json	/^              "cellar": ":any_skip_relocation",$/;"	s	object:entries.brew.stow.bottle.files.arm64_big_sur
+url	Brewfile.lock.json	/^              "url": "https:\/\/ghcr.io\/v2\/homebrew\/core\/stow\/blobs\/sha256:f6dc9f73ac8ef55/;"	s	object:entries.brew.stow.bottle.files.arm64_big_sur
+sha256	Brewfile.lock.json	/^              "sha256": "f6dc9f73ac8ef55caa0f8204c893bf41dcdffbae22b39d95a85eee5c99507b55"$/;"	s	object:entries.brew.stow.bottle.files.arm64_big_sur
+arm64_big_sur	Brewfile.lock.json	/^            "arm64_big_sur": {$/;"	o	object:entries.brew.stow.bottle.files
+cellar	Brewfile.lock.json	/^              "cellar": ":any_skip_relocation",$/;"	s	object:entries.brew.stow.bottle.files.monterey
+url	Brewfile.lock.json	/^              "url": "https:\/\/ghcr.io\/v2\/homebrew\/core\/stow\/blobs\/sha256:47c9ce7f30bb77f/;"	s	object:entries.brew.stow.bottle.files.monterey
+sha256	Brewfile.lock.json	/^              "sha256": "47c9ce7f30bb77f9458efd411f6f3c616196de21461a65c3c57068705f3b9555"$/;"	s	object:entries.brew.stow.bottle.files.monterey
+monterey	Brewfile.lock.json	/^            "monterey": {$/;"	o	object:entries.brew.stow.bottle.files
+cellar	Brewfile.lock.json	/^              "cellar": ":any_skip_relocation",$/;"	s	object:entries.brew.stow.bottle.files.big_sur
+url	Brewfile.lock.json	/^              "url": "https:\/\/ghcr.io\/v2\/homebrew\/core\/stow\/blobs\/sha256:e2a4d5cae000bcb/;"	s	object:entries.brew.stow.bottle.files.big_sur
+sha256	Brewfile.lock.json	/^              "sha256": "e2a4d5cae000bcb2a5464f618b0c1fb174f4c90f66793411ff3c3bdda0438083"$/;"	s	object:entries.brew.stow.bottle.files.big_sur
+big_sur	Brewfile.lock.json	/^            "big_sur": {$/;"	o	object:entries.brew.stow.bottle.files
+cellar	Brewfile.lock.json	/^              "cellar": ":any_skip_relocation",$/;"	s	object:entries.brew.stow.bottle.files.catalina
+url	Brewfile.lock.json	/^              "url": "https:\/\/ghcr.io\/v2\/homebrew\/core\/stow\/blobs\/sha256:c99a90dc5e3db8e/;"	s	object:entries.brew.stow.bottle.files.catalina
+sha256	Brewfile.lock.json	/^              "sha256": "c99a90dc5e3db8ebcb017df044723fb4e6cce7fb94aa24cf46c8d2c0665bf9a0"$/;"	s	object:entries.brew.stow.bottle.files.catalina
+catalina	Brewfile.lock.json	/^            "catalina": {$/;"	o	object:entries.brew.stow.bottle.files
+cellar	Brewfile.lock.json	/^              "cellar": ":any_skip_relocation",$/;"	s	object:entries.brew.stow.bottle.files.mojave
+url	Brewfile.lock.json	/^              "url": "https:\/\/ghcr.io\/v2\/homebrew\/core\/stow\/blobs\/sha256:409987564f7779d/;"	s	object:entries.brew.stow.bottle.files.mojave
+sha256	Brewfile.lock.json	/^              "sha256": "409987564f7779d6a1db75f64e54c4713ecd9b9e006abac931f8e8d645bdac92"$/;"	s	object:entries.brew.stow.bottle.files.mojave
+mojave	Brewfile.lock.json	/^            "mojave": {$/;"	o	object:entries.brew.stow.bottle.files
+cellar	Brewfile.lock.json	/^              "cellar": ":any_skip_relocation",$/;"	s	object:entries.brew.stow.bottle.files.high_sierra
+url	Brewfile.lock.json	/^              "url": "https:\/\/ghcr.io\/v2\/homebrew\/core\/stow\/blobs\/sha256:409987564f7779d/;"	s	object:entries.brew.stow.bottle.files.high_sierra
+sha256	Brewfile.lock.json	/^              "sha256": "409987564f7779d6a1db75f64e54c4713ecd9b9e006abac931f8e8d645bdac92"$/;"	s	object:entries.brew.stow.bottle.files.high_sierra
+high_sierra	Brewfile.lock.json	/^            "high_sierra": {$/;"	o	object:entries.brew.stow.bottle.files
+cellar	Brewfile.lock.json	/^              "cellar": ":any_skip_relocation",$/;"	s	object:entries.brew.stow.bottle.files.sierra
+url	Brewfile.lock.json	/^              "url": "https:\/\/ghcr.io\/v2\/homebrew\/core\/stow\/blobs\/sha256:cbc7a61940a343a/;"	s	object:entries.brew.stow.bottle.files.sierra
+sha256	Brewfile.lock.json	/^              "sha256": "cbc7a61940a343aff46fdb6190dc26a359d26c9c468c05b1dbde2484a066ceb6"$/;"	s	object:entries.brew.stow.bottle.files.sierra
+sierra	Brewfile.lock.json	/^            "sierra": {$/;"	o	object:entries.brew.stow.bottle.files
+cellar	Brewfile.lock.json	/^              "cellar": ":any_skip_relocation",$/;"	s	object:entries.brew.stow.bottle.files.x86_64_linux
+url	Brewfile.lock.json	/^              "url": "https:\/\/ghcr.io\/v2\/homebrew\/core\/stow\/blobs\/sha256:a754fc537de7747/;"	s	object:entries.brew.stow.bottle.files.x86_64_linux
+sha256	Brewfile.lock.json	/^              "sha256": "a754fc537de774792df15850b4f8252d8c88e76280ab3dfd49067588e426d061"$/;"	s	object:entries.brew.stow.bottle.files.x86_64_linux
+x86_64_linux	Brewfile.lock.json	/^            "x86_64_linux": {$/;"	o	object:entries.brew.stow.bottle.files
+files	Brewfile.lock.json	/^          "files": {$/;"	o	object:entries.brew.stow.bottle
+bottle	Brewfile.lock.json	/^        "bottle": {$/;"	o	object:entries.brew.stow
+stow	Brewfile.lock.json	/^      "stow": {$/;"	o	object:entries.brew
+version	Brewfile.lock.json	/^        "version": "1.5.4",$/;"	s	object:entries.brew.starship
+rebuild	Brewfile.lock.json	/^          "rebuild": 0,$/;"	n	object:entries.brew.starship.bottle
+root_url	Brewfile.lock.json	/^          "root_url": "https:\/\/ghcr.io\/v2\/homebrew\/core",$/;"	s	object:entries.brew.starship.bottle
+cellar	Brewfile.lock.json	/^              "cellar": ":any_skip_relocation",$/;"	s	object:entries.brew.starship.bottle.files.arm64_monterey
+url	Brewfile.lock.json	/^              "url": "https:\/\/ghcr.io\/v2\/homebrew\/core\/starship\/blobs\/sha256:c664c2de571/;"	s	object:entries.brew.starship.bottle.files.arm64_monterey
+sha256	Brewfile.lock.json	/^              "sha256": "c664c2de571200364a9b03159be0df8827001bf04b047dd8db6369c9af4b852f"$/;"	s	object:entries.brew.starship.bottle.files.arm64_monterey
+arm64_monterey	Brewfile.lock.json	/^            "arm64_monterey": {$/;"	o	object:entries.brew.starship.bottle.files
+cellar	Brewfile.lock.json	/^              "cellar": ":any_skip_relocation",$/;"	s	object:entries.brew.starship.bottle.files.arm64_big_sur
+url	Brewfile.lock.json	/^              "url": "https:\/\/ghcr.io\/v2\/homebrew\/core\/starship\/blobs\/sha256:bea112584d2/;"	s	object:entries.brew.starship.bottle.files.arm64_big_sur
+sha256	Brewfile.lock.json	/^              "sha256": "bea112584d24f406d8ad63414ba497888192e36539a6dca766bd4f3278b22d8b"$/;"	s	object:entries.brew.starship.bottle.files.arm64_big_sur
+arm64_big_sur	Brewfile.lock.json	/^            "arm64_big_sur": {$/;"	o	object:entries.brew.starship.bottle.files
+cellar	Brewfile.lock.json	/^              "cellar": ":any_skip_relocation",$/;"	s	object:entries.brew.starship.bottle.files.monterey
+url	Brewfile.lock.json	/^              "url": "https:\/\/ghcr.io\/v2\/homebrew\/core\/starship\/blobs\/sha256:37276e7e830/;"	s	object:entries.brew.starship.bottle.files.monterey
+sha256	Brewfile.lock.json	/^              "sha256": "37276e7e830a8977bada2e2999207eef9cb3a6e80dce75395f8df68f21551c8f"$/;"	s	object:entries.brew.starship.bottle.files.monterey
+monterey	Brewfile.lock.json	/^            "monterey": {$/;"	o	object:entries.brew.starship.bottle.files
+cellar	Brewfile.lock.json	/^              "cellar": ":any_skip_relocation",$/;"	s	object:entries.brew.starship.bottle.files.big_sur
+url	Brewfile.lock.json	/^              "url": "https:\/\/ghcr.io\/v2\/homebrew\/core\/starship\/blobs\/sha256:b63ebf06b35/;"	s	object:entries.brew.starship.bottle.files.big_sur
+sha256	Brewfile.lock.json	/^              "sha256": "b63ebf06b3587f8dc118f88251f0d5530595f82ab159393a30928bd052c15144"$/;"	s	object:entries.brew.starship.bottle.files.big_sur
+big_sur	Brewfile.lock.json	/^            "big_sur": {$/;"	o	object:entries.brew.starship.bottle.files
+cellar	Brewfile.lock.json	/^              "cellar": ":any_skip_relocation",$/;"	s	object:entries.brew.starship.bottle.files.catalina
+url	Brewfile.lock.json	/^              "url": "https:\/\/ghcr.io\/v2\/homebrew\/core\/starship\/blobs\/sha256:b8d4fb545d1/;"	s	object:entries.brew.starship.bottle.files.catalina
+sha256	Brewfile.lock.json	/^              "sha256": "b8d4fb545d1788347c83b007590af79ed4983821cfa3f93a373278995864c301"$/;"	s	object:entries.brew.starship.bottle.files.catalina
+catalina	Brewfile.lock.json	/^            "catalina": {$/;"	o	object:entries.brew.starship.bottle.files
+cellar	Brewfile.lock.json	/^              "cellar": ":any_skip_relocation",$/;"	s	object:entries.brew.starship.bottle.files.x86_64_linux
+url	Brewfile.lock.json	/^              "url": "https:\/\/ghcr.io\/v2\/homebrew\/core\/starship\/blobs\/sha256:d93710523ef/;"	s	object:entries.brew.starship.bottle.files.x86_64_linux
+sha256	Brewfile.lock.json	/^              "sha256": "d93710523efcefd934c204bd527b30412ec4a37c0ba2d8199adef694967abce8"$/;"	s	object:entries.brew.starship.bottle.files.x86_64_linux
+x86_64_linux	Brewfile.lock.json	/^            "x86_64_linux": {$/;"	o	object:entries.brew.starship.bottle.files
+files	Brewfile.lock.json	/^          "files": {$/;"	o	object:entries.brew.starship.bottle
+bottle	Brewfile.lock.json	/^        "bottle": {$/;"	o	object:entries.brew.starship
+starship	Brewfile.lock.json	/^      "starship": {$/;"	o	object:entries.brew
+brew	Brewfile.lock.json	/^    "brew": {$/;"	o	object:entries
+entries	Brewfile.lock.json	/^  "entries": {$/;"	o
+HOMEBREW_VERSION	Brewfile.lock.json	/^        "HOMEBREW_VERSION": "3.4.5",$/;"	s	object:system.macos.monterey
+HOMEBREW_PREFIX	Brewfile.lock.json	/^        "HOMEBREW_PREFIX": "\/opt\/homebrew",$/;"	s	object:system.macos.monterey
+Homebrew/homebrew-core	Brewfile.lock.json	/^        "Homebrew\/homebrew-core": "4fd1b5f6b7cd752191f3e59aefdb569a056fd2e8",$/;"	s	object:system.macos.monterey
+CLT	Brewfile.lock.json	/^        "CLT": "13.3.0.0.1.1645755326",$/;"	s	object:system.macos.monterey
+Xcode	Brewfile.lock.json	/^        "Xcode": "13.3",$/;"	s	object:system.macos.monterey
+macOS	Brewfile.lock.json	/^        "macOS": "12.3.1"$/;"	s	object:system.macos.monterey
+monterey	Brewfile.lock.json	/^      "monterey": {$/;"	o	object:system.macos
+macos	Brewfile.lock.json	/^    "macos": {$/;"	o	object:system
+system	Brewfile.lock.json	/^  "system": {$/;"	o
+Installation	README.md	/^## Installation$/;"	s
+IndexNum	packages/competitive_programing/pylib/binary_search.py	/^IndexNum = NewType('IndexNum', int)$/;"	v
+linear_search	packages/competitive_programing/pylib/binary_search.py	/^def linear_search(numbers: List[int], value: int) -> IndexNum:$/;"	f	typeref:typename:IndexNum
+binary_search	packages/competitive_programing/pylib/binary_search.py	/^def binary_search(numbers: List[int], value: int) -> IndexNum:$/;"	f	typeref:typename:IndexNum
+binary_search	packages/competitive_programing/pylib/binary_search.py	/^def binary_search(numbers: List[int], value: int) -> IndexNum:$/;"	f	typeref:typename:IndexNum
+_binary_search	packages/competitive_programing/pylib/binary_search.py	/^    def _binary_search(numbers: List[int], value: int,$/;"	f	function:binary_search	typeref:typename:IndexNum	file:
+nums	packages/competitive_programing/pylib/binary_search.py	/^    nums = [0, 1, 5, 7, 9, 11, 15, 20, 24]$/;"	v
+reportGeneralTypeIssues	packages/competitive_programing/pylib/pyrightconfig.json	/^  "reportGeneralTypeIssues": "none",$/;"	s
+reportOptionalSubscript	packages/competitive_programing/pylib/pyrightconfig.json	/^  "reportOptionalSubscript": "none"$/;"	s
+integer_to_bit_string	packages/competitive_programing/pylib/integer_to_bit_string.py	/^def integer_to_bit_string(num):$/;"	f

@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "docker commit {cursor}",
+    "uid" : "57F86C9B-AC18-4FA4-ABF2-58104F14FFC1",
+    "name" : "docker commit <container> <new image name>",
+    "keyword" : ""
+  }
+}
