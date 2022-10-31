@@ -101,6 +101,7 @@ nnoremap Y y$
 noremap fo o<ESC>
 nnoremap fg :GrammarousCheck
 nnoremap fr :!./%:r<CR>
+" nnoremap fr :QuickRun<CR>
 nnoremap ff :wq<CR>
 
 augroup setAutoCompile
@@ -138,7 +139,6 @@ nmap fl <C-w>>
 nmap fp <C-w>+
 nmap fn <C-w>-
 
-nnoremap fr :QuickRun<CR>
 nnoremap fc :<C-u>bw! quickrun://output<CR>
 
 let g:quickrun_config = {}

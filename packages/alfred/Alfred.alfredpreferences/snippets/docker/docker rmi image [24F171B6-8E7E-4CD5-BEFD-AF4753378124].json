@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "docker rmi {cursor}",
+    "uid" : "24F171B6-8E7E-4CD5-BEFD-AF4753378124",
+    "name" : "docker rmi <image>",
+    "keyword" : ""
+  }
+}
