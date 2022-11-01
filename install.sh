@@ -1,6 +1,7 @@
 #!/bin/sh
-if [! -f /usr/local/bin/brew ]
-/bin/bash -c "$(curl -c https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+if [! -f /usr/local/bin/brew ]; then
+    /bin/bash -c "$(curl -c https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+fi
 # set -e 
 
 if [ "$(dscl . -read ~/ UserShell)" = "UserShell: /bin/bash" ]; then
