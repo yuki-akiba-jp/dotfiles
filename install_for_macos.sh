@@ -9,6 +9,7 @@ if [ ! -d ~/dotfiles ]; then
     git clone https://github.com/yuki-akiba-jp/dotfiles.git
 fi
 
+export PATH="/usr/local/bin:$PATH"
 brew bundle -v --file=~/dotfiles/Brewfile
 
 if [ ! -d ~/.config ]; then
