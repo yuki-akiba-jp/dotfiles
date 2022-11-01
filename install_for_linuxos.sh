@@ -3,7 +3,7 @@ apt update -y
 apt upgrade -y
 apt install -y git curl
 if [ ! -f /usr/local/bin/brew ]; then
-    /bin/bash -c "$(curl -c https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 fi
 
 echo "eval \"\$($(brew --prefix)/bin/brew shellenv)\"" >> ~/.zshrc
