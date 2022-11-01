@@ -1,4 +1,5 @@
 #!/bin/sh
+if [! -f /usr/local/bin/brew ]
 /bin/bash -c "$(curl -c https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 # set -e 
 
