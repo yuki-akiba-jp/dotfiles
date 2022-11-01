@@ -3,9 +3,6 @@ if [ ! -f /usr/local/bin/brew ]; then
     /bin/bash -c "$(curl -c https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 fi
 
-if [ "$(dscl . -read ~/ UserShell)" = "UserShell: /bin/bash" ]; then
-    chsh -s $(which zsh)
-fi
 
 if [ ! -d ~/dotfiles ]; then
     cd ~
