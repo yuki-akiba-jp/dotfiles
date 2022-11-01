@@ -12,7 +12,6 @@ export SAVEHIST=100000
 export LSCOLORS=Cxfxcxdxbxegedabagacad
 
 [ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
-# export PATH="/opt/homebrew/bin:$PATH"
 export PATH="/usr/local/bin:$PATH"
 # chmod +x ~/.zsh_alias
 source ~/.zsh_alias

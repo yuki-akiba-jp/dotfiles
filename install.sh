@@ -1,8 +1,7 @@
 #!/bin/sh
-if [ ! -f /opt/homebrew/bin/brew ]; then
+if [ ! -f /usr/local/bin/brew]; then
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 fi
-
 # set -e 
 
 if [ "$(dscl . -read ~/ UserShell)" = "UserShell: /bin/bash" ]; then
