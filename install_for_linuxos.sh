@@ -1,6 +1,5 @@
 #!/bin/sh
-apt install -y git curl
-if [ ! -f /usr/local/bin/brew ]; then
+if [ ! -f /bin/brew ]; then
     sudo /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 fi
 
@@ -11,6 +10,7 @@ if [ ! -d ~/dotfiles ]; then
     git clone https://github.com/yuki-akiba-jp/dotfiles.git
 fi
 
+brew install gcc
 brew bundle -v --file=~/dotfiles/Brewfile
 
 if [ ! -d ~/.config ]; then
