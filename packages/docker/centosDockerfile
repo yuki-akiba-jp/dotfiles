@@ -1,0 +1,9 @@
+FROM centos:latest
+
+RUN dnf update -y && dnf upgrade -y && dnf install -y \
+    git\
+    tmux\
+    curl\
+    gcc
+
+RUN curl -sS https://starship.rs/install.sh --yes | sh

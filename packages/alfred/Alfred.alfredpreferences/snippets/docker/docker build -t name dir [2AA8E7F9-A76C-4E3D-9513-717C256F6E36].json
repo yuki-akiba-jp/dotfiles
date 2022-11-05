@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "docker build -t {cursor} .",
+    "uid" : "2AA8E7F9-A76C-4E3D-9513-717C256F6E36",
+    "name" : "docker build -t <name> <dir>",
+    "keyword" : ""
+  }
+}

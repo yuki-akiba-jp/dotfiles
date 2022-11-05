@@ -1,0 +1,9 @@
+FROM ubuntu:latest
+
+RUN apt update -y && apt upgrade -y && apt install -y \
+    git\
+    tmux\
+    curl\
+    gcc
+
+RUN curl -sS https://starship.rs/install.sh --yes | sh

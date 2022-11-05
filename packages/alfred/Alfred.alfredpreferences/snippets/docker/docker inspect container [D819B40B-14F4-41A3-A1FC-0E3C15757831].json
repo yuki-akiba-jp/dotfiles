@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "docker inspect {cursor}",
+    "uid" : "D819B40B-14F4-41A3-A1FC-0E3C15757831",
+    "name" : "docker inspect <container>",
+    "keyword" : ""
+  }
+}

@@ -21,5 +21,5 @@ fi
 sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 
-stow -v -d ~/dotfiles/packages -t ~  git  neovim starship tmux zsh  coc-snippets
+stow -v -d ~/dotfiles/packages -t ~  git  neovim starship tmux zsh  coc-snippets docker
 chsh -s $(which zsh)

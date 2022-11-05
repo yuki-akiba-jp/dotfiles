@@ -1,0 +1,31 @@
+snippet from "FROM"
+FROM ${1}
+endsnippet
+
+snippet run "RUN"
+RUN ${1}
+endsnippet
+
+snippet cmd "CMD"
+CMD ["${1}"]
+endsnippet
+
+snippet add "ADD"
+ADD ${1}
+endsnippet
+
+snippet workdir "WORKDIR"
+WORKDIR /${1}
+endsnippet
+
+snippet env "ENV"
+ENV ${1:key}${2:value}
+endsnippet
+
+snippet copy "COPY"
+COPY ${1:src} ${2:dist}
+endsnippet
+
+snippet entrypoint "ENTRYPOINT"
+ENTRYPOINT ["${1}"]
+endsnippet

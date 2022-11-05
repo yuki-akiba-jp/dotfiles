@@ -498,9 +498,12 @@ a	packages/competitive_programing/pylib/inputs.py	/^a = list(map(int, input().sp
 a	packages/competitive_programing/pylib/inputs.py	/^a, n = map(int, input().split())$/;"	v
 action	packages/alfred/Alfred.alfredpreferences/workflows/user.workflow.6FD75A08-E27D-4C55-B096-4B65F7CE004A/info.plist	/^				<key>action<\/key>$/;"	k	key:objects.config
 action	packages/alfred/Alfred.alfredpreferences/workflows/user.workflow.B9AAACD6-06ED-4037-8BC8-008D3362F044/info.plist	/^				<key>action<\/key>$/;"	k	key:objects.config
+alfredsnippet	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker build -f filename . [8B542E1D-FDD9-424F-AEB3-4DABA64400D2].json	/^  "alfredsnippet" : {$/;"	o
+alfredsnippet	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker build -t name dir [2AA8E7F9-A76C-4E3D-9513-717C256F6E36].json	/^  "alfredsnippet" : {$/;"	o
 alfredsnippet	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker commit container new image name [57F86C9B-AC18-4FA4-ABF2-58104F14FFC1].json	/^  "alfredsnippet" : {$/;"	o
 alfredsnippet	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker exec -it container command [221AC981-81E0-4373-BA07-DC89E8533459].json	/^  "alfredsnippet" : {$/;"	o
 alfredsnippet	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker images [CE986751-3AC1-43F3-BB99-444C14C33F6B].json	/^  "alfredsnippet" : {$/;"	o
+alfredsnippet	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker inspect container [D819B40B-14F4-41A3-A1FC-0E3C15757831].json	/^  "alfredsnippet" : {$/;"	o
 alfredsnippet	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker login [33F1CA28-99DF-4EFB-87B1-153E8037E256].json	/^  "alfredsnippet" : {$/;"	o
 alfredsnippet	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker ps -a [0319C6B8-157A-4303-ABFC-D1B48A372200].json	/^  "alfredsnippet" : {$/;"	o
 alfredsnippet	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker ps [F8D985DF-4D97-43AC-823E-30EB4A5780AC].json	/^  "alfredsnippet" : {$/;"	o
@@ -508,6 +511,8 @@ alfredsnippet	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker pu
 alfredsnippet	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker restart container [695C24E6-57D8-465D-821B-5950FDB709E2].json	/^  "alfredsnippet" : {$/;"	o
 alfredsnippet	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker rmi image [24F171B6-8E7E-4CD5-BEFD-AF4753378124].json	/^  "alfredsnippet" : {$/;"	o
 alfredsnippet	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker run -it image command [5C3324EE-39BD-474B-B5DC-E2881D6A1CB1].json	/^  "alfredsnippet" : {$/;"	o
+alfredsnippet	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker stop container [43B6F94F-4CDB-4563-93A8-BDCF59C02A34].json	/^  "alfredsnippet" : {$/;"	o
+alfredsnippet	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker system prune [E5C39323-D14C-4C66-B616-D6026F4765C5].json	/^  "alfredsnippet" : {$/;"	o
 alfredsnippet	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker tag source target [1708304C-FA8E-488E-8998-B769270AD0ED].json	/^  "alfredsnippet" : {$/;"	o
 alfredsnippet	packages/alfred/Alfred.alfredpreferences/snippets/flask/export FLASK_APP.py [79D4F264-01D1-4EA4-A6F6-F9AF140286BA].json	/^  "alfredsnippet" : {$/;"	o
 alfredsnippet	packages/alfred/Alfred.alfredpreferences/snippets/flask/flask --app flaskr --debug run [BF3EB29C-40D6-40E7-B08B-F2588B51FA4D].json	/^  "alfredsnippet" : {$/;"	o
@@ -797,9 +802,12 @@ key	packages/alfred/Alfred.alfredpreferences/preferences/features/snippets/prefs
 key	packages/alfred/Alfred.alfredpreferences/preferences/local/cddd64ce651d8d10d489fe408c249739e538334e/hotkey/prefs.plist	/^		<key>key<\/key>$/;"	k	key:default
 key	packages/alfred/Alfred.alfredpreferences/preferences/local/f3ce05ae174ecb1d383ae2e0a2b049c83f026743/hotkey/prefs.plist	/^		<key>key<\/key>$/;"	k	key:default
 keyword	packages/alfred/Alfred.alfredpreferences/preferences/features/dictionary/define/prefs.plist	/^	<key>keyword<\/key>$/;"	k
+keyword	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker build -f filename . [8B542E1D-FDD9-424F-AEB3-4DABA64400D2].json	/^    "keyword" : ""$/;"	s	object:alfredsnippet
+keyword	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker build -t name dir [2AA8E7F9-A76C-4E3D-9513-717C256F6E36].json	/^    "keyword" : ""$/;"	s	object:alfredsnippet
 keyword	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker commit container new image name [57F86C9B-AC18-4FA4-ABF2-58104F14FFC1].json	/^    "keyword" : ""$/;"	s	object:alfredsnippet
 keyword	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker exec -it container command [221AC981-81E0-4373-BA07-DC89E8533459].json	/^    "keyword" : ""$/;"	s	object:alfredsnippet
 keyword	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker images [CE986751-3AC1-43F3-BB99-444C14C33F6B].json	/^    "keyword" : ""$/;"	s	object:alfredsnippet
+keyword	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker inspect container [D819B40B-14F4-41A3-A1FC-0E3C15757831].json	/^    "keyword" : ""$/;"	s	object:alfredsnippet
 keyword	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker login [33F1CA28-99DF-4EFB-87B1-153E8037E256].json	/^    "keyword" : ""$/;"	s	object:alfredsnippet
 keyword	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker ps -a [0319C6B8-157A-4303-ABFC-D1B48A372200].json	/^    "keyword" : ""$/;"	s	object:alfredsnippet
 keyword	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker ps [F8D985DF-4D97-43AC-823E-30EB4A5780AC].json	/^    "keyword" : ""$/;"	s	object:alfredsnippet
@@ -807,6 +815,8 @@ keyword	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker pull ima
 keyword	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker restart container [695C24E6-57D8-465D-821B-5950FDB709E2].json	/^    "keyword" : ""$/;"	s	object:alfredsnippet
 keyword	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker rmi image [24F171B6-8E7E-4CD5-BEFD-AF4753378124].json	/^    "keyword" : ""$/;"	s	object:alfredsnippet
 keyword	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker run -it image command [5C3324EE-39BD-474B-B5DC-E2881D6A1CB1].json	/^    "keyword" : ""$/;"	s	object:alfredsnippet
+keyword	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker stop container [43B6F94F-4CDB-4563-93A8-BDCF59C02A34].json	/^    "keyword" : ""$/;"	s	object:alfredsnippet
+keyword	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker system prune [E5C39323-D14C-4C66-B616-D6026F4765C5].json	/^    "keyword" : ""$/;"	s	object:alfredsnippet
 keyword	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker tag source target [1708304C-FA8E-488E-8998-B769270AD0ED].json	/^    "keyword" : ""$/;"	s	object:alfredsnippet
 keyword	packages/alfred/Alfred.alfredpreferences/snippets/flask/export FLASK_APP.py [79D4F264-01D1-4EA4-A6F6-F9AF140286BA].json	/^    "keyword" : ""$/;"	s	object:alfredsnippet
 keyword	packages/alfred/Alfred.alfredpreferences/snippets/flask/flask --app flaskr --debug run [BF3EB29C-40D6-40E7-B08B-F2588B51FA4D].json	/^    "keyword" : ""$/;"	s	object:alfredsnippet
@@ -930,9 +940,12 @@ mygroup	packages/neovim/.config/nvim/init.vim	/^augroup mygroup$/;"	a
 n	packages/competitive_programing/pylib/dp/saidaiwa.py	/^n = int(input())$/;"	v
 n	packages/competitive_programing/pylib/inputs.py	/^a, n = map(int, input().split())$/;"	v
 n	packages/competitive_programing/pylib/inputs.py	/^n = int(input())$/;"	v
+name	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker build -f filename . [8B542E1D-FDD9-424F-AEB3-4DABA64400D2].json	/^    "name" : "docker build -f <filename>  .",$/;"	s	object:alfredsnippet
+name	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker build -t name dir [2AA8E7F9-A76C-4E3D-9513-717C256F6E36].json	/^    "name" : "docker build -t <name> <dir>",$/;"	s	object:alfredsnippet
 name	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker commit container new image name [57F86C9B-AC18-4FA4-ABF2-58104F14FFC1].json	/^    "name" : "docker commit <container> <new image name>",$/;"	s	object:alfredsnippet
 name	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker exec -it container command [221AC981-81E0-4373-BA07-DC89E8533459].json	/^    "name" : "docker exec -it <container> <command>",$/;"	s	object:alfredsnippet
 name	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker images [CE986751-3AC1-43F3-BB99-444C14C33F6B].json	/^    "name" : "docker images",$/;"	s	object:alfredsnippet
+name	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker inspect container [D819B40B-14F4-41A3-A1FC-0E3C15757831].json	/^    "name" : "docker inspect <container>",$/;"	s	object:alfredsnippet
 name	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker login [33F1CA28-99DF-4EFB-87B1-153E8037E256].json	/^    "name" : "docker login",$/;"	s	object:alfredsnippet
 name	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker ps -a [0319C6B8-157A-4303-ABFC-D1B48A372200].json	/^    "name" : "docker ps -a",$/;"	s	object:alfredsnippet
 name	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker ps [F8D985DF-4D97-43AC-823E-30EB4A5780AC].json	/^    "name" : "docker ps",$/;"	s	object:alfredsnippet
@@ -940,6 +953,8 @@ name	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker pull image 
 name	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker restart container [695C24E6-57D8-465D-821B-5950FDB709E2].json	/^    "name" : "docker restart <container>",$/;"	s	object:alfredsnippet
 name	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker rmi image [24F171B6-8E7E-4CD5-BEFD-AF4753378124].json	/^    "name" : "docker rmi <image>",$/;"	s	object:alfredsnippet
 name	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker run -it image command [5C3324EE-39BD-474B-B5DC-E2881D6A1CB1].json	/^    "name" : "docker run -it <image> <command>",$/;"	s	object:alfredsnippet
+name	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker stop container [43B6F94F-4CDB-4563-93A8-BDCF59C02A34].json	/^    "name" : "docker stop <container>",$/;"	s	object:alfredsnippet
+name	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker system prune [E5C39323-D14C-4C66-B616-D6026F4765C5].json	/^    "name" : "docker system prune",$/;"	s	object:alfredsnippet
 name	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker tag source target [1708304C-FA8E-488E-8998-B769270AD0ED].json	/^    "name" : "docker tag <source> <target>",$/;"	s	object:alfredsnippet
 name	packages/alfred/Alfred.alfredpreferences/snippets/flask/export FLASK_APP.py [79D4F264-01D1-4EA4-A6F6-F9AF140286BA].json	/^    "name" : "export FLASK_APP=.py",$/;"	s	object:alfredsnippet
 name	packages/alfred/Alfred.alfredpreferences/snippets/flask/flask --app flaskr --debug run [BF3EB29C-40D6-40E7-B08B-F2588B51FA4D].json	/^    "name" : "flask --app flaskr --debug run",$/;"	s	object:alfredsnippet
@@ -1063,9 +1078,12 @@ sha256	Brewfile.lock.json	/^              "sha256": "e2a4d5cae000bcb2a5464f618b0
 sha256	Brewfile.lock.json	/^              "sha256": "f6dc9f73ac8ef55caa0f8204c893bf41dcdffbae22b39d95a85eee5c99507b55"$/;"	s	object:entries.brew.stow.bottle.files.arm64_big_sur
 sierra	Brewfile.lock.json	/^            "sierra": {$/;"	o	object:entries.brew.stow.bottle.files
 size	packages/competitive_programing/pylib/graph/saisyouzenikigi.py	/^    def size(self, x):$/;"	f	function:UnionFind.root.issame.unite	file:
+snippet	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker build -f filename . [8B542E1D-FDD9-424F-AEB3-4DABA64400D2].json	/^    "snippet" : "docker build -f {cursor} .",$/;"	s	object:alfredsnippet
+snippet	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker build -t name dir [2AA8E7F9-A76C-4E3D-9513-717C256F6E36].json	/^    "snippet" : "docker build -t {cursor} .",$/;"	s	object:alfredsnippet
 snippet	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker commit container new image name [57F86C9B-AC18-4FA4-ABF2-58104F14FFC1].json	/^    "snippet" : "docker commit {cursor}",$/;"	s	object:alfredsnippet
 snippet	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker exec -it container command [221AC981-81E0-4373-BA07-DC89E8533459].json	/^    "snippet" : "docker exec -it {cursor}",$/;"	s	object:alfredsnippet
 snippet	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker images [CE986751-3AC1-43F3-BB99-444C14C33F6B].json	/^    "snippet" : "docker images",$/;"	s	object:alfredsnippet
+snippet	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker inspect container [D819B40B-14F4-41A3-A1FC-0E3C15757831].json	/^    "snippet" : "docker inspect {cursor}",$/;"	s	object:alfredsnippet
 snippet	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker login [33F1CA28-99DF-4EFB-87B1-153E8037E256].json	/^    "snippet" : "docker login",$/;"	s	object:alfredsnippet
 snippet	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker ps -a [0319C6B8-157A-4303-ABFC-D1B48A372200].json	/^    "snippet" : "docker ps -a",$/;"	s	object:alfredsnippet
 snippet	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker ps [F8D985DF-4D97-43AC-823E-30EB4A5780AC].json	/^    "snippet" : "docker ps",$/;"	s	object:alfredsnippet
@@ -1073,6 +1091,8 @@ snippet	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker pull ima
 snippet	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker restart container [695C24E6-57D8-465D-821B-5950FDB709E2].json	/^    "snippet" : "docker restart {cursor}",$/;"	s	object:alfredsnippet
 snippet	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker rmi image [24F171B6-8E7E-4CD5-BEFD-AF4753378124].json	/^    "snippet" : "docker rmi {cursor}",$/;"	s	object:alfredsnippet
 snippet	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker run -it image command [5C3324EE-39BD-474B-B5DC-E2881D6A1CB1].json	/^    "snippet" : "docker run -it {cursor}",$/;"	s	object:alfredsnippet
+snippet	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker stop container [43B6F94F-4CDB-4563-93A8-BDCF59C02A34].json	/^    "snippet" : "docker stop {cursor}",$/;"	s	object:alfredsnippet
+snippet	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker system prune [E5C39323-D14C-4C66-B616-D6026F4765C5].json	/^    "snippet" : "docker system prune",$/;"	s	object:alfredsnippet
 snippet	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker tag source target [1708304C-FA8E-488E-8998-B769270AD0ED].json	/^    "snippet" : "docker tag {cursor}",$/;"	s	object:alfredsnippet
 snippet	packages/alfred/Alfred.alfredpreferences/snippets/flask/export FLASK_APP.py [79D4F264-01D1-4EA4-A6F6-F9AF140286BA].json	/^    "snippet" : "export FLASK_APP={cursor}.py",$/;"	s	object:alfredsnippet
 snippet	packages/alfred/Alfred.alfredpreferences/snippets/flask/flask --app flaskr --debug run [BF3EB29C-40D6-40E7-B08B-F2588B51FA4D].json	/^    "snippet" : "flask --app flaskr --debug run",$/;"	s	object:alfredsnippet
@@ -1176,9 +1196,12 @@ typescript	packages/neovim/.config/nvim/coc-settings.json	/^    "typescript": ["
 u	packages/competitive_programing/pylib/graph/dijkstra.py	/^    u, v, w = map(int, input().split())$/;"	v
 u	packages/competitive_programing/pylib/graph/keirohukugen.py	/^        u, v, w = graph_edges[i]$/;"	v
 u	packages/competitive_programing/pylib/graph/keirohukugen.py	/^    u, v, w = map(int, input().split())$/;"	v
+uid	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker build -f filename . [8B542E1D-FDD9-424F-AEB3-4DABA64400D2].json	/^    "uid" : "8B542E1D-FDD9-424F-AEB3-4DABA64400D2",$/;"	s	object:alfredsnippet
+uid	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker build -t name dir [2AA8E7F9-A76C-4E3D-9513-717C256F6E36].json	/^    "uid" : "2AA8E7F9-A76C-4E3D-9513-717C256F6E36",$/;"	s	object:alfredsnippet
 uid	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker commit container new image name [57F86C9B-AC18-4FA4-ABF2-58104F14FFC1].json	/^    "uid" : "57F86C9B-AC18-4FA4-ABF2-58104F14FFC1",$/;"	s	object:alfredsnippet
 uid	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker exec -it container command [221AC981-81E0-4373-BA07-DC89E8533459].json	/^    "uid" : "221AC981-81E0-4373-BA07-DC89E8533459",$/;"	s	object:alfredsnippet
 uid	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker images [CE986751-3AC1-43F3-BB99-444C14C33F6B].json	/^    "uid" : "CE986751-3AC1-43F3-BB99-444C14C33F6B",$/;"	s	object:alfredsnippet
+uid	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker inspect container [D819B40B-14F4-41A3-A1FC-0E3C15757831].json	/^    "uid" : "D819B40B-14F4-41A3-A1FC-0E3C15757831",$/;"	s	object:alfredsnippet
 uid	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker login [33F1CA28-99DF-4EFB-87B1-153E8037E256].json	/^    "uid" : "33F1CA28-99DF-4EFB-87B1-153E8037E256",$/;"	s	object:alfredsnippet
 uid	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker ps -a [0319C6B8-157A-4303-ABFC-D1B48A372200].json	/^    "uid" : "0319C6B8-157A-4303-ABFC-D1B48A372200",$/;"	s	object:alfredsnippet
 uid	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker ps [F8D985DF-4D97-43AC-823E-30EB4A5780AC].json	/^    "uid" : "F8D985DF-4D97-43AC-823E-30EB4A5780AC",$/;"	s	object:alfredsnippet
@@ -1186,6 +1209,8 @@ uid	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker pull image [
 uid	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker restart container [695C24E6-57D8-465D-821B-5950FDB709E2].json	/^    "uid" : "695C24E6-57D8-465D-821B-5950FDB709E2",$/;"	s	object:alfredsnippet
 uid	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker rmi image [24F171B6-8E7E-4CD5-BEFD-AF4753378124].json	/^    "uid" : "24F171B6-8E7E-4CD5-BEFD-AF4753378124",$/;"	s	object:alfredsnippet
 uid	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker run -it image command [5C3324EE-39BD-474B-B5DC-E2881D6A1CB1].json	/^    "uid" : "5C3324EE-39BD-474B-B5DC-E2881D6A1CB1",$/;"	s	object:alfredsnippet
+uid	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker stop container [43B6F94F-4CDB-4563-93A8-BDCF59C02A34].json	/^    "uid" : "43B6F94F-4CDB-4563-93A8-BDCF59C02A34",$/;"	s	object:alfredsnippet
+uid	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker system prune [E5C39323-D14C-4C66-B616-D6026F4765C5].json	/^    "uid" : "E5C39323-D14C-4C66-B616-D6026F4765C5",$/;"	s	object:alfredsnippet
 uid	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker tag source target [1708304C-FA8E-488E-8998-B769270AD0ED].json	/^    "uid" : "1708304C-FA8E-488E-8998-B769270AD0ED",$/;"	s	object:alfredsnippet
 uid	packages/alfred/Alfred.alfredpreferences/snippets/flask/export FLASK_APP.py [79D4F264-01D1-4EA4-A6F6-F9AF140286BA].json	/^    "uid" : "79D4F264-01D1-4EA4-A6F6-F9AF140286BA",$/;"	s	object:alfredsnippet
 uid	packages/alfred/Alfred.alfredpreferences/snippets/flask/flask --app flaskr --debug run [BF3EB29C-40D6-40E7-B08B-F2588B51FA4D].json	/^    "uid" : "BF3EB29C-40D6-40E7-B08B-F2588B51FA4D",$/;"	s	object:alfredsnippet

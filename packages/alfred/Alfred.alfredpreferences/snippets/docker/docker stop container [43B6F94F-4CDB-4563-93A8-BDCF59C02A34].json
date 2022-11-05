@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "docker stop {cursor}",
+    "uid" : "43B6F94F-4CDB-4563-93A8-BDCF59C02A34",
+    "name" : "docker stop <container>",
+    "keyword" : ""
+  }
+}
