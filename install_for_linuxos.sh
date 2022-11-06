@@ -15,6 +15,7 @@ fi
 
 export PATH="/home/linuxbrew/.linuxbrew/bin:$PATH"
 echo 'export PATH="/home/linuxbrew/.linuxbrew/bin:$PATH"' >> ~/.zshrc
+echo 'eval "$(starship init zsh)"' >> ~/.zshrc
 brew bundle -v --file=~/dotfiles/BrewfileForLinux
 
 # vimplug installation
@@ -24,5 +25,3 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
 pip install pynvim isort
 
 stow -v -d ~/dotfiles/packages -t ~ git neovim starship tmux zsh coc-snippets docker
-
-eval "$(starship init zsh)"
