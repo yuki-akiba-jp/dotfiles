@@ -13,7 +13,7 @@ fi
 chsh -s $(which zsh)
 echo "eval \"\$($(brew --prefix)/bin/brew shellenv)\"" >> ~/.zshrc
 
-brew bundle -v --file=~/dotfiles/Brewfile
+brew bundle -v --file=~/dotfiles/BrewfileForLinux
 
 if [ ! -d ~/.config ]; then
     mkdir ~/.config
@@ -23,4 +23,4 @@ fi
 sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 
-stow -v -d ~/dotfiles/packages -t ~ alfred git iterm2 neovim starship tmux zsh  coc-snippets docker
+stow -v -d ~/dotfiles/packages -t ~ git  neovim starship tmux zsh  coc-snippets docker
