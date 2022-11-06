@@ -9,13 +9,18 @@ export HISTFILE=~/.zsh_history
 export HISTSIZE=100000
 export SAVEHIST=100000
 export LSCOLORS=Cxfxcxdxbxegedabagacad
+
+export PATH="/usr/local/bin:$PATH"
+export PATH=~/.npm-global/bin:$PATH
 eval "$(starship init zsh)"
 
 [ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
-export PATH="/usr/local/bin:$PATH"
+
+
+
+
 # chmod +x ~/.zsh_alias
 source ~/.zsh_alias
-export PATH=~/.npm-global/bin:$PATH
 
 function gp() {
  command git fetch origin pull/$1/head:PR-$1
