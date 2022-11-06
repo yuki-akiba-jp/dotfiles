@@ -1,2 +1,1 @@
-FROM ubuntu
-run
+FROM --platform=linux/amd64 ubuntu

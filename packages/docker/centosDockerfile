@@ -1,4 +1,4 @@
-FROM centos:latest
+FROM --platform=linux/amd64 centos:latest
 
 RUN dnf update -y && dnf upgrade -y && dnf install -y \
     git\
