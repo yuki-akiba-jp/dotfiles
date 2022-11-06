@@ -19,7 +19,6 @@ brew "docker"
 brew "starship"
 
 cask "google-chrome"
-cask "iterm2"
 cask "font-fira-code"
 cask "font-hack-nerd-font"
 cask "font-hack"

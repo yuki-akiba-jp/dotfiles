@@ -1,7 +1,6 @@
 autoload -Uz zmv
 autoload -Uz compinit  && compinit
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
-eval "$(starship init zsh)"
 setopt auto_cd
 setopt hist_ignore_dups
 setopt share_history
@@ -10,6 +9,7 @@ export HISTFILE=~/.zsh_history
 export HISTSIZE=100000
 export SAVEHIST=100000
 export LSCOLORS=Cxfxcxdxbxegedabagacad
+eval "$(starship init zsh)"
 
 [ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
 export PATH="/usr/local/bin:$PATH"
