@@ -108,7 +108,7 @@ augroup setAutoCompile
     autocmd!
     autocmd BufWritePost *.c :make -f ~/dotfiles/packages/Makefile/cMakefile
     autocmd BufWritePost *.cpp :make -f ~/dotfiles/packages/Makefile/cppMakefile
-    autocmd BufWritePost *Dockerfile set filetype=dockerfile
+    autocmd BufRead *Dockerfile set filetype=dockerfile
     autocmd BufWritePost *.f90 set filetype=fortran
     autocmd BufWritePost *.f90 :make -f ~/dotfiles/packages/Makefile/fortranMakefile
     autocmd BufWritePost *.html :Prettier
