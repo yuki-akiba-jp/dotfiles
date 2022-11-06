@@ -4,7 +4,6 @@ if [ ! -f /home/linuxbrew/.linuxbrew/bin/brew ]; then
      /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 fi
 
-
 if [ ! -d ~/dotfiles ]; then
     cd ~
     git clone https://github.com/yuki-akiba-jp/dotfiles.git
@@ -15,8 +14,8 @@ if [ ! -d ~/.config ]; then
 fi
 
 export PATH="/home/linuxbrew/.linuxbrew/bin:$PATH"
-brew bundle -v --file=~/dotfiles/BrewfileForLinux
 echo 'export PATH="/home/linuxbrew/.linuxbrew/bin:$PATH"' >> ~/.zshrc
+brew bundle -v --file=~/dotfiles/BrewfileForLinux
 
 # vimplug installation
 sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
