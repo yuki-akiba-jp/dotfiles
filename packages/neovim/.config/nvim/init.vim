@@ -83,7 +83,7 @@ augroup mygroup
   " Setup formatexpr specified filetype(s).
   autocmd FileType typescript,javascript,json setlocal formatexpr=CocAction('formatSelected') shiftwidth=2 tabstop=2
   autocmd FileType typescript,javascript,html set isk+=-
-  autocmd FileType python,cpp,c,typescript,javascript,php let b:coc_pairs_disabled = ['<']
+  autocmd FileType python,cpp,c,typescript,javascript,php,fortran let b:coc_pairs_disabled = ['<']
   autocmd FileType html setlocal shiftwidth=2 tabstop=2 filetype=html
   autocmd FileType * setlocal formatoptions-=ro
   " Update signature help on jump placeholder
@@ -100,8 +100,9 @@ nnoremap fj :Telescope find_files<CR>
 nnoremap Y y$
 noremap fo o<ESC>
 nnoremap fg :GrammarousCheck
-nnoremap fr :!./%:r<CR>
-" nnoremap fr :QuickRun<CR>
+" nnoremap fr :!./%:r<CR>
+nnoremap fr :QuickRun<CR>
+nnoremap fq :q<CR>
 nnoremap ff :wq<CR>
 
 augroup setAutoCompile
@@ -109,7 +110,7 @@ augroup setAutoCompile
     autocmd BufWritePost *.c :make -f ~/dotfiles/packages/Makefile/cMakefile
     autocmd BufWritePost *.cpp :make -f ~/dotfiles/packages/Makefile/cppMakefile
     autocmd BufRead *Dockerfile set filetype=dockerfile
-    autocmd BufWritePost *.f90 set filetype=fortran
+    autocmd BufRead *.f90 set filetype=fortran
     autocmd BufWritePost *.f90 :make -f ~/dotfiles/packages/Makefile/fortranMakefile
     autocmd BufWritePost *.html :Prettier
     " autocmd BufWritePost *.html :CocCommand htmldjango.djlint.format

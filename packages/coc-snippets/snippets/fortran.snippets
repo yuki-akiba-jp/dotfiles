@@ -1,0 +1,64 @@
+snippet integer "integer"
+integer  :: ${1}
+endsnippet
+
+snippet real "real"
+real :: ${1}
+endsnippet
+
+snippet character "character"
+character :: ${1}
+endsnippet
+
+snippet program "program"
+program ${1}
+implicit none
+${2}
+end program ${1}
+endsnippet
+
+snippet do "do"
+do ${1} = ${2}, ${3}
+	${4}
+end do
+endsnippet
+
+snippet write "write"
+write(${1:*},${2:*}) ${3}
+endsnippet
+
+snippet open "open"
+open(${1},file=${2},status=${3:old}) ${4}
+endsnippet
+
+snippet if "if"
+if(${1}) then
+	${2}
+endif
+endsnippet
+
+snippet else "else"
+else 
+	${1}
+endsnippet
+
+snippet elseif "elseif"
+else if(${1}) 
+	${1}
+endsnippet
+
+snippet read "read"
+read(${1},*) ${2}
+endsnippet
+
+snippet and "and"
+.and.
+endsnippet
+
+snippet or "or"
+.or.
+endsnippet
+
+snippet not "not"
+.not.
+endsnippet
