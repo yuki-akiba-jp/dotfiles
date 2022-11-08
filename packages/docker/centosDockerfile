@@ -1,9 +1,11 @@
 FROM --platform=linux/amd64 centos:latest
 
+RUN sed -i -e 's/^mirrorlist/#mirrorlist/g' -e 's/^#baseurl=http:\/\/mirror/baseurl=http:\/\/vault/g' /etc/yum.repos.d/CentOS-*repo
 RUN dnf update -y && dnf upgrade -y && dnf install -y \
     git\
     tmux\
     curl\
     gcc
+
 
 RUN curl -sS https://starship.rs/install.sh --yes | sh

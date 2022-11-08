@@ -4,5 +4,4 @@ RUN apt update -y && apt upgrade -y  && apt install -y \
     curl\
     git
 
-RUN  curl -sS https://starship.rs/install.sh --yes | sh 
 RUN  curl -o - https://raw.githubusercontent.com/yuki-akiba-jp/dotfiles/main/install_for_linuxos.sh | sh
