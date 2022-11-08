@@ -510,8 +510,10 @@ alfredsnippet	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker ps
 alfredsnippet	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker ps [F8D985DF-4D97-43AC-823E-30EB4A5780AC].json	/^  "alfredsnippet" : {$/;"	o
 alfredsnippet	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker pull image [5A88EFD4-7EAC-4A69-BC52-01CDA7BD9570].json	/^  "alfredsnippet" : {$/;"	o
 alfredsnippet	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker restart container [695C24E6-57D8-465D-821B-5950FDB709E2].json	/^  "alfredsnippet" : {$/;"	o
+alfredsnippet	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker rmi [24F171B6-8E7E-4CD5-BEFD-AF4753378124].json	/^  "alfredsnippet" : {$/;"	o
 alfredsnippet	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker rmi image [24F171B6-8E7E-4CD5-BEFD-AF4753378124].json	/^  "alfredsnippet" : {$/;"	o
 alfredsnippet	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker run -it image command [5C3324EE-39BD-474B-B5DC-E2881D6A1CB1].json	/^  "alfredsnippet" : {$/;"	o
+alfredsnippet	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker stop (docker ps -a -q) [43B6F94F-4CDB-4563-93A8-BDCF59C02A34].json	/^  "alfredsnippet" : {$/;"	o
 alfredsnippet	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker stop container [43B6F94F-4CDB-4563-93A8-BDCF59C02A34].json	/^  "alfredsnippet" : {$/;"	o
 alfredsnippet	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker system prune [E5C39323-D14C-4C66-B616-D6026F4765C5].json	/^  "alfredsnippet" : {$/;"	o
 alfredsnippet	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker tag source target [1708304C-FA8E-488E-8998-B769270AD0ED].json	/^  "alfredsnippet" : {$/;"	o
@@ -758,6 +760,7 @@ fo	packages/neovim/.config/nvim/init.vim	/^noremap fo o<ESC>$/;"	m
 focusedappvariable	packages/alfred/Alfred.alfredpreferences/workflows/user.workflow.6FD75A08-E27D-4C55-B096-4B65F7CE004A/info.plist	/^				<key>focusedappvariable<\/key>$/;"	k	key:objects.config
 focusedappvariablename	packages/alfred/Alfred.alfredpreferences/workflows/user.workflow.6FD75A08-E27D-4C55-B096-4B65F7CE004A/info.plist	/^				<key>focusedappvariablename<\/key>$/;"	k	key:objects.config
 fp	packages/neovim/.config/nvim/init.vim	/^nmap fp <C-w>+$/;"	m
+fq	packages/neovim/.config/nvim/init.vim	/^nnoremap fq :q<CR>$/;"	m
 fr	packages/neovim/.config/nvim/init.vim	/^nnoremap fr :!.\/%:r<CR>$/;"	m
 fr	packages/neovim/.config/nvim/init.vim	/^nnoremap fr :QuickRun<CR>$/;"	m
 friends	packages/competitive_programing/pylib/graph/friends_friend.py	/^friends = set(G[X])$/;"	v
@@ -815,8 +818,10 @@ keyword	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker ps -a [0
 keyword	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker ps [F8D985DF-4D97-43AC-823E-30EB4A5780AC].json	/^    "keyword" : ""$/;"	s	object:alfredsnippet
 keyword	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker pull image [5A88EFD4-7EAC-4A69-BC52-01CDA7BD9570].json	/^    "keyword" : ""$/;"	s	object:alfredsnippet
 keyword	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker restart container [695C24E6-57D8-465D-821B-5950FDB709E2].json	/^    "keyword" : ""$/;"	s	object:alfredsnippet
+keyword	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker rmi [24F171B6-8E7E-4CD5-BEFD-AF4753378124].json	/^    "keyword" : ""$/;"	s	object:alfredsnippet
 keyword	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker rmi image [24F171B6-8E7E-4CD5-BEFD-AF4753378124].json	/^    "keyword" : ""$/;"	s	object:alfredsnippet
 keyword	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker run -it image command [5C3324EE-39BD-474B-B5DC-E2881D6A1CB1].json	/^    "keyword" : ""$/;"	s	object:alfredsnippet
+keyword	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker stop (docker ps -a -q) [43B6F94F-4CDB-4563-93A8-BDCF59C02A34].json	/^    "keyword" : ""$/;"	s	object:alfredsnippet
 keyword	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker stop container [43B6F94F-4CDB-4563-93A8-BDCF59C02A34].json	/^    "keyword" : ""$/;"	s	object:alfredsnippet
 keyword	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker system prune [E5C39323-D14C-4C66-B616-D6026F4765C5].json	/^    "keyword" : ""$/;"	s	object:alfredsnippet
 keyword	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker tag source target [1708304C-FA8E-488E-8998-B769270AD0ED].json	/^    "keyword" : ""$/;"	s	object:alfredsnippet
@@ -954,8 +959,10 @@ name	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker ps -a [0319
 name	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker ps [F8D985DF-4D97-43AC-823E-30EB4A5780AC].json	/^    "name" : "docker ps",$/;"	s	object:alfredsnippet
 name	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker pull image [5A88EFD4-7EAC-4A69-BC52-01CDA7BD9570].json	/^    "name" : "docker pull <image>",$/;"	s	object:alfredsnippet
 name	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker restart container [695C24E6-57D8-465D-821B-5950FDB709E2].json	/^    "name" : "docker restart <container>",$/;"	s	object:alfredsnippet
+name	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker rmi [24F171B6-8E7E-4CD5-BEFD-AF4753378124].json	/^    "name" : "docker rmi",$/;"	s	object:alfredsnippet
 name	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker rmi image [24F171B6-8E7E-4CD5-BEFD-AF4753378124].json	/^    "name" : "docker rmi <image>",$/;"	s	object:alfredsnippet
 name	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker run -it image command [5C3324EE-39BD-474B-B5DC-E2881D6A1CB1].json	/^    "name" : "docker run -it <image> <command>",$/;"	s	object:alfredsnippet
+name	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker stop (docker ps -a -q) [43B6F94F-4CDB-4563-93A8-BDCF59C02A34].json	/^    "name" : "docker stop $(docker ps -a -q)",$/;"	s	object:alfredsnippet
 name	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker stop container [43B6F94F-4CDB-4563-93A8-BDCF59C02A34].json	/^    "name" : "docker stop <container>",$/;"	s	object:alfredsnippet
 name	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker system prune [E5C39323-D14C-4C66-B616-D6026F4765C5].json	/^    "name" : "docker system prune",$/;"	s	object:alfredsnippet
 name	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker tag source target [1708304C-FA8E-488E-8998-B769270AD0ED].json	/^    "name" : "docker tag <source> <target>",$/;"	s	object:alfredsnippet
@@ -1093,8 +1100,10 @@ snippet	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker ps -a [0
 snippet	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker ps [F8D985DF-4D97-43AC-823E-30EB4A5780AC].json	/^    "snippet" : "docker ps",$/;"	s	object:alfredsnippet
 snippet	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker pull image [5A88EFD4-7EAC-4A69-BC52-01CDA7BD9570].json	/^    "snippet" : "docker pull {cursor}",$/;"	s	object:alfredsnippet
 snippet	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker restart container [695C24E6-57D8-465D-821B-5950FDB709E2].json	/^    "snippet" : "docker restart {cursor}",$/;"	s	object:alfredsnippet
+snippet	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker rmi [24F171B6-8E7E-4CD5-BEFD-AF4753378124].json	/^    "snippet" : "docker rmi $(docker images -q)",$/;"	s	object:alfredsnippet
 snippet	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker rmi image [24F171B6-8E7E-4CD5-BEFD-AF4753378124].json	/^    "snippet" : "docker rmi {cursor}",$/;"	s	object:alfredsnippet
 snippet	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker run -it image command [5C3324EE-39BD-474B-B5DC-E2881D6A1CB1].json	/^    "snippet" : "docker run -it {cursor}",$/;"	s	object:alfredsnippet
+snippet	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker stop (docker ps -a -q) [43B6F94F-4CDB-4563-93A8-BDCF59C02A34].json	/^    "snippet" : "docker stop $(docker ps -a -q)",$/;"	s	object:alfredsnippet
 snippet	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker stop container [43B6F94F-4CDB-4563-93A8-BDCF59C02A34].json	/^    "snippet" : "docker stop {cursor}",$/;"	s	object:alfredsnippet
 snippet	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker system prune [E5C39323-D14C-4C66-B616-D6026F4765C5].json	/^    "snippet" : "docker system prune",$/;"	s	object:alfredsnippet
 snippet	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker tag source target [1708304C-FA8E-488E-8998-B769270AD0ED].json	/^    "snippet" : "docker tag {cursor}",$/;"	s	object:alfredsnippet
@@ -1212,8 +1221,10 @@ uid	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker ps -a [0319C
 uid	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker ps [F8D985DF-4D97-43AC-823E-30EB4A5780AC].json	/^    "uid" : "F8D985DF-4D97-43AC-823E-30EB4A5780AC",$/;"	s	object:alfredsnippet
 uid	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker pull image [5A88EFD4-7EAC-4A69-BC52-01CDA7BD9570].json	/^    "uid" : "5A88EFD4-7EAC-4A69-BC52-01CDA7BD9570",$/;"	s	object:alfredsnippet
 uid	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker restart container [695C24E6-57D8-465D-821B-5950FDB709E2].json	/^    "uid" : "695C24E6-57D8-465D-821B-5950FDB709E2",$/;"	s	object:alfredsnippet
+uid	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker rmi [24F171B6-8E7E-4CD5-BEFD-AF4753378124].json	/^    "uid" : "24F171B6-8E7E-4CD5-BEFD-AF4753378124",$/;"	s	object:alfredsnippet
 uid	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker rmi image [24F171B6-8E7E-4CD5-BEFD-AF4753378124].json	/^    "uid" : "24F171B6-8E7E-4CD5-BEFD-AF4753378124",$/;"	s	object:alfredsnippet
 uid	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker run -it image command [5C3324EE-39BD-474B-B5DC-E2881D6A1CB1].json	/^    "uid" : "5C3324EE-39BD-474B-B5DC-E2881D6A1CB1",$/;"	s	object:alfredsnippet
+uid	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker stop (docker ps -a -q) [43B6F94F-4CDB-4563-93A8-BDCF59C02A34].json	/^    "uid" : "43B6F94F-4CDB-4563-93A8-BDCF59C02A34",$/;"	s	object:alfredsnippet
 uid	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker stop container [43B6F94F-4CDB-4563-93A8-BDCF59C02A34].json	/^    "uid" : "43B6F94F-4CDB-4563-93A8-BDCF59C02A34",$/;"	s	object:alfredsnippet
 uid	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker system prune [E5C39323-D14C-4C66-B616-D6026F4765C5].json	/^    "uid" : "E5C39323-D14C-4C66-B616-D6026F4765C5",$/;"	s	object:alfredsnippet
 uid	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker tag source target [1708304C-FA8E-488E-8998-B769270AD0ED].json	/^    "uid" : "1708304C-FA8E-488E-8998-B769270AD0ED",$/;"	s	object:alfredsnippet

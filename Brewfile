@@ -17,6 +17,7 @@ brew "python3"
 brew "ruby"
 brew "docker"
 brew "starship"
+brew "ctags"
 
 cask "alfred"
 cask "dictionaries"
