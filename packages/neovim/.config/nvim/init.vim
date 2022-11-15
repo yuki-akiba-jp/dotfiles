@@ -107,11 +107,11 @@ nnoremap ff :wq<CR>
 
 augroup setAutoCompile
     autocmd!
-    autocmd BufWritePost *.c :make -f ~/dotfiles/packages/Makefile/cMakefile
-    autocmd BufWritePost *.cpp :make -f ~/dotfiles/packages/Makefile/cppMakefile
+    " autocmd BufWritePost *.c :make -f ~/dotfiles/packages/Makefile/cMakefile
+    " autocmd BufWritePost *.cpp :make -f ~/dotfiles/packages/Makefile/cppMakefile
+    " autocmd BufWritePost *.f90 :make -f ~/dotfiles/packages/Makefile/fortranMakefile
     autocmd BufRead *Dockerfile set filetype=dockerfile
     autocmd BufRead *.f90 set filetype=fortran
-    autocmd BufWritePost *.f90 :make -f ~/dotfiles/packages/Makefile/fortranMakefile
     autocmd BufWritePost *.html :Prettier
     " autocmd BufWritePost *.html :CocCommand htmldjango.djlint.format
     autocmd BufWritePost *.py :Isort
