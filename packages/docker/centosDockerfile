@@ -4,10 +4,17 @@ RUN sed -i -e 's/^mirrorlist/#mirrorlist/g' -e 's/^#baseurl=http:\/\/mirror/base
 
 RUN yum update -y && yum upgrade -y 
 RUN yum install -y \
-    git\
     curl\
+    stow\
+    tmux\
     gcc\
-    make\
-    vim
+    vim\
+    nodejs\
+    perl\
+    python3\
+    ruby\
+    ctags\
+    git
+
 
 RUN yum install -y https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm && yum update -y&& yum install -y testdisk

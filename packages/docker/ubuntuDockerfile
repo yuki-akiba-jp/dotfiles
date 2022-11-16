@@ -5,7 +5,7 @@ RUN apt update -y && apt upgrade -y  && apt install -y \
     stow\
     tmux\
     gcc\
-    neovim\
+    vim\
     nodejs\
     perl\
     python3\
