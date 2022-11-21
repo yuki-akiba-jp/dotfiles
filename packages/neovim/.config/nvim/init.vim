@@ -82,9 +82,10 @@ augroup mygroup
   autocmd!
   " Setup formatexpr specified filetype(s).
   autocmd FileType typescript,javascript,json setlocal formatexpr=CocAction('formatSelected') shiftwidth=2 tabstop=2
-  autocmd FileType typescript,javascript,html set isk+=-
+  autocmd FileType typescript,javascript,html,jinja set isk+=-
   autocmd FileType python,cpp,c,typescript,javascript,php,fortran let b:coc_pairs_disabled = ['<']
   autocmd FileType html setlocal shiftwidth=2 tabstop=2 filetype=html
+  autocmd FileType jinja setlocal shiftwidth=2 tabstop=2 filetype=jinja
   autocmd FileType * setlocal formatoptions-=ro
   " Update signature help on jump placeholder
   autocmd User CocJumpPlaceholder call CocActionAsync('showSignatureHelp')
@@ -104,6 +105,7 @@ nnoremap fg :GrammarousCheck
 nnoremap fr :QuickRun<CR>
 nnoremap fq :q<CR>
 nnoremap ff :wq<CR>
+nnoremap fa :wa<CR>
 
 augroup setAutoCompile
     autocmd!
@@ -112,10 +114,11 @@ augroup setAutoCompile
     " autocmd BufWritePost *.f90 :make -f ~/dotfiles/packages/Makefile/fortranMakefile
     autocmd BufRead *Dockerfile set filetype=dockerfile
     autocmd BufRead *.f90 set filetype=fortran
+    autocmd BufRead *.jinja set filetype=htmldjango
+    autocmd BufRead *.html set filetype=html
     autocmd BufWritePost *.html :Prettier
-    " autocmd BufWritePost *.html :CocCommand htmldjango.djlint.format
     autocmd BufWritePost *.py :Isort
-    autocmd BufWritePost *.py :!python3 %:p
+    " autocmd BufWritePost *.py :!python3 %:p
 augroup END
 
 " Use <C-k> for jump to next placeholder, it's default of coc.nvim
@@ -142,7 +145,7 @@ nmap fl <C-w>>
 nmap fp <C-w>+
 nmap fn <C-w>-
 
-nnoremap fc :<C-u>bw! quickrun://output<CR>
+nnoremap fc :!pyclean .<CR>
 
 let g:quickrun_config = {}
 let g:quickrun_config._ = {

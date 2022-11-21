@@ -29,6 +29,8 @@
   "coc.preferences.formatOnSaveFiletypes": [
     "typescriptreact",
     "javascriptreact",
+    "vue",
+    "react",
     "markdown",
     "css",
     "javascript",
@@ -44,5 +46,6 @@
   "eslint.autoFixOnSave": true,
   "eslint.run": "onSave",
   "htmldjango.djlint.lintOnSave": true,
-  "python.formatting.autopep8Path": "/usr/local/bin/autopep8"
+  "python.formatting.autopep8Path": "/usr/local/bin/autopep8",
+  "python.pythonPath": "/usr/local/bin/python3"
 }
