@@ -82,10 +82,10 @@ augroup mygroup
   autocmd!
   " Setup formatexpr specified filetype(s).
   autocmd FileType typescript,javascript,json setlocal formatexpr=CocAction('formatSelected') shiftwidth=2 tabstop=2
-  autocmd FileType typescript,javascript,html,jinja set isk+=-
+  autocmd FileType typescript,javascript,html,htmldjango set isk+=-
   autocmd FileType python,cpp,c,typescript,javascript,php,fortran let b:coc_pairs_disabled = ['<']
   autocmd FileType html setlocal shiftwidth=2 tabstop=2 filetype=html
-  autocmd FileType jinja setlocal shiftwidth=2 tabstop=2 filetype=jinja
+  autocmd FileType htmldjango setlocal shiftwidth=2 tabstop=2 filetype=htmldjango
   autocmd FileType * setlocal formatoptions-=ro
   " Update signature help on jump placeholder
   autocmd User CocJumpPlaceholder call CocActionAsync('showSignatureHelp')

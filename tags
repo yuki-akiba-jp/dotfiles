@@ -61,18 +61,26 @@
 1	packages/neovim/.config/nvim/coc-settings.json	/^    "javascriptreact",$/;"	s	array:coc.preferences.formatOnSaveFiletypes
 1	packages/neovim/.config/nvim/coc-settings.json	/^    "~\/dotfiles\/packages\/coc-snippets\/snippets"$/;"	s	array:snippets.ultisnips.directories
 10	packages/neovim/.config/nvim/coc-settings.json	/^    "cpp",$/;"	s	array:coc.preferences.formatOnSaveFiletypes
+10	packages/neovim/.config/nvim/coc-settings.json	/^    "yaml",$/;"	s	array:coc.preferences.formatOnSaveFiletypes
 11	packages/neovim/.config/nvim/coc-settings.json	/^    "c"$/;"	s	array:coc.preferences.formatOnSaveFiletypes
+11	packages/neovim/.config/nvim/coc-settings.json	/^    "python",$/;"	s	array:coc.preferences.formatOnSaveFiletypes
+12	packages/neovim/.config/nvim/coc-settings.json	/^    "cpp",$/;"	s	array:coc.preferences.formatOnSaveFiletypes
 12B8CAB5-9FEE-46F2-B67E-026F4BE48A88	packages/alfred/Alfred.alfredpreferences/workflows/user.workflow.B9AAACD6-06ED-4037-8BC8-008D3362F044/info.plist	/^		<key>12B8CAB5-9FEE-46F2-B67E-026F4BE48A88<\/key>$/;"	k	key:connections
 12B8CAB5-9FEE-46F2-B67E-026F4BE48A88	packages/alfred/Alfred.alfredpreferences/workflows/user.workflow.B9AAACD6-06ED-4037-8BC8-008D3362F044/info.plist	/^		<key>12B8CAB5-9FEE-46F2-B67E-026F4BE48A88<\/key>$/;"	k	key:uidata
+13	packages/neovim/.config/nvim/coc-settings.json	/^    "c"$/;"	s	array:coc.preferences.formatOnSaveFiletypes
 2	packages/neovim/.config/nvim/coc-settings.json	/^    "markdown",$/;"	s	array:coc.preferences.formatOnSaveFiletypes
+2	packages/neovim/.config/nvim/coc-settings.json	/^    "vue",$/;"	s	array:coc.preferences.formatOnSaveFiletypes
 2D9B5608-8924-44BB-ACE3-06F124842A7D	packages/alfred/Alfred.alfredpreferences/workflows/user.workflow.6FD75A08-E27D-4C55-B096-4B65F7CE004A/info.plist	/^		<key>2D9B5608-8924-44BB-ACE3-06F124842A7D<\/key>$/;"	k	key:connections
 2D9B5608-8924-44BB-ACE3-06F124842A7D	packages/alfred/Alfred.alfredpreferences/workflows/user.workflow.6FD75A08-E27D-4C55-B096-4B65F7CE004A/info.plist	/^		<key>2D9B5608-8924-44BB-ACE3-06F124842A7D<\/key>$/;"	k	key:uidata
 3	packages/neovim/.config/nvim/coc-settings.json	/^    "css",$/;"	s	array:coc.preferences.formatOnSaveFiletypes
+3	packages/neovim/.config/nvim/coc-settings.json	/^    "react",$/;"	s	array:coc.preferences.formatOnSaveFiletypes
 3761243B-89C7-4838-8FBA-F867461E846B	packages/alfred/Alfred.alfredpreferences/workflows/user.workflow.6FD75A08-E27D-4C55-B096-4B65F7CE004A/info.plist	/^		<key>3761243B-89C7-4838-8FBA-F867461E846B<\/key>$/;"	k	key:connections
 3761243B-89C7-4838-8FBA-F867461E846B	packages/alfred/Alfred.alfredpreferences/workflows/user.workflow.6FD75A08-E27D-4C55-B096-4B65F7CE004A/info.plist	/^		<key>3761243B-89C7-4838-8FBA-F867461E846B<\/key>$/;"	k	key:uidata
 4	packages/neovim/.config/nvim/coc-settings.json	/^    "javascript",$/;"	s	array:coc.preferences.formatOnSaveFiletypes
+4	packages/neovim/.config/nvim/coc-settings.json	/^    "markdown",$/;"	s	array:coc.preferences.formatOnSaveFiletypes
 406C4166-C9CF-496F-8DB1-D43CE5211BEA	packages/alfred/Alfred.alfredpreferences/workflows/user.workflow.B9AAACD6-06ED-4037-8BC8-008D3362F044/info.plist	/^		<key>406C4166-C9CF-496F-8DB1-D43CE5211BEA<\/key>$/;"	k	key:connections
 406C4166-C9CF-496F-8DB1-D43CE5211BEA	packages/alfred/Alfred.alfredpreferences/workflows/user.workflow.B9AAACD6-06ED-4037-8BC8-008D3362F044/info.plist	/^		<key>406C4166-C9CF-496F-8DB1-D43CE5211BEA<\/key>$/;"	k	key:uidata
+5	packages/neovim/.config/nvim/coc-settings.json	/^    "css",$/;"	s	array:coc.preferences.formatOnSaveFiletypes
 5	packages/neovim/.config/nvim/coc-settings.json	/^    "typescript",$/;"	s	array:coc.preferences.formatOnSaveFiletypes
 51B425B5-E480-4D15-BC2F-9B4CED153DCF	packages/alfred/Alfred.alfredpreferences/workflows/user.workflow.6FD75A08-E27D-4C55-B096-4B65F7CE004A/info.plist	/^		<key>51B425B5-E480-4D15-BC2F-9B4CED153DCF<\/key>$/;"	k	key:connections
 51B425B5-E480-4D15-BC2F-9B4CED153DCF	packages/alfred/Alfred.alfredpreferences/workflows/user.workflow.6FD75A08-E27D-4C55-B096-4B65F7CE004A/info.plist	/^		<key>51B425B5-E480-4D15-BC2F-9B4CED153DCF<\/key>$/;"	k	key:uidata
@@ -80,15 +88,19 @@
 5B360532-D9CC-4FE9-93FB-75AF82787F4E	packages/alfred/Alfred.alfredpreferences/workflows/user.workflow.6FD75A08-E27D-4C55-B096-4B65F7CE004A/info.plist	/^		<key>5B360532-D9CC-4FE9-93FB-75AF82787F4E<\/key>$/;"	k	key:uidata
 5C09F008-55F3-4966-BACC-DF3176E148A5	packages/alfred/Alfred.alfredpreferences/workflows/user.workflow.B9AAACD6-06ED-4037-8BC8-008D3362F044/info.plist	/^		<key>5C09F008-55F3-4966-BACC-DF3176E148A5<\/key>$/;"	k	key:connections
 5C09F008-55F3-4966-BACC-DF3176E148A5	packages/alfred/Alfred.alfredpreferences/workflows/user.workflow.B9AAACD6-06ED-4037-8BC8-008D3362F044/info.plist	/^		<key>5C09F008-55F3-4966-BACC-DF3176E148A5<\/key>$/;"	k	key:uidata
+6	packages/neovim/.config/nvim/coc-settings.json	/^    "javascript",$/;"	s	array:coc.preferences.formatOnSaveFiletypes
 6	packages/neovim/.config/nvim/coc-settings.json	/^    "json",$/;"	s	array:coc.preferences.formatOnSaveFiletypes
 6FB3D7CB-E570-4171-8B47-B187079B14FD	packages/alfred/Alfred.alfredpreferences/workflows/user.workflow.6FD75A08-E27D-4C55-B096-4B65F7CE004A/info.plist	/^		<key>6FB3D7CB-E570-4171-8B47-B187079B14FD<\/key>$/;"	k	key:connections
 6FB3D7CB-E570-4171-8B47-B187079B14FD	packages/alfred/Alfred.alfredpreferences/workflows/user.workflow.6FD75A08-E27D-4C55-B096-4B65F7CE004A/info.plist	/^		<key>6FB3D7CB-E570-4171-8B47-B187079B14FD<\/key>$/;"	k	key:uidata
 7	packages/neovim/.config/nvim/coc-settings.json	/^    "scss",$/;"	s	array:coc.preferences.formatOnSaveFiletypes
+7	packages/neovim/.config/nvim/coc-settings.json	/^    "typescript",$/;"	s	array:coc.preferences.formatOnSaveFiletypes
 7419E877-26B9-47B3-B60A-8CFF0D054F3F	packages/alfred/Alfred.alfredpreferences/workflows/user.workflow.6FD75A08-E27D-4C55-B096-4B65F7CE004A/info.plist	/^		<key>7419E877-26B9-47B3-B60A-8CFF0D054F3F<\/key>$/;"	k	key:connections
 7419E877-26B9-47B3-B60A-8CFF0D054F3F	packages/alfred/Alfred.alfredpreferences/workflows/user.workflow.6FD75A08-E27D-4C55-B096-4B65F7CE004A/info.plist	/^		<key>7419E877-26B9-47B3-B60A-8CFF0D054F3F<\/key>$/;"	k	key:uidata
+8	packages/neovim/.config/nvim/coc-settings.json	/^    "json",$/;"	s	array:coc.preferences.formatOnSaveFiletypes
 8	packages/neovim/.config/nvim/coc-settings.json	/^    "yaml",$/;"	s	array:coc.preferences.formatOnSaveFiletypes
 8D2FF8B9-7AED-414C-BEA5-CE589A6CF98C	packages/alfred/Alfred.alfredpreferences/workflows/user.workflow.6FD75A08-E27D-4C55-B096-4B65F7CE004A/info.plist	/^		<key>8D2FF8B9-7AED-414C-BEA5-CE589A6CF98C<\/key>$/;"	k	key:uidata
 9	packages/neovim/.config/nvim/coc-settings.json	/^    "python",$/;"	s	array:coc.preferences.formatOnSaveFiletypes
+9	packages/neovim/.config/nvim/coc-settings.json	/^    "scss",$/;"	s	array:coc.preferences.formatOnSaveFiletypes
 <C-k>	packages/neovim/.config/nvim/init.vim	/^nnoremap <C-k> :w<CR>$/;"	m
 <ESC><ESC>	packages/neovim/.config/nvim/init.vim	/^nnoremap <ESC><ESC> :nohl<CR>$/;"	m
 <S-tab>	packages/neovim/.config/nvim/init.vim	/^nmap <S-tab> :tabprev<CR>$/;"	m
@@ -517,6 +529,9 @@ alfredsnippet	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker st
 alfredsnippet	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker stop container [43B6F94F-4CDB-4563-93A8-BDCF59C02A34].json	/^  "alfredsnippet" : {$/;"	o
 alfredsnippet	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker system prune [E5C39323-D14C-4C66-B616-D6026F4765C5].json	/^  "alfredsnippet" : {$/;"	o
 alfredsnippet	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker tag source target [1708304C-FA8E-488E-8998-B769270AD0ED].json	/^  "alfredsnippet" : {$/;"	o
+alfredsnippet	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker-compose down [27145AEA-3FEA-400F-84A8-8662B213380C].json	/^  "alfredsnippet" : {$/;"	o
+alfredsnippet	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker-compose ps [C53CFED4-7D50-478D-918F-B2AC56323083].json	/^  "alfredsnippet" : {$/;"	o
+alfredsnippet	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker-compose up [76037102-C8CC-4EB5-9237-2310E99281A5].json	/^  "alfredsnippet" : {$/;"	o
 alfredsnippet	packages/alfred/Alfred.alfredpreferences/snippets/flask/export FLASK_APP.py [79D4F264-01D1-4EA4-A6F6-F9AF140286BA].json	/^  "alfredsnippet" : {$/;"	o
 alfredsnippet	packages/alfred/Alfred.alfredpreferences/snippets/flask/flask --app flaskr --debug run [BF3EB29C-40D6-40E7-B08B-F2588B51FA4D].json	/^  "alfredsnippet" : {$/;"	o
 alfredsnippet	packages/alfred/Alfred.alfredpreferences/snippets/flask/flask --app flaskr init-db [88ADC91B-65CC-41E8-87C0-63588DABB685].json	/^  "alfredsnippet" : {$/;"	o
@@ -741,6 +756,8 @@ escaping	packages/alfred/Alfred.alfredpreferences/workflows/user.workflow.B9AAAC
 eslint.autoFixOnSave	packages/neovim/.config/nvim/coc-settings.json	/^  "eslint.autoFixOnSave": true,$/;"	b
 eslint.run	packages/neovim/.config/nvim/coc-settings.json	/^  "eslint.run": "onSave",$/;"	s
 eventLogLevel	packages/alfred/Alfred.alfredpreferences/workflows/user.workflow.6FD75A08-E27D-4C55-B096-4B65F7CE004A/divObjC.scptd/Contents/Info.plist	/^		<key>eventLogLevel<\/key>$/;"	k	key:WindowState
+fa	packages/neovim/.config/nvim/init.vim	/^nnoremap fa :wa<CR>$/;"	m
+fc	packages/neovim/.config/nvim/init.vim	/^nnoremap fc :!pyclean .<CR>$/;"	m
 fc	packages/neovim/.config/nvim/init.vim	/^nnoremap fc :<C-u>bw! quickrun:\/\/output<CR>$/;"	m
 ff	packages/neovim/.config/nvim/init.vim	/^nnoremap ff :wq<CR>$/;"	m
 fg	packages/neovim/.config/nvim/init.vim	/^nnoremap fg :GrammarousCheck$/;"	m
@@ -825,6 +842,9 @@ keyword	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker stop (do
 keyword	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker stop container [43B6F94F-4CDB-4563-93A8-BDCF59C02A34].json	/^    "keyword" : ""$/;"	s	object:alfredsnippet
 keyword	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker system prune [E5C39323-D14C-4C66-B616-D6026F4765C5].json	/^    "keyword" : ""$/;"	s	object:alfredsnippet
 keyword	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker tag source target [1708304C-FA8E-488E-8998-B769270AD0ED].json	/^    "keyword" : ""$/;"	s	object:alfredsnippet
+keyword	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker-compose down [27145AEA-3FEA-400F-84A8-8662B213380C].json	/^    "keyword" : ""$/;"	s	object:alfredsnippet
+keyword	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker-compose ps [C53CFED4-7D50-478D-918F-B2AC56323083].json	/^    "keyword" : ""$/;"	s	object:alfredsnippet
+keyword	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker-compose up [76037102-C8CC-4EB5-9237-2310E99281A5].json	/^    "keyword" : ""$/;"	s	object:alfredsnippet
 keyword	packages/alfred/Alfred.alfredpreferences/snippets/flask/export FLASK_APP.py [79D4F264-01D1-4EA4-A6F6-F9AF140286BA].json	/^    "keyword" : ""$/;"	s	object:alfredsnippet
 keyword	packages/alfred/Alfred.alfredpreferences/snippets/flask/flask --app flaskr --debug run [BF3EB29C-40D6-40E7-B08B-F2588B51FA4D].json	/^    "keyword" : ""$/;"	s	object:alfredsnippet
 keyword	packages/alfred/Alfred.alfredpreferences/snippets/flask/flask --app flaskr init-db [88ADC91B-65CC-41E8-87C0-63588DABB685].json	/^    "keyword" : ""$/;"	s	object:alfredsnippet
@@ -966,6 +986,9 @@ name	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker stop (docke
 name	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker stop container [43B6F94F-4CDB-4563-93A8-BDCF59C02A34].json	/^    "name" : "docker stop <container>",$/;"	s	object:alfredsnippet
 name	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker system prune [E5C39323-D14C-4C66-B616-D6026F4765C5].json	/^    "name" : "docker system prune",$/;"	s	object:alfredsnippet
 name	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker tag source target [1708304C-FA8E-488E-8998-B769270AD0ED].json	/^    "name" : "docker tag <source> <target>",$/;"	s	object:alfredsnippet
+name	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker-compose down [27145AEA-3FEA-400F-84A8-8662B213380C].json	/^    "name" : "docker-compose down",$/;"	s	object:alfredsnippet
+name	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker-compose ps [C53CFED4-7D50-478D-918F-B2AC56323083].json	/^    "name" : "docker-compose ps",$/;"	s	object:alfredsnippet
+name	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker-compose up [76037102-C8CC-4EB5-9237-2310E99281A5].json	/^    "name" : "docker-compose up",$/;"	s	object:alfredsnippet
 name	packages/alfred/Alfred.alfredpreferences/snippets/flask/export FLASK_APP.py [79D4F264-01D1-4EA4-A6F6-F9AF140286BA].json	/^    "name" : "export FLASK_APP=.py",$/;"	s	object:alfredsnippet
 name	packages/alfred/Alfred.alfredpreferences/snippets/flask/flask --app flaskr --debug run [BF3EB29C-40D6-40E7-B08B-F2588B51FA4D].json	/^    "name" : "flask --app flaskr --debug run",$/;"	s	object:alfredsnippet
 name	packages/alfred/Alfred.alfredpreferences/snippets/flask/flask --app flaskr init-db [88ADC91B-65CC-41E8-87C0-63588DABB685].json	/^    "name" : "flask --app flaskr init-db",$/;"	s	object:alfredsnippet
@@ -1039,6 +1062,8 @@ positionOfDivider	packages/alfred/Alfred.alfredpreferences/workflows/user.workfl
 prev	packages/competitive_programing/pylib/graph/keirohukugen.py	/^prev = [-1 for _ in range(N)]   # prev[i]：頂点 0 から i への最短経路において、頂/;"	v
 push	packages/competitive_programing/pylib/sort/heap_sort.py	/^    def push(self, value: int) -> None:$/;"	m	class:MiniHeap	typeref:typename:None
 python.formatting.autopep8Path	packages/neovim/.config/nvim/coc-settings.json	/^  "python.formatting.autopep8Path": "\/usr\/local\/bin\/autopep8"$/;"	s
+python.formatting.autopep8Path	packages/neovim/.config/nvim/coc-settings.json	/^  "python.formatting.autopep8Path": "\/usr\/local\/bin\/autopep8",$/;"	s
+python.pythonPath	packages/neovim/.config/nvim/coc-settings.json	/^  "python.pythonPath": "\/usr\/local\/bin\/python3"$/;"	s
 quick_sort	packages/competitive_programing/pylib/sort/quick_sort.py	/^def quick_sort(numbers: List[int]) -> List[int]:$/;"	f	typeref:typename:List[int]
 re	packages/competitive_programing/pylib/dp/saidaiwa.py	/^re = 0$/;"	v
 re	packages/competitive_programing/pylib/graph/follow.py	/^re = [[]*N]$/;"	v
@@ -1107,6 +1132,9 @@ snippet	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker stop (do
 snippet	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker stop container [43B6F94F-4CDB-4563-93A8-BDCF59C02A34].json	/^    "snippet" : "docker stop {cursor}",$/;"	s	object:alfredsnippet
 snippet	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker system prune [E5C39323-D14C-4C66-B616-D6026F4765C5].json	/^    "snippet" : "docker system prune",$/;"	s	object:alfredsnippet
 snippet	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker tag source target [1708304C-FA8E-488E-8998-B769270AD0ED].json	/^    "snippet" : "docker tag {cursor}",$/;"	s	object:alfredsnippet
+snippet	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker-compose down [27145AEA-3FEA-400F-84A8-8662B213380C].json	/^    "snippet" : "docker-compose down",$/;"	s	object:alfredsnippet
+snippet	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker-compose ps [C53CFED4-7D50-478D-918F-B2AC56323083].json	/^    "snippet" : "docker-compose ps",$/;"	s	object:alfredsnippet
+snippet	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker-compose up [76037102-C8CC-4EB5-9237-2310E99281A5].json	/^    "snippet" : "docker-compose up",$/;"	s	object:alfredsnippet
 snippet	packages/alfred/Alfred.alfredpreferences/snippets/flask/export FLASK_APP.py [79D4F264-01D1-4EA4-A6F6-F9AF140286BA].json	/^    "snippet" : "export FLASK_APP={cursor}.py",$/;"	s	object:alfredsnippet
 snippet	packages/alfred/Alfred.alfredpreferences/snippets/flask/flask --app flaskr --debug run [BF3EB29C-40D6-40E7-B08B-F2588B51FA4D].json	/^    "snippet" : "flask --app flaskr --debug run",$/;"	s	object:alfredsnippet
 snippet	packages/alfred/Alfred.alfredpreferences/snippets/flask/flask --app flaskr init-db [88ADC91B-65CC-41E8-87C0-63588DABB685].json	/^    "snippet" : "flask --app flaskr init-db",$/;"	s	object:alfredsnippet
@@ -1228,6 +1256,9 @@ uid	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker stop (docker
 uid	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker stop container [43B6F94F-4CDB-4563-93A8-BDCF59C02A34].json	/^    "uid" : "43B6F94F-4CDB-4563-93A8-BDCF59C02A34",$/;"	s	object:alfredsnippet
 uid	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker system prune [E5C39323-D14C-4C66-B616-D6026F4765C5].json	/^    "uid" : "E5C39323-D14C-4C66-B616-D6026F4765C5",$/;"	s	object:alfredsnippet
 uid	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker tag source target [1708304C-FA8E-488E-8998-B769270AD0ED].json	/^    "uid" : "1708304C-FA8E-488E-8998-B769270AD0ED",$/;"	s	object:alfredsnippet
+uid	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker-compose down [27145AEA-3FEA-400F-84A8-8662B213380C].json	/^    "uid" : "27145AEA-3FEA-400F-84A8-8662B213380C",$/;"	s	object:alfredsnippet
+uid	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker-compose ps [C53CFED4-7D50-478D-918F-B2AC56323083].json	/^    "uid" : "C53CFED4-7D50-478D-918F-B2AC56323083",$/;"	s	object:alfredsnippet
+uid	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker-compose up [76037102-C8CC-4EB5-9237-2310E99281A5].json	/^    "uid" : "76037102-C8CC-4EB5-9237-2310E99281A5",$/;"	s	object:alfredsnippet
 uid	packages/alfred/Alfred.alfredpreferences/snippets/flask/export FLASK_APP.py [79D4F264-01D1-4EA4-A6F6-F9AF140286BA].json	/^    "uid" : "79D4F264-01D1-4EA4-A6F6-F9AF140286BA",$/;"	s	object:alfredsnippet
 uid	packages/alfred/Alfred.alfredpreferences/snippets/flask/flask --app flaskr --debug run [BF3EB29C-40D6-40E7-B08B-F2588B51FA4D].json	/^    "uid" : "BF3EB29C-40D6-40E7-B08B-F2588B51FA4D",$/;"	s	object:alfredsnippet
 uid	packages/alfred/Alfred.alfredpreferences/snippets/flask/flask --app flaskr init-db [88ADC91B-65CC-41E8-87C0-63588DABB685].json	/^    "uid" : "88ADC91B-65CC-41E8-87C0-63588DABB685",$/;"	s	object:alfredsnippet
