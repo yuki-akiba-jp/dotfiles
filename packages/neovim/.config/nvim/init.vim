@@ -83,9 +83,8 @@ augroup mygroup
   " Setup formatexpr specified filetype(s).
   autocmd FileType typescript,javascript,json setlocal formatexpr=CocAction('formatSelected') shiftwidth=2 tabstop=2
   autocmd FileType typescript,javascript,html,htmldjango set isk+=-
-  autocmd FileType python,cpp,c,typescript,javascript,php,fortran let b:coc_pairs_disabled = ['<']
-  autocmd FileType html setlocal shiftwidth=2 tabstop=2 filetype=html
-  autocmd FileType htmldjango setlocal shiftwidth=2 tabstop=2 filetype=htmldjango
+  autocmd FileType python,c,cpp,typescript,javascript,php,fortran let b:coc_pairs_disabled = ['<']
+  autocmd FileType c,cpp,fortran,htmldjango setlocal shiftwidth=2 tabstop=2
   autocmd FileType * setlocal formatoptions-=ro
   " Update signature help on jump placeholder
   autocmd User CocJumpPlaceholder call CocActionAsync('showSignatureHelp')
@@ -101,7 +100,6 @@ nnoremap fj :Telescope find_files<CR>
 nnoremap Y y$
 noremap fo o<ESC>
 nnoremap fg :GrammarousCheck
-" nnoremap fr :!./%:r<CR>
 nnoremap fr :QuickRun<CR>
 nnoremap fq :q<CR>
 nnoremap ff :wq<CR>
@@ -112,13 +110,13 @@ augroup setAutoCompile
     " autocmd BufWritePost *.c :make -f ~/dotfiles/packages/Makefile/cMakefile
     " autocmd BufWritePost *.cpp :make -f ~/dotfiles/packages/Makefile/cppMakefile
     " autocmd BufWritePost *.f90 :make -f ~/dotfiles/packages/Makefile/fortranMakefile
+    " autocmd BufWritePost *.py :!python3 %:p
     autocmd BufRead *Dockerfile set filetype=dockerfile
     autocmd BufRead *.f90 set filetype=fortran
     autocmd BufRead *.jinja set filetype=htmldjango
     autocmd BufRead *.html set filetype=html
     autocmd BufWritePost *.html :Prettier
     autocmd BufWritePost *.py :Isort
-    " autocmd BufWritePost *.py :!python3 %:p
 augroup END
 
 " Use <C-k> for jump to next placeholder, it's default of coc.nvim
@@ -148,6 +146,7 @@ nmap fn <C-w>-
 nnoremap fc :!pyclean .<CR>
 
 let g:quickrun_config = {}
+set splitright
 let g:quickrun_config._ = {
     \ 'outputter/error/success': 'buffer',
     \ 'outputter/error/error': 'quickfix',
