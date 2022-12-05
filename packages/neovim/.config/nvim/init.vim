@@ -1,7 +1,7 @@
 set shell=/bin/zsh
 set tags=./tags;
-set shiftwidth=4
-set tabstop=4
+set shiftwidth=2
+set tabstop=2
 set expandtab
 set textwidth=0
 set autoindent
@@ -81,13 +81,14 @@ command! -nargs=0 Prettier :CocCommand prettier.formatFile
 augroup mygroup
   autocmd!
   " Setup formatexpr specified filetype(s).
-  autocmd FileType typescript,javascript,json setlocal formatexpr=CocAction('formatSelected') shiftwidth=2 tabstop=2
+  autocmd FileType typescript,javascript,json setlocal formatexpr=CocAction('formatSelected')
   autocmd FileType typescript,javascript,html,htmldjango set isk+=-
   autocmd FileType python,c,cpp,typescript,javascript,php,fortran let b:coc_pairs_disabled = ['<']
-  autocmd FileType c,cpp,fortran,htmldjango setlocal shiftwidth=2 tabstop=2
+  autocmd FileType python set shiftwidth=4 tabstop=4
   autocmd FileType * setlocal formatoptions-=ro
   " Update signature help on jump placeholder
   autocmd User CocJumpPlaceholder call CocActionAsync('showSignatureHelp')
+  autocmd QuickFixCmdPost *grep* cwindow
 augroup end
 
 inoremap <silent> jj <ESC>
@@ -99,7 +100,7 @@ nnoremap ' `
 nnoremap fj :Telescope find_files<CR>
 nnoremap Y y$
 noremap fo o<ESC>
-nnoremap fg :GrammarousCheck
+nnoremap fg :vimgrep
 nnoremap fr :QuickRun<CR>
 nnoremap fq :q<CR>
 nnoremap ff :wq<CR>
