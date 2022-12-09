@@ -101,8 +101,8 @@ nnoremap fj :Telescope find_files<CR>
 nnoremap Y y$
 noremap fo o<ESC>
 nnoremap fg :vimgrep
-nnoremap fr :QuickRun<CR>
-nnoremap fq :q<CR>
+nnoremap rr :QuickRun<CR>
+nnoremap qq :q<CR>
 nnoremap ff :wq<CR>
 nnoremap fa :wa<CR>
 
@@ -132,8 +132,8 @@ nmap <S-tab> :tabprev<CR>
 nnoremap <TAB> :tabnext<CR>
 
 " Split window
-nmap fs :split<CR><C-w>w
-nmap fv :vsplit<CR><C-w>w
+nmap vs :split<CR><C-w>w
+nmap vv :vsplit<CR><C-w>w
 nnoremap gf <C-]>
 
 " Move window
