@@ -761,6 +761,7 @@ fc	packages/neovim/.config/nvim/init.vim	/^nnoremap fc :!pyclean .<CR>$/;"	m
 fc	packages/neovim/.config/nvim/init.vim	/^nnoremap fc :<C-u>bw! quickrun:\/\/output<CR>$/;"	m
 ff	packages/neovim/.config/nvim/init.vim	/^nnoremap ff :wq<CR>$/;"	m
 fg	packages/neovim/.config/nvim/init.vim	/^nnoremap fg :GrammarousCheck$/;"	m
+fg	packages/neovim/.config/nvim/init.vim	/^nnoremap fg :vimgrep$/;"	m
 fh	packages/neovim/.config/nvim/init.vim	/^nmap fh <C-w><$/;"	m
 field_len	packages/competitive_programing/pylib/dp/diff_nums.py	/^field_len = max(len(S), len(T))+2$/;"	v
 field_size	packages/competitive_programing/pylib/dp/saisyoukosutodanseimaching.py	/^field_size = max(N, M)+10$/;"	v
@@ -783,6 +784,7 @@ fr	packages/neovim/.config/nvim/init.vim	/^nnoremap fr :QuickRun<CR>$/;"	m
 friends	packages/competitive_programing/pylib/graph/friends_friend.py	/^friends = set(G[X])$/;"	v
 fs	packages/neovim/.config/nvim/init.vim	/^nmap fs :split<CR><C-w>w$/;"	m
 ft	packages/neovim/.config/nvim/init.vim	/^nmap ft :tabedit $/;"	m
+ft	packages/neovim/.config/nvim/init.vim	/^nmap ft :tabedit<CR>$/;"	m
 fv	packages/neovim/.config/nvim/init.vim	/^nmap fv :vsplit<CR><C-w>w$/;"	m
 g:auto_ctags	packages/neovim/.config/nvim/init.vim	/^let g:auto_ctags = 1$/;"	v
 g:bracey_browser_command	packages/neovim/.config/nvim/init.vim	/^let g:bracey_browser_command= "open"$/;"	v
@@ -796,6 +798,7 @@ g:quickrun_config	packages/neovim/.config/nvim/init.vim	/^let g:quickrun_config.
 g:quickrun_config	packages/neovim/.config/nvim/init.vim	/^let g:quickrun_config.python = {$/;"	v
 gf	packages/neovim/.config/nvim/init.vim	/^nnoremap gf <C-]>$/;"	m
 graph_edges	packages/competitive_programing/pylib/graph/keirohukugen.py	/^graph_edges = [[] for _ in range(M)]    # graph_edges[i]：i 番目の辺情報$/;"	v
+gt	packages/neovim/.config/nvim/init.vim	/^nnoremap gt <C-]>$/;"	m
 heapify_down	packages/competitive_programing/pylib/sort/heap_sort.py	/^    def heapify_down(self, index: int) -> None:$/;"	m	class:MiniHeap	typeref:typename:None
 heapify_up	packages/competitive_programing/pylib/sort/heap_sort.py	/^    def heapify_up(self, index: int) -> None:$/;"	m	class:MiniHeap	typeref:typename:None
 high_sierra	Brewfile.lock.json	/^            "high_sierra": {$/;"	o	object:entries.brew.stow.bottle.files
@@ -1064,6 +1067,7 @@ push	packages/competitive_programing/pylib/sort/heap_sort.py	/^    def push(self
 python.formatting.autopep8Path	packages/neovim/.config/nvim/coc-settings.json	/^  "python.formatting.autopep8Path": "\/usr\/local\/bin\/autopep8"$/;"	s
 python.formatting.autopep8Path	packages/neovim/.config/nvim/coc-settings.json	/^  "python.formatting.autopep8Path": "\/usr\/local\/bin\/autopep8",$/;"	s
 python.pythonPath	packages/neovim/.config/nvim/coc-settings.json	/^  "python.pythonPath": "\/usr\/local\/bin\/python3"$/;"	s
+qq	packages/neovim/.config/nvim/init.vim	/^nnoremap qq :q<CR>$/;"	m
 quick_sort	packages/competitive_programing/pylib/sort/quick_sort.py	/^def quick_sort(numbers: List[int]) -> List[int]:$/;"	f	typeref:typename:List[int]
 re	packages/competitive_programing/pylib/dp/saidaiwa.py	/^re = 0$/;"	v
 re	packages/competitive_programing/pylib/graph/follow.py	/^re = [[]*N]$/;"	v
@@ -1083,6 +1087,7 @@ root	packages/competitive_programing/pylib/graph/saisyouzenikigi.py	/^    def ro
 root_url	Brewfile.lock.json	/^          "root_url": "https:\/\/ghcr.io\/v2\/homebrew\/core",$/;"	s	object:entries.brew.starship.bottle
 root_url	Brewfile.lock.json	/^          "root_url": "https:\/\/ghcr.io\/v2\/homebrew\/core",$/;"	s	object:entries.brew.stow.bottle
 rounded	packages/neovim/.config/nvim/coc-settings.json	/^    "rounded": true$/;"	b	object:suggest.floatConfig
+rr	packages/neovim/.config/nvim/init.vim	/^nnoremap rr :QuickRun<CR>$/;"	m
 runningsubtext	packages/alfred/Alfred.alfredpreferences/workflows/user.workflow.6FD75A08-E27D-4C55-B096-4B65F7CE004A/info.plist	/^				<key>runningsubtext<\/key>$/;"	k	key:objects.config
 runningsubtext	packages/alfred/Alfred.alfredpreferences/workflows/user.workflow.B9AAACD6-06ED-4037-8BC8-008D3362F044/info.plist	/^				<key>runningsubtext<\/key>$/;"	k	key:objects.config
 s	packages/competitive_programing/pylib/graph/friend.py	/^    s = input()$/;"	v
@@ -1204,6 +1209,7 @@ snippets.extends	packages/neovim/.config/nvim/coc-settings.json	/^  "snippets.ex
 snippets.priority	packages/neovim/.config/nvim/coc-settings.json	/^  "snippets.priority": 99,$/;"	n
 snippets.ultisnips.directories	packages/neovim/.config/nvim/coc-settings.json	/^  "snippets.ultisnips.directories": [$/;"	a
 snippets.userSnippetsDirectory	packages/neovim/.config/nvim/coc-settings.json	/^  "snippets.userSnippetsDirectory": "~\/dotfiles\/packages\/coc-snippets\/snippets",$/;"	s
+ss	packages/neovim/.config/nvim/init.vim	/^nmap ss :split<CR><C-w>w<Space>$/;"	m
 starship	Brewfile.lock.json	/^      "starship": {$/;"	o	object:entries.brew
 stow	Brewfile.lock.json	/^      "stow": {$/;"	o	object:entries.brew
 string	packages/alfred/Alfred.alfredpreferences/preferences/features/clipboard/prefs.plist	/^		<key>string<\/key>$/;"	k	key:hotkey
@@ -1229,6 +1235,7 @@ text	packages/alfred/Alfred.alfredpreferences/workflows/user.workflow.6FD75A08-E
 title	packages/alfred/Alfred.alfredpreferences/workflows/user.workflow.6FD75A08-E27D-4C55-B096-4B65F7CE004A/info.plist	/^				<key>title<\/key>$/;"	k	key:objects.config
 title	packages/alfred/Alfred.alfredpreferences/workflows/user.workflow.B9AAACD6-06ED-4037-8BC8-008D3362F044/info.plist	/^				<key>title<\/key>$/;"	k	key:objects.config
 tsserver.formatOnType	packages/neovim/.config/nvim/coc-settings.json	/^  "tsserver.formatOnType": true,$/;"	b
+tt	packages/neovim/.config/nvim/init.vim	/^nnoremap tt :vsplit<CR><Space><C-]>$/;"	m
 type	packages/alfred/Alfred.alfredpreferences/workflows/user.workflow.6FD75A08-E27D-4C55-B096-4B65F7CE004A/info.plist	/^				<key>type<\/key>$/;"	k	key:objects.config
 type	packages/alfred/Alfred.alfredpreferences/workflows/user.workflow.6FD75A08-E27D-4C55-B096-4B65F7CE004A/info.plist	/^			<key>type<\/key>$/;"	k	key:objects
 type	packages/alfred/Alfred.alfredpreferences/workflows/user.workflow.B9AAACD6-06ED-4037-8BC8-008D3362F044/info.plist	/^				<key>type<\/key>$/;"	k	key:objects.config
@@ -1339,6 +1346,9 @@ vitoclose	packages/alfred/Alfred.alfredpreferences/workflows/user.workflow.6FD75
 vitoclose	packages/alfred/Alfred.alfredpreferences/workflows/user.workflow.6FD75A08-E27D-4C55-B096-4B65F7CE004A/info.plist	/^				<key>vitoclose<\/key>$/;"	k	key:connections.A4ED796E-D87A-4F4E-9CC0-07A67EAFC2C5
 vitoclose	packages/alfred/Alfred.alfredpreferences/workflows/user.workflow.6FD75A08-E27D-4C55-B096-4B65F7CE004A/info.plist	/^				<key>vitoclose<\/key>$/;"	k	key:connections.B35E46CC-D76A-4961-B412-23E2297299F1
 vitoclose	packages/alfred/Alfred.alfredpreferences/workflows/user.workflow.6FD75A08-E27D-4C55-B096-4B65F7CE004A/info.plist	/^				<key>vitoclose<\/key>$/;"	k	key:connections.F4897C6D-A35C-467D-93C6-690D11710ED9
+vs	packages/neovim/.config/nvim/init.vim	/^nmap vs :split<CR><C-w>w$/;"	m
+vv	packages/neovim/.config/nvim/init.vim	/^nmap vv :vsplit<CR><C-w>w$/;"	m
+vv	packages/neovim/.config/nvim/init.vim	/^nmap vv :vsplit<CR><C-w>w<Space>$/;"	m
 w	packages/competitive_programing/pylib/dp/knapsack.py	/^w = [0]*N$/;"	v
 w	packages/competitive_programing/pylib/graph/dijkstra.py	/^    u, v, w = map(int, input().split())$/;"	v
 w	packages/competitive_programing/pylib/graph/keirohukugen.py	/^        u, v, w = graph_edges[i]$/;"	v

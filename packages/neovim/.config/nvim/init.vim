@@ -127,14 +127,14 @@ let g:coc_snippet_prev = '<C-h>'
 let g:bracey_browser_command= "open"
 
 nnoremap <c-n> <TAB>
-nmap ft :tabedit 
+nmap T :tabedit<CR>
 nmap <S-tab> :tabprev<CR>
 nnoremap <TAB> :tabnext<CR>
 
 " Split window
-nmap vs :split<CR><C-w>w
-nmap vv :vsplit<CR><C-w>w
-nnoremap gf <C-]>
+nmap ss :split<CR><C-w>w<Space>
+nmap vv :vsplit<CR><C-w>w<Space>
+nnoremap tt :vsplit<CR><Space><C-]>
 
 " Move window
 nmap <Space> <C-w>w
