@@ -429,6 +429,7 @@ SplitPaneDimmingAmount	packages/iterm2/com.googlecode.iterm2.plist	/^	<key>Split
 Sync Title	packages/iterm2/com.googlecode.iterm2.plist	/^			<key>Sync Title<\/key>$/;"	k	key:New Bookmarks
 T	packages/competitive_programing/pylib/dp/diff_nums.py	/^T = str(input())$/;"	v
 T	packages/competitive_programing/pylib/dp/saityoukyoutsuububunnretsu.py	/^T = str(input())$/;"	v
+T	packages/neovim/.config/nvim/init.vim	/^nmap T :tabedit<CR>$/;"	m
 TabFlashAnimationDuration	packages/iterm2/com.googlecode.iterm2.plist	/^	<key>TabFlashAnimationDuration<\/key>$/;"	k
 Tags	packages/iterm2/com.googlecode.iterm2.plist	/^			<key>Tags<\/key>$/;"	k	key:New Bookmarks
 Terminal Type	packages/iterm2/com.googlecode.iterm2.plist	/^			<key>Terminal Type<\/key>$/;"	k	key:New Bookmarks
