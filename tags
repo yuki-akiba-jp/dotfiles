@@ -430,6 +430,7 @@ Sync Title	packages/iterm2/com.googlecode.iterm2.plist	/^			<key>Sync Title<\/ke
 T	packages/competitive_programing/pylib/dp/diff_nums.py	/^T = str(input())$/;"	v
 T	packages/competitive_programing/pylib/dp/saityoukyoutsuububunnretsu.py	/^T = str(input())$/;"	v
 T	packages/neovim/.config/nvim/init.vim	/^nmap T :tabedit<CR>$/;"	m
+T	packages/neovim/.config/nvim/init.vim	/^nmap T :tabedit<CR>fj$/;"	m
 TabFlashAnimationDuration	packages/iterm2/com.googlecode.iterm2.plist	/^	<key>TabFlashAnimationDuration<\/key>$/;"	k
 Tags	packages/iterm2/com.googlecode.iterm2.plist	/^			<key>Tags<\/key>$/;"	k	key:New Bookmarks
 Terminal Type	packages/iterm2/com.googlecode.iterm2.plist	/^			<key>Terminal Type<\/key>$/;"	k	key:New Bookmarks
@@ -798,6 +799,7 @@ g:quickrun_config	packages/neovim/.config/nvim/init.vim	/^let g:quickrun_config.
 g:quickrun_config	packages/neovim/.config/nvim/init.vim	/^let g:quickrun_config.cpp = {$/;"	v
 g:quickrun_config	packages/neovim/.config/nvim/init.vim	/^let g:quickrun_config.python = {$/;"	v
 gf	packages/neovim/.config/nvim/init.vim	/^nnoremap gf <C-]>$/;"	m
+gr	packages/neovim/.config/nvim/init.vim	/^nnoremap gr :vimgrep $/;"	m
 graph_edges	packages/competitive_programing/pylib/graph/keirohukugen.py	/^graph_edges = [[] for _ in range(M)]    # graph_edges[i]：i 番目の辺情報$/;"	v
 gt	packages/neovim/.config/nvim/init.vim	/^nnoremap gt <C-]>$/;"	m
 heapify_down	packages/competitive_programing/pylib/sort/heap_sort.py	/^    def heapify_down(self, index: int) -> None:$/;"	m	class:MiniHeap	typeref:typename:None
@@ -1068,6 +1070,7 @@ push	packages/competitive_programing/pylib/sort/heap_sort.py	/^    def push(self
 python.formatting.autopep8Path	packages/neovim/.config/nvim/coc-settings.json	/^  "python.formatting.autopep8Path": "\/usr\/local\/bin\/autopep8"$/;"	s
 python.formatting.autopep8Path	packages/neovim/.config/nvim/coc-settings.json	/^  "python.formatting.autopep8Path": "\/usr\/local\/bin\/autopep8",$/;"	s
 python.pythonPath	packages/neovim/.config/nvim/coc-settings.json	/^  "python.pythonPath": "\/usr\/local\/bin\/python3"$/;"	s
+qa	packages/neovim/.config/nvim/init.vim	/^nnoremap qa :qa<CR>$/;"	m
 qq	packages/neovim/.config/nvim/init.vim	/^nnoremap qq :q<CR>$/;"	m
 quick_sort	packages/competitive_programing/pylib/sort/quick_sort.py	/^def quick_sort(numbers: List[int]) -> List[int]:$/;"	f	typeref:typename:List[int]
 re	packages/competitive_programing/pylib/dp/saidaiwa.py	/^re = 0$/;"	v
@@ -1237,6 +1240,8 @@ title	packages/alfred/Alfred.alfredpreferences/workflows/user.workflow.6FD75A08-
 title	packages/alfred/Alfred.alfredpreferences/workflows/user.workflow.B9AAACD6-06ED-4037-8BC8-008D3362F044/info.plist	/^				<key>title<\/key>$/;"	k	key:objects.config
 tsserver.formatOnType	packages/neovim/.config/nvim/coc-settings.json	/^  "tsserver.formatOnType": true,$/;"	b
 tt	packages/neovim/.config/nvim/init.vim	/^nnoremap tt :vsplit<CR><Space><C-]>$/;"	m
+tt	packages/neovim/.config/nvim/init.vim	/^nnoremap tt <C-]>$/;"	m
+tv	packages/neovim/.config/nvim/init.vim	/^nnoremap tv :vsplit<CR><Space><C-]>$/;"	m
 type	packages/alfred/Alfred.alfredpreferences/workflows/user.workflow.6FD75A08-E27D-4C55-B096-4B65F7CE004A/info.plist	/^				<key>type<\/key>$/;"	k	key:objects.config
 type	packages/alfred/Alfred.alfredpreferences/workflows/user.workflow.6FD75A08-E27D-4C55-B096-4B65F7CE004A/info.plist	/^			<key>type<\/key>$/;"	k	key:objects
 type	packages/alfred/Alfred.alfredpreferences/workflows/user.workflow.B9AAACD6-06ED-4037-8BC8-008D3362F044/info.plist	/^				<key>type<\/key>$/;"	k	key:objects.config

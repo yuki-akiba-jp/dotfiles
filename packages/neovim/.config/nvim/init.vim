@@ -100,7 +100,7 @@ nnoremap ' `
 nnoremap fj :Telescope find_files<CR>
 nnoremap Y y$
 noremap fo o<ESC>
-nnoremap fg :vimgrep
+nnoremap gr :vimgrep 
 nnoremap rr :QuickRun<CR>
 nnoremap qq :q<CR>
 nnoremap qa :qa<CR>
@@ -128,14 +128,15 @@ let g:coc_snippet_prev = '<C-h>'
 let g:bracey_browser_command= "open"
 
 nnoremap <c-n> <TAB>
-nmap T :tabedit<CR>
+nmap T :tabedit<CR>fj
 nmap <S-tab> :tabprev<CR>
 nnoremap <TAB> :tabnext<CR>
 
 " Split window
 nmap ss :split<CR><C-w>w<Space>
 nmap vv :vsplit<CR><C-w>w<Space>
-nnoremap tt :vsplit<CR><Space><C-]>
+nnoremap tt <C-]>
+nnoremap tv :vsplit<CR><Space><C-]>
 
 " Move window
 nmap <Space> <C-w>w
