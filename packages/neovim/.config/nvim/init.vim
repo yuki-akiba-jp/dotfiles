@@ -102,8 +102,7 @@ nnoremap Y y$
 noremap fo o<ESC>
 nnoremap gr :vimgrep 
 nnoremap rr :QuickRun<CR>
-nnoremap qq :q<CR>
-nnoremap qa :qa<CR>
+nnoremap fq :q<CR>
 nnoremap ff :wq<CR>
 nnoremap fa :wa<CR>
 
