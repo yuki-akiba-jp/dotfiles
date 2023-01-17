@@ -83,6 +83,7 @@ augroup mygroup
   " Setup formatexpr specified filetype(s).
   autocmd FileType typescript,javascript,json setlocal formatexpr=CocAction('formatSelected')
   autocmd FileType typescript,javascript,html,htmldjango set isk+=-
+  autocmd BufRead *.scss set isk+=&
   autocmd FileType python,c,cpp,typescript,javascript,php,fortran let b:coc_pairs_disabled = ['<']
   autocmd FileType python set shiftwidth=4 tabstop=4
   autocmd FileType * setlocal formatoptions-=ro
@@ -108,6 +109,7 @@ nnoremap fa :wa<CR>
 
 augroup setAutoCompile
     autocmd!
+    autocmd bufWritePost *.sass,*.scss  silent exec "!sass %:p %:r.css"
     " autocmd BufWritePost *.c :make -f ~/dotfiles/packages/Makefile/cMakefile
     " autocmd BufWritePost *.cpp :make -f ~/dotfiles/packages/Makefile/cppMakefile
     " autocmd BufWritePost *.f90 :make -f ~/dotfiles/packages/Makefile/fortranMakefile

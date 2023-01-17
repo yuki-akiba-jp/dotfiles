@@ -510,6 +510,7 @@ a	packages/competitive_programing/pylib/graph/follow.py	/^    a,b = map(int,inpu
 a	packages/competitive_programing/pylib/inputs.py	/^a = [input() for _ in range(n)]$/;"	v
 a	packages/competitive_programing/pylib/inputs.py	/^a = list(map(int, input().split()))$/;"	v
 a	packages/competitive_programing/pylib/inputs.py	/^a, n = map(int, input().split())$/;"	v
+a	packages/competitive_programing/pylib/main.py	/^    a, b = map(int, input().split())$/;"	v
 action	packages/alfred/Alfred.alfredpreferences/workflows/user.workflow.6FD75A08-E27D-4C55-B096-4B65F7CE004A/info.plist	/^				<key>action<\/key>$/;"	k	key:objects.config
 action	packages/alfred/Alfred.alfredpreferences/workflows/user.workflow.B9AAACD6-06ED-4037-8BC8-008D3362F044/info.plist	/^				<key>action<\/key>$/;"	k	key:objects.config
 alfredsnippet	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker build -f filename . [8B542E1D-FDD9-424F-AEB3-4DABA64400D2].json	/^  "alfredsnippet" : {$/;"	o
@@ -587,6 +588,7 @@ arm64_monterey	Brewfile.lock.json	/^            "arm64_monterey": {$/;"	o	object
 b	packages/competitive_programing/pylib/dp/kosuuseigentsukibubunwa.py	/^    a, b = map(int, input().split())$/;"	v
 b	packages/competitive_programing/pylib/graph/dfs.py	/^    a, b = map(int, input().split())$/;"	v
 b	packages/competitive_programing/pylib/graph/follow.py	/^    a,b = map(int,input().split())$/;"	v
+b	packages/competitive_programing/pylib/main.py	/^    a, b = map(int, input().split())$/;"	v
 big_sur	Brewfile.lock.json	/^            "big_sur": {$/;"	o	object:entries.brew.starship.bottle.files
 big_sur	Brewfile.lock.json	/^            "big_sur": {$/;"	o	object:entries.brew.stow.bottle.files
 binary_search	packages/competitive_programing/pylib/binary_search.py	/^def binary_search(numbers: List[int], value: int) -> IndexNum:$/;"	f	typeref:typename:IndexNum
@@ -622,6 +624,7 @@ cellar	Brewfile.lock.json	/^              "cellar": ":any_skip_relocation",$/;"	
 chromeProfile	packages/alfred/Alfred.alfredpreferences/preferences/local/cddd64ce651d8d10d489fe408c249739e538334e/features/webbookmarks/prefs.plist	/^	<key>chromeProfile<\/key>$/;"	k
 chromeProfile	packages/alfred/Alfred.alfredpreferences/preferences/local/f3ce05ae174ecb1d383ae2e0a2b049c83f026743/features/webbookmarks/prefs.plist	/^	<key>chromeProfile<\/key>$/;"	k
 chs	packages/competitive_programing/pylib/graph/ikigakejun.py	/^chs = [[] for v in range(N)]$/;"	v
+cnt	packages/competitive_programing/pylib/main.py	/^cnt = 0$/;"	v
 coc.preferences.formatOnSaveFiletypes	packages/neovim/.config/nvim/coc-settings.json	/^  "coc.preferences.formatOnSaveFiletypes": [$/;"	a
 coc.source.buffer.priority	packages/neovim/.config/nvim/coc-settings.json	/^  "coc.source.buffer.priority": 20,$/;"	n
 colorindex	packages/alfred/Alfred.alfredpreferences/workflows/user.workflow.6FD75A08-E27D-4C55-B096-4B65F7CE004A/info.plist	/^			<key>colorindex<\/key>$/;"	k	key:uidata.2D9B5608-8924-44BB-ACE3-06F124842A7D
@@ -697,6 +700,7 @@ destinationuid	packages/alfred/Alfred.alfredpreferences/workflows/user.workflow.
 destinationuid	packages/alfred/Alfred.alfredpreferences/workflows/user.workflow.B9AAACD6-06ED-4037-8BC8-008D3362F044/info.plist	/^				<key>destinationuid<\/key>$/;"	k	key:connections.dash_keyword_py
 destinationuid	packages/alfred/Alfred.alfredpreferences/workflows/user.workflow.B9AAACD6-06ED-4037-8BC8-008D3362F044/info.plist	/^				<key>destinationuid<\/key>$/;"	k	key:connections.dash_keyword_rea
 destinationuid	packages/alfred/Alfred.alfredpreferences/workflows/user.workflow.B9AAACD6-06ED-4037-8BC8-008D3362F044/info.plist	/^				<key>destinationuid<\/key>$/;"	k	key:connections.dash_keyword_ts
+dfs	packages/competitive_programing/pylib/main.py	/^def dfs(currentIndex):$/;"	f
 dir_name	packages/competitive_programing/pylib/make_dirs_and_files.py	/^    dir_name = f'temp{i}'$/;"	v
 disabled	packages/alfred/Alfred.alfredpreferences/preferences/features/websearch/amazon/prefs.plist	/^	<key>disabled<\/key>$/;"	k
 disabled	packages/alfred/Alfred.alfredpreferences/preferences/features/websearch/applemaps/prefs.plist	/^	<key>disabled<\/key>$/;"	k
@@ -800,6 +804,7 @@ g:quickrun_config	packages/neovim/.config/nvim/init.vim	/^let g:quickrun_config.
 g:quickrun_config	packages/neovim/.config/nvim/init.vim	/^let g:quickrun_config.python = {$/;"	v
 gf	packages/neovim/.config/nvim/init.vim	/^nnoremap gf <C-]>$/;"	m
 gr	packages/neovim/.config/nvim/init.vim	/^nnoremap gr :vimgrep $/;"	m
+graph	packages/competitive_programing/pylib/main.py	/^graph = [[] for _ in range(n)]  # グラフを表現する隣接リスト$/;"	v
 graph_edges	packages/competitive_programing/pylib/graph/keirohukugen.py	/^graph_edges = [[] for _ in range(M)]    # graph_edges[i]：i 番目の辺情報$/;"	v
 gt	packages/neovim/.config/nvim/init.vim	/^nnoremap gt <C-]>$/;"	m
 heapify_down	packages/competitive_programing/pylib/sort/heap_sort.py	/^    def heapify_down(self, index: int) -> None:$/;"	m	class:MiniHeap	typeref:typename:None
@@ -900,6 +905,7 @@ lines	packages/competitive_programing/pylib/inputs.py	/^    lines = []$/;"	v
 locale	packages/alfred/Alfred.alfredpreferences/preferences/local/cddd64ce651d8d10d489fe408c249739e538334e/keyboard/prefs.plist	/^	<key>locale<\/key>$/;"	k
 locale	packages/alfred/Alfred.alfredpreferences/preferences/local/f3ce05ae174ecb1d383ae2e0a2b049c83f026743/keyboard/prefs.plist	/^	<key>locale<\/key>$/;"	k
 location	packages/alfred/Alfred.alfredpreferences/preferences/prefs.plist	/^	<key>location<\/key>$/;"	k
+m	packages/competitive_programing/pylib/main.py	/^n, m = map(int, input().split())$/;"	v
 macOS	Brewfile.lock.json	/^        "macOS": "12.3.1"$/;"	s	object:system.macos.monterey
 macos	Brewfile.lock.json	/^    "macos": {$/;"	o	object:system
 max_index	packages/competitive_programing/pylib/graph/friend_of_popular.py	/^        max_index = i$/;"	v
@@ -973,6 +979,7 @@ mygroup	packages/neovim/.config/nvim/init.vim	/^augroup mygroup$/;"	a
 n	packages/competitive_programing/pylib/dp/saidaiwa.py	/^n = int(input())$/;"	v
 n	packages/competitive_programing/pylib/inputs.py	/^a, n = map(int, input().split())$/;"	v
 n	packages/competitive_programing/pylib/inputs.py	/^n = int(input())$/;"	v
+n	packages/competitive_programing/pylib/main.py	/^n, m = map(int, input().split())$/;"	v
 name	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker build -f filename . [8B542E1D-FDD9-424F-AEB3-4DABA64400D2].json	/^    "name" : "docker build -f <filename>  .",$/;"	s	object:alfredsnippet
 name	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker build -t name -f filename . [C28BDBB5-82DB-44B4-B98B-4D0059B2E2E7].json	/^    "name" : "docker build -t <name> -f  <filename> .",$/;"	s	object:alfredsnippet
 name	packages/alfred/Alfred.alfredpreferences/snippets/docker/docker build -t name dir [2AA8E7F9-A76C-4E3D-9513-717C256F6E36].json	/^    "name" : "docker build -t <name> <dir>",$/;"	s	object:alfredsnippet
@@ -1238,6 +1245,7 @@ system	Brewfile.lock.json	/^  "system": {$/;"	o
 text	packages/alfred/Alfred.alfredpreferences/workflows/user.workflow.6FD75A08-E27D-4C55-B096-4B65F7CE004A/info.plist	/^				<key>text<\/key>$/;"	k	key:objects.config
 title	packages/alfred/Alfred.alfredpreferences/workflows/user.workflow.6FD75A08-E27D-4C55-B096-4B65F7CE004A/info.plist	/^				<key>title<\/key>$/;"	k	key:objects.config
 title	packages/alfred/Alfred.alfredpreferences/workflows/user.workflow.B9AAACD6-06ED-4037-8BC8-008D3362F044/info.plist	/^				<key>title<\/key>$/;"	k	key:objects.config
+tj	packages/neovim/.config/nvim/init.vim	/^nmap tj :tabedit<CR>fj$/;"	m
 tsserver.formatOnType	packages/neovim/.config/nvim/coc-settings.json	/^  "tsserver.formatOnType": true,$/;"	b
 tt	packages/neovim/.config/nvim/init.vim	/^nnoremap tt :vsplit<CR><Space><C-]>$/;"	m
 tt	packages/neovim/.config/nvim/init.vim	/^nnoremap tt <C-]>$/;"	m
@@ -1343,6 +1351,7 @@ version	Brewfile.lock.json	/^        "version": "2.3.1",$/;"	s	object:entries.br
 version	packages/alfred/Alfred.alfredpreferences/workflows/user.workflow.6FD75A08-E27D-4C55-B096-4B65F7CE004A/info.plist	/^			<key>version<\/key>$/;"	k	key:objects
 version	packages/alfred/Alfred.alfredpreferences/workflows/user.workflow.B9AAACD6-06ED-4037-8BC8-008D3362F044/info.plist	/^			<key>version<\/key>$/;"	k	key:objects
 viewerKeyword	packages/alfred/Alfred.alfredpreferences/preferences/features/clipboard/prefs.plist	/^	<key>viewerKeyword<\/key>$/;"	k
+visited	packages/competitive_programing/pylib/main.py	/^visited = [False for _ in range(n)]$/;"	v
 vitoclose	packages/alfred/Alfred.alfredpreferences/workflows/user.workflow.6FD75A08-E27D-4C55-B096-4B65F7CE004A/info.plist	/^				<key>vitoclose<\/key>$/;"	k	key:connections.2D9B5608-8924-44BB-ACE3-06F124842A7D
 vitoclose	packages/alfred/Alfred.alfredpreferences/workflows/user.workflow.6FD75A08-E27D-4C55-B096-4B65F7CE004A/info.plist	/^				<key>vitoclose<\/key>$/;"	k	key:connections.3761243B-89C7-4838-8FBA-F867461E846B
 vitoclose	packages/alfred/Alfred.alfredpreferences/workflows/user.workflow.6FD75A08-E27D-4C55-B096-4B65F7CE004A/info.plist	/^				<key>vitoclose<\/key>$/;"	k	key:connections.51B425B5-E480-4D15-BC2F-9B4CED153DCF
@@ -1355,6 +1364,7 @@ vitoclose	packages/alfred/Alfred.alfredpreferences/workflows/user.workflow.6FD75
 vs	packages/neovim/.config/nvim/init.vim	/^nmap vs :split<CR><C-w>w$/;"	m
 vv	packages/neovim/.config/nvim/init.vim	/^nmap vv :vsplit<CR><C-w>w$/;"	m
 vv	packages/neovim/.config/nvim/init.vim	/^nmap vv :vsplit<CR><C-w>w<Space>$/;"	m
+vv	packages/neovim/.config/nvim/init.vim	/^nmap vv :vsplit<CR><C-w>w<Space>fj$/;"	m
 w	packages/competitive_programing/pylib/dp/knapsack.py	/^w = [0]*N$/;"	v
 w	packages/competitive_programing/pylib/graph/dijkstra.py	/^    u, v, w = map(int, input().split())$/;"	v
 w	packages/competitive_programing/pylib/graph/keirohukugen.py	/^        u, v, w = graph_edges[i]$/;"	v
