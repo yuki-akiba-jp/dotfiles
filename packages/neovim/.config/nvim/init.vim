@@ -104,7 +104,7 @@ nnoremap gr :vimgrep
 nnoremap rr :QuickRun<CR>
 nnoremap fq :q<CR>
 nnoremap ff :wq<CR>
-nnoremap fa :wa<CR>
+nnoremap fk :wa<CR>
 
 augroup setAutoCompile
     autocmd!
