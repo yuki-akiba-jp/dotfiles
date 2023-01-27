@@ -134,7 +134,7 @@ nnoremap <TAB> :tabnext<CR>
 
 " Split window
 nmap ss :split<CR><C-w>w<Space>
-nmap vv :vsplit<CR><C-w>w<Space>fj
+nmap vv :vsplit<CR><C-w>w<Space>
 nnoremap tt <C-]>
 nnoremap tv :vsplit<CR><Space><C-]>
 
