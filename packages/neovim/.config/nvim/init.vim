@@ -92,7 +92,7 @@ augroup mygroup
 augroup end
 
 inoremap <silent> jj <ESC>
-nnoremap <C-k> :w<CR>
+nnoremap <C-k> :wa<CR>
 
 xnoremap & :&&<CR>
 nnoremap & :&&<CR>
@@ -104,7 +104,6 @@ nnoremap gr :vimgrep
 nnoremap rr :QuickRun<CR>
 nnoremap fq :q<CR>
 nnoremap ff :wq<CR>
-nnoremap fa :wa<CR>
 
 augroup setAutoCompile
     autocmd!
