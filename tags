@@ -114,3 +114,40 @@ A	packages/competitive_programing/pylib/dp/bubunwa.py	/^A = list(map(int, input(
 dp	packages/competitive_programing/pylib/dp/bubunwa.py	/^dp = [[False]*(M+1) for _ in range(N+1)]$/;"	v
 ans	packages/competitive_programing/pylib/dp/bubunwa.py	/^    ans = 'Yes'$/;"	v
 ans	packages/competitive_programing/pylib/dp/bubunwa.py	/^    ans = 'No'$/;"	v
+w	packages/competitive_programing/pylib/dp/knapsack.py	/^w = [0]*N$/;"	v
+v	packages/competitive_programing/pylib/dp/knapsack.py	/^v = [0]*N$/;"	v
+dp	packages/competitive_programing/pylib/dp/knapsack.py	/^dp = [[0]*(W+1) for i in range(N+1)]$/;"	v
+INF	packages/competitive_programing/pylib/dp/saisyoukosutodanseimaching.py	/^INF = 1 << 29$/;"	v
+C	packages/competitive_programing/pylib/dp/saisyoukosutodanseimaching.py	/^C = []$/;"	v
+c	packages/competitive_programing/pylib/dp/saisyoukosutodanseimaching.py	/^    c = list(map(int, input().split()))$/;"	v
+field_size	packages/competitive_programing/pylib/dp/saisyoukosutodanseimaching.py	/^field_size = max(N, M)+10$/;"	v
+dp	packages/competitive_programing/pylib/dp/saisyoukosutodanseimaching.py	/^dp = [[INF]*field_size for _ in range(field_size)]$/;"	v
+A	packages/competitive_programing/pylib/dp/kosuuseigentsukibubunwa.py	/^A = [0]*N$/;"	v
+B	packages/competitive_programing/pylib/dp/kosuuseigentsukibubunwa.py	/^B = [0]*N$/;"	v
+INF	packages/competitive_programing/pylib/dp/kosuuseigentsukibubunwa.py	/^INF = 1 << 20$/;"	v
+dp	packages/competitive_programing/pylib/dp/kosuuseigentsukibubunwa.py	/^dp = [[INF]*(M+1) for _ in range(N+1)]$/;"	v
+A	packages/competitive_programing/pylib/dp/k_koinaibubunwa.py	/^A = list(map(int, input().split()))$/;"	v
+INF	packages/competitive_programing/pylib/dp/k_koinaibubunwa.py	/^INF = 1 << 20$/;"	v
+dp	packages/competitive_programing/pylib/dp/k_koinaibubunwa.py	/^dp = [[INF]*(M+1) for _ in range(N+1)]$/;"	v
+S	packages/competitive_programing/pylib/dp/diff_nums.py	/^S = str(input())$/;"	v
+T	packages/competitive_programing/pylib/dp/diff_nums.py	/^T = str(input())$/;"	v
+INF	packages/competitive_programing/pylib/dp/diff_nums.py	/^INF = 1 << 30$/;"	v
+field_len	packages/competitive_programing/pylib/dp/diff_nums.py	/^field_len = max(len(S), len(T))+2$/;"	v
+dp	packages/competitive_programing/pylib/dp/diff_nums.py	/^dp = [[INF] * field_len for _ in range(field_len)]$/;"	v
+A	packages/competitive_programing/pylib/dp/saisyoukosuububunwa.py	/^A = list(map(int, input().split()))$/;"	v
+INF	packages/competitive_programing/pylib/dp/saisyoukosuububunwa.py	/^INF = 1 << 20$/;"	v
+dp	packages/competitive_programing/pylib/dp/saisyoukosuububunwa.py	/^dp = [[INF]*(M+1) for _ in range(N+1)]$/;"	v
+A	packages/competitive_programing/pylib/dp/bubunwakazoeage.py	/^A = list(map(int, input().split()))$/;"	v
+dp	packages/competitive_programing/pylib/dp/bubunwakazoeage.py	/^dp = [[0]*(M+1) for _ in range(N+1)]$/;"	v
+n	packages/competitive_programing/pylib/dp/saidaiwa.py	/^n = int(input())$/;"	v
+a	packages/competitive_programing/pylib/dp/saidaiwa.py	/^a = list(map(int, input().split()))$/;"	v
+re	packages/competitive_programing/pylib/dp/saidaiwa.py	/^re = 0$/;"	v
+graph	packages/competitive_programing/pylib/main.py	/^graph = [[] for _ in range(n)]  # グラフを表現する隣接リスト$/;"	v
+visited	packages/competitive_programing/pylib/main.py	/^visited = [False for _ in range(n)]$/;"	v
+dfs	packages/competitive_programing/pylib/main.py	/^def dfs(currentIndex):$/;"	f
+cnt	packages/competitive_programing/pylib/main.py	/^cnt = 0$/;"	v
+os	packages/competitive_programing/pylib/make_dirs_and_files.py	/^import os$/;"	i
+Path	packages/competitive_programing/pylib/make_dirs_and_files.py	/^from pathlib import Path$/;"	i
+dir_name	packages/competitive_programing/pylib/make_dirs_and_files.py	/^    dir_name = f'temp{i}'$/;"	v
+sys	packages/competitive_programing/pylib/saiki_jougen.py	/^import sys$/;"	i
+bit_string_to_integer	packages/competitive_programing/pylib/bit_string_to_integer.py	/^def bit_string_to_integer(bit_string):$/;"	f
