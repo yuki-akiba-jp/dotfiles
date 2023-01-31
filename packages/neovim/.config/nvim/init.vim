@@ -132,8 +132,8 @@ nmap <S-tab> :tabprev<CR>
 nnoremap <TAB> :tabnext<CR>
 
 " Split window
-nmap ss :split<CR><C-w>w<Space>
-nmap vv :vsplit<CR><C-w>w<Space>
+nmap ss :split<CR><C-w>wfj
+nmap vv :vsplit<CR><C-w>wfj
 nnoremap tt <C-]>
 nnoremap tv :vsplit<CR><Space><C-]>
 
@@ -148,7 +148,6 @@ nmap fn <C-w>-
 nnoremap fc :!pyclean .<CR>
 
 let g:quickrun_config = {}
-set splitright
 let g:quickrun_config._ = {
     \ 'outputter/error/success': 'buffer',
     \ 'outputter/error/error': 'quickfix',
