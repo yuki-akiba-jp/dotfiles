@@ -81,9 +81,9 @@ command! -nargs=0 Prettier :CocCommand prettier.formatFile
 augroup mygroup
   autocmd!
   " Setup formatexpr specified filetype(s).
-  autocmd FileType typescript,javascript,json setlocal formatexpr=CocAction('formatSelected')
-  autocmd FileType typescript,javascript,html,htmldjango setlocal isk+=-
-  autocmd FileType python,c,cpp,typescript,javascript,php,fortran let b:coc_pairs_disabled = ['<']
+  autocmd FileType typescript,javascript,json,javascriptreact ,typescriptreact setlocal formatexpr=CocAction('formatSelected')
+  autocmd FileType typescript,javascript,html,htmldjango,javascriptreact,typescriptreact setlocal isk+=-
+  autocmd FileType python,c,cpp,typescript,javascript,php,fortran,javascriptreact,typescriptreact let b:coc_pairs_disabled = ['<']
   autocmd FileType python setlocal shiftwidth=4 tabstop=4
   autocmd FileType * setlocal formatoptions-=ro
   " Update signature help on jump placeholder
@@ -92,7 +92,7 @@ augroup mygroup
 augroup end
 
 inoremap <silent> jj <ESC>
-nnoremap <C-k> :wa<CR>
+nnoremap <C-k> :wa!<CR>
 
 xnoremap & :&&<CR>
 nnoremap & :&&<CR>
@@ -115,6 +115,8 @@ augroup setAutoCompile
     autocmd BufRead *Dockerfile set filetype=dockerfile
     autocmd BufRead *.f90 set filetype=fortran
     autocmd BufRead *.jinja set filetype=htmldjango
+    autocmd BufRead *.jsx set filetype=javascriptreact
+    autocmd BufRead *.tsx set filetype=typescriptreact
     autocmd BufRead *.html set filetype=html
     autocmd BufWritePost *.html :Prettier
     autocmd BufWritePost *.py :Isort
