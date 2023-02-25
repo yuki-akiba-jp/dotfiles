@@ -1,0 +1,13 @@
+version: "3"
+services:
+  react-app:
+    build:
+      context: ./front
+    working_dir: /front
+    volumes:
+      - ./front:/front
+      - /front/node_modules
+    command: npm start
+    tty: true
+    ports:
+      - "3000:3000"
