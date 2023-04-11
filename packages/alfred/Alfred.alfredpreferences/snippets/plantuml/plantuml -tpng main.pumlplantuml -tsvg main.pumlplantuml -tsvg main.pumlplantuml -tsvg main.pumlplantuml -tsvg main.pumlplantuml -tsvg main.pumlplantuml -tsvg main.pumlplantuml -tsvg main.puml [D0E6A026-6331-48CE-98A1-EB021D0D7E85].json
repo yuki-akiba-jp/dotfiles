@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "plantuml -tpng main.puml",
+    "uid" : "D0E6A026-6331-48CE-98A1-EB021D0D7E85",
+    "name" : "plantuml -tpng main.puml\nplantuml -tsvg main.puml\nplantuml -tsvg main.puml\nplantuml -tsvg main.puml\nplantuml -tsvg main.puml\nplantuml -tsvg main.puml\nplantuml -tsvg main.puml\nplantuml -tsvg main.puml",
+    "keyword" : ""
+  }
+}

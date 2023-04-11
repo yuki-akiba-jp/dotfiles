@@ -1,0 +1,47 @@
+snippet template "template"
+
+@startuml
+skinparam classAttributeIconSize 0
+hide circle
+@enduml
+endsnippet
+
+snippet class "class"
+class ${1}{
+	${2}
+}
+endsnippet
+
+snippet interface "interface"
+interface ${1}{
+	${2}
+}
+${1} <<interface>>
+endsnippet
+
+snippet extendsclass "extendsclass"
+class ${1} extends ${2}{
+	${3}
+}
+endsnippet
+
+snippet abstractclass "abstractclass"
+abstract class ${1}{
+	${2}
+}
+endsnippet
+
+snippet composition "composition"
+	${1} *-- ${2} :contains
+endsnippet
+
+snippet aggregation "aggregation"
+	${1} o-- ${2} :aggregation
+endsnippet
+
+snippet relation "relation"
+	${1} ${2:""} -- ${3:""} ${4}
+endsnippet
+
+
+

@@ -34,6 +34,9 @@ Plug 'fisadev/vim-isort'
 Plug 'thinca/vim-quickrun', {'on': 'QuickRun'}
 Plug 'Shougo/vimproc.vim', {'do': 'make'}
 Plug 'soramugi/auto-ctags.vim'
+Plug 'aklt/plantuml-syntax'
+Plug 'weirongxu/plantuml-previewer.vim'
+Plug 'tyru/open-browser.vim'
 call plug#end()
 
 set termguicolors
@@ -43,6 +46,18 @@ hi Comment guifg=#ACCCCC
 hi CocSelectedText guifg=blue guibg=grey
 hi CocPumSearch guifg=lightgreen 
 
+augroup mygroup
+  autocmd!
+  " Setup formatexpr specified filetype(s).
+  autocmd FileType typescript,javascript,json,javascriptreact,typescriptreact setlocal formatexpr=CocAction('formatSelected')
+  autocmd FileType typescript,javascript,html,htmldjango,javascriptreact,typescriptreact setlocal isk+=-
+  autocmd FileType python,c,cpp,typescript,javascript,php,fortran,javascriptreact,typescriptreact let b:coc_pairs_disabled = ['<']
+  autocmd FileType python set shiftwidth=4 tabstop=4
+  autocmd FileType * setlocal formatoptions-=ro
+  " Update signature help on jump placeholder
+  autocmd User CocJumpPlaceholder call CocActionAsync('showSignatureHelp')
+  autocmd QuickFixCmdPost *grep* cwindow
+augroup end
 
 
 nnoremap <ESC><ESC> :nohl<CR>
@@ -78,18 +93,6 @@ let g:coc_global_extensions = [
 
 command! -nargs=0 Prettier :CocCommand prettier.formatFile
 
-augroup mygroup
-  autocmd!
-  " Setup formatexpr specified filetype(s).
-  autocmd FileType typescript,javascript,json,javascriptreact ,typescriptreact setlocal formatexpr=CocAction('formatSelected')
-  autocmd FileType typescript,javascript,html,htmldjango,javascriptreact,typescriptreact setlocal isk+=-
-  autocmd FileType python,c,cpp,typescript,javascript,php,fortran,javascriptreact,typescriptreact let b:coc_pairs_disabled = ['<']
-  autocmd FileType python setlocal shiftwidth=4 tabstop=4
-  autocmd FileType * setlocal formatoptions-=ro
-  " Update signature help on jump placeholder
-  autocmd User CocJumpPlaceholder call CocActionAsync('showSignatureHelp')
-  autocmd QuickFixCmdPost *grep* cwindow
-augroup end
 
 inoremap <silent> jj <ESC>
 nnoremap <C-k> :wa!<CR>
@@ -114,6 +117,8 @@ augroup setAutoCompile
     " autocmd BufWritePost *.py :!python3 %:p
     autocmd BufRead *Dockerfile set filetype=dockerfile
     autocmd BufRead *.f90 set filetype=fortran
+    autocmd BufRead *puml set filetype=plantuml
+    autocmd BufRead *.py set filetype=python
     autocmd BufRead *.jinja set filetype=htmldjango
     autocmd BufRead *.jsx set filetype=javascriptreact
     autocmd BufRead *.tsx set filetype=typescriptreact
@@ -121,6 +126,8 @@ augroup setAutoCompile
     autocmd BufWritePost *.html :Prettier
     autocmd BufWritePost *.py :Isort
 augroup END
+
+
 
 " Use <C-k> for jump to next placeholder, it's default of coc.nvim
 let g:coc_snippet_next = '<C-k>'
@@ -172,3 +179,4 @@ let g:quickrun_config.cpp = {
     \ 'runner': 'system'  
     \ }
 let g:auto_ctags = 1
+let g:python3_host_prog = '/usr/bin/python3'

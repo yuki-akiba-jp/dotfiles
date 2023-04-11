@@ -1,27 +1,80 @@
 snippet number "number"
-let ${1}: number = ${2}
+number
+endsnippet
+
+snippet const "const"
+const ${1}: ${2:string} = ${3}
+endsnippet
+
+snippet let "let"
+let ${1}: ${2:string} = ${3}
+endsnippet
+
+snippet public "public"
+public
+endsnippet
+
+snippet private "private"
+private
 endsnippet
 
 snippet boolean "boolean"
-let ${1}: boolean = ${2:true}
+boolean
 endsnippet
 
 snippet string "string"
-let ${1}: string = "${2}"
+string
 endsnippet
 
-# snippet numarray "numarray"
-# let ${1}: number[] = ${2}
-# endsnippet
-
-# snippet stringarray "stringarray"
-# let ${1}: string[] = ${2}
-# endsnippet
-
-# snippet booleanarray "booleanarray"
-# let ${1}: boolean[] = ${2:true}
-# endsnippet
+snippet array "Array"
+array
+endsnippet
 
 snippet type "type"
-type ${1} = {${2}: ${3}}
+type ${1} = {
+	${2}: ${3}}
+endsnippet
+
+snippet new "new"
+new ${1}()
+endsnippet
+
+snippet privatefield "private field"
+private ${1}: ${2:string};
+endsnippet
+
+snippet publicmethod "publicmethod"
+public ${1}(${2}): ${3} {
+	${4}
+}
+endsnippet
+
+snippet interface "interface"
+interface ${1} {
+	${2}: ${3},
+	${4}};
+endsnippet
+
+snippet constructorshorthand "constructor shorthand"
+constructor(${1}: ${2:string}, ${3}: ${4:string}, ${5}: ${6:string}) {
+	this.${1} = ${1};
+	this.${3} = ${3};
+	this.${5} = ${5};
+}
+endsnippet
+
+snippet constructornormal "constructor normal"
+constructor(${1}) {
+}
+endsnippet
+
+snippet classmethod "classmethod"
+${1}(${2}): ${3}: ${4:string}{
+	${5:return}
+}
+endsnippet
+snippet function "function"
+function ${1}(${2}): ${3:string}{
+	${4}
+}
 endsnippet

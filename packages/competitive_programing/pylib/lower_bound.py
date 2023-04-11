@@ -1,5 +1,4 @@
 def isOK(array, index,  key): 
-    # this isOK is for lower_bound
     if array[index] >= key :
         return True
     else:

@@ -1,5 +1,20 @@
 extends typescript
+extends javascriptreact
 
 snippet useState "useState"
 const [ ${1}, set${2}] = useState<${3}>(${4});
+endsnippet
+
+snippet default "default export"
+export default function ${1}(${2}) {
+	return (
+		${3}
+	);
+}
+endsnippet
+
+snippet getServerSideProps "getServerSideProps"
+export async function getServerSideProps(){
+	${1}
+}
 endsnippet

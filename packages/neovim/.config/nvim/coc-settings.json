@@ -20,7 +20,7 @@
   "suggest.noselect": false,
   "suggest.triggerAfterInsertEnter": true,
   "suggest.snippetIndicator": " ►",
-  "suggest.selection": "recentlyUsedByPrefix",
+  "suggest.selection": "recentlyUsed",
   "suggest.defaultSortMethod": "none",
   "suggest.localityBonus": true,
   "suggest.enablePreview": true,
