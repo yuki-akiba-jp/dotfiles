@@ -37,6 +37,7 @@ Plug 'soramugi/auto-ctags.vim'
 Plug 'aklt/plantuml-syntax'
 Plug 'weirongxu/plantuml-previewer.vim'
 Plug 'tyru/open-browser.vim'
+Plug 'github/copilot.vim'
 call plug#end()
 
 set termguicolors
@@ -100,7 +101,7 @@ nnoremap <C-k> :wa!<CR>
 xnoremap & :&&<CR>
 nnoremap & :&&<CR>
 nnoremap ' `
-nnoremap fj :Telescope find_files<CR>
+nnoremap <C-f> :Telescope find_files<CR>
 nnoremap Y y$
 noremap fo o<ESC>
 nnoremap gr :vimgrep 
@@ -135,14 +136,15 @@ let g:coc_snippet_prev = '<C-h>'
 " source ~/dotfiles/packages/neovim/.config/nvim/macmini.vim
 let g:bracey_browser_command= "open"
 
+nmap <C-u> :Telescope find_files<CR>
 nnoremap <c-n> <TAB>
-nmap tj :tabedit<CR>fj
+nmap tj :tabedit<CR><C-u>
 nmap <S-tab> :tabprev<CR>
 nnoremap <TAB> :tabnext<CR>
 
 " Split window
-nmap ss :split<CR><C-w>wfj
-nmap vv :vsplit<CR><C-w>wfj
+nmap ss :split<CR><C-w>w<C-u>
+nmap vv :vsplit<CR><C-w>w<C-u>
 nnoremap tt <C-]>
 nnoremap tv :vsplit<CR><Space><C-]>
 

@@ -23,7 +23,6 @@ format ="""
     $rust\
     $terraform\
     $nix_shell\
-    $conda\
     $memory_usage\
     $aws\
     $env_var\
