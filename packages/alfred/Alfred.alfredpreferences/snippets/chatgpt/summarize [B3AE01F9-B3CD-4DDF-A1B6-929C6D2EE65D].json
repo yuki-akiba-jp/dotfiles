@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "I'm wondering if you could help me write a 500-word summary of this article? {cursor}",
+    "uid" : "B3AE01F9-B3CD-4DDF-A1B6-929C6D2EE65D",
+    "name" : "summarize",
+    "keyword" : ""
+  }
+}
