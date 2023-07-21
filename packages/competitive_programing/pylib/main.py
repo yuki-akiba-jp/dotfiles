@@ -1,34 +1,18 @@
-import numpy as np
-import pandas as pd
-from pandas import DataFrame
 
 
-def homework(n):
-    url_winequality_data = 'https://archive.ics.uci.edu/ml/machine-learning-databases/wine-quality/winequality-red.csv'
+# n = int(input())
+# s = list(map(int, input().split()))
+# s = str(input())
+# a, n = map(int, input().split())
+# a = [input() for _ in range(n)]
 
-    df = pd.read_csv(url_winequality_data, sep=';')
+n = int(input())
+# s = list(map(int, input().split()))
+a = [input() for _ in range(n)]
+new_a = []
+for st in a:
+    li = []
+    for ch in st:
+        li.append(ch)
+    new_a.append(li)
 
-
-    # Display the first few rows of the DataFrame
-    # print(df.head())
-    # print(df.columns)
-
-
-    # Add new column to store the n groups
-    volatile_acidity_group_key_name = 'volatile_acidity_group_key_name'
-    df[volatile_acidity_group_key_name] = pd.qcut(df['volatile acidity'],q=n)
-    # print(df.groupby(volatile_acidity_group_key_name).mean())
-
-    # Filter DataFrame where 'quality' is 5
-
-    filtered_df = df[df['quality'] == 5]
-    alcohol_means = filtered_df.groupby(volatile_acidity_group_key_name)['alcohol'].mean()
-    print(alcohol_means)
-    min_alcohol = alcohol_means.min()
-    print(min_alcohol)
-    return min_alcohol
-
-
-
-n = 5
-homework(n)
