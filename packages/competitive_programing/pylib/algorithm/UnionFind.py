@@ -11,15 +11,15 @@ class UnionFind:
 
 
     def unite(self, u, v):
-        rootu = self.find(u)
-        rootv = self.find(v)
-        if rootu != rootv:
-            if self.rank[rootu] < self.rank[rootv]:
-                self.parent[rootu] = rootv
-                self.rank[rootv] += self.rank[rootu]
+        parentOfU = self.find(u)
+        parentOfV = self.find(v)
+        if parentOfU != parentOfV:
+            if self.rank[parentOfU] < self.rank[parentOfV]:
+                self.parent[parentOfU] = parentOfV
+                self.rank[parentOfV] += self.rank[parentOfU]
             else:
-                self.parent[rootv] = rootu
-                self.rank[rootu] += self.rank[rootv]
+                self.parent[parentOfV] = parentOfU
+                self.rank[parentOfU] += self.rank[parentOfV]
 
     def is_same(self, u, v):
         return self.find(u) == self.find(v)

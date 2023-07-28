@@ -3,10 +3,8 @@ import heapq
 
 class Edge:
     def __init__(self, to, cost):
-        self.cost = cost
         self.to = to
-
-# less than  method is required for heapq to compare the cost of edges
+        self.cost = cost
     def __lt__(self, other):
         return self.cost < other.cost
 

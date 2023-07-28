@@ -1,11 +1,12 @@
-def modpow(a, b, mod):
-	returnVal = 1
-	for i in range(30):
-		divider = 2 ** i
-		if (b // divider) % 2 == 1:
-			returnVal = (returnVal * a) % mod 
-		a = (a * a) % mod
-	return returnVal
+def modpow(root, exponent, mod):
+    returnVal = 1
+    while exponent:
+        if exponent % 2 :
+            returnVal = (returnVal * root) % mod
+        root = (root * root) % mod
+        exponent //= 2
+
+    return returnVal
 
 a, b = map(int, input().split())
 

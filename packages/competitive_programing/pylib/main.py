@@ -1,18 +1,14 @@
-
-
 # n = int(input())
-# s = list(map(int, input().split()))
+# a = list(map(int, input().split()))
 # s = str(input())
 # a, n = map(int, input().split())
 # a = [input() for _ in range(n)]
 
-n = int(input())
-# s = list(map(int, input().split()))
-a = [input() for _ in range(n)]
-new_a = []
-for st in a:
-    li = []
-    for ch in st:
-        li.append(ch)
-    new_a.append(li)
+N,M = map(int, input().split())
+P = [None] * N
+C = [None] * N
+F = [[] for _ in range(N)]
+for i in range(N):
+    P[i],C[i], *F[i] = map(int, input().split())
+
 

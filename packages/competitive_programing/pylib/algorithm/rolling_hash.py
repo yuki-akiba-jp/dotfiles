@@ -1,19 +1,19 @@
-def modpow(a, b, mod):
-	returnVal = 1
-	for i in range(30):
-		divider = 2 ** i
-		if (b // divider) % 2 == 1:
-			returnVal = (returnVal * a) % mod 
-		a = (a * a) % mod
-	return returnVal
+def modpow(root, exponent, mod):
+    returnVal = 1
+    while exponent:
+        if exponent % 2 :
+            returnVal = (returnVal * root) % mod
+        root = (root * root) % mod
+        exponent //= 2
 
-
+    return returnVal
 
 N, Q = map(int, input().split())
 S = input()
-queries = [ list(map(int, input().split())) for _ in range(Q) ]
 
-char_value = list(map(lambda character: ord(character) - ord('a') + 1, S))
+char_value = []
+for character in S:
+    char_value.append(ord(character) - ord('a') + 1)
 
 MOD = 2147483647
 BASE = 100
@@ -27,11 +27,10 @@ for i in range(N):
 def hash_value(left, right):
 	return (HASH[right] - HASH[left - 1] * modpow(BASE,right-left+1,MOD)) % MOD
 
-for a, b, c, d in queries:
-	hash1 = hash_value(a, b)
-	hash2 = hash_value(c, d)
-	if hash1 == hash2:
-		print("Yes")
-	else:
-		print("No")
+for i in range(Q):
+    a, b, c, d = map(int, input().split())
+    if hash_value(a, b) == hash_value(c, d):
+        print("Yes")
+    else:
+        print("No")
 

@@ -1,0 +1,38 @@
+document = ''
+document+= '''\\documentclass{jsarticle}
+\\usepackage{listings} 
+\\lstset{
+  language=Python,   
+  basicstyle={\\ttfamily\\small},
+  commentstyle={\\smallitshape},
+  keywordstyle={\\small\\bfseries},
+  ndkeywordstyle={\\small},
+  stringstyle={\\small\\ttfamily},
+  % frame={tb},
+  breaklines=true,
+  columns=[l]{fullflexible},
+  numbers=left,
+  numberstyle={\\scriptsize},
+  stepnumber=1,
+  numbersep=1zw,
+  framesep=5pt,
+}
+
+\\begin{document}
+\\begin{lstlisting}
+'''
+
+filename = 'temp.py'
+document+= '\\lstinputlisting{'
+document+=f"${filename+}\n"
+
+document += '''
+\\end{lstlisting}
+\\end{document}
+'''
+
+document+='\n'
+document += '\\end{document}\n'
+
+print(document)
+
