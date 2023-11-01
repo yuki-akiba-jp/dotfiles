@@ -90,6 +90,8 @@ let g:coc_global_extensions = [
             \ 'coc-css',
             \ 'coc-clangd',
             \ 'coc-htmldjango',
+            \ 'coc-java',
+            \ 'coc-sql',
             \ ]
 
 command! -nargs=0 Prettier :CocCommand prettier.formatFile
@@ -179,6 +181,10 @@ let g:quickrun_config.cpp = {
     \ 'command': 'g++',
     \ 'input': 'infile',  
     \ 'runner': 'system'  
+    \ }
+let g:quickrun_config.java = {
+    \ 'command' : 'javac',
+    \ 'cmdopt' : '-cp',
     \ }
 let g:auto_ctags = 1
 let g:python3_host_prog = '/usr/bin/python3'

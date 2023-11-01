@@ -9,9 +9,9 @@ alias view="nvim -R"
 
 alias py=python3
 
-alias pip=pip3
-alias pi="pip install"
-alias pl="pip list"
+alias pip="/usr/bin/pip3"
+alias pi="/usr/bin/pip3 install"
+alias pl="/usr/bin/pip3 list"
 alias live="live-server"
 alias at="cd ~/dotfiles/packages/competitive_programing/pylib && vim"
 alias nvimconf="vim ~/.config/nvim/init.vim"
