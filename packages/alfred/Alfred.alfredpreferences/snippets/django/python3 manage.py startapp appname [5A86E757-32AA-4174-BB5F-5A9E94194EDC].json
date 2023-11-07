@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "python3 manage.py startapp {cursor}",
+    "uid" : "5A86E757-32AA-4174-BB5F-5A9E94194EDC",
+    "name" : "python3 manage.py startapp appname",
+    "keyword" : ""
+  }
+}
