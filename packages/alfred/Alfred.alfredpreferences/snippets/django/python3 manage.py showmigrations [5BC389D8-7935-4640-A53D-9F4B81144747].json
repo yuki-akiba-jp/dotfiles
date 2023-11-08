@@ -1,8 +1,0 @@
-{
-  "alfredsnippet" : {
-    "snippet" : "python3 manage.py showmigrations",
-    "uid" : "5BC389D8-7935-4640-A53D-9F4B81144747",
-    "name" : "python3 manage.py showmigrations",
-    "keyword" : ""
-  }
-}

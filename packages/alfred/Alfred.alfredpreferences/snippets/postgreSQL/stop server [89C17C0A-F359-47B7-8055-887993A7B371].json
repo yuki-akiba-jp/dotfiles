@@ -1,8 +1,0 @@
-{
-  "alfredsnippet" : {
-    "snippet" : "brew services stop postgresql",
-    "uid" : "89C17C0A-F359-47B7-8055-887993A7B371",
-    "name" : "stop server",
-    "keyword" : ""
-  }
-}

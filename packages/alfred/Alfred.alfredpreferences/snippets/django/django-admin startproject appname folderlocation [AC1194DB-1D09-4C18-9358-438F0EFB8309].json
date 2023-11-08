@@ -1,8 +1,0 @@
-{
-  "alfredsnippet" : {
-    "snippet" : " django-admin startproject {cursor} .",
-    "uid" : "AC1194DB-1D09-4C18-9358-438F0EFB8309",
-    "name" : "django-admin startproject appname folderlocation",
-    "keyword" : ""
-  }
-}

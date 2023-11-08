@@ -1,8 +1,0 @@
-{
-  "alfredsnippet" : {
-    "snippet" : "docker restart {cursor}",
-    "uid" : "695C24E6-57D8-465D-821B-5950FDB709E2",
-    "name" : "docker restart <container>",
-    "keyword" : ""
-  }
-}

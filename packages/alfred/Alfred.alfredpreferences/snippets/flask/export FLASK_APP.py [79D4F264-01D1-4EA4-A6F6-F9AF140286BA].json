@@ -1,8 +1,0 @@
-{
-  "alfredsnippet" : {
-    "snippet" : "export FLASK_APP={cursor}.py",
-    "uid" : "79D4F264-01D1-4EA4-A6F6-F9AF140286BA",
-    "name" : "export FLASK_APP=.py",
-    "keyword" : ""
-  }
-}

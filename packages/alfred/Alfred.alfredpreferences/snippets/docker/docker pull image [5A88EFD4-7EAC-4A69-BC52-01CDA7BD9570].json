@@ -1,8 +1,0 @@
-{
-  "alfredsnippet" : {
-    "snippet" : "docker pull {cursor}",
-    "uid" : "5A88EFD4-7EAC-4A69-BC52-01CDA7BD9570",
-    "name" : "docker pull <image>",
-    "keyword" : ""
-  }
-}

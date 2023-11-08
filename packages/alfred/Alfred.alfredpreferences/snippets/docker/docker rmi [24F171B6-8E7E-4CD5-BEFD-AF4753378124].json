@@ -1,8 +1,0 @@
-{
-  "alfredsnippet" : {
-    "snippet" : "docker rmi $(docker images -q)",
-    "uid" : "24F171B6-8E7E-4CD5-BEFD-AF4753378124",
-    "name" : "docker rmi",
-    "keyword" : ""
-  }
-}

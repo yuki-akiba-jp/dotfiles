@@ -1,8 +1,0 @@
-{
-  "alfredsnippet" : {
-    "snippet" : "docker tag {cursor}",
-    "uid" : "1708304C-FA8E-488E-8998-B769270AD0ED",
-    "name" : "docker tag <source> <target>",
-    "keyword" : ""
-  }
-}

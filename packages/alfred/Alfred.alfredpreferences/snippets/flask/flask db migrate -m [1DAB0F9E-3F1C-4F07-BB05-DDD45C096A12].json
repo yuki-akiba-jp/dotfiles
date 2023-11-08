@@ -1,8 +1,0 @@
-{
-  "alfredsnippet" : {
-    "snippet" : "flask db migrate -m \"{cursor}\"",
-    "uid" : "1DAB0F9E-3F1C-4F07-BB05-DDD45C096A12",
-    "name" : "flask db migrate -m",
-    "keyword" : ""
-  }
-}

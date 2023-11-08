@@ -1,8 +1,0 @@
-{
-  "alfredsnippet" : {
-    "snippet" : "docker run -it {cursor}",
-    "uid" : "5C3324EE-39BD-474B-B5DC-E2881D6A1CB1",
-    "name" : "docker run -it <image> <command>",
-    "keyword" : ""
-  }
-}

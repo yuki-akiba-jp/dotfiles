@@ -1,8 +1,0 @@
-{
-  "alfredsnippet" : {
-    "snippet" : "flask --app flaskr init-db",
-    "uid" : "88ADC91B-65CC-41E8-87C0-63588DABB685",
-    "name" : "flask --app flaskr init-db",
-    "keyword" : ""
-  }
-}
