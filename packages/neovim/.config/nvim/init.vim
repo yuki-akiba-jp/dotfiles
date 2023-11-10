@@ -188,3 +188,8 @@ let g:quickrun_config.java = {
     \ }
 let g:auto_ctags = 1
 let g:python3_host_prog = '/usr/bin/python3'
+
+nmap <silent> gd :call CocAction('jumpDefinition', 'tabe')<CR>
+nmap <silent> gy :call CocAction('jumpTypeDefinition', 'tabe')<CR>
+nmap <silent> gi :call CocAction('jumpImplementation', 'tabe')<CR>
+nmap <silent> gr :call CocAction('jumpReferences', 'tabe')<CR>
