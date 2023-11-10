@@ -142,6 +142,7 @@ nmap <C-u> :Telescope find_files<CR>
 nnoremap <c-n> <TAB>
 nmap tj :tabedit<CR><C-u>
 nmap <S-tab> :tabprev<CR>
+nmap <C-h> :tabprev<CR>
 nnoremap <TAB> :tabnext<CR>
 
 " Split window
