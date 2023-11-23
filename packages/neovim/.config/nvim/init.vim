@@ -17,6 +17,7 @@ set smartcase
 set buftype=
 set encoding=utf-8
 set isk+=@-@
+set splitright
 syntax on
 filetype on
 
@@ -39,6 +40,8 @@ Plug 'tyru/open-browser.vim'
 Plug 'github/copilot.vim'
 Plug 'nvim-lua/plenary.nvim' " don't forget to add this one if you don't have it yet!
 Plug 'ThePrimeagen/harpoon'
+Plug 'tpope/vim-fugitive'
+Plug 'airblade/vim-gitgutter'
 call plug#end()
 
 set termguicolors
@@ -191,13 +194,27 @@ let g:quickrun_config.java = {
 let g:auto_ctags = 1
 let g:python3_host_prog = '/usr/bin/python3'
 
-nmap <silent> gd :call CocAction('jumpDefinition', 'tabe')<CR>
-nmap <silent> gy :call CocAction('jumpTypeDefinition', 'tabe')<CR>
-nmap <silent> gi :call CocAction('jumpImplementation', 'tabe')<CR>
-nmap <silent> gr :call CocAction('jumpReferences', 'tabe')<CR>
+nmap <silent> gdt :call CocAction('jumpDefinition', 'tabe')<CR>
+nmap <silent> gdv :call CocAction('jumpDefinition', 'vsplit')<CR>
+
+nmap <silent> gyt :call CocAction('jumpTypeDefinition', 'tabe')<CR>
+nmap <silent> gyv :call CocAction('jumpTypeDefinition', 'vsplit')<CR>
+
+nmap <silent> git :call CocAction('jumpImplementation', 'tabe')<CR>
+nmap <silent> giv :call CocAction('jumpImplementation', 'vsplit')<CR>
+
+nmap <silent> grt :call CocAction('jumpReferences', 'tabe')<CR>
+nmap <silent> grv :call CocAction('jumpReferences', 'vsplit')<CR>
+
+nmap gdi :Gdiffsplit<CR>
+nmap gbr :Git branch -vv<CR>
+nmap gbl :Git blame<CR>
+nmap gst :Git status<CR>
+nmap glg :Git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'<CR>
 
 lua require("telescope").load_extension('harpoon')
 nmap ma :lua require("harpoon.mark").add_file()<CR>
 nmap mm :lua require("harpoon.ui").toggle_quick_menu()<CR>
 nmap mt :tabedit<CR>:Telescope harpoon marks<CR>
 nmap mv :vsplit<CR><C-w>w:Telescope harpoon marks<CR>
+
