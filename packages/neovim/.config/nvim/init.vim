@@ -20,7 +20,6 @@ set isk+=@-@
 syntax on
 filetype on
 
-
 call plug#begin()
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'morhetz/gruvbox'
@@ -38,6 +37,8 @@ Plug 'aklt/plantuml-syntax'
 Plug 'weirongxu/plantuml-previewer.vim'
 Plug 'tyru/open-browser.vim'
 Plug 'github/copilot.vim'
+Plug 'nvim-lua/plenary.nvim' " don't forget to add this one if you don't have it yet!
+Plug 'ThePrimeagen/harpoon'
 call plug#end()
 
 set termguicolors
@@ -194,3 +195,9 @@ nmap <silent> gd :call CocAction('jumpDefinition', 'tabe')<CR>
 nmap <silent> gy :call CocAction('jumpTypeDefinition', 'tabe')<CR>
 nmap <silent> gi :call CocAction('jumpImplementation', 'tabe')<CR>
 nmap <silent> gr :call CocAction('jumpReferences', 'tabe')<CR>
+
+lua require("telescope").load_extension('harpoon')
+nmap ma :lua require("harpoon.mark").add_file()<CR>
+nmap mm :lua require("harpoon.ui").toggle_quick_menu()<CR>
+nmap mt :tabedit<CR>:Telescope harpoon marks<CR>
+nmap mv :vsplit<CR><C-w>w:Telescope harpoon marks<CR>
