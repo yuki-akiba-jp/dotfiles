@@ -1,0 +1,20 @@
+require('options')
+
+require('plugins.lazy')
+require('plugins.gitsigns')
+require('plugins.lualine')
+require('plugins.treesitter')
+require('plugins.telescope')
+require('plugins.cmp')
+require('plugins.mason')
+require('plugins.whichkey')
+require('plugins.bufferline')
+require('plugins.dap')
+require('plugins.neotest')
+require('plugins.nvim_tree')
+
+require('neodev').setup()
+require('keymaps')
+require('autocmd')
+vim.g.copilot_no_tab_map = true
+vim.api.nvim_set_keymap("i", "<C-J>", 'copilot#Accept("<CR>")', { silent = true, expr = true })
