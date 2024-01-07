@@ -25,7 +25,8 @@ vim.o.updatetime = 250
 vim.o.timeoutlen = 300
 vim.o.completeopt = 'menuone,noselect'
 vim.o.incsearch = true
-vim.o.nofixendofline = true
+vim.o.binary = true
+vim.o.noeol = true
 
 -- Enabling syntax highlighting and filetype detection
 vim.cmd("syntax on")
