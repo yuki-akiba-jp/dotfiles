@@ -7,7 +7,6 @@ local servers = {
   jsonls = {},
   yamlls = {},
   taplo = {},
-  solargraph = {},
   html = { filetypes = { 'html', 'twig', 'hbs' } },
 }
 

@@ -1,7 +1,7 @@
 vim.o.shell = "/bin/zsh"
-vim.o.shiftwidth = 2
 vim.o.tabstop = 2
-vim.o.expandtab = true
+vim.o.shiftwidth = 2
+vim.o.softtabstop = 2
 vim.o.textwidth = 0
 vim.o.autoindent = true
 vim.o.hlsearch = true
@@ -31,6 +31,7 @@ vim.o.noeol = true
 -- Enabling syntax highlighting and filetype detection
 vim.cmd("syntax on")
 vim.cmd("filetype on")
+vim.cmd("set expandtab")
 vim.opt.termguicolors = true
 vim.g.bracey_browser_command = "open"
 

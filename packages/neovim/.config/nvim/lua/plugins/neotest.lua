@@ -6,7 +6,19 @@ require("neotest").setup({
         return vim.fn.getcwd()
       end,
     }),
-  },
+		require('neotest-rspec')({
+			env = { CI = true },
+			cwd = function()
+				return vim.fn.getcwd()
+			end,
+		}),
+		require('neotest-minitest')({
+			env = { CI = true },
+			cwd = function()
+				return vim.fn.getcwd()
+			end,
+		}),
+	},
 })
 
 vim.api.nvim_set_keymap("n", "tt", "<cmd>lua require('neotest').run.run()<cr>", {})
@@ -19,10 +31,10 @@ local function is_test_file()
 end
 
 vim.api.nvim_create_autocmd("BufWritePost", {
-  pattern = {"*.ts", "*.tsx"},
+  pattern = {"*.ts", "*.tsx", "*.rb"},
   callback = function()
       if is_test_file() then
-          require('neotest').run.run()
+				require("neotest").run.run(vim.fn.expand("%"))
       end
   end
 })

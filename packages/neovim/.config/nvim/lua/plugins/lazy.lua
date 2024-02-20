@@ -57,7 +57,7 @@ lazy.setup({
   { 'numToStr/Comment.nvim', opts = {}, event = "InsertEnter", },
 
   -- git related
-  {'tpope/vim-fugitive', lazy = true},
+  {'tpope/vim-fugitive',},
   {'tpope/vim-rhubarb', lazy = true},
   {'tpope/vim-sleuth', lazy = true},
   'lewis6991/gitsigns.nvim',
@@ -111,9 +111,7 @@ lazy.setup({
       'neovim/nvim-lspconfig',
     },
   },
-  {
-    'MunifTanjim/prettier.nvim',
-  },
+  { 'MunifTanjim/prettier.nvim' },
   {
     'mfussenegger/nvim-dap',
     lazy = true,
@@ -126,12 +124,16 @@ lazy.setup({
   },
   {
     "nvim-neotest/neotest",
-    event = "InsertEnter",
+		lazy = true,
     dependencies = {
       "nvim-lua/plenary.nvim",
       "antoinemadec/FixCursorHold.nvim",
       "nvim-treesitter/nvim-treesitter",
-      "nvim-neotest/neotest-jest"
+      "nvim-neotest/neotest-jest",
+			"olimorris/neotest-rspec",
+			"zidhuss/neotest-minitest",
     },
   },
+  { "bronson/vim-trailing-whitespace" },
+  { "prettier/vim-prettier"},
 })
