@@ -12,6 +12,7 @@ require('plugins.bufferline')
 require('plugins.dap')
 require('plugins.neotest')
 require('plugins.nvim_tree')
+require('plugins.git_worktree')
 
 require('neodev').setup()
 require('keymaps')

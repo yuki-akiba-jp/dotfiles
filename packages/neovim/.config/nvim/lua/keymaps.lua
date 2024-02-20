@@ -46,6 +46,8 @@ vim.keymap.set('n', 'gy', require('telescope.builtin').lsp_type_definitions, { d
 vim.keymap.set('n', 'go', require('telescope.builtin').oldfiles, { desc = '[G]oto [O]ld file' })
 vim.keymap.set('n', 'gj', require('telescope.builtin').jumplist, { desc = '[G]oto [J]umplist' })
 
+vim.keymap.set("n", "gww", "<CMD>lua require('telescope').extensions.git_worktree.git_worktrees()<CR>")
+vim.keymap.set("n", "gwc", "<CMD>lua require('telescope').extensions.git_worktree.create_git_worktree()<CR>")
 vim.api.nvim_set_keymap( "n", "gb", ":Telescope file_browser<CR>", { noremap = true })
 
 -- open file_browser with the path of the current buffer
