@@ -1,6 +1,19 @@
 require('telescope').load_extension('git_worktree')
 require('telescope').setup {
+
   defaults = {
+    file_ignore_patterns = {
+      "node_modules",
+      ".git",
+      ".vscode",
+      ".idea",
+      ".DS_Store",
+    },
+    pickers = {
+      find_files = {
+        hidden = true,
+      },
+    },
     mappings = {
       i = {
         ['<C-u>'] = false,

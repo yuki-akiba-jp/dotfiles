@@ -26,6 +26,7 @@ vim.api.nvim_set_keymap('n', 'ma', '<cmd>lua require("harpoon.mark").add_file()<
 vim.api.nvim_set_keymap('n', 'mm', '<cmd>lua require("harpoon.ui").toggle_quick_menu()<CR>',
     { silent = true, noremap = true })
 vim.api.nvim_set_keymap('n', 'mf', '<cmd>Telescope harpoon marks<CR>', { silent = true, noremap = true })
+vim.api.nvim_set_keymap('n', '<C-u>', '<cmd>lua require("telescope.builtin").find_files({ hidden = true })<CR>',{ silent = true, noremap = true })
 
 vim.keymap.set('n', 'k', "v:count == 0 ? 'gk' : 'k'", { expr = true, silent = true })
 vim.keymap.set('n', 'j', "v:count == 0 ? 'gj' : 'j'", { expr = true, silent = true })
@@ -34,8 +35,6 @@ vim.keymap.set('n', 'j', "v:count == 0 ? 'gj' : 'j'", { expr = true, silent = tr
 vim.keymap.set('n', '[d', vim.diagnostic.goto_prev, { desc = 'Go to previous diagnostic message' })
 vim.keymap.set('n', ']d', vim.diagnostic.goto_next, { desc = 'Go to next diagnostic message' })
 vim.keymap.set('n', '<Space>', '<C-w>w', { silent = true })
-
-vim.keymap.set('n', '<C-u>', require('telescope.builtin').find_files, { desc = 'find_files' })
 vim.keymap.set('n', 'dl', require('telescope.builtin').diagnostics, { desc = '[D]iagnostics [L]ist' })
 vim.keymap.set('n', 'gr', require('telescope.builtin').live_grep, { desc = '[F]ile [G]rep' })
 vim.keymap.set('n', 'gs', require('telescope.builtin').grep_string, { desc = '[G]rep current word' })
