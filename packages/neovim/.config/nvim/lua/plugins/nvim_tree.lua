@@ -14,6 +14,18 @@ require("nvim-tree").setup({
     group_empty = true,
   },
   filters = {
-    dotfiles = true,
+    dotfiles = false,
+  },
+  update_focused_file = {
+    enable = true,
+    debounce_delay = 15,
+    update_root = true,
+    ignore_list = {},
+  },
+  diagnostics = {
+    enable = true,
+    show_on_dirs = false,
+    show_on_open_dirs = true,
+    debounce_delay = 50,
   },
 })
