@@ -50,4 +50,5 @@ vim.keymap.set('n', 'gj', require('telescope.builtin').jumplist, { desc = '[G]ot
 
 vim.keymap.set("n", "gww", "<CMD>lua require('telescope').extensions.git_worktree.git_worktrees()<CR>")
 vim.keymap.set("n", "gwc", "<CMD>lua require('telescope').extensions.git_worktree.create_git_worktree()<CR>")
-vim.keymap.set('n', 'gb', ':NvimTreeToggle<CR>', { desc = 'Toggle [E]xplorer' })
+vim.keymap.set('n', '<C-f>', ':NvimTreeToggle<CR>', { desc = 'Toggle [E]xplorer' })
+vim.keymap.set('n', '<C-t>', ':ToggleTerm<CR>', { desc = 'Toggle [T]erminal' })

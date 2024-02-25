@@ -13,14 +13,14 @@ vim.opt.rtp:prepend(lazypath)
 
 local lazy = require('lazy')
 lazy.setup({
-  {'tpope/vim-surround', event = 'InsertEnter'},
-  {'tpope/vim-repeat', event = 'InsertEnter'},
-  {'tpope/vim-unimpaired', event = 'InsertEnter'},
-  {'tpope/vim-commentary', event = 'InsertEnter'},
-  {'tpope/vim-abolish' },
+  { 'tpope/vim-surround',   event = 'InsertEnter' },
+  { 'tpope/vim-repeat',     event = 'InsertEnter' },
+  { 'tpope/vim-unimpaired', event = 'InsertEnter' },
+  { 'tpope/vim-commentary', event = 'InsertEnter' },
+  { 'tpope/vim-abolish' },
   'nelstrom/vim-visual-star-search',
   'nvim-lua/plenary.nvim',
-  { 'akinsho/bufferline.nvim', version = "*",  dependencies = 'nvim-tree/nvim-web-devicons' },
+  { 'akinsho/bufferline.nvim', version = "*", dependencies = 'nvim-tree/nvim-web-devicons' },
   {
     'nvim-telescope/telescope.nvim',
     branch = '0.1.x',
@@ -53,13 +53,13 @@ lazy.setup({
     lazy = false,
   },
   'ThePrimeagen/harpoon',
-  { 'folke/which-key.nvim',  opts = {}, lazy = true},
-  { 'numToStr/Comment.nvim', opts = {}, event = "InsertEnter", },
+  { 'folke/which-key.nvim',  opts = {},  lazy = true },
+  { 'numToStr/Comment.nvim', opts = {},  event = "InsertEnter", },
 
   -- git related
-  {'tpope/vim-fugitive',},
-  {'tpope/vim-rhubarb', lazy = true},
-  {'tpope/vim-sleuth', lazy = true},
+  { 'tpope/vim-fugitive', },
+  { 'tpope/vim-rhubarb',     lazy = true },
+  { 'tpope/vim-sleuth',      lazy = true },
   'lewis6991/gitsigns.nvim',
   'ThePrimeagen/git-worktree.nvim',
   'nvim-lualine/lualine.nvim',
@@ -124,16 +124,17 @@ lazy.setup({
   },
   {
     "nvim-neotest/neotest",
-		lazy = true,
+    lazy = true,
     dependencies = {
       "nvim-lua/plenary.nvim",
       "antoinemadec/FixCursorHold.nvim",
       "nvim-treesitter/nvim-treesitter",
       "nvim-neotest/neotest-jest",
-			"olimorris/neotest-rspec",
-			"zidhuss/neotest-minitest",
+      "olimorris/neotest-rspec",
+      "zidhuss/neotest-minitest",
     },
   },
   { "bronson/vim-trailing-whitespace" },
-  { "prettier/vim-prettier"},
+  { "prettier/vim-prettier" },
+  { "akinsho/toggleterm.nvim" },
 })

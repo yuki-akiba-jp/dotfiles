@@ -13,6 +13,7 @@ require('plugins.dap')
 require('plugins.neotest')
 require('plugins.nvim_tree')
 require('plugins.git_worktree')
+require('plugins.toggleterm')
 
 require('neodev').setup()
 require('keymaps')
