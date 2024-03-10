@@ -21,7 +21,7 @@ require("neotest").setup({
 	},
 })
 
-vim.api.nvim_set_keymap("n", "tt", "<cmd>lua require('neotest').run.run()<cr>", {})
+vim.api.nvim_set_keymap("n", "tt", "<cmd>lua require('neotest').run.run(vim.fn.expand('%'))<cr>", {})
 
 
 -- Function to check if the current file is a test file
