@@ -137,4 +137,12 @@ lazy.setup({
   { "bronson/vim-trailing-whitespace" },
   { "prettier/vim-prettier" },
   { "akinsho/toggleterm.nvim" },
+  {
+    "folke/noice.nvim",
+    event = "VeryLazy",
+    dependencies = {
+      "MunifTanjim/nui.nvim",
+      "rcarriga/nvim-notify",
+    }
+  },
 })
