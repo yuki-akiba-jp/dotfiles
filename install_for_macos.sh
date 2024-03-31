@@ -21,4 +21,3 @@ pip install --upgrade pip
 pip install pynvim isort
 
 stow -v -d ~/dotfiles/packages -t ~  git iterm2 neovim starship tmux zsh  coc-snippets docker
-
