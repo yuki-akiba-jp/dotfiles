@@ -17,10 +17,11 @@ vim.api.nvim_set_keymap('n', 'fy', ':let @*=expand("%")<CR>', {})
 vim.api.nvim_set_keymap('n', '<ESC><ESC>', ':nohl<CR>', {})
 
 
-vim.api.nvim_set_keymap('n', 'giv', '<cmd>Gdiffsplit<cr>', { silent = true, noremap = true })
 vim.api.nvim_set_keymap('n', 'gibr', '<cmd>vertical Git branch -vv<cr>', { silent = true, noremap = true })
 vim.api.nvim_set_keymap('n', 'git', '<cmd>vertical Git<cr>', { silent = true, noremap = true })
-vim.api.nvim_set_keymap('n', 'gibm', '<cmd>Git blame<cr>', { silent = true, noremap = true })
+vim.keymap.set("n", "givh", "<cmd>DiffviewOpen HEAD~1<CR>")
+vim.keymap.set("n", "givv", "<cmd>DiffviewFileHistory %<CR>")
+vim.keymap.set("n", "givc", "<cmd>DiffviewClose<CR>")
 
 vim.api.nvim_set_keymap('n', 'gilg',
   '<cmd>vertical Git log --graph --pretty=format:\'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset\'<CR>',
@@ -45,13 +46,17 @@ vim.keymap.set('n', 'dl', require('telescope.builtin').diagnostics, { desc = '[D
 vim.keymap.set('n', 'gr', require('telescope.builtin').live_grep, { desc = '[F]ile [G]rep' })
 vim.keymap.set('n', 'gs', require('telescope.builtin').grep_string, { desc = '[G]rep current word' })
 vim.keymap.set('n', 'gdd', require('telescope.builtin').lsp_definitions, { desc = '[G]oto [D]efinition' })
-vim.api.nvim_set_keymap('n', 'gdv', '<cmd>lua vim.lsp.buf.definition()<CR><cmd>vsplit<CR>',
-  { noremap = true, silent = true })
-vim.api.nvim_set_keymap('n', 'gdt', '<cmd>lua vim.lsp.buf.definition()<CR><cmd>tabedit<CR>',
-  { noremap = true, silent = true })
-vim.keymap.set('n', 'gy', require('telescope.builtin').lsp_type_definitions, { desc = '[G]oto t[Y]pe Definition' })
+vim.api.nvim_set_keymap('n', 'gdt', '<cmd>lua vim.lsp.buf.definition()<CR><cmd>tabedit<CR>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', 'gdv', '<cmd>lua vim.lsp.buf.definition()<CR><cmd>vsplit<CR>', { noremap = true, silent = true })
+
+vim.keymap.set('n', 'gyy', require('telescope.builtin').lsp_type_definitions, { desc = '[G]oto t[Y]pe Definition' })
+vim.api.nvim_set_keymap('n', 'gyt', '<cmd>lua vim.lsp.buf.type_definition()<CR><cmd>tabedit<CR>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', 'gyv', '<cmd>lua vim.lsp.buf.type_definition()<CR><cmd>vsplit<CR>', { noremap = true, silent = true })
+
+vim.keymap.set('n', 'qf', require('telescope.builtin').quickfix, { desc = '[Q]uick[F]ix' })
 vim.keymap.set('n', 'go', require('telescope.builtin').oldfiles, { desc = '[G]oto [O]ld file' })
 vim.keymap.set('n', 'gj', require('telescope.builtin').jumplist, { desc = '[G]oto [J]umplist' })
+vim.keymap.set('n', 'gcm', require('telescope.builtin').git_commits, { desc = '[G]it [C]ommits' })
 
 vim.keymap.set("n", "gww", "<CMD>lua require('telescope').extensions.git_worktree.git_worktrees()<CR>")
 vim.keymap.set("n", "gwc", "<CMD>lua require('telescope').extensions.git_worktree.create_git_worktree()<CR>")

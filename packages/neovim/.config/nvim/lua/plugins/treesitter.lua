@@ -13,7 +13,11 @@ vim.defer_fn(function()
       },
     auto_install = false,
 
-    highlight = { enable = true },
+    highlight = {
+      enable = true ,
+
+
+    },
     indent = { enable = true },
 
     incremental_selection = {

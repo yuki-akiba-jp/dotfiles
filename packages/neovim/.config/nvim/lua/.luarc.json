@@ -4,6 +4,7 @@
         "config",
         "callback",
         "group",
-        "pattern"
+        "pattern",
+        "c"
     ]
 }

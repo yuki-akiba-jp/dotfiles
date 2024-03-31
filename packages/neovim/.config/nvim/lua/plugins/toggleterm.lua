@@ -10,10 +10,4 @@ require("toggleterm").setup {
   persist_size = false,
   direction = "vertical",
   close_on_exit = true,   -- close the terminal window when the process exits
-  winbar = {
-    enabled = true,
-    name_formatter = function(term)   --  term: Terminal
-      return term.count
-    end,
-  },
 }

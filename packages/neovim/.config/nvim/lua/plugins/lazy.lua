@@ -13,14 +13,22 @@ vim.opt.rtp:prepend(lazypath)
 
 local lazy = require('lazy')
 lazy.setup({
-  { 'tpope/vim-surround',   event = 'InsertEnter' },
   { 'tpope/vim-repeat',     event = 'InsertEnter' },
   { 'tpope/vim-unimpaired', event = 'InsertEnter' },
-  { 'tpope/vim-commentary', event = 'InsertEnter' },
   { 'tpope/vim-abolish' },
   'nelstrom/vim-visual-star-search',
   'nvim-lua/plenary.nvim',
   { 'akinsho/bufferline.nvim', version = "*", dependencies = 'nvim-tree/nvim-web-devicons' },
+  { 'numToStr/Comment.nvim',   lazy = false },
+  {
+    "kylechui/nvim-surround",
+    version = "*", -- Use for stability; omit to use `main` branch for the latest features
+    config = function()
+      require("nvim-surround").setup({
+      })
+    end
+  },
+  { "lukas-reineke/indent-blankline.nvim", main = "ibl", opts = {} },
   {
     'nvim-telescope/telescope.nvim',
     branch = '0.1.x',
@@ -47,7 +55,7 @@ lazy.setup({
     build = ':TSUpdate',
   },
   'fisadev/vim-isort',
-  { 'Shougo/vimproc.vim',      run = 'make' },
+  { 'Shougo/vimproc.vim',                  run = 'make' },
   {
     "github/copilot.vim",
     lazy = false,
@@ -91,15 +99,7 @@ lazy.setup({
     main = 'ibl',
     opts = {},
   },
-  {
-    'navarasu/onedark.nvim',
-    priority = 1000,
-    config = function()
-      vim.cmd.colorscheme 'onedark'
-      vim.cmd [[ hi Visual guibg=grey ]]
-      vim.cmd [[ hi diffAdded ctermfg=green ]]
-    end,
-  },
+  { 'navarasu/onedark.nvim' },
   {
     'windwp/nvim-autopairs',
     event = "InsertEnter",
@@ -137,7 +137,7 @@ lazy.setup({
   },
   { "bronson/vim-trailing-whitespace" },
   { "prettier/vim-prettier" },
-  { "akinsho/toggleterm.nvim" },
+ {'akinsho/toggleterm.nvim', version = "*", config = true},
   {
     "folke/noice.nvim",
     event = "VeryLazy",
@@ -147,4 +147,6 @@ lazy.setup({
     }
   },
   { "mbbill/undotree" },
+  { "sindrets/diffview.nvim" },
+  { "norcalli/nvim-colorizer.lua" },
 })
