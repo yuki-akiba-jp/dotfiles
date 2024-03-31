@@ -97,6 +97,7 @@ lazy.setup({
     config = function()
       vim.cmd.colorscheme 'onedark'
       vim.cmd [[ hi Visual guibg=grey ]]
+      vim.cmd [[ hi diffAdded ctermfg=green ]]
     end,
   },
   {
@@ -145,4 +146,5 @@ lazy.setup({
       "rcarriga/nvim-notify",
     }
   },
+  { "mbbill/undotree" },
 })

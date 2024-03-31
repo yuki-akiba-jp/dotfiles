@@ -13,6 +13,7 @@ vim.api.nvim_set_keymap('n', 'fo', 'o<ESC>', {})
 vim.api.nvim_set_keymap('n', '<C-K>', ':wa<CR>', {})
 vim.api.nvim_set_keymap('n', 'fq', ':q<CR>', {})
 vim.api.nvim_set_keymap('n', 'ff', ':wq<CR>', {})
+vim.api.nvim_set_keymap('n', 'fy', ':let @*=expand("%")<CR>', {})
 vim.api.nvim_set_keymap('n', '<ESC><ESC>', ':nohl<CR>', {})
 
 
@@ -37,6 +38,7 @@ vim.keymap.set('n', 'j', "v:count == 0 ? 'gj' : 'j'", { expr = true, silent = tr
 
 -- Diagnostic keymaps
 vim.keymap.set('n', '[d', vim.diagnostic.goto_prev, { desc = 'Go to previous diagnostic message' })
+vim.keymap.set('n', '[d', vim.diagnostic.goto_prev, { desc = 'Go to previous diagnostic message' })
 vim.keymap.set('n', ']d', vim.diagnostic.goto_next, { desc = 'Go to next diagnostic message' })
 vim.keymap.set('n', '<Space>', '<C-w>w', { silent = true })
 vim.keymap.set('n', 'dl', require('telescope.builtin').diagnostics, { desc = '[D]iagnostics [L]ist' })
@@ -55,3 +57,4 @@ vim.keymap.set("n", "gww", "<CMD>lua require('telescope').extensions.git_worktre
 vim.keymap.set("n", "gwc", "<CMD>lua require('telescope').extensions.git_worktree.create_git_worktree()<CR>")
 vim.keymap.set('n', '<C-f>', ':NvimTreeToggle<CR>', { desc = 'Toggle [E]xplorer' })
 vim.keymap.set('n', '<C-t>', ':ToggleTerm<CR>', { desc = 'Toggle [T]erminal' })
+vim.keymap.set('n', 'fu', vim.cmd.UndotreeToggle)
