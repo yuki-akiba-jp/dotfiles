@@ -16,13 +16,13 @@ lazy.setup({
   { 'tpope/vim-repeat',                event = 'InsertEnter' },
   { 'tpope/vim-unimpaired',            event = 'InsertEnter' },
   { 'tpope/vim-abolish' },
-  { 'nelstrom/vim-visual-star-search',  },
+  { 'nelstrom/vim-visual-star-search', },
   'nvim-lua/plenary.nvim',
   { 'akinsho/bufferline.nvim', version = "*", dependencies = 'nvim-tree/nvim-web-devicons' },
   { 'numToStr/Comment.nvim',   lazy = false },
   {
     "kylechui/nvim-surround",
-    event = "InsertEnter" ,
+    event = "InsertEnter",
     version = "*", -- Use for stability; omit to use `main` branch for the latest features
     config = function()
       require("nvim-surround").setup({
@@ -62,13 +62,13 @@ lazy.setup({
     lazy = false,
   },
   { 'ThePrimeagen/harpoon' },
-  { 'folke/which-key.nvim',  opts = {},   },
-  { 'numToStr/Comment.nvim', opts = {},  event = "InsertEnter", },
+  { 'folke/which-key.nvim',  opts = {}, },
+  { 'numToStr/Comment.nvim', opts = {}, event = "InsertEnter", },
 
   -- git related
   { 'tpope/vim-fugitive' },
-  { 'tpope/vim-rhubarb',      },
-  { 'tpope/vim-sleuth',       },
+  { 'tpope/vim-rhubarb', },
+  { 'tpope/vim-sleuth', },
   'lewis6991/gitsigns.nvim',
   'ThePrimeagen/git-worktree.nvim',
   'nvim-lualine/lualine.nvim',
@@ -97,7 +97,7 @@ lazy.setup({
   },
   {
     'lukas-reineke/indent-blankline.nvim',
-    event = 'InsertEnter' ,
+    event = 'InsertEnter',
     main = 'ibl',
     opts = {},
   },
@@ -117,7 +117,7 @@ lazy.setup({
   { 'MunifTanjim/prettier.nvim' },
   {
     'mfussenegger/nvim-dap',
-    event = 'InsertEnter' ,
+    event = 'InsertEnter',
     dependencies = {
       'rcarriga/nvim-dap-ui',
       'williamboman/mason.nvim',
@@ -127,7 +127,7 @@ lazy.setup({
   },
   {
     "nvim-neotest/neotest",
-    event = "InsertEnter" ,
+    event = "InsertEnter",
     dependencies = {
       "nvim-neotest/nvim-nio",
       "nvim-lua/plenary.nvim",
@@ -138,9 +138,9 @@ lazy.setup({
       "zidhuss/neotest-minitest",
     },
   },
-  { "bronson/vim-trailing-whitespace", event = 'InsertEnter'  },
-  { "prettier/vim-prettier"},
-  { 'akinsho/toggleterm.nvim',         version = "*", config = true },
+  { "bronson/vim-trailing-whitespace", event = 'InsertEnter' },
+  { "prettier/vim-prettier" },
+  { 'akinsho/toggleterm.nvim',         version = "*",        config = true },
   {
     "folke/noice.nvim",
     event = "VeryLazy",
@@ -149,7 +149,7 @@ lazy.setup({
       "rcarriga/nvim-notify",
     }
   },
-  { "mbbill/undotree",              },
+  { "mbbill/undotree", event = 'InsertEnter' },
   { "sindrets/diffview.nvim", },
-  { "norcalli/nvim-colorizer.lua",  },
+  { "norcalli/nvim-colorizer.lua"},
 })
