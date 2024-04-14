@@ -1,7 +1,7 @@
 vim.defer_fn(function()
   require('nvim-treesitter.configs').setup {
     -- Add languages to be installed here that you want installed for treesitter
-    ensure_installed = { 'c', 'cpp', 'go', 'lua', 'python', 'rust', 'ruby', 'rbs', 'tsx', 'javascript', 'typescript', 'vimdoc', 'vim', 'html', 'gitignore', 'tsx', 'markdown', 'json', 'yaml', 'toml', 'css', 'scss', 'graphql', 'dockerfile', 'lua', 'java' },
+    ensure_installed = { 'c', 'cpp', 'go', 'lua', 'python', 'rust', 'ruby', 'rbs', 'php', 'javascript', 'typescript', 'vimdoc', 'vim', 'html', 'gitignore', 'tsx', 'markdown', 'json', 'yaml', 'toml', 'css', 'scss', 'graphql', 'dockerfile', 'lua', 'java', 'sql' },
 
     -- Autoinstall languages that are not installed. Defaults to false (but you can change for yourself!)
     autotag = {
@@ -9,7 +9,6 @@ vim.defer_fn(function()
       enable_rename = true,
       enable_close = true,
       enable_close_on_slash = true,
-      filetypes = { "html", "xml" },
     },
     auto_install = false,
 
@@ -41,35 +40,51 @@ vim.defer_fn(function()
           ['if'] = '@function.inner',
           ['ac'] = '@class.outer',
           ['ic'] = '@class.inner',
+          ['al'] = '@loop.outer',
+          ['il'] = '@loop.inner',
+          ['ai'] = '@conditional.outer',
+          ['ii'] = '@conditional.inner',
         },
       },
       move = {
         enable = true,
         set_jumps = true, -- whether to set jumps in the jumplist
         goto_next_start = {
-          [']m'] = '@function.outer',
+          [']f'] = '@function.outer',
           [']]'] = '@class.outer',
+          [']i'] = '@conditional.outer',
+          [']l'] = '@loop.outer',
+          [']a'] = '@parameter.outer',
         },
         goto_next_end = {
-          [']M'] = '@function.outer',
+          [']F'] = '@function.outer',
           [']['] = '@class.outer',
+          [']I'] = '@conditional.outer',
+          [']L'] = '@loop.outer',
+          [']A'] = '@parameter.outer',
         },
         goto_previous_start = {
-          ['[m'] = '@function.outer',
+          ['[f'] = '@function.outer',
           ['[['] = '@class.outer',
+          ['[i'] = '@conditional.outer',
+          ['[l'] = '@loop.outer',
+          ['[a'] = '@parameter.outer',
         },
         goto_previous_end = {
-          ['[M'] = '@function.outer',
+          ['[F'] = '@function.outer',
           ['[]'] = '@class.outer',
+          ['[I'] = '@conditional.outer',
+          ['[L'] = '@loop.outer',
+          ['[A'] = '@parameter.outer',
         },
       },
       swap = {
         enable = true,
         swap_next = {
-          ['<leader>a'] = '@parameter.inner',
+          ['sn'] = '@parameter.inner',
         },
         swap_previous = {
-          ['<leader>A'] = '@parameter.inner',
+          ['sp'] = '@parameter.inner',
         },
       },
     },

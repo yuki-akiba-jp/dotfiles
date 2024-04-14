@@ -102,17 +102,20 @@ lazy.setup({
     opts = {},
   },
   { 'navarasu/onedark.nvim' },
+  { 'windwp/nvim-ts-autotag' },
   {
     'windwp/nvim-autopairs',
     event = "InsertEnter",
     opts = {},
   },
   {
-    'jose-elias-alvarez/null-ls.nvim',
-    dependencies = {
-      'nvim-lua/plenary.nvim',
-      'neovim/nvim-lspconfig',
-    },
+    "nvimtools/none-ls.nvim",
+    optional = true,
+    opts = function(_, opts)
+      local nls = require("null-ls")
+      opts.sources = opts.sources or {}
+      table.insert(opts.sources, nls.builtins.formatting.prettier)
+    end,
   },
   { 'MunifTanjim/prettier.nvim' },
   {
@@ -149,15 +152,15 @@ lazy.setup({
       "rcarriga/nvim-notify",
     }
   },
-  { "mbbill/undotree", event = 'InsertEnter' },
+  { "mbbill/undotree",            event = 'InsertEnter' },
   { "sindrets/diffview.nvim", },
-  { "norcalli/nvim-colorizer.lua"},
+  { "norcalli/nvim-colorizer.lua" },
   {
     "CopilotC-Nvim/CopilotChat.nvim",
     branch = "canary",
     dependencies = {
       { "zbirenbaum/copilot.lua" }, -- or github/copilot.vim
-      { "nvim-lua/plenary.nvim" }, -- for curl, log wrapper
+      { "nvim-lua/plenary.nvim" },  -- for curl, log wrapper
     },
     opts = {
       debug = true,
