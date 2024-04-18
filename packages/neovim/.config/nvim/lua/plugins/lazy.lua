@@ -77,6 +77,9 @@ lazy.setup({
     'neovim/nvim-lspconfig',
     dependencies = {
       'williamboman/mason.nvim',
+      build = function()
+        pcall(vim.cmd, 'MasonUpdate')
+      end,
       'williamboman/mason-lspconfig.nvim',
 
       { 'j-hui/fidget.nvim', opts = {} },
@@ -92,6 +95,7 @@ lazy.setup({
       'hrsh7th/cmp-nvim-lsp',
       'hrsh7th/cmp-buffer',
       'hrsh7th/cmp-path',
+      'hrsh7th/cmp-cmdline',
       'rafamadriz/friendly-snippets',
     },
   },
@@ -166,4 +170,5 @@ lazy.setup({
       debug = true,
     },
   },
+ { 'mhartington/formatter.nvim'},
 })

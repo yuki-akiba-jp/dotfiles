@@ -62,3 +62,6 @@ vim.keymap.set("n", "gwc", "<CMD>lua require('telescope').extensions.git_worktre
 vim.keymap.set('n', '<C-f>', ':NvimTreeToggle<CR>', { desc = 'Toggle [E]xplorer' })
 vim.keymap.set('n', '<C-t>', ':ToggleTerm<CR>', { desc = 'Toggle [T]erminal' })
 vim.keymap.set('n', 'fu', vim.cmd.UndotreeToggle)
+
+-- prettier from mhartington/formatter.nvim
+vim.keymap.set('n', 'FA', ':Format<CR>')

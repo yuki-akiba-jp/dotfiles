@@ -16,6 +16,7 @@ require('plugins.git_worktree')
 require('plugins.toggleterm')
 require('plugins.noice')
 require('plugins.onedark')
+require('plugins.formatter')
 
 require('neodev').setup()
 require('keymaps')

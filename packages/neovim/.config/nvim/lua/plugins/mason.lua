@@ -10,7 +10,7 @@ local servers = {
   html = { filetypes = { 'html', 'twig', 'hbs' } },
 }
 
-require('mason').setup()
+require('mason').setup({'prettier'})
 require('mason-lspconfig').setup()
 
 local on_attach = function(_, bufnr)
