@@ -8,6 +8,7 @@ require('telescope').setup {
       ".vscode",
       ".idea",
       ".DS_Store",
+      ".next",
     },
     pickers = {
       find_files = {

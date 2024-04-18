@@ -19,9 +19,9 @@ vim.api.nvim_set_keymap('n', '<ESC><ESC>', ':nohl<CR>', {})
 
 vim.api.nvim_set_keymap('n', 'gibr', '<cmd>vertical Git branch -vv<cr>', { silent = true, noremap = true })
 vim.api.nvim_set_keymap('n', 'git', '<cmd>vertical Git<cr>', { silent = true, noremap = true })
-vim.keymap.set("n", "givh", "<cmd>DiffviewOpen HEAD~1<CR>")
-vim.keymap.set("n", "givv", "<cmd>DiffviewFileHistory %<CR>")
-vim.keymap.set("n", "givc", "<cmd>DiffviewClose<CR>")
+vim.keymap.set("n", "vg", "<cmd>DiffviewOpen HEAD~1<CR>")
+vim.keymap.set("n", "vv", "<cmd>DiffviewFileHistory %<CR>")
+vim.keymap.set("n", "vc", "<cmd>DiffviewClose<CR>")
 
 vim.api.nvim_set_keymap('n', 'gilg',
   '<cmd>vertical Git log --graph --pretty=format:\'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset\'<CR>',
@@ -38,7 +38,6 @@ vim.keymap.set('n', 'k', "v:count == 0 ? 'gk' : 'k'", { expr = true, silent = tr
 vim.keymap.set('n', 'j', "v:count == 0 ? 'gj' : 'j'", { expr = true, silent = true })
 
 -- Diagnostic keymaps
-vim.keymap.set('n', '[d', vim.diagnostic.goto_prev, { desc = 'Go to previous diagnostic message' })
 vim.keymap.set('n', '[d', vim.diagnostic.goto_prev, { desc = 'Go to previous diagnostic message' })
 vim.keymap.set('n', ']d', vim.diagnostic.goto_next, { desc = 'Go to next diagnostic message' })
 vim.keymap.set('n', '<Space>', '<C-w>w', { silent = true })
