@@ -17,5 +17,11 @@ require("noice").setup({
   },
   messages = {
     enabled = false
-  }
+  },
+  popupmenu = {
+    enabled = false
+  },
+  notify = {
+    enabled = false
+  },
 })
