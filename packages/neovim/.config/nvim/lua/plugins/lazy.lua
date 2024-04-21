@@ -35,6 +35,7 @@ lazy.setup({
     branch = '0.1.x',
     dependencies = {
       'nvim-lua/plenary.nvim',
+      "nvim-telescope/telescope-live-grep-args.nvim",
       {
         'nvim-telescope/telescope-fzf-native.nvim',
         build = 'make',
@@ -170,5 +171,5 @@ lazy.setup({
       debug = true,
     },
   },
- { 'mhartington/formatter.nvim'},
+  { 'mhartington/formatter.nvim' },
 })

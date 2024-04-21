@@ -42,8 +42,11 @@ vim.keymap.set('n', '[d', vim.diagnostic.goto_prev, { desc = 'Go to previous dia
 vim.keymap.set('n', ']d', vim.diagnostic.goto_next, { desc = 'Go to next diagnostic message' })
 vim.keymap.set('n', '<Space>', '<C-w>w', { silent = true })
 vim.keymap.set('n', 'dl', require('telescope.builtin').diagnostics, { desc = '[D]iagnostics [L]ist' })
-vim.keymap.set('n', 'gr', require('telescope.builtin').live_grep, { desc = '[F]ile [G]rep' })
-vim.keymap.set('n', 'gs', require('telescope.builtin').grep_string, { desc = '[G]rep current word' })
+-- vim.keymap.set('n', 'gr', require('telescope.builtin').live_grep, { desc = '[F]ile [G]rep' })
+-- vim.keymap.set('n', 'gs', require('telescope.builtin').grep_string, { desc = '[G]rep current word' })
+vim.keymap.set("n", "gr", "<cmd>lua require('telescope').extensions.live_grep_args.live_grep_args()<CR>")
+vim.keymap.set("n", "gs", require("telescope-live-grep-args.shortcuts").grep_word_under_cursor)
+
 vim.keymap.set('n', 'gdd', require('telescope.builtin').lsp_definitions, { desc = '[G]oto [D]efinition' })
 vim.api.nvim_set_keymap('n', 'gdt', '<cmd>lua vim.lsp.buf.definition()<CR><cmd>tabedit<CR>', { noremap = true, silent = true })
 vim.api.nvim_set_keymap('n', 'gdv', '<cmd>lua vim.lsp.buf.definition()<CR><cmd>vsplit<CR>', { noremap = true, silent = true })
