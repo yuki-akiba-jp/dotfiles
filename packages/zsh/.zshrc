@@ -20,9 +20,6 @@ eval "$(starship init zsh)"
 
 [ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
 
-
-
-
 # chmod +x ~/.zsh_alias
 source ~/.zsh_alias
 
