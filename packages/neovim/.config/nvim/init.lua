@@ -17,6 +17,7 @@ require('plugins.toggleterm')
 require('plugins.noice')
 require('plugins.onedark')
 require('plugins.formatter')
+require('plugins.dadbod')
 
 require('neodev').setup()
 require('keymaps')

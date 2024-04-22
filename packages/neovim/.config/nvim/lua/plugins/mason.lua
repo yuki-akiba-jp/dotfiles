@@ -1,16 +1,4 @@
-local servers = {
-  tsserver = {},
-  pyright = {},
-  tailwindcss = {},
-  eslint = {},
-  dockerls = {},
-  jsonls = {},
-  yamlls = {},
-  taplo = {},
-  html = { filetypes = { 'html', 'twig', 'hbs' } },
-}
-
-require('mason').setup({'prettier'})
+require('mason').setup({ 'prettier' })
 require('mason-lspconfig').setup()
 
 local on_attach = function(_, bufnr)
@@ -37,8 +25,26 @@ local on_attach = function(_, bufnr)
 end
 
 
-local capabilities = vim.lsp.protocol.make_client_capabilities()
-capabilities = require('cmp_nvim_lsp').default_capabilities(capabilities)
+local servers = {
+  tsserver = {},
+  pyright = {},
+  tailwindcss = {},
+  eslint = {},
+  dockerls = {},
+  jsonls = {},
+  yamlls = {},
+  taplo = {},
+  html = { filetypes = { 'html', 'twig', 'hbs' } },
+}
+
+local capabilities = require('cmp_nvim_lsp').default_capabilities()
+for _, lsp in ipairs(servers) do
+  require('lspconfig')[lsp].setup {
+    on_attach = on_attach,
+    capabilities = capabilities,
+  }
+end
+
 local mason_lspconfig = require 'mason-lspconfig'
 mason_lspconfig.setup {
   ensure_installed = vim.tbl_keys(servers),
