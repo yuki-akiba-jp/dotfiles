@@ -19,8 +19,8 @@ vim.api.nvim_set_keymap('n', '<ESC><ESC>', ':nohl<CR>', {})
 
 vim.api.nvim_set_keymap('n', 'gibr', '<cmd>vertical Git branch -vv<cr>', { silent = true, noremap = true })
 vim.api.nvim_set_keymap('n', 'git', '<cmd>vertical Git<cr>', { silent = true, noremap = true })
-vim.keymap.set("n", "vg", "<cmd>DiffviewOpen HEAD~1<CR>")
-vim.keymap.set("n", "vv", "<cmd>DiffviewFileHistory %<CR>")
+vim.keymap.set("n", "vv", "<cmd>DiffviewOpen HEAD~1<CR>")
+vim.keymap.set("n", "vh", "<cmd>DiffviewFileHistory %<CR>")
 vim.keymap.set("n", "vc", "<cmd>DiffviewClose<CR>")
 
 vim.api.nvim_set_keymap('n', 'gilg',

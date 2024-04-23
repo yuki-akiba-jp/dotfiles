@@ -23,7 +23,7 @@ cmp.setup {
       select = true,
     },
 
-    ["<C-k>"] = cmp.mapping(function(fallback)
+    ["<Tab>"] = cmp.mapping(function(fallback)
       if cmp.visible() then
         cmp.select_next_item()
       elseif luasnip.locally_jumpable(1) then
