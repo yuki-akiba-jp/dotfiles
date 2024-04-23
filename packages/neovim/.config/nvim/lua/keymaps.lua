@@ -69,3 +69,10 @@ vim.keymap.set('n', 'fu', vim.cmd.UndotreeToggle)
 
 -- prettier from mhartington/formatter.nvim
 vim.keymap.set('n', 'FA', ':Format<CR>')
+
+vim.api.nvim_create_autocmd("BufWritePost", {
+    pattern = "*.http",
+    callback = function()
+        vim.keymap.set('n', 'rr', '<cmd>Rest run<cr>', {buffer = true})
+    end,
+})
