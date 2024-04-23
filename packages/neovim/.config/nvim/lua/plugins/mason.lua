@@ -34,6 +34,7 @@ local servers = {
   jsonls = {},
   yamlls = {},
   taplo = {},
+  jdtls = {},
   html = { filetypes = { 'html', 'twig', 'hbs' } },
 }
 
