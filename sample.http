@@ -1,0 +1,7 @@
+GET http://localhost:8080/api/dummy
+
+POST http://localhost:8080/api/dummy
+Content-Type: application/json
+{
+    "value": "string"
+}
