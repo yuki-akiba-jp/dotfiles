@@ -2,7 +2,7 @@
 
 ## Installation
 ```
-$install home brew
+install home brew
 ```
 ```
 $brew bundle 
