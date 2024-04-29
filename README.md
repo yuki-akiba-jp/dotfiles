@@ -4,15 +4,17 @@
 ```
 install home brew
 ```
-```
-$brew bundle 
-```
 
 ```
 git clone this repository
 ```
+
 ```
 $cd dotfiles
+```
+
+```
+$brew bundle 
 ```
 
 ```
