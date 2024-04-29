@@ -12,9 +12,6 @@ export LSCOLORS=Cxfxcxdxbxegedabagacad
 
 export PATH="/usr/local/bin:$PATH"
 export PATH=~/.npm-global/bin:$PATH
-export PATH="${HOME}/Library/Android/sdk/tools:${HOME}/Library/Android/sdk/platform-tools:${PATH}"
-export ANDROID_SDK_ROOT="${HOME}/Library/Android/sdk"
-export ANDROID_HOME="${HOME}/Library/Android/sdk"
 export PYTHONPATH="/usr/bin/python3"
 eval "$(starship init zsh)"
 
