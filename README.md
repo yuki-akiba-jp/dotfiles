@@ -14,7 +14,7 @@ $cd dotfiles
 ```
 
 ```
-$brew bundle 
+$brew bundle
 ```
 
 ```
