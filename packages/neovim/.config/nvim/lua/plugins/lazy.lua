@@ -16,20 +16,20 @@ lazy.setup({
   { 'tpope/vim-repeat',                event = 'InsertEnter' },
   { 'tpope/vim-unimpaired',            event = 'InsertEnter' },
   { 'tpope/vim-abolish' },
-  { 'nelstrom/vim-visual-star-search', },
+  { 'nelstrom/vim-visual-star-search', event = 'InsertEnter' },
   'nvim-lua/plenary.nvim',
-  { 'akinsho/bufferline.nvim', version = "*", dependencies = 'nvim-tree/nvim-web-devicons' },
-  { 'numToStr/Comment.nvim',   lazy = false },
+  { 'akinsho/bufferline.nvim', version = "*",                      dependencies = 'nvim-tree/nvim-web-devicons' },
+  { 'numToStr/Comment.nvim',   event = { "BufRead", "BufNewFile" } },
   {
     "kylechui/nvim-surround",
-    event = "InsertEnter",
+    event = { "BufRead", "BufNewFile" },
     version = "*", -- Use for stability; omit to use `main` branch for the latest features
     config = function()
       require("nvim-surround").setup({
       })
     end
   },
-  { "lukas-reineke/indent-blankline.nvim", main = "ibl", opts = {} },
+  { "lukas-reineke/indent-blankline.nvim", main = "ibl",                       opts = {}, event = { "BufRead", "BufNewFile" } },
   {
     'nvim-telescope/telescope.nvim',
     branch = '0.1.x',
@@ -51,31 +51,33 @@ lazy.setup({
   },
   {
     'nvim-treesitter/nvim-treesitter',
+    event = { "BufRead", "BufNewFile" },
     dependencies = {
       'nvim-treesitter/nvim-treesitter-textobjects',
     },
     build = ':TSUpdate',
   },
-  'fisadev/vim-isort',
+  { 'fisadev/vim-isort',                   event = { "BufRead", "BufNewFile" } },
   { 'Shougo/vimproc.vim',                  run = 'make' },
   {
     "github/copilot.vim",
-    lazy = false,
+    event = { "BufRead", "BufNewFile" },
   },
   { 'ThePrimeagen/harpoon' },
-  { 'folke/which-key.nvim',  opts = {}, },
-  { 'numToStr/Comment.nvim', opts = {}, event = "InsertEnter", },
+  { 'folke/which-key.nvim',    opts = {} },
+  { 'numToStr/Comment.nvim',   opts = {},                          event = { "BufRead", "BufNewFile" } },
 
   -- git related
   { 'tpope/vim-fugitive' },
   { 'tpope/vim-rhubarb', },
   { 'tpope/vim-sleuth', },
-  'lewis6991/gitsigns.nvim',
+  { 'lewis6991/gitsigns.nvim', event = { "BufRead", "BufNewFile" } },
   'ThePrimeagen/git-worktree.nvim',
   'nvim-lualine/lualine.nvim',
   'nvim-tree/nvim-web-devicons',
   {
     'neovim/nvim-lspconfig',
+    event = { "BufRead", "BufNewFile" },
     dependencies = {
       'williamboman/mason.nvim',
       build = function()
@@ -106,12 +108,12 @@ lazy.setup({
   },
   {
     'lukas-reineke/indent-blankline.nvim',
-    event = 'InsertEnter',
+    event = { "BufRead", "BufNewFile" },
     main = 'ibl',
     opts = {},
   },
   { 'navarasu/onedark.nvim' },
-  { 'windwp/nvim-ts-autotag' },
+  { 'windwp/nvim-ts-autotag', event = 'InsertEnter' },
   {
     'windwp/nvim-autopairs',
     event = "InsertEnter",
@@ -119,6 +121,7 @@ lazy.setup({
   },
   {
     "nvimtools/none-ls.nvim",
+    event = { "BufRead", "BufNewFile" },
     optional = true,
     opts = function(_, opts)
       local nls = require("null-ls")
@@ -126,7 +129,7 @@ lazy.setup({
       table.insert(opts.sources, nls.builtins.formatting.prettier)
     end,
   },
-  { 'MunifTanjim/prettier.nvim' },
+  { 'MunifTanjim/prettier.nvim',       event = { "BufRead", "BufNewFile" } },
   {
     'mfussenegger/nvim-dap',
     event = 'InsertEnter',
@@ -139,7 +142,7 @@ lazy.setup({
   },
   {
     "nvim-neotest/neotest",
-    event = "InsertEnter",
+    event = { "BufRead", "BufNewFile" },
     dependencies = {
       "nvim-neotest/nvim-nio",
       "nvim-lua/plenary.nvim",
@@ -150,22 +153,22 @@ lazy.setup({
       "zidhuss/neotest-minitest",
     },
   },
-  { "bronson/vim-trailing-whitespace", event = 'InsertEnter' },
-  { "prettier/vim-prettier" },
-  { 'akinsho/toggleterm.nvim',         version = "*",        config = true },
+  { "bronson/vim-trailing-whitespace", event = { "BufRead", "BufNewFile" } },
+  { "prettier/vim-prettier",           event = { "BufRead", "BufNewFile" } },
+  { 'akinsho/toggleterm.nvim',         version = "*",                      config = true },
   {
     "folke/noice.nvim",
-    event = "VeryLazy",
     dependencies = {
       "MunifTanjim/nui.nvim",
       "rcarriga/nvim-notify",
     }
   },
-  { "mbbill/undotree",            event = 'InsertEnter' },
-  { "sindrets/diffview.nvim", },
+  { "mbbill/undotree",            event = { "BufRead", "BufNewFile" } },
+  { "sindrets/diffview.nvim",     event = { "BufRead", "BufNewFile" } },
   { "norcalli/nvim-colorizer.lua" },
   {
     "CopilotC-Nvim/CopilotChat.nvim",
+    event = { "BufRead", "BufNewFile" },
     branch = "canary",
     dependencies = {
       { "zbirenbaum/copilot.lua" }, -- or github/copilot.vim
@@ -175,13 +178,14 @@ lazy.setup({
       debug = true,
     },
   },
-  { 'mhartington/formatter.nvim' },
+  { 'mhartington/formatter.nvim', event = { "BufRead", "BufNewFile" } },
   'tpope/vim-dadbod',
   'tpope/vim-obsession',
   'kristijanhusak/vim-dadbod-ui',
   'kristijanhusak/vim-dadbod-completion',
   {
     "vhyrro/luarocks.nvim",
+    ft = 'http',
     priority = 1000,
     config = true,
     opts = {
@@ -191,6 +195,7 @@ lazy.setup({
   {
     "rest-nvim/rest.nvim",
     ft = "http",
+    event = { "BufRead", "BufNewFile" },
     dependencies = { "luarocks.nvim" },
     config = function()
       require("rest-nvim").setup()
@@ -198,6 +203,8 @@ lazy.setup({
   },
   {
     'nvim-java/nvim-java',
+    event = { "BufRead", "BufNewFile" },
+    ft = 'java',
     dependencies = {
       'nvim-java/lua-async-await',
       'nvim-java/nvim-java-core',
@@ -219,6 +226,7 @@ lazy.setup({
   },
   {
     "iamcco/markdown-preview.nvim",
+    event = { "BufRead", "BufNewFile" },
     cmd = { "MarkdownPreviewToggle", "MarkdownPreview", "MarkdownPreviewStop" },
     build = "cd app && yarn install",
     init = function()
