@@ -61,3 +61,6 @@ mason_lspconfig.setup_handlers {
     }
   end,
 }
+
+require('java').setup()
+require('lspconfig').jdtls.setup({})
