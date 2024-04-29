@@ -67,6 +67,7 @@ vim.keymap.set('n', '<C-f>', ':NvimTreeToggle<CR>', { desc = 'Toggle [E]xplorer'
 vim.keymap.set('n', '<C-t>', ':ToggleTerm<CR>', { desc = 'Toggle [T]erminal' })
 vim.keymap.set('n', 'db', ':DBUIToggle<CR>', { desc = 'DBUI' })
 vim.keymap.set('n', 'fu', vim.cmd.UndotreeToggle)
+vim.keymap.set('n', 'cc', 'ggVGy', { desc = 'Copy All' })
 
 -- prettier from mhartington/formatter.nvim
 vim.keymap.set('n', 'FA', ':Format<CR>')
