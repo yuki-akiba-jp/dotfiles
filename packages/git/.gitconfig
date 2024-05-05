@@ -12,6 +12,7 @@
 a  =  add
 cm = commit
 cmm = commit -m
+cl = clone --bare
 sw = switch
 swc = switch -c
 st = status
