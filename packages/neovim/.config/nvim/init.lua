@@ -23,7 +23,7 @@ require('neodev').setup()
 require('keymaps')
 require('autocmd')
 vim.g.copilot_no_tab_map = true
-vim.api.nvim_set_keymap("i", "<C-J>", 'copilot#Accept("<CR>")', { silent = true, expr = true })
+vim.api.nvim_set_keymap("i", "<Tab>", 'copilot#Accept("<CR>")', { silent = true, expr = true })
 
 vim.cmd([[autocmd ColorScheme * highlight Comment guifg=#5C6370 gui=italic]])
 vim.cmd([[autocmd ColorScheme * highlight LineNr guibg=none guifg=#A5A5A5 gui=italic]])

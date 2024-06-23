@@ -26,7 +26,10 @@ end
 
 
 local servers = {
-  tsserver = {},
+  tsserver = {
+    filetypes = { 'javascript', 'javascriptreact', 'typescript', 'typescriptreact' },
+  },
+  volar = { filetypes = { 'vue' } },
   pyright = {},
   tailwindcss = {},
   eslint = {},
