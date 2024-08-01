@@ -1,19 +1,11 @@
 [
   {
-    "key": "cmd+r",
+    "key": "ctrl+r",
     "command": "code-runner.run"
-  },
-  {
-    "key": "ctrl+alt+n",
-    "command": "-code-runner.run"
   },
   {
     "key": "ctrl+c",
     "command": "code-runner.stop"
-  },
-  {
-    "key": "ctrl+alt+m",
-    "command": "-code-runner.stop"
   },
   {
     "key": "ctrl+t",
@@ -156,8 +148,14 @@
     "when": "editorTextFocus && github.copilot.activated && !inInteractiveInput && !interactiveEditorFocused"
   },
   {
-    "key": "ctrl+k ctrl+k",
-    "command": "workbench.action.focusActiveEditorGroup"
+    "key": "cmd+2",
+    "command": "workbench.action.focusActiveEditorGroup",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "cmd+2",
+    "command": "workbench.action.terminal.focus",
+    "when": "editorFocus"
   },
   {
     "key": "ctrl+t",
@@ -240,11 +238,6 @@
     "when": "neovim.mode == 'cmdline_insert' || neovim.mode == 'cmdline_normal' || neovim.mode == 'cmdline_replace'"
   },
   {
-    "key": "ctrl+l",
-    "command": "expandLineSelection",
-    "when": "textInputFocus"
-  },
-  {
     "key": "cmd+l",
     "command": "-expandLineSelection",
     "when": "textInputFocus"
@@ -258,5 +251,41 @@
     "key": "shift+cmd+p",
     "command": "-workbench.action.quickOpenNavigatePreviousInFilePicker",
     "when": "inFilesPicker && inQuickOpen"
+  },
+  {
+    "key": "ctrl+h",
+    "command": "workbench.action.navigateLeft"
+  },
+  {
+    "key": "ctrl+l",
+    "command": "workbench.action.navigateRight"
+  },
+  {
+    "key": "ctrl+k",
+    "command": "workbench.action.navigateUp"
+  },
+  {
+    "key": "ctrl+j",
+    "command": "workbench.action.navigateDown"
+  },
+  {
+    "key": "ctrl+s ctrl+k",
+    "command": "workbench.view.explorer",
+    "when": "viewContainer.workbench.view.explorer.enabled"
+  },
+  {
+    "key": "ctrl+s ctrl+k",
+    "command": "workbench.action.toggleSidebarVisibility",
+    "when": "filesExplorerFocus"
+  },
+  {
+    "key": "Enter",
+    "command": "macros.selectAndToggleSidebar",
+    "when": "explorerViewletFocus && explorerViewletVisible && !explorerResourceIsFolder && !inputFocus"
+  },
+  {
+    "key": "Enter",
+    "command": "list.toggleExpand",
+    "when": "explorerViewletFocus && explorerViewletVisible && explorerResourceIsFolder && !inputFocus"
   }
 ]

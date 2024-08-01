@@ -17,9 +17,12 @@ eval "$(starship init zsh)"
 
 [ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
 
-# chmod +x ~/.zsh_alias
 source ~/.zsh_alias
 
 function gp() {
  command git fetch origin pull/$1/head:PR-$1
 }
+
+export CPPFLAGS="-I/usr/local/opt/openjdk/include"
+export PATH="$HOME/.jenv/bin:$PATH"
+eval "$(jenv init -)"

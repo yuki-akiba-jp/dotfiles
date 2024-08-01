@@ -4,6 +4,7 @@ vim.api.nvim_set_keymap('n', '<S-Tab>', ':tabprev<CR>', { silent = true, noremap
 vim.api.nvim_set_keymap('n', '<Tab>', ':tabnext<CR>', { silent = true, noremap = true })
 vim.api.nvim_set_keymap('n', 'n', 'nzz', { silent = true, noremap = true })
 vim.api.nvim_set_keymap('n', 'N', 'Nzz', { silent = true, noremap = true })
+vim.api.nvim_set_keymap('n', 'p', 'pgvy', { silent = true, noremap = true })
 vim.api.nvim_set_keymap('n', '*', '*Nzz', { silent = true, noremap = true })
 
 vim.api.nvim_set_keymap('i', 'jj', '<ESC>', { silent = true })
@@ -21,7 +22,7 @@ vim.api.nvim_set_keymap('n', '<ESC><ESC>', ':nohl<CR>', {})
 vim.api.nvim_set_keymap('n', 'gibr', '<cmd>vertical Git branch -vv<cr>', { silent = true, noremap = true })
 vim.api.nvim_set_keymap('n', 'git', '<cmd>vertical Git<cr>', { silent = true, noremap = true })
 vim.keymap.set("n", "vv", "<cmd>DiffviewOpen HEAD~1<CR>")
-vim.keymap.set("n", "vh", "<cmd>DiffviewFileHistory %<CR>")
+vim.keymap.set("n", "vf", "<cmd>DiffviewFileHistory %<CR>")
 vim.keymap.set("n", "vc", "<cmd>DiffviewClose<CR>")
 
 vim.api.nvim_set_keymap('n', 'gilg',

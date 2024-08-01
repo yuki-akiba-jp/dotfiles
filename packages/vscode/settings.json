@@ -7,10 +7,10 @@
   },
   "editor.tabCompletion": "on",
   "editor.suggestSelection": "first",
-
   "editor.fontLigatures": false,
   "editor.acceptSelectedSuggestion": true,
   "editor.minimap.enabled": false,
+  "editor.guides.bracketPairs": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "editor.fontFamily": "Hack Nerd Font",
@@ -22,7 +22,7 @@
     "cpp": "cd $dir && g++ -std=c++20 $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
     "python": "cd $dir && python3 -u $fileName"
   },
-
+  "npm.enableScriptExplorer": true,
   "material-icon-theme.showWelcomeMessage": false,
   "python.pythonPath": "/usr/bin/python3",
   "python.showStartPage": false,
@@ -38,12 +38,10 @@
   "python.formatting.provider": "autopep8",
   "python.formatting.autopep8Args": ["--aggressive"],
   "python.analysis.extraPaths": ["./core"],
-
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "files.autoSaveDelay": 5000,
   "security.workspace.trust.untrustedFiles": "open",
   "python.defaultInterpreterPath": "/usr/local/bin/python3.9",
-
   "liveServer.settings.donotShowInfoMsg": true,
   "liveServer.settings.ChromeDebuggingAttachment": false,
   "terminal.integrated.fontFamily": "Hack Nerd Font",
@@ -72,5 +70,23 @@
   "vim.useSystemClipboard": true,
   "vim.useCtrlKeys": true,
   "vim.hlsearch": true,
-  "vim."
+  "window.zoomLevel": 0,
+  "tabnine.experimentalAutoImports": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Dracula",
+  "editor.cursorBlinking": "expand",
+  "vscode-edge-devtools.mirrorEdits": true,
+  "workbench.list.keyboardNavigation": "simple",
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "macros": {
+    "selectAndToggleSidebar": [
+      "list.select",
+      "workbench.action.toggleSidebarVisibility"
+    ]
+  },
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
+  },
+  "accessibility.signalOptions.volume": 0
 }

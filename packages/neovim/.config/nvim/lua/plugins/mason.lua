@@ -14,9 +14,7 @@ local on_attach = function(_, bufnr)
   nmap('ca', vim.lsp.buf.code_action, '[C]ode [A]ction')
   nmap('gD', vim.lsp.buf.declaration, '[G]oto [D]eclaration')
 
-  -- See `:help K` for why this keymap
   nmap('gh', vim.lsp.buf.hover, 'Hover Documentation')
-  nmap('gH', vim.lsp.buf.signature_help, 'Signature Documentation')
 
   vim.api.nvim_buf_create_user_command(bufnr, 'Format', function(_)
     vim.lsp.buf.format()
@@ -29,7 +27,6 @@ local servers = {
   tsserver = {
     filetypes = { 'javascript', 'javascriptreact', 'typescript', 'typescriptreact' },
   },
-  volar = { filetypes = { 'vue' } },
   pyright = {},
   tailwindcss = {},
   eslint = {},
@@ -65,5 +62,4 @@ mason_lspconfig.setup_handlers {
   end,
 }
 
-require('java').setup()
 require('lspconfig').jdtls.setup({})
