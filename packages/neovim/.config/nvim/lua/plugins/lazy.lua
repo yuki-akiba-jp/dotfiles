@@ -204,4 +204,8 @@ lazy.setup({
     end,
     ft = { "markdown" },
   },
+  {
+    'mfussenegger/nvim-jdtls',
+    ft = { 'java' },
+  },
 })
