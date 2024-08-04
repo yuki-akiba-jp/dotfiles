@@ -36,8 +36,12 @@
     "--max-complexity=20"
   ],
   "python.formatting.provider": "autopep8",
-  "python.formatting.autopep8Args": ["--aggressive"],
-  "python.analysis.extraPaths": ["./core"],
+  "python.formatting.autopep8Args": [
+    "--aggressive"
+  ],
+  "python.analysis.extraPaths": [
+    "./core"
+  ],
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "files.autoSaveDelay": 5000,
   "security.workspace.trust.untrustedFiles": "open",
@@ -65,7 +69,6 @@
   },
   "git.openRepositoryInParentFolders": "never",
   "github.copilot.editor.enableAutoCompletions": true,
-  "vim.easymotion": true,
   "vim.incsearch": true,
   "vim.useSystemClipboard": true,
   "vim.useCtrlKeys": true,
@@ -80,13 +83,12 @@
   "workbench.editor.enablePreview": false,
   "workbench.editor.enablePreviewFromQuickOpen": false,
   "macros": {
-    "selectAndToggleSidebar": [
-      "list.select",
-      "workbench.action.toggleSidebarVisibility"
+    "openInVerticalSplit": [
+      "workbench.action.splitEditor",
+      "workbench.action.openEditorAtIndex1"
     ]
   },
   "terminal.integrated.env.osx": {
     "FIG_NEW_SESSION": "1"
-  },
-  "accessibility.signalOptions.volume": 0
+  }
 }

@@ -4,7 +4,7 @@ vim.api.nvim_set_keymap('n', '<S-Tab>', ':tabprev<CR>', { silent = true, noremap
 vim.api.nvim_set_keymap('n', '<Tab>', ':tabnext<CR>', { silent = true, noremap = true })
 vim.api.nvim_set_keymap('n', 'n', 'nzz', { silent = true, noremap = true })
 vim.api.nvim_set_keymap('n', 'N', 'Nzz', { silent = true, noremap = true })
-vim.api.nvim_set_keymap('n', 'p', 'pgvy', { silent = true, noremap = true })
+vim.api.nvim_set_keymap('v', 'p', 'pgvy', { silent = true, noremap = true })
 vim.api.nvim_set_keymap('n', '*', '*Nzz', { silent = true, noremap = true })
 
 vim.api.nvim_set_keymap('i', 'jj', '<ESC>', { silent = true })

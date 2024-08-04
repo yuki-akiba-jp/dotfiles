@@ -156,8 +156,8 @@ lazy.setup({
   { "bronson/vim-trailing-whitespace", event = { "BufRead", "BufNewFile" } },
   { "prettier/vim-prettier",           event = { "BufRead", "BufNewFile" } },
   { 'akinsho/toggleterm.nvim',         version = "*",                      config = true },
-  { "mbbill/undotree",            event = { "BufRead", "BufNewFile" } },
-  { "sindrets/diffview.nvim",     event = { "BufRead", "BufNewFile" } },
+  { "mbbill/undotree",                 event = { "BufRead", "BufNewFile" } },
+  { "sindrets/diffview.nvim",          event = { "BufRead", "BufNewFile" } },
   { "norcalli/nvim-colorizer.lua" },
   {
     "CopilotC-Nvim/CopilotChat.nvim",
