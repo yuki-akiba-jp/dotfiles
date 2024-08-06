@@ -56,7 +56,7 @@
   "hediet.vscode-drawio.resizeImages": null,
   "plantuml.exportOutDir": "img",
   "plantuml.exportSubFolder": false,
-  "editor.accessibilitySupport": "on",
+  "editor.accessibilitySupport": "off",
   "editor.inlineSuggest.enabled": true,
   "editor.renderWhitespace": "all",
   "redhat.telemetry.enabled": true,
@@ -90,5 +90,10 @@
   },
   "terminal.integrated.env.osx": {
     "FIG_NEW_SESSION": "1"
+  },
+  "vscode-neovim.compositeKeys": {
+    "jj": {
+      "command": "vscode-neovim.escape"
+    }
   }
 }

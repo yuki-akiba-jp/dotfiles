@@ -27,11 +27,11 @@ vim.o.completeopt = 'menuone,noselect'
 vim.o.incsearch = true
 vim.o.binary = true
 vim.o.endofline = false
+vim.o.expandtab = true
 
 -- Enabling syntax highlighting and filetype detection
 vim.cmd("syntax on")
 vim.cmd("filetype on")
-vim.cmd("set expandtab")
 vim.cmd("language en_US.UTF-8")
 vim.opt.termguicolors = true
 vim.g.bracey_browser_command = "open"

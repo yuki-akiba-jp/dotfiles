@@ -33,3 +33,4 @@ vim.cmd([[autocmd ColorScheme * highlight Statement guifg=#98C379]])
 vim.cmd([[autocmd ColorScheme * highlight DiffAdd guibg=#1B2B34]])
 vim.cmd([[autocmd ColorScheme * highlight Identifier guifg=#98C379]])
 vim.cmd([[autocmd ColorScheme * highlight DiffChanged guibg=#3366FF]])
+vim.env.JAVA_HOME = "~/.jenv/versions/17"

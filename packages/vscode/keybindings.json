@@ -55,12 +55,6 @@
     "command": "-workbench.action.openGlobalKeybindings"
   },
   {
-    "command": "vscode-neovim.compositeEscape1",
-    "key": "j",
-    "when": "neovim.mode == insert && editorTextFocus",
-    "args": "j"
-  },
-  {
     "key": "cmd+s",
     "command": "-workbench.action.files.save"
   },
