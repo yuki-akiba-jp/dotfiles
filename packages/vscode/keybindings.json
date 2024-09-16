@@ -136,5 +136,9 @@
     "key": "shift+tab",
     "command": "workbench.action.previousEditor",
     "when": "editorTextFocus && neovim.mode == 'normal'"
+  },
+  {
+    "key": "ctrl+shift+g",
+    "command": "-workbench.view.scm"
   }
 ]

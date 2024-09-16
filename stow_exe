@@ -1,1 +1,1 @@
- stow -v -d ~/dotfiles/packages -t ~  git neovim starship tmux zsh
+ stow -v -d ~/dotfiles/packages -t ~  git neovim starship tmux zsh intelij

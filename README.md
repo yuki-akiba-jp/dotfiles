@@ -29,3 +29,9 @@ $./stow_exe
 <!-- ``` -->
 <!-- curl -o - https://raw.githubusercontent.com/yuki-akiba-jp/dotfiles/main/install_for_linuxos.sh | sh -->
 <!-- ``` -->
+
+intelij
+
+~/Library/Application Support/JetBrains/<product><version>/keymaps
+my .ideavimrc is in dotfiles/package/neovim/.ideavimrc
+

@@ -1,0 +1,17 @@
+open automater.app
+New File > Quick Action
+paste file like below after selecting "Run Appscript", and Save the file
+go to systemsetting > keyboard > keyboard shortcuts > serveces > general
+apply keyboard shortcuts for each Quick Action
+
+tell application "Visual Studio Code"
+    activate
+end tell
+
+tell application "IntelliJ IDEA CE"
+    activate
+end tell
+
+tell application "Google Chrome"
+    activate
+end tell

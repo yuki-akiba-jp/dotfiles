@@ -1,0 +1,108 @@
+" Set the shell to zsh
+set shell=/bin/zsh
+
+" Tab and indentation settings
+set tabstop=2
+set shiftwidth=2
+set softtabstop=2
+set textwidth=0
+set autoindent
+set expandtab
+
+" Search settings
+set hlsearch
+set ignorecase
+set smartcase
+set incsearch
+
+" Clipboard settings
+set clipboard=unnamedplus
+
+" Display settings
+set number
+set wrap
+set pumheight=10
+set display=lastline
+set background=dark
+set signcolumn=yes
+
+" Mouse settings
+set mouse=a
+
+" Indentation and file settings
+set breakindent
+set undofile
+set updatetime=250
+set timeoutlen=300
+set completeopt=menuone,noselect
+set binary
+set endofline=false
+
+" Encoding settings
+set encoding=utf-8
+set iskeyword=@,48-57,_,192-255,@-@
+
+" Split settings
+set splitright
+
+" Enable syntax highlighting and filetype detection
+syntax on
+filetype on
+language en_US.UTF-8
+set highlightedyank
+set surround
+" EasyMotion settings
+set easymotion
+nmap s <Plug>(easymotion-bd-f)
+
+" Grep
+nmap gr :action FindInPath<CR>
+
+" Save File
+nmap <C-k> :w<CR>
+
+" Toggle Comment
+nmap gcc :action CommentByLineComment<CR>
+
+" Key mappings
+nmap <C-n> <C-i>
+nmap <BS> :tabprev<CR>
+nmap <S-Tab> :tabprev<CR>
+nmap <Tab> :tabnext<CR>
+nmap n nzz
+nmap N Nzz
+vmap p pgvy
+nmap * *Nzz
+
+imap jj <ESC>
+
+xmap & :&&<CR>
+nmap & :&&<CR>
+nmap fo o<ESC>
+nmap <C-K> :wa<CR>
+nmap fq :q<CR>
+nmap ff :wq<CR>
+nmap fy :let @*=expand("%")<CR>
+nmap <ESC><ESC> :nohl<CR>
+
+" Simplified key mappings without plugin dependencies
+nnoremap <expr> j (v:count == 0 ? 'gj' : 'j')
+nnoremap <expr> k (v:count == 0 ? 'gk' : 'k')
+nnoremap <C-v> :vsplit<CR>
+nnoremap <Space> <C-w>w
+
+" Map C-u to open the "Find File" dialog
+nnoremap <C-u> :action GotoFile<CR>
+
+" Copy all
+nmap cc ggVGy
+
+" Prettier from mhartington/formatter.nvim
+nmap FA :Format<CR>
+
+" Command 1 should be c-f
+nmap <C-f> :action ActivateProjectToolWindow<CR>
+
+nmap [c <Action>(VcsShowPrevChangeMarker)
+nmap ]c <Action>(VcsShowNextChangeMarker)
+nnmap K <Action>(ShowHoverInfo)
