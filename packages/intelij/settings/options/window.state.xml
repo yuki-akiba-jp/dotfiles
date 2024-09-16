@@ -1,0 +1,27 @@
+<application>
+  <component name="DimensionService">
+    <location key="find.popup.0.0.1920.1080" x="724" y="160" />
+    <size key="find.popup.0.0.1920.1080" width="649" height="834" />
+    <size key="GridCell.Tab.0.left.0.0.1920.1080" width="1838" height="305" />
+    <size key="GridCell.Tab.0.center.0.0.1920.1080" width="1838" height="305" />
+    <size key="GridCell.Tab.0.right.0.0.1920.1080" width="1838" height="305" />
+    <size key="GridCell.Tab.0.bottom.0.0.1920.1080" width="1838" height="305" />
+  </component>
+  <component name="WindowManager">
+    <frame x="0" y="25" width="1920" height="1055" extendedState="6" />
+  </component>
+  <component name="WindowStateApplicationService">
+    <state x="560" y="128" key="#Plugins" timestamp="1726238752820">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state x="560" y="128" key="#Plugins/-1080.-414.1080.1895/0.25.1920.1055" timestamp="1726238752820" />
+    <state x="960" y="485" width="800" height="650" key="WELCOME_SCREEN" timestamp="1726238716143">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state x="960" y="485" width="800" height="650" key="WELCOME_SCREEN/-1080.-414.1080.1895/0.25.1920.1055" timestamp="1726238716143" />
+    <state x="560" y="128" width="800" height="715" key="new project wizard" timestamp="1726238767294">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state x="560" y="128" width="800" height="715" key="new project wizard/-1080.-414.1080.1895/0.25.1920.1055" timestamp="1726238767294" />
+  </component>
+</application>

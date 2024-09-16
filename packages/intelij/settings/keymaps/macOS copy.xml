@@ -1,0 +1,46 @@
+<keymap version="1" name="macOS copy" parent="Mac OS X 10.5+">
+  <action id="ActivateTerminalToolWindow">
+    <keyboard-shortcut first-keystroke="ctrl t" />
+  </action>
+  <action id="ChangesView.GroupBy.Module" />
+  <action id="EditorMatchBrace" />
+  <action id="EditorRight">
+    <keyboard-shortcut first-keystroke="right" />
+  </action>
+  <action id="GotoFile">
+    <keyboard-shortcut first-keystroke="shift meta o" />
+    <keyboard-shortcut first-keystroke="ctrl u" />
+  </action>
+  <action id="GotoNextError">
+    <keyboard-shortcut first-keystroke="f2" />
+    <keyboard-shortcut first-keystroke="close_bracket" second-keystroke="d" />
+  </action>
+  <action id="GotoPreviousError">
+    <keyboard-shortcut first-keystroke="shift f2" />
+    <keyboard-shortcut first-keystroke="open_bracket" second-keystroke="d" />
+  </action>
+  <action id="HideActiveWindow">
+    <keyboard-shortcut first-keystroke="shift escape" />
+    <keyboard-shortcut first-keystroke="ctrl g" />
+  </action>
+  <action id="HideSideWindows">
+    <keyboard-shortcut first-keystroke="ctrl f" />
+  </action>
+  <action id="MethodDown">
+    <keyboard-shortcut first-keystroke="close_bracket" second-keystroke="f" />
+  </action>
+  <action id="MethodUp">
+    <keyboard-shortcut first-keystroke="open_bracket" second-keystroke="f" />
+  </action>
+  <action id="ProjectView.AutoscrollFromSource">
+    <keyboard-shortcut first-keystroke="ctrl f" />
+  </action>
+  <action id="Refactorings.QuickListPopupAction" />
+  <action id="SelectNextOccurrence" />
+  <action id="ServiceView.GroupByContributor" />
+  <action id="TodoViewGroupByFlattenPackage" />
+  <action id="TodoViewGroupByShowModules" />
+  <action id="UsageGrouping.Module" />
+  <action id="UsageGrouping.UsageType" />
+  <action id="Vcs.ShowMessageHistory" />
+</keymap>

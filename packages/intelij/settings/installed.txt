@@ -1,0 +1,3 @@
+AceJump
+IdeaVIM
+org.jetbrains.IdeaVim-EasyMotion
