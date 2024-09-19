@@ -60,8 +60,8 @@ lazy.setup({
   { 'fisadev/vim-isort',                   event = { "BufRead", "BufNewFile" } },
   { 'Shougo/vimproc.vim',                  run = 'make' },
   {
-    -- "github/copilot.vim",
-    -- event = { "BufRead", "BufNewFile" },
+    "github/copilot.vim",
+    event = { "BufRead", "BufNewFile" },
   },
   { 'ThePrimeagen/harpoon' },
   { 'folke/which-key.nvim',    opts = {} },
@@ -160,16 +160,16 @@ lazy.setup({
   { "sindrets/diffview.nvim",          event = { "BufRead", "BufNewFile" } },
   { "norcalli/nvim-colorizer.lua" },
   {
-    -- "CopilotC-Nvim/CopilotChat.nvim",
-    -- event = { "BufRead", "BufNewFile" },
-    -- branch = "canary",
-    -- dependencies = {
-    --   { "zbirenbaum/copilot.lua" }, -- or github/copilot.vim
-    --   { "nvim-lua/plenary.nvim" },  -- for curl, log wrapper
-    -- },
-    -- opts = {
-    --   debug = true,
-    -- },
+    "CopilotC-Nvim/CopilotChat.nvim",
+    event = { "BufRead", "BufNewFile" },
+    branch = "canary",
+    dependencies = {
+      { "zbirenbaum/copilot.lua" }, -- or github/copilot.vim
+      { "nvim-lua/plenary.nvim" },  -- for curl, log wrapper
+    },
+    opts = {
+      debug = true,
+    },
   },
   { 'mhartington/formatter.nvim', event = { "BufRead", "BufNewFile" } },
   'tpope/vim-dadbod',
