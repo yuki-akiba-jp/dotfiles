@@ -22,7 +22,7 @@ local on_attach = function(_, bufnr)
 end
 
 local servers = {
-  tsserver = {
+  ts_ls = {
     filetypes = { 'javascript', 'javascriptreact', 'typescript', 'typescriptreact' },
   },
   pyright = {},

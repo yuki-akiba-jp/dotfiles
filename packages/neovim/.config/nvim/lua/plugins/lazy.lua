@@ -59,10 +59,6 @@ lazy.setup({
   },
   { 'fisadev/vim-isort',                   event = { "BufRead", "BufNewFile" } },
   { 'Shougo/vimproc.vim',                  run = 'make' },
-  {
-    "github/copilot.vim",
-    event = { "BufRead", "BufNewFile" },
-  },
   { 'ThePrimeagen/harpoon' },
   { 'folke/which-key.nvim',    opts = {} },
   { 'numToStr/Comment.nvim',   opts = {},                          event = { "BufRead", "BufNewFile" } },
@@ -159,18 +155,6 @@ lazy.setup({
   { "mbbill/undotree",                 event = { "BufRead", "BufNewFile" } },
   { "sindrets/diffview.nvim",          event = { "BufRead", "BufNewFile" } },
   { "norcalli/nvim-colorizer.lua" },
-  {
-    "CopilotC-Nvim/CopilotChat.nvim",
-    event = { "BufRead", "BufNewFile" },
-    branch = "canary",
-    dependencies = {
-      { "zbirenbaum/copilot.lua" }, -- or github/copilot.vim
-      { "nvim-lua/plenary.nvim" },  -- for curl, log wrapper
-    },
-    opts = {
-      debug = true,
-    },
-  },
   { 'mhartington/formatter.nvim', event = { "BufRead", "BufNewFile" } },
   'tpope/vim-dadbod',
   'tpope/vim-obsession',
@@ -216,5 +200,20 @@ lazy.setup({
       { "s", mode = { "n", "x", "o" }, function() require("flash").jump() end,       desc = "Flash" },
       { "S", mode = { "n", "x", "o" }, function() require("flash").treesitter() end, desc = "Flash Treesitter" },
     },
-  }
+  },
+   {
+    "zbirenbaum/copilot-cmp",
+    event = "InsertEnter",
+    config = function () require("copilot_cmp").setup() end,
+    dependencies = {
+      "zbirenbaum/copilot.lua",
+      cmd = "Copilot",
+      config = function()
+        require("copilot").setup({
+          suggestion = { enabled = false },
+          panel = { enabled = false },
+        })
+      end,
+    },
+  },
 })
