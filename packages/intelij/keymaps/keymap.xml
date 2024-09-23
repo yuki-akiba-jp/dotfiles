@@ -32,10 +32,18 @@
   <action id="MethodUp">
     <keyboard-shortcut first-keystroke="open_bracket" second-keystroke="f" />
   </action>
+  <action id="OpenInRightSplit">
+    <keyboard-shortcut first-keystroke="shift enter" />
+    <mouse-shortcut keystroke="alt button1 doubleClick" />
+    <keyboard-shortcut first-keystroke="ctrl v" />
+  </action>
   <action id="ProjectView.AutoscrollFromSource">
     <keyboard-shortcut first-keystroke="ctrl f" />
   </action>
   <action id="Refactorings.QuickListPopupAction" />
+  <action id="SelectInProjectView">
+    <keyboard-shortcut first-keystroke="ctrl f" />
+  </action>
   <action id="SelectNextOccurrence" />
   <action id="ServiceView.GroupByContributor" />
   <action id="TodoViewGroupByFlattenPackage" />

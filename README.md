@@ -32,6 +32,7 @@ $./stow_exe
 
 intelij
 
-~/Library/Application Support/JetBrains/<product><version>/keymaps
 my .ideavimrc is in dotfiles/package/neovim/.ideavimrc
 
+rm ~/Library/Application Support/JetBrains/<product><version>/keymaps/keymap.xml
+ln -s ~/dotfiles/packages/intelij/keymaps/keymap.xml ~/Library/Application\ Support/JetBrains/IdeaIC2024.2/keymaps/keymap.xml

@@ -97,9 +97,6 @@ nnoremap <C-u> :action GotoFile<CR>
 " Copy all
 nmap cc ggVGy
 
-" Prettier from mhartington/formatter.nvim
-nmap FA :Format<CR>
-
 " Command 1 should be c-f
 nmap <C-f> :action ActivateProjectToolWindow<CR>
 
