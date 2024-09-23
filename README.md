@@ -33,6 +33,8 @@ $./stow_exe
 intelij
 
 my .ideavimrc is in dotfiles/package/neovim/.ideavimrc
+do below, replacing IdeaIC2024.2 to your version
 
-rm ~/Library/Application Support/JetBrains/<product><version>/keymaps/keymap.xml
-ln -s ~/dotfiles/packages/intelij/keymaps/keymap.xml ~/Library/Application\ Support/JetBrains/IdeaIC2024.2/keymaps/keymap.xml
+./stow_exe
+rm ~/Library/Application Support/JetBrains/IdeaIC2024.2/keymaps/macOS\ copy.xml
+ln -s ~/dotfiles/packages/intelij/keymaps/macOS\ copy.xml ~/Library/Application\ Support/JetBrains/IdeaIC2024.2/keymaps/macOS\ copy.xml
