@@ -25,6 +25,7 @@ set pumheight=10
 set display=lastline
 set background=dark
 set signcolumn=yes
+set commentary
 
 " Mouse settings
 set mouse=a
@@ -99,7 +100,14 @@ nmap cc ggVGy
 
 " Command 1 should be c-f
 nmap <C-f> :action ActivateProjectToolWindow<CR>
-
-nmap [c <Action>(VcsShowPrevChangeMarker)
-nmap ]c <Action>(VcsShowNextChangeMarker)
-nnmap K <Action>(ShowHoverInfo)
+nmap ]d :action GotoNextError<CR>
+nmap [d :action GotoPreviousError<CR>
+nmap ]c :action VcsShowNextChangeMarker<CR>
+nmap [c :action VcsShowPrevChangeMarker<CR>
+nmap ]f :action MethodDown<CR>
+nmap [f :action MethodUp<CR>
+nmap ]a :action GotoNextBookmark<CR>
+nmap [a :action GotoPreviousBookmark<CR>
+nmap M :action ToggleBookmark<CR>
+nmap <C-S-m> :action ShowBookmarks<CR>
+nmap gy :action GotoTypeDeclaration<CR>
