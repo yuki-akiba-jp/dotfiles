@@ -140,5 +140,10 @@
   {
     "key": "ctrl+shift+g",
     "command": "-workbench.view.scm"
+  },
+  {
+    "key": "ctrl+shift+n",
+    "command": "workbench.action.chat.open",
+    "when": "!chatSetupDisabled && !chatSetupHidden"
   }
 ]

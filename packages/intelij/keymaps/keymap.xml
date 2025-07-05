@@ -1,23 +1,28 @@
 <keymap version="1" name="macOS copy" parent="Mac OS X 10.5+">
+  <action id="ActivateGitHubCopilotChatToolWindow">
+    <keyboard-shortcut first-keystroke="shift ctrl n" />
+  </action>
   <action id="ActivateTerminalToolWindow">
     <keyboard-shortcut first-keystroke="ctrl t" />
   </action>
   <action id="ChangesView.GroupBy.Module" />
+  <action id="EditorDown">
+    <keyboard-shortcut first-keystroke="ctrl n" />
+  </action>
+  <action id="EditorLineStart">
+    <keyboard-shortcut first-keystroke="meta left" />
+    <keyboard-shortcut first-keystroke="ctrl a" />
+  </action>
   <action id="EditorMatchBrace" />
   <action id="EditorRight">
     <keyboard-shortcut first-keystroke="right" />
   </action>
+  <action id="EditorUp">
+    <keyboard-shortcut first-keystroke="ctrl p" />
+  </action>
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="shift meta o" />
     <keyboard-shortcut first-keystroke="ctrl u" />
-  </action>
-  <action id="GotoNextError">
-    <keyboard-shortcut first-keystroke="f2" />
-    <keyboard-shortcut first-keystroke="close_bracket" second-keystroke="d" />
-  </action>
-  <action id="GotoPreviousError">
-    <keyboard-shortcut first-keystroke="shift f2" />
-    <keyboard-shortcut first-keystroke="open_bracket" second-keystroke="d" />
   </action>
   <action id="HideActiveWindow">
     <keyboard-shortcut first-keystroke="shift escape" />
@@ -26,37 +31,91 @@
   <action id="HideSideWindows">
     <keyboard-shortcut first-keystroke="ctrl f" />
   </action>
-  <action id="MethodDown">
-    <keyboard-shortcut first-keystroke="close_bracket" second-keystroke="f" />
+  <action id="List-selectPreviousRow">
+    <keyboard-shortcut first-keystroke="ctrl p" />
   </action>
-  <action id="MethodUp">
-    <keyboard-shortcut first-keystroke="open_bracket" second-keystroke="f" />
+  <action id="MethodDown" />
+  <action id="MethodUp" />
+  <action id="NavBar-selectHome">
+    <keyboard-shortcut first-keystroke="meta left" />
+    <keyboard-shortcut first-keystroke="ctrl a" />
+  </action>
+  <action id="NavBar-selectUp">
+    <keyboard-shortcut first-keystroke="ctrl p" />
   </action>
   <action id="OpenInRightSplit">
     <keyboard-shortcut first-keystroke="shift enter" />
     <mouse-shortcut keystroke="alt button1 doubleClick" />
     <keyboard-shortcut first-keystroke="ctrl v" />
   </action>
+  <action id="OpenInlineChatAction">
+    <keyboard-shortcut first-keystroke="shift ctrl g" />
+  </action>
+  <action id="PopupMenu-selectNext">
+    <keyboard-shortcut first-keystroke="ctrl n" />
+  </action>
+  <action id="PopupMenu-selectPrevious">
+    <keyboard-shortcut first-keystroke="ctrl p" />
+  </action>
   <action id="ProjectView.AutoscrollFromSource">
     <keyboard-shortcut first-keystroke="ctrl f" />
   </action>
   <action id="Refactorings.QuickListPopupAction" />
+  <action id="RenameElement">
+    <keyboard-shortcut first-keystroke="shift f6" />
+    <keyboard-shortcut first-keystroke="f10" />
+  </action>
+  <action id="Run" />
+  <action id="RunClass" />
+  <action id="RunDashboard.Run" />
   <action id="SelectInProjectView">
     <keyboard-shortcut first-keystroke="ctrl f" />
   </action>
   <action id="SelectNextOccurrence" />
   <action id="ServiceView.GroupByContributor" />
-  <action id="ShowBookmarks">
-    <keyboard-shortcut first-keystroke="meta f3" />
-    <keyboard-shortcut first-keystroke="shift ctrl m" />
+  <action id="SplitChooser.SplitDown">
+    <keyboard-shortcut first-keystroke="ctrl n" />
   </action>
+  <action id="SplitChooser.SplitTop">
+    <keyboard-shortcut first-keystroke="ctrl p" />
+  </action>
+  <action id="StepInto">
+    <keyboard-shortcut first-keystroke="f7" />
+    <keyboard-shortcut first-keystroke="f13" />
+    <keyboard-shortcut first-keystroke="down" />
+  </action>
+  <action id="StepOut">
+    <keyboard-shortcut first-keystroke="shift f8" />
+    <keyboard-shortcut first-keystroke="up" />
+  </action>
+  <action id="StepOver">
+    <keyboard-shortcut first-keystroke="f8" />
+    <keyboard-shortcut first-keystroke="home" />
+  </action>
+  <action id="SwitcherNextProblem" />
+  <action id="Table-selectPreviousRow">
+    <keyboard-shortcut first-keystroke="ctrl p" />
+  </action>
+  <action id="Terminal.SelectBlockAbove">
+    <keyboard-shortcut first-keystroke="meta up" />
+  </action>
+  <action id="Terminal.SelectBlockBelow" />
   <action id="TodoViewGroupByFlattenPackage" />
   <action id="TodoViewGroupByShowModules" />
-  <action id="ToggleBookmark">
-    <keyboard-shortcut first-keystroke="f3" />
-    <keyboard-shortcut first-keystroke="shift m" />
+  <action id="Tree-selectPrevious">
+    <keyboard-shortcut first-keystroke="ctrl p" />
   </action>
+  <action id="UsageFiltering.ReadAccess" />
   <action id="UsageGrouping.Module" />
   <action id="UsageGrouping.UsageType" />
+  <action id="Vcs.CombinedDiff.CaretToNextBlock">
+    <keyboard-shortcut first-keystroke="ctrl n" />
+  </action>
   <action id="Vcs.ShowMessageHistory" />
+  <action id="copilot.chat.show">
+    <keyboard-shortcut first-keystroke="shift ctrl c" />
+    <keyboard-shortcut first-keystroke="ctrl c" />
+  </action>
+  <action id="copilot.disposeInlays" />
+  <action id="runShellFileAction" />
 </keymap>

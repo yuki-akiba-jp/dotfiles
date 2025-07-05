@@ -4,6 +4,8 @@
 <dict>
 	<key>AllowClipboardAccess</key>
 	<true/>
+	<key>CopySelection</key>
+	<true/>
 	<key>Default Bookmark Guid</key>
 	<string>0B0E9DD6-3713-4105-8B66-9A6E8B6F2E3E</string>
 	<key>HapticFeedbackForEsc</key>
