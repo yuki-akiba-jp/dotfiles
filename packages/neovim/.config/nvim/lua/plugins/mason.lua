@@ -3,7 +3,7 @@ require("mason").setup()
 local capabilities = require("cmp_nvim_lsp").default_capabilities()
 
 local servers = {
-  tsserver = {
+  ts_ls = {
     filetypes = { "javascript", "javascriptreact", "typescript", "typescriptreact" },
   },
   pyright      = {},
