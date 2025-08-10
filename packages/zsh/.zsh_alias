@@ -23,3 +23,5 @@ alias brewfileconf="vim ~/dotfiles/Brewfile"
 alias starshipconf="vim ~/.config/starship.toml"
 alias tmuxconf="vim ~/.tmux.conf"
 alias snippetsconf="vim ~/dotfiles/packages/coc-snippets/snippets"
+alias k=kubectl
+alias c=claude

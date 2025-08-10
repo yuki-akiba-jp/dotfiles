@@ -27,3 +27,4 @@ export CPPFLAGS="-I/usr/local/opt/openjdk/include"
 export PATH="$HOME/.jenv/bin:$PATH"
 eval "$(jenv init -)"
 bindkey '^U' backward-kill-line
+[[ $commands[kubectl] ]] && source <(kubectl completion zsh) 
