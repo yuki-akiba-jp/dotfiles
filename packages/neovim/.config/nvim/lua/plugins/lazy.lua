@@ -184,9 +184,15 @@ lazy.setup({
     cmd = { "MarkdownPreviewToggle", "MarkdownPreview", "MarkdownPreviewStop" },
     build = "cd app && yarn install",
     init = function()
-      vim.g.mkdp_filetypes = { "markdown" }
+      vim.g.mkdp_filetypes = { "markdown", "txt" }
     end,
-    ft = { "markdown" },
+    ft = { "markdown", "txt" },
+  },
+  {
+    "MeanderingProgrammer/render-markdown.nvim",
+    opts = {},
+    dependencies = { 'nvim-treesitter/nvim-treesitter', 'nvim-tree/nvim-web-devicons' },
+    ft = { "markdown", "txt" },
   },
   {
     'mfussenegger/nvim-jdtls',
@@ -200,20 +206,5 @@ lazy.setup({
       { "s", mode = { "n", "x", "o" }, function() require("flash").jump() end,       desc = "Flash" },
       { "S", mode = { "n", "x", "o" }, function() require("flash").treesitter() end, desc = "Flash Treesitter" },
     },
-  },
-   {
-    "zbirenbaum/copilot-cmp",
-    event = "InsertEnter",
-    config = function () require("copilot_cmp").setup() end,
-    dependencies = {
-      "zbirenbaum/copilot.lua",
-      cmd = "Copilot",
-      config = function()
-        require("copilot").setup({
-          suggestion = { enabled = false },
-          panel = { enabled = false },
-        })
-      end,
-    },
-  },
+  }
 })
