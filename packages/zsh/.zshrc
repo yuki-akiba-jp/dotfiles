@@ -21,7 +21,13 @@ export PATH=~/.npm-global/bin:$PATH
 export PYTHONPATH="/usr/bin/python3"
 eval "$(starship init zsh)"
 
-[ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
+if [ -f /usr/local/etc/profile.d/autojump.sh ]; then
+  j() {
+    unfunction j
+    . /usr/local/etc/profile.d/autojump.sh
+    j "$@"
+  }
+fi
 
 source ~/.zsh_alias
 
