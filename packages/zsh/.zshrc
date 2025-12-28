@@ -1,5 +1,11 @@
 autoload -Uz zmv
-autoload -Uz compinit  && compinit
+autoload -Uz compinit
+# Only regenerate compdump once per day
+if [[ -n ${HOME}/.zcompdump(#qN.mh+24) ]]; then
+  compinit
+else
+  compinit -C
+fi
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
 setopt auto_cd
 setopt hist_ignore_dups
@@ -25,6 +31,12 @@ function gp() {
 
 export CPPFLAGS="-I/usr/local/opt/openjdk/include"
 export PATH="$HOME/.jenv/bin:$PATH"
-eval "$(jenv init -)"
+# Lazy load jenv - only initialize when actually used
+jenv() {
+  unfunction jenv
+  eval "$(command jenv init -)"
+  jenv "$@"
+}
 bindkey '^U' backward-kill-line
-[[ $commands[kubectl] ]] && source <(kubectl completion zsh) 
+# Source kubectl completion from dotfiles
+[[ $commands[kubectl] ]] && source ~/dotfiles/packages/zsh/kubectl_completion.zsh 
