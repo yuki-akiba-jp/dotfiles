@@ -27,3 +27,5 @@ pushu = push -u origin HEAD
 	defaultBranch = main
 [pull]
 	rebase = false
+[push]
+	followTags = true
