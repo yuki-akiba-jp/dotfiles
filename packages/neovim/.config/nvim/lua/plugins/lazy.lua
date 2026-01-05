@@ -201,7 +201,24 @@ lazy.setup({
   {
     "folke/flash.nvim",
     event = "VeryLazy",
-    opts = {},
+    opts = {
+      label = {
+        uppercase = false,
+        labels = "abcdefghijklmnopqrstuvwxyz",
+        format = function(opts)
+          return { { string.upper(opts.match.label), opts.hl_group } }
+        end
+      }
+    },
+    config = function(_, opts)
+      require("flash").setup(opts)
+      -- Set custom highlight for bigger, bold labels
+      vim.api.nvim_set_hl(0, "FlashLabel", {
+        bg = "#ff007c",
+        fg = "#ffffff",
+        bold = true,
+      })
+    end,
     keys = {
       { "s", mode = { "n", "x", "o" }, function() require("flash").jump() end,       desc = "Flash" },
       { "S", mode = { "n", "x", "o" }, function() require("flash").treesitter() end, desc = "Flash Treesitter" },
