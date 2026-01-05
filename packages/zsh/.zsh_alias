@@ -1,6 +1,7 @@
 alias g='git'
 alias tm='tmux'
 alias ls='ls -G'
+alias ll='ls -l'
 
 alias v="nvim"
 alias vi="nvim"
