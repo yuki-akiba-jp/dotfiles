@@ -29,7 +29,17 @@ if [ -f /usr/local/etc/profile.d/autojump.sh ]; then
   }
 fi
 
-source ~/.zsh_alias
+# Lazy load aliases - loads before first prompt for better startup performance
+_load_aliases_once() {
+  if [[ -f ~/.zsh_alias ]]; then
+    source ~/.zsh_alias
+  fi
+  # Remove this hook after first execution
+  precmd_functions=(${precmd_functions:#_load_aliases_once})
+}
+
+# Add to precmd hooks (runs before first prompt)
+precmd_functions+=(_load_aliases_once)
 
 function gp() {
  command git fetch origin pull/$1/head:PR-$1
@@ -46,3 +56,24 @@ jenv() {
 bindkey '^U' backward-kill-line
 # Source kubectl completion from dotfiles
 [[ $commands[kubectl] ]] && source ~/dotfiles/packages/zsh/kubectl_completion.zsh 
+
+# Git switch with fzf - lazy loaded for performance
+gs() {
+  gs() {
+    # Use fzf to select branch
+    local branch
+    branch=$(git branch --format='%(refname:short)' 2>/dev/null | \
+      fzf --height=40% \
+          --border=rounded \
+          --prompt='Switch to branch: ' \
+          --preview='git log --oneline --graph --color=always {} 2>/dev/null | head -20' \
+          --preview-window='right:60%' \
+          --exit-0)
+
+    # Switch to selected branch
+    [[ -n "$branch" ]] && git switch "$branch"
+  }
+
+  # Call the newly defined function
+  gs "$@"
+}
